@@ -1,0 +1,79 @@
+{
+  "elapsed_seconds": 13.708,
+  "milestone": "53 inland lake and water safety",
+  "passed": 14,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Lake visual and safety share the same bounded water resource"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Elliptical lake excludes rectangular corners"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Distant terrain receives the same authored basin parameters"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dry lake bank retains normal traversal"
+    },
+    {
+      "detail": "depth=0.979",
+      "passed": true,
+      "test": "Inland shallows apply wading slowdown"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Streamed foliage is not planted beneath the lake"
+    },
+    {
+      "detail": "y=7.984",
+      "passed": true,
+      "test": "The carved basin has real underwater terrain collision"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Submerged inland state cannot be saved"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes inland water recovery"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Deep lake water recovers the player with goods intact"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Returning to land clears the wading multiplier"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Lake approach permits normal grounded mounting"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "A waterlogged bike recovers from the inland lake"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Lake remains visual-only with a bounded draw distance"
+    }
+  ],
+  "total": 14
+}

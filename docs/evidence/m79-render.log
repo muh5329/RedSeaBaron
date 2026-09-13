@@ -1,0 +1,33 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Greenreach timber camp arrival alone keeps the previous checkpoint | 
+RSB_BIKE | PASS | Greenreach timber camp can establish a nearby recovery checkpoint | checkpoint=(-3612.0, 15.1389, 709.5)
+RSB_BIKE | PASS | Greenreach timber camp checkpoint terrain retires when far away | 
+RSB_BIKE | PASS | Greenreach timber camp cold recovery restores solid ground and cargo | player=(-3612.0, 14.92525, 709.5) checkpoint=(-3612.0, 15.1389, 709.5)
+RSB_BIKE | PASS | Red Mesa quarry arrival alone keeps the previous checkpoint | 
+RSB_BIKE | PASS | Red Mesa quarry can establish a nearby recovery checkpoint | checkpoint=(4788.0, 22.78662, 1209.5)
+RSB_BIKE | PASS | Red Mesa quarry checkpoint terrain retires when far away | 
+RSB_BIKE | PASS | Red Mesa quarry cold recovery restores solid ground and cargo | player=(4788.0, 22.57197, 1209.5) checkpoint=(4788.0, 22.78662, 1209.5)
+RSB_BIKE | PASS | Snowwatch tower arrival alone keeps the previous checkpoint | 
+RSB_BIKE | PASS | Snowwatch tower can establish a nearby recovery checkpoint | checkpoint=(-1072.0, 124.3505, -9990.5)
+RSB_BIKE | PASS | Snowwatch tower checkpoint terrain retires when far away | 
+RSB_BIKE | PASS | Snowwatch tower cold recovery restores solid ground and cargo | player=(-1072.0, 124.1353, -9990.5) checkpoint=(-1072.0, 124.3505, -9990.5)
+RSB_BIKE | PASS | Longfield waystation arrival alone keeps the previous checkpoint | 
+RSB_BIKE | PASS | Longfield waystation can establish a nearby recovery checkpoint | checkpoint=(888.0, 16.38584, 1109.5)
+RSB_BIKE | PASS | Longfield waystation checkpoint terrain retires when far away | 
+RSB_BIKE | PASS | Longfield waystation cold recovery restores solid ground and cargo | player=(888.0, 16.17188, 1109.5) checkpoint=(888.0, 16.38584, 1109.5)
+RSB_BIKE | PASS | Regional checkpoint uses the existing validated save record | 
+RSB_BIKE | PASS | Cover blocks nearby checkpoint interaction | 
+RSB_BIKE | PASS | Paused survey cannot change checkpoint | 
+RSB_BIKE | PASS | Jumping rejects checkpoint assignment | 
+RSB_BIKE | PASS | Dead player cannot establish checkpoint | 
+RSB_BIKE | PASS | Mounted survey access is rejected | 
+RSB_BIKE | PASS | Dismount key does not also set a checkpoint | 
+RSB_BIKE | PASS | Remote survey calls and input are rejected | 
+RSB_BIKE | PASS | Loading restores regional checkpoint and supported player | 
+RSB_BIKE | PASS | Loaded checkpoint survives a second cold recovery | 
+RSB_BIKE | PASS | Regional rest does not stamp the village survey route | 
+RSB_BIKE | PASS | Repeated recoveries retain bounded chunk residency | 
+RSB_REGIONAL_SURVEY_REPORT {"elapsed_seconds":21.86,"milestone":"79 regional survey checkpoints","passed":28,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Greenreach timber camp arrival alone keeps the previous checkpoint"},{"detail":"checkpoint=(-3612.0, 15.1389, 709.5)","passed":true,"test":"Greenreach timber camp can establish a nearby recovery checkpoint"},{"detail":"","passed":true,"test":"Greenreach timber camp checkpoint terrain retires when far away"},{"detail":"player=(-3612.0, 14.92525, 709.5) checkpoint=(-3612.0, 15.1389, 709.5)","passed":true,"test":"Greenreach timber camp cold recovery restores solid ground and cargo"},{"detail":"","passed":true,"test":"Red Mesa quarry arrival alone keeps the previous checkpoint"},{"detail":"checkpoint=(4788.0, 22.78662, 1209.5)","passed":true,"test":"Red Mesa quarry can establish a nearby recovery checkpoint"},{"detail":"","passed":true,"test":"Red Mesa quarry checkpoint terrain retires when far away"},{"detail":"player=(4788.0, 22.57197, 1209.5) checkpoint=(4788.0, 22.78662, 1209.5)","passed":true,"test":"Red Mesa quarry cold recovery restores solid ground and cargo"},{"detail":"","passed":true,"test":"Snowwatch tower arrival alone keeps the previous checkpoint"},{"detail":"checkpoint=(-1072.0, 124.3505, -9990.5)","passed":true,"test":"Snowwatch tower can establish a nearby recovery checkpoint"},{"detail":"","passed":true,"test":"Snowwatch tower checkpoint terrain retires when far away"},{"detail":"player=(-1072.0, 124.1353, -9990.5) checkpoint=(-1072.0, 124.3505, -9990.5)","passed":true,"test":"Snowwatch tower cold recovery restores solid ground and cargo"},{"detail":"","passed":true,"test":"Longfield waystation arrival alone keeps the previous checkpoint"},{"detail":"checkpoint=(888.0, 16.38584, 1109.5)","passed":true,"test":"Longfield waystation can establish a nearby recovery checkpoint"},{"detail":"","passed":true,"test":"Longfield waystation checkpoint terrain retires when far away"},{"detail":"player=(888.0, 16.17188, 1109.5) checkpoint=(888.0, 16.38584, 1109.5)","passed":true,"test":"Longfield waystation cold recovery restores solid ground and cargo"},{"detail":"","passed":true,"test":"Regional checkpoint uses the existing validated save record"},{"detail":"","passed":true,"test":"Cover blocks nearby checkpoint interaction"},{"detail":"","passed":true,"test":"Paused survey cannot change checkpoint"},{"detail":"","passed":true,"test":"Jumping rejects checkpoint assignment"},{"detail":"","passed":true,"test":"Dead player cannot establish checkpoint"},{"detail":"","passed":true,"test":"Mounted survey access is rejected"},{"detail":"","passed":true,"test":"Dismount key does not also set a checkpoint"},{"detail":"","passed":true,"test":"Remote survey calls and input are rejected"},{"detail":"","passed":true,"test":"Loading restores regional checkpoint and supported player"},{"detail":"","passed":true,"test":"Loaded checkpoint survives a second cold recovery"},{"detail":"","passed":true,"test":"Regional rest does not stamp the village survey route"},{"detail":"","passed":true,"test":"Repeated recoveries retain bounded chunk residency"}],"total":28}

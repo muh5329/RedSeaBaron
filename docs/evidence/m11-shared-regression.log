@@ -1,0 +1,21 @@
+traversal: 21/21 in 59.7s
+combat: 34/34 in 31.6s
+world-native-verifier FAILED: see docs/evidence/world-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | FAIL | Flight starts in authored region | 
+RSB_BIKE | FAIL | Continuous flight crosses streaming boundaries | position=(0.005211, 1.943732, 86.69909) created=5
+RSB_BIKE | PASS | Terrain remains ready during flight | 
+RSB_BIKE | FAIL | Authored region physics and rendering deactivate | 
+RSB_BIKE | FAIL | Resident terrain stays bounded | resident=5 retired=0
+RSB_BIKE | PASS | Distant worker order accepted | 
+RSB_BIKE | FAIL | Distant simulation completes logistics without physics | state=Idle
+RSB_BIKE | PASS | Distant quadrant terrain supports real body collision | 
+RSB_BIKE | PASS | 25 km coordinate domain uses bounded residency | build max=1.21 ms; created=105 retired=80
+RSB_BIKE | FAIL | World boundary recovery returns to authored terrain | 
+RSB_BIKE | PASS | Returning restores worker state and core collision | 
+RSB_BIKE | PASS | Stationary streamer performs no repeated builds | 
+RSB_BIKE | PASS | Generation per chunk stays under frame-stall guard | max=1.21 ms (100 ms upper bound, not a 60fps claim)
+RSB_WORLD_REPORT {"elapsed_seconds":69.146,"milestone":"08 bounded world streaming","passed":7,"platform":"macOS","tests":[{"detail":"","passed":false,"test":"Flight starts in authored region"},{"detail":"position=(0.005211, 1.943732, 86.69909) created=5","passed":false,"test":"Continuous flight crosses streaming boundaries"},{"detail":"","passed":true,"test":"Terrain remains ready during flight"},{"detail":"","passed":false,"test":"Authored region physics and rendering deactivate"},{"detail":"resident=5 retired=0","passed":false,"test":"Resident terrain stays bounded"},{"detail":"","passed":true,"test":"Distant worker order accepted"},{"detail":"state=Idle","passed":false,"test":"Distant simulation completes logistics without physics"},{"detail":"","passed":true,"test":"Distant quadrant terrain supports real body collision"},{"detail":"build max=1.21 ms; created=105 retired=80","passed":true,"test":"25 km coordinate domain uses bounded residency"},{"detail":"","passed":false,"test":"World boundary recovery returns to authored terrain"},{"detail":"","passed":true,"test":"Returning restores worker state and core collision"},{"detail":"","passed":true,"test":"Stationary streamer performs no repeated builds"},{"detail":"max=1.21 ms (100 ms upper bound, not a 60fps claim)","passed":true,"test":"Generation per chunk stays under frame-stall guard"}],"total":13}
+

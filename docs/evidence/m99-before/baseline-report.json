@@ -1,0 +1,14 @@
+{
+  "elapsed_seconds": 1.124,
+  "milestone": "99 exact landform map destinations",
+  "passed": 0,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "waypoint error=1923.3 m title=Waypoint",
+      "passed": false,
+      "test": "Clicking the dunes label selects the exact named destination"
+    }
+  ],
+  "total": 1
+}

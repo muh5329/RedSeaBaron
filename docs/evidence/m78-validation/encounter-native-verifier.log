@@ -1,0 +1,20 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Town keeps regional encounter actors unloaded | 
+RSB_BIKE | PASS | Quarry streams human and monster hostiles | 
+RSB_BIKE | PASS | Encounter uses bounded navigation at world coordinates | 
+RSB_BIKE | PASS | Core hostiles remain inactive during regional combat | 
+RSB_BIKE | PASS | Player approaches regional hostile through locomotion | 
+RSB_BIKE | PASS | Rifle damages regional hostile using actual ammunition | health=42 ammo=4
+RSB_BIKE | PASS | Wounded regional state validates for saving | 
+RSB_BIKE | PASS | Regional kill updates persistent record | 
+RSB_BIKE | PASS | Leaving retires actors and local navigation | 
+RSB_BIKE | PASS | Killed enemy stays dead after returning | 
+RSB_BIKE | PASS | Loading wounded save restores health without healing | 
+RSB_BIKE | PASS | Pause freezes regional hostile physics and decisions | 
+RSB_BIKE | PASS | Impossible regional health rejects before restore | 
+RSB_BIKE | PASS | Out-of-region saved hostile position is rejected | 
+RSB_BIKE | PASS | Earlier saves without encounters remain compatible | 
+RSB_BIKE | PASS | Only nearby encounter actors and records are resident | 
+RSB_ENCOUNTER_REPORT {"elapsed_seconds":18.203,"milestone":"19 persistent regional encounters","passed":16,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Town keeps regional encounter actors unloaded"},{"detail":"","passed":true,"test":"Quarry streams human and monster hostiles"},{"detail":"","passed":true,"test":"Encounter uses bounded navigation at world coordinates"},{"detail":"","passed":true,"test":"Core hostiles remain inactive during regional combat"},{"detail":"","passed":true,"test":"Player approaches regional hostile through locomotion"},{"detail":"health=42 ammo=4","passed":true,"test":"Rifle damages regional hostile using actual ammunition"},{"detail":"","passed":true,"test":"Wounded regional state validates for saving"},{"detail":"","passed":true,"test":"Regional kill updates persistent record"},{"detail":"","passed":true,"test":"Leaving retires actors and local navigation"},{"detail":"","passed":true,"test":"Killed enemy stays dead after returning"},{"detail":"","passed":true,"test":"Loading wounded save restores health without healing"},{"detail":"","passed":true,"test":"Pause freezes regional hostile physics and decisions"},{"detail":"","passed":true,"test":"Impossible regional health rejects before restore"},{"detail":"","passed":true,"test":"Out-of-region saved hostile position is rejected"},{"detail":"","passed":true,"test":"Earlier saves without encounters remain compatible"},{"detail":"","passed":true,"test":"Only nearby encounter actors and records are resident"}],"total":16}

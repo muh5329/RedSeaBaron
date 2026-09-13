@@ -1,0 +1,29 @@
+{
+  "elapsed_seconds": 1.079,
+  "milestone": "72 reachable logistics prompts",
+  "passed": 1,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "visible action labels=7",
+      "passed": false,
+      "test": "Distant resource and desk actions do not clutter the world"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Reachability fixture contains a blocked nearer and clear farther source"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "A blocked nearest source cannot starve the reachable action"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Real use input gathers from the reachable source"
+    }
+  ],
+  "total": 4
+}

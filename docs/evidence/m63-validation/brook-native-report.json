@@ -1,0 +1,99 @@
+{
+  "elapsed_seconds": 52.827,
+  "milestone": "62 brook and loaded bridge crossing",
+  "passed": 18,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Brook rendering and safety share one bounded resource"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Horizon receives the same channel and end-cap parameters"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Water bounds cover all submerged curved-channel samples"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Approaching the brook streams its bridge with solid deck"
+    },
+    {
+      "detail": "from=(-658.0, 12.82829, -500.0) to=(-545.6531, 13.9772, -499.9713)",
+      "passed": true,
+      "test": "Player physically walks across both bridge approaches"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Bridge crossing stays dry and preserves water recovery state"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Bridge approach accepts a real mounted loaded hitch"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stopped loaded bridge crossing permits a valid save"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Offsite restore fixture retires the bridge first"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Restore rebuilds bridge support before resuming loaded vehicles"
+    },
+    {
+      "detail": "bike=(-542.9469, 13.99284, -499.9931) cart=(-546.2468, 14.0159, -499.9927)",
+      "passed": true,
+      "test": "Loaded motorcycle and cart physically cross the brook"
+    },
+    {
+      "detail": "deck samples=295 minimum y=9.931",
+      "passed": true,
+      "test": "Loaded crossing has continuous dry support"
+    },
+    {
+      "detail": "max gap=3.885",
+      "passed": true,
+      "test": "Crossing conserves cargo and drawbar constraint"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Vegetation avoids underwater terrain and bridge approaches"
+    },
+    {
+      "detail": "y=0.986 depth=5.014",
+      "passed": true,
+      "test": "Brook has real submerged terrain and rejects saving"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Deep brook recovery preserves the player's goods"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Distant bridge retires with its terrain chunk"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Returning rebuilds one bridge and retains parked cargo"
+    }
+  ],
+  "total": 18
+}

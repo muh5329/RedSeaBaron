@@ -1,0 +1,236 @@
+[
+  {
+    "level": "log",
+    "message": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org",
+    "timestamp": "2026-09-12T14:49:58.478Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-09-12T14:49:58.558Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support.",
+    "timestamp": "2026-09-12T14:49:58.591Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=100",
+    "timestamp": "2026-09-12T14:49:58.739Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Light swing one hit only | health=64; expected=64",
+    "timestamp": "2026-09-12T14:50:00.183Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Melee costs stamina and animates | ",
+    "timestamp": "2026-09-12T14:50:00.183Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Combo advances damage | combo=2; health=35",
+    "timestamp": "2026-09-12T14:50:00.850Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Heavy hit kills and disables hurt body | ",
+    "timestamp": "2026-09-12T14:50:02.016Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Dead actors reject damage | ",
+    "timestamp": "2026-09-12T14:50:02.016Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Player cannot walk through enemy body | ",
+    "timestamp": "2026-09-12T14:50:03.517Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Dodge window rejects incoming damage | ",
+    "timestamp": "2026-09-12T14:50:04.150Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Dodge immunity expires | ",
+    "timestamp": "2026-09-12T14:50:04.817Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Faction filter | ",
+    "timestamp": "2026-09-12T14:50:05.317Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Wrench cannot hit behind actor | ",
+    "timestamp": "2026-09-12T14:50:06.067Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Wrench range bound | ",
+    "timestamp": "2026-09-12T14:50:07.733Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Melee respects world occlusion | ",
+    "timestamp": "2026-09-12T14:50:09.034Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Lock selects live enemy | ",
+    "timestamp": "2026-09-12T14:50:09.084Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Lock drops dead target | ",
+    "timestamp": "2026-09-12T14:50:09.149Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Rifle aim narrows camera | ",
+    "timestamp": "2026-09-12T14:50:11.484Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Hitscan deals damage and consumes round | hp=42; ammo=4",
+    "timestamp": "2026-09-12T14:50:11.517Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Shot presents recoil and flash | ",
+    "timestamp": "2026-09-12T14:50:11.517Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Shot rate guard | ",
+    "timestamp": "2026-09-12T14:50:11.517Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Empty rifle cannot fire | ",
+    "timestamp": "2026-09-12T14:50:11.517Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Partial reload conserves ammo | mag=3; reserve=0",
+    "timestamp": "2026-09-12T14:50:13.350Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Dodge cancels reload without minting ammo | ",
+    "timestamp": "2026-09-12T14:50:15.300Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Paused fire and attack reject | ",
+    "timestamp": "2026-09-12T14:50:15.300Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Pause cancels reload transaction | ",
+    "timestamp": "2026-09-12T14:50:17.134Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Rifle and lock respect cover | ",
+    "timestamp": "2026-09-12T14:50:19.200Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Raider detects and pursues | ",
+    "timestamp": "2026-09-12T14:50:20.084Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Raider attacks player | player hp=87; state=Attack",
+    "timestamp": "2026-09-12T14:50:23.584Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Raider hit reaction | ",
+    "timestamp": "2026-09-12T14:50:23.584Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Raider dies | ",
+    "timestamp": "2026-09-12T14:50:23.584Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Cinder beast detects and pursues | ",
+    "timestamp": "2026-09-12T14:50:24.417Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Cinder beast attacks player | player hp=81; state=Attack",
+    "timestamp": "2026-09-12T14:50:27.917Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Cinder beast hit reaction | ",
+    "timestamp": "2026-09-12T14:50:27.992Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Cinder beast dies | ",
+    "timestamp": "2026-09-12T14:50:27.992Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Player death gates actions | ",
+    "timestamp": "2026-09-12T14:50:28.417Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT | PASS | Death recovers at checkpoint | ",
+    "timestamp": "2026-09-12T14:50:30.584Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_COMBAT_REPORT {\"elapsed_seconds\":31.796,\"milestone\":\"02 combat\",\"passed\":34,\"platform\":\"Web\",\"tests\":[{\"detail\":\"health=64; expected=64\",\"passed\":true,\"test\":\"Light swing one hit only\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Melee costs stamina and animates\"},{\"detail\":\"combo=2; health=35\",\"passed\":true,\"test\":\"Combo advances damage\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Heavy hit kills and disables hurt body\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Dead actors reject damage\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Player cannot walk through enemy body\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Dodge window rejects incoming damage\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Dodge immunity expires\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Faction filter\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Wrench cannot hit behind actor\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Wrench range bound\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Melee respects world occlusion\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Lock selects live enemy\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Lock drops dead target\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Rifle aim narrows camera\"},{\"detail\":\"hp=42; ammo=4\",\"passed\":true,\"test\":\"Hitscan deals damage and consumes round\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Shot presents recoil and flash\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Shot rate guard\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Empty rifle cannot fire\"},{\"detail\":\"mag=3; reserve=0\",\"passed\":true,\"test\":\"Partial reload conserves ammo\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Dodge cancels reload without minting ammo\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Paused fire and attack reject\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Pause cancels reload transaction\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Rifle and lock respect cover\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Raider detects and pursues\"},{\"detail\":\"player hp=87; state=Attack\",\"passed\":true,\"test\":\"Raider attacks player\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Raider hit reaction\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Raider dies\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Cinder beast detects and pursues\"},{\"detail\":\"player hp=81; state=Attack\",\"passed\":true,\"test\":\"Cinder beast attacks player\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Cinder beast hit reaction\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Cinder beast dies\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Player death gates actions\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Death recovers at checkpoint\"}],\"total\":34}",
+    "timestamp": "2026-09-12T14:50:30.584Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  }
+]

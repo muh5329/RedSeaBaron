@@ -1,0 +1,89 @@
+{
+  "elapsed_seconds": 7.504,
+  "milestone": "93 hostile cover and rider targeting",
+  "passed": 16,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Real motorcycle blocks hostile eye-level segment"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Hostile cannot see through motorcycle chassis"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Committed hostile strike cannot pass through chassis"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing chassis cover restores hostile damage"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Normal mounting binds the physical rider target"
+    },
+    {
+      "detail": "hit=MountedRiderCollision:<CollisionShape3D#130761626310> target=(0.0, 31.7464, 99.88603)",
+      "passed": true,
+      "test": "Mounted sight terminates on the rider's own collision shape"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Exposed mounted rider remains visible to hostiles"
+    },
+    {
+      "detail": "health=87",
+      "passed": true,
+      "test": "A committed strike damages the occupied rider"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "World cover still hides the mounted receiver"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "World cover stops a committed mounted strike"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing world cover reveals the rider"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dismount clears transient combat target ownership"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Mounted journey restoration rebinds the receiver"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause preserves mounted target ownership and pose"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Aircraft tail hides rider without ignoring the whole bike"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Forced exit also clears rider targeting"
+    }
+  ],
+  "total": 16
+}

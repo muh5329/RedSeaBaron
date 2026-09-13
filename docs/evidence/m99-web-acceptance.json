@@ -1,0 +1,35 @@
+{
+  "accepted": true,
+  "passed": 56,
+  "total": 56,
+  "suites": [
+    {
+      "suite": "map_landmark",
+      "passed": 17,
+      "total": 17,
+      "report": "m99-web-map_landmark-report.json",
+      "console": "m99-web-map_landmark-console.json"
+    },
+    {
+      "suite": "equipment_map",
+      "passed": 12,
+      "total": 12,
+      "report": "m99-web-equipment_map-report.json",
+      "console": "m99-web-equipment_map-console.json"
+    },
+    {
+      "suite": "checkpoint_map",
+      "passed": 12,
+      "total": 12,
+      "report": "m99-web-checkpoint_map-report.json",
+      "console": "m99-web-checkpoint_map-console.json"
+    },
+    {
+      "suite": "ui",
+      "passed": 15,
+      "total": 15,
+      "report": "m99-web-ui-report.json",
+      "console": "m99-web-ui-console.json"
+    }
+  ]
+}

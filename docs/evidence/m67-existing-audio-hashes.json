@@ -1,0 +1,10 @@
+{
+  "step.wav": true,
+  "engine.wav": true,
+  "rifle.wav": true,
+  "swing.wav": true,
+  "jump.wav": true,
+  "reload.wav": true,
+  "reward.wav": true,
+  "hit.wav": true
+}

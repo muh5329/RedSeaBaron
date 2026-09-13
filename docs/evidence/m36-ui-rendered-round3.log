@@ -1,0 +1,21 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_UI | map_open=true
+RSB_BIKE | PASS | Map opens through real key event and pauses gameplay | 
+RSB_BIKE | PASS | Map click selects a usable delivery waypoint | 
+RSB_BIKE | PASS | Map clicking cannot fire rifle | 
+RSB_BIKE | PASS | Local map keeps region in panel bounds | 
+RSB_BIKE | PASS | World map fits distant coordinates | 
+RSB_UI | map_open=false
+RSB_BIKE | PASS | Closing map restores active controls | 
+RSB_BIKE | PASS | Worker order panel is available | 
+RSB_BIKE | PASS | Cargo readout replaces worker panel | 
+RSB_BIKE | PASS | Worker panel replaces cargo readout | 
+RSB_BIKE | PASS | Short key pulse opens cargo | 
+RSB_BIKE | PASS | Short key pulse opens workers | 
+RSB_BIKE | PASS | Pause menu fits viewport height | 
+RSB_BIKE | PASS | Static render batching is active | merged=248
+RSB_BIKE | PASS | Core terrain reduced to 25 bounded tiles | 
+RSB_BIKE | PASS | Village draw calls reduced below prior 679 baseline | median calls=376 fps=119

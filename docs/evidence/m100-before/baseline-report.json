@@ -1,0 +1,29 @@
+{
+  "elapsed_seconds": 3.469,
+  "milestone": "100 vehicle motion against NPC bodies",
+  "passed": 0,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "mode=DEPLOYING",
+      "passed": false,
+      "test": "Stationary hostile blocks wing deployment"
+    },
+    {
+      "detail": "mode=DEPLOYING",
+      "passed": false,
+      "test": "Stationary worker blocks wing deployment"
+    },
+    {
+      "detail": "mode=DEPLOYING",
+      "passed": false,
+      "test": "Hostile standing in front propeller sweep blocks deployment"
+    },
+    {
+      "detail": "overlap frames=21 bike z=278.067",
+      "passed": false,
+      "test": "Driving motorcycle stops before a stationary hostile body"
+    }
+  ],
+  "total": 4
+}

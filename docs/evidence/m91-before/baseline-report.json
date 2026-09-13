@@ -1,0 +1,14 @@
+{
+  "elapsed_seconds": 2.338,
+  "milestone": "91 workers reach toward their task",
+  "passed": 0,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "front=0/30 least_reach=-0.482",
+      "passed": false,
+      "test": "Working farmer reaches toward the resource"
+    }
+  ],
+  "total": 1
+}

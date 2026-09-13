@@ -1,0 +1,14 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Enemy windup gives time before damage | 
+RSB_BIKE | PASS | A front-facing strike deals damage only once | 
+RSB_BIKE | PASS | Enemy commits direction before the strike | 
+RSB_BIKE | PASS | Moving behind a committed attack avoids its hit | 
+RSB_BIKE | PASS | A committed forward strike cannot hit a side target | 
+RSB_BIKE | PASS | Pause freezes the attack windup and damage | 
+RSB_BIKE | PASS | Resuming a windup yields one normal strike | 
+RSB_BIKE | PASS | Cover added during windup blocks the strike | 
+RSB_BIKE | PASS | A hit interruption cancels the pending strike | 
+RSB_BIKE | PASS | Enemy death cancels a pending strike | 
+RSB_ENEMY_STRIKE_REPORT {"elapsed_seconds":9.721,"milestone":"34 readable committed enemy strikes / Raider","passed":10,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Enemy windup gives time before damage"},{"detail":"","passed":true,"test":"A front-facing strike deals damage only once"},{"detail":"","passed":true,"test":"Enemy commits direction before the strike"},{"detail":"","passed":true,"test":"Moving behind a committed attack avoids its hit"},{"detail":"","passed":true,"test":"A committed forward strike cannot hit a side target"},{"detail":"","passed":true,"test":"Pause freezes the attack windup and damage"},{"detail":"","passed":true,"test":"Resuming a windup yields one normal strike"},{"detail":"","passed":true,"test":"Cover added during windup blocks the strike"},{"detail":"","passed":true,"test":"A hit interruption cancels the pending strike"},{"detail":"","passed":true,"test":"Enemy death cancels a pending strike"}],"total":10}

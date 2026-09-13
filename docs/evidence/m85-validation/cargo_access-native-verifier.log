@@ -1,0 +1,15 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Solid wall blocks loading cargo without consuming inventory | 
+RSB_BIKE | PASS | Clear nearby access loads the same cargo | 
+RSB_BIKE | PASS | Solid wall also blocks unloading | 
+RSB_BIKE | PASS | Mounted rider can access rear cargo without self-occlusion | 
+RSB_BIKE | PASS | Stationary airborne bike cannot attach a grounded cart | 
+RSB_BIKE | PASS | Airborne rider cannot transfer ground cargo | 
+RSB_BIKE | PASS | Low drawbar obstacle rejects hitching | 
+RSB_BIKE | PASS | Removing obstacle permits grounded hitching | 
+RSB_BIKE | PASS | Loaded cart still follows after guarded attachment | 
+RSB_BIKE | PASS | Warehouse interaction cannot bypass cart access obstruction | 
+RSB_BIKE | PASS | Clear warehouse interaction accepts accessible cart goods | 
+RSB_CARGO_ACCESS_REPORT {"elapsed_seconds":5.814,"milestone":"23 physical cargo access guards","passed":11,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Solid wall blocks loading cargo without consuming inventory"},{"detail":"","passed":true,"test":"Clear nearby access loads the same cargo"},{"detail":"","passed":true,"test":"Solid wall also blocks unloading"},{"detail":"","passed":true,"test":"Mounted rider can access rear cargo without self-occlusion"},{"detail":"","passed":true,"test":"Stationary airborne bike cannot attach a grounded cart"},{"detail":"","passed":true,"test":"Airborne rider cannot transfer ground cargo"},{"detail":"","passed":true,"test":"Low drawbar obstacle rejects hitching"},{"detail":"","passed":true,"test":"Removing obstacle permits grounded hitching"},{"detail":"","passed":true,"test":"Loaded cart still follows after guarded attachment"},{"detail":"","passed":true,"test":"Warehouse interaction cannot bypass cart access obstruction"},{"detail":"","passed":true,"test":"Clear warehouse interaction accepts accessible cart goods"}],"total":11}

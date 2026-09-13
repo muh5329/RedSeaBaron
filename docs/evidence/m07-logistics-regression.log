@@ -1,0 +1,27 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=100
+RSB_BIKE | PASS | All logistics endpoints are outside solid buildings | 
+RSB_BIKE | PASS | Player input gathers from resource | 
+RSB_BIKE | PASS | Full pack rejects gathering without consuming source | 
+RSB_BIKE | PASS | Warehouse stores gathered goods | 
+RSB_BIKE | PASS | Warehouse withdrawal preserves goods | 
+RSB_BIKE | PASS | Selling delivers stock and credits | 
+RSB_BIKE | PASS | Selling absent goods cannot mint money | 
+RSB_BIKE | PASS | Buying transfers stock and charges money | 
+RSB_BIKE | PASS | Unaffordable purchase leaves both sides unchanged | 
+RSB_BIKE | PASS | Negative trade rejected | 
+RSB_BIKE | PASS | Remote station use rejected | 
+RSB_BIKE | PASS | Accept delivery loads one parcel | 
+RSB_BIKE | PASS | Duplicate acceptance cannot duplicate parcel | 
+RSB_BIKE | PASS | Parcel cannot be sold as commodity | 
+RSB_BIKE | PASS | Delivery vehicle is mounted and hitched | 
+RSB_BIKE | PASS | Cargo route physically traversed | distance=63.23 to target=3.48
+RSB_BIKE | PASS | Parcel stays in cart during delivery route | 
+RSB_BIKE | PASS | Arrival unloads parcel and rewards player | 
+RSB_BIKE | PASS | Repeated delivery cannot duplicate reward | 
+RSB_BIKE | PASS | Full cargo prevents accepting contract | 
+RSB_BIKE | PASS | Contract acceptance resists signal reentrancy | 
+RSB_BIKE | PASS | Paused logistics actions rejected | 
+RSB_BIKE | PASS | Depleted source rejects further extraction | 
+RSB_LOGISTICS_REPORT {"elapsed_seconds":11.184,"milestone":"06 resources and delivery economy","passed":23,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"All logistics endpoints are outside solid buildings"},{"detail":"","passed":true,"test":"Player input gathers from resource"},{"detail":"","passed":true,"test":"Full pack rejects gathering without consuming source"},{"detail":"","passed":true,"test":"Warehouse stores gathered goods"},{"detail":"","passed":true,"test":"Warehouse withdrawal preserves goods"},{"detail":"","passed":true,"test":"Selling delivers stock and credits"},{"detail":"","passed":true,"test":"Selling absent goods cannot mint money"},{"detail":"","passed":true,"test":"Buying transfers stock and charges money"},{"detail":"","passed":true,"test":"Unaffordable purchase leaves both sides unchanged"},{"detail":"","passed":true,"test":"Negative trade rejected"},{"detail":"","passed":true,"test":"Remote station use rejected"},{"detail":"","passed":true,"test":"Accept delivery loads one parcel"},{"detail":"","passed":true,"test":"Duplicate acceptance cannot duplicate parcel"},{"detail":"","passed":true,"test":"Parcel cannot be sold as commodity"},{"detail":"","passed":true,"test":"Delivery vehicle is mounted and hitched"},{"detail":"distance=63.23 to target=3.48","passed":true,"test":"Cargo route physically traversed"},{"detail":"","passed":true,"test":"Parcel stays in cart during delivery route"},{"detail":"","passed":true,"test":"Arrival unloads parcel and rewards player"},{"detail":"","passed":true,"test":"Repeated delivery cannot duplicate reward"},{"detail":"","passed":true,"test":"Full cargo prevents accepting contract"},{"detail":"","passed":true,"test":"Contract acceptance resists signal reentrancy"},{"detail":"","passed":true,"test":"Paused logistics actions rejected"},{"detail":"","passed":true,"test":"Depleted source rejects further extraction"}],"total":23}

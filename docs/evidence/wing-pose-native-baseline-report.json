@@ -1,0 +1,49 @@
+{
+  "elapsed_seconds": 10.44,
+  "milestone": "43 deployed wing attitude collision",
+  "passed": 3,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wing pose test reaches flight through normal controls"
+    },
+    {
+      "detail": "visual rotation=(0.05645, 0.0, -0.235333)",
+      "passed": false,
+      "test": "Visible wingtips have collision while move_right"
+    },
+    {
+      "detail": "visual rotation=(0.000013, 0.0, 0.23358)",
+      "passed": false,
+      "test": "Visible wingtips have collision while move_left"
+    },
+    {
+      "detail": "visual rotation=(0.543585, 0.0, 0.000016)",
+      "passed": false,
+      "test": "Visible wingtips have collision while jump"
+    },
+    {
+      "detail": "visual rotation=(-0.430768, 0.0, 0.0)",
+      "passed": true,
+      "test": "Visible wingtips have collision while dodge"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Grounded deployed wings retain matching collision"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "A proposed attitude cannot put a visible wing inside cover"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Clearing cover permits the attitude with matching collision"
+    }
+  ],
+  "total": 8
+}

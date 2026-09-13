@@ -1,0 +1,35 @@
+{
+  "accepted": true,
+  "passed": 59,
+  "total": 59,
+  "suites": [
+    {
+      "suite": "navigation",
+      "passed": 15,
+      "total": 15,
+      "report": "m97-web-navigation-report.json",
+      "console": "m97-web-navigation-console.json"
+    },
+    {
+      "suite": "water",
+      "passed": 13,
+      "total": 13,
+      "report": "m97-web-water-report.json",
+      "console": "m97-web-water-console.json"
+    },
+    {
+      "suite": "integration",
+      "passed": 16,
+      "total": 16,
+      "report": "m97-web-integration-report.json",
+      "console": "m97-web-integration-console.json"
+    },
+    {
+      "suite": "ui",
+      "passed": 15,
+      "total": 15,
+      "report": "m97-web-ui-report.json",
+      "console": "m97-web-ui-console.json"
+    }
+  ]
+}

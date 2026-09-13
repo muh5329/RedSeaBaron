@@ -1,0 +1,64 @@
+{
+  "elapsed_seconds": 5.792,
+  "milestone": "23 physical cargo access guards",
+  "passed": 11,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Solid wall blocks loading cargo without consuming inventory"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Clear nearby access loads the same cargo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Solid wall also blocks unloading"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Mounted rider can access rear cargo without self-occlusion"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stationary airborne bike cannot attach a grounded cart"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Airborne rider cannot transfer ground cargo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Low drawbar obstacle rejects hitching"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing obstacle permits grounded hitching"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Loaded cart still follows after guarded attachment"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Warehouse interaction cannot bypass cart access obstruction"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Clear warehouse interaction accepts accessible cart goods"
+    }
+  ],
+  "total": 11
+}

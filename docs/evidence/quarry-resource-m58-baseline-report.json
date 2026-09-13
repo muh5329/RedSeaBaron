@@ -1,0 +1,14 @@
+{
+  "elapsed_seconds": 0.842,
+  "milestone": "58 quarry ore adit",
+  "passed": 0,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Red Mesa quarry contains a registered ore reserve"
+    }
+  ],
+  "total": 1
+}

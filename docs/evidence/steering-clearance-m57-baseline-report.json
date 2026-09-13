@@ -1,0 +1,49 @@
+{
+  "elapsed_seconds": 0.638,
+  "milestone": "57 vehicle steering clearance",
+  "passed": 5,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wing begins clear of narrow post: move_right"
+    },
+    {
+      "detail": "yaw=-0.01583 overlaps=true",
+      "passed": false,
+      "test": "Steering cannot rotate the wing into post: move_right"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing post immediately permits the same turn: move_right"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wing begins clear of narrow post: move_left"
+    },
+    {
+      "detail": "yaw=0.01583 overlaps=true",
+      "passed": false,
+      "test": "Steering cannot rotate the wing into post: move_left"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing post immediately permits the same turn: move_left"
+    },
+    {
+      "detail": "yaw=-0.02167",
+      "passed": false,
+      "test": "Ground aircraft steering also rejects blocked yaw"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Clear ground steering remains responsive"
+    }
+  ],
+  "total": 8
+}

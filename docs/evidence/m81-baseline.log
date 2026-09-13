@@ -1,0 +1,6 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_UI | map_open=true
+RSB_BIKE | FAIL | Map offers an explicit recovery checkpoint target | 
+RSB_CHECKPOINT_MAP_REPORT {"elapsed_seconds":0.917,"milestone":"81 recovery checkpoint guidance","passed":0,"platform":"macOS","tests":[{"detail":"","passed":false,"test":"Map offers an explicit recovery checkpoint target"}],"total":1}

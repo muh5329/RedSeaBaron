@@ -1,0 +1,308 @@
+{
+  "traversal": {
+    "minimum": 21,
+    "default": true,
+    "timeout": 300
+  },
+  "combat": {
+    "minimum": 34,
+    "default": true,
+    "timeout": 300
+  },
+  "bike": {
+    "minimum": 26,
+    "default": true,
+    "timeout": 300
+  },
+  "flight": {
+    "minimum": 22,
+    "default": true,
+    "timeout": 300
+  },
+  "cart": {
+    "minimum": 25,
+    "default": true,
+    "timeout": 300
+  },
+  "logistics": {
+    "minimum": 23,
+    "default": true,
+    "timeout": 300
+  },
+  "worker": {
+    "minimum": 25,
+    "default": true,
+    "timeout": 300
+  },
+  "world": {
+    "minimum": 15,
+    "default": true,
+    "timeout": 300
+  },
+  "distance": {
+    "minimum": 6,
+    "default": false,
+    "timeout": 850
+  },
+  "save": {
+    "minimum": 22,
+    "default": true,
+    "timeout": 300
+  },
+  "ui": {
+    "minimum": 14,
+    "default": true,
+    "timeout": 300
+  },
+  "integration": {
+    "minimum": 16,
+    "default": true,
+    "timeout": 300
+  },
+  "feedback": {
+    "minimum": 9,
+    "default": true,
+    "timeout": 300
+  },
+  "ai": {
+    "minimum": 10,
+    "default": true,
+    "timeout": 300
+  },
+  "economy": {
+    "minimum": 21,
+    "default": true,
+    "timeout": 300
+  },
+  "highland": {
+    "minimum": 8,
+    "default": true,
+    "timeout": 300
+  },
+  "region": {
+    "minimum": 18,
+    "default": true,
+    "timeout": 300
+  },
+  "recovery": {
+    "minimum": 8,
+    "default": true,
+    "timeout": 300
+  },
+  "encounter": {
+    "minimum": 16,
+    "default": true,
+    "timeout": 300
+  },
+  "routine": {
+    "minimum": 16,
+    "default": true,
+    "timeout": 300
+  },
+  "routine_stop": {
+    "minimum": 4,
+    "default": true,
+    "timeout": 300
+  },
+  "backdrop": {
+    "minimum": 7,
+    "default": true,
+    "timeout": 300
+  },
+  "routes": {
+    "minimum": 20,
+    "default": true,
+    "timeout": 300
+  },
+  "airmail": {
+    "minimum": 12,
+    "default": true,
+    "timeout": 300
+  },
+  "cargo_access": {
+    "minimum": 11,
+    "default": true,
+    "timeout": 300
+  },
+  "seat_safety": {
+    "minimum": 12,
+    "default": true,
+    "timeout": 300
+  },
+  "water": {
+    "minimum": 13,
+    "default": true,
+    "timeout": 300
+  },
+  "vehicle_ground": {
+    "minimum": 11,
+    "default": true,
+    "timeout": 300
+  },
+  "chase_camera": {
+    "minimum": 12,
+    "default": true,
+    "timeout": 300
+  },
+  "resume": {
+    "minimum": 7,
+    "default": false,
+    "timeout": 300,
+    "web_only": true
+  },
+  "batching": {
+    "minimum": 8,
+    "default": true,
+    "timeout": 300
+  },
+  "equipment_map": {
+    "minimum": 12,
+    "default": true,
+    "timeout": 300
+  },
+  "enemy_strike": {
+    "minimum": 10,
+    "default": true,
+    "timeout": 300
+  },
+  "food": {
+    "minimum": 17,
+    "default": true,
+    "timeout": 300
+  },
+  "beast_strike": {
+    "minimum": 10,
+    "default": true,
+    "timeout": 300
+  },
+  "lock_framing": {
+    "minimum": 12,
+    "default": true,
+    "timeout": 300
+  },
+  "shoulder_clearance": {
+    "minimum": 8,
+    "default": true,
+    "timeout": 300
+  },
+  "panel_combat": {
+    "minimum": 15,
+    "default": true,
+    "timeout": 300
+  },
+  "wing_pose": {
+    "minimum": 8,
+    "default": true,
+    "timeout": 300
+  },
+  "touchdown": {
+    "minimum": 8,
+    "default": true,
+    "timeout": 300
+  },
+  "towing": {
+    "minimum": 15,
+    "default": true,
+    "timeout": 300
+  },
+  "forest_airmail": {
+    "minimum": 12,
+    "default": true,
+    "timeout": 400
+  },
+  "source_identity": {
+    "minimum": 9,
+    "default": true,
+    "timeout": 300
+  },
+  "forest_resource": {
+    "minimum": 14,
+    "default": true,
+    "timeout": 300
+  },
+  "lake": {
+    "minimum": 14,
+    "default": true,
+    "timeout": 300
+  },
+  "multi_worker": {
+    "minimum": 25,
+    "default": true,
+    "timeout": 300
+  },
+  "steering_clearance": {
+    "minimum": 16,
+    "default": true,
+    "timeout": 300
+  },
+  "quarry_resource": {
+    "minimum": 19,
+    "default": true,
+    "timeout": 300
+  },
+  "wing_transition": {
+    "minimum": 13,
+    "default": true,
+    "timeout": 300
+  },
+  "tail_clearance": {
+    "minimum": 15,
+    "default": true,
+    "timeout": 300
+  },
+  "worker_map": {
+    "minimum": 14,
+    "default": true,
+    "timeout": 300
+  },
+  "brook": {
+    "minimum": 18,
+    "default": true,
+    "timeout": 300
+  },
+  "rock_surface": {
+    "minimum": 4,
+    "default": true,
+    "timeout": 300
+  },
+  "flight_navigation": {
+    "minimum": 20,
+    "default": true,
+    "timeout": 300
+  },
+  "incoming_damage": {
+    "minimum": 13,
+    "default": true,
+    "timeout": 300
+  },
+  "water_camera": {
+    "minimum": 2,
+    "default": true,
+    "timeout": 300
+  },
+  "cart_recovery": {
+    "minimum": 16,
+    "default": true,
+    "timeout": 300
+  },
+  "logistics_prompt": {
+    "minimum": 11,
+    "default": true,
+    "timeout": 300
+  },
+  "roof_surface": {
+    "minimum": 7,
+    "default": true,
+    "timeout": 300
+  },
+  "regional_roof": {
+    "minimum": 13,
+    "default": true,
+    "timeout": 300
+  },
+  "terrain_seam": {
+    "minimum": 18,
+    "default": true,
+    "timeout": 300
+  }
+}

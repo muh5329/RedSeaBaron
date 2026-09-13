@@ -1,0 +1,69 @@
+{
+  "elapsed_seconds": 34.213,
+  "milestone": "26 wading and deep-water recovery",
+  "passed": 10,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dry traversal keeps normal walking speed"
+    },
+    {
+      "detail": "speed=2.76 y=-3.01",
+      "passed": true,
+      "test": "Shallow coastal water permits slower wading"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Deep-water recovery state cannot be saved"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes submerged actor and recovery countdown"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Deep water returns player to survey checkpoint with pack intact"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dry recovery clears wading slowdown"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Shoreline test begins with a real loaded hitch"
+    },
+    {
+      "detail": "events=[1, 1] water=1 mounted=true bike=(9.999477, 2.480709, -10.02946) gap=3.30 speed=0.00",
+      "passed": true,
+      "test": "Riding into deep water recovers bike and attached cargo together"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Detached submerged cart returns to workshop without losing goods"
+    },
+    {
+      "detail": "position=(79.42438, 1.641714, 50.01161)",
+      "passed": false,
+      "test": "Flying over water does not trigger recovery"
+    },
+    {
+      "detail": "events=[1, 1] water=1 mounted=true bike=(4.205581, 1.981082, 50.07906) mode=BIKE cargo=Olives × 10 pack=Timber × 5",
+      "passed": false,
+      "test": "Water landing recovers the same aircraft and preserves parked cargo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Water volume stays within the displayed coast"
+    }
+  ],
+  "total": 12
+}

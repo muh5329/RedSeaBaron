@@ -1,0 +1,8 @@
+map_landmark-native-verifier FAILED: see docs/evidence/map_landmark-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_UI | map_open=true
+RSB_BIKE | FAIL | Clicking the dunes label selects the exact named destination | waypoint error=1923.3 m title=Waypoint
+RSB_MAP_LANDMARK_REPORT {"elapsed_seconds":1.124,"milestone":"99 exact landform map destinations","passed":0,"platform":"macOS","tests":[{"detail":"waypoint error=1923.3 m title=Waypoint","passed":false,"test":"Clicking the dunes label selects the exact named destination"}],"total":1}
+

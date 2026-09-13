@@ -1,0 +1,94 @@
+{
+  "elapsed_seconds": 5.395,
+  "milestone": "35 food and player recovery",
+  "passed": 17,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Orchard input puts real food in the player's pack"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Food input consumes one gathered olive and restores 25 HP"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Healing clamps at maximum health"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Full health keeps food unchanged"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Holding or repeating a food key does not consume repeatedly"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause rejects food and leaves no delayed consumption"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Moving blocks food use"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dodge blocks food use"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "An attack cannot also consume food"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Same-frame attack and eating cannot both commit"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Reload blocks food use"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Food must be in the pack, not a remote cart"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Simultaneous mount and food preserves exclusive ownership"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Food transaction is complete before notifications and rejects recursion"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "A busy inventory rolls back attempted healing without losing food"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Save restore preserves consumed food and resulting health"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Food cannot revive a dead player"
+    }
+  ],
+  "total": 17
+}

@@ -1,0 +1,17 @@
+vehicle_ground-native-verifier FAILED: see docs/evidence/vehicle_ground-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Slope fixture supports bike and loaded cart through real collision | 
+RSB_BIKE | FAIL | Bike presentation aligns with compound ground slope | 
+RSB_BIKE | FAIL | Both motorcycle tires remain close to the actual slope | front=0.061 rear=0.568
+RSB_BIKE | FAIL | Cart presentation follows slope without tilting its body | 
+RSB_BIKE | FAIL | Trailer tires neither bury nor float on cross slopes | left=0.376 right=0.015
+RSB_BIKE | PASS | Ground-aligned loaded cart remains mountable and hitchable | 
+RSB_BIKE | PASS | Loaded vehicles drive and stop on the slope without flipping | 
+RSB_BIKE | PASS | Slope driving preserves drawbar distance and cargo | 
+RSB_BIKE | FAIL | Moving trailer settles with tire contact intact | left=0.375 right=0.015
+RSB_BIKE | PASS | Detached loaded cart stays parked on a traversable slope | 
+RSB_BIKE | PASS | Recovery updates visual grounding for the new surface | 
+RSB_VEHICLE_GROUND_REPORT {"elapsed_seconds":7.102,"milestone":"27 grounded vehicle presentation and trailer contact","passed":6,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Slope fixture supports bike and loaded cart through real collision"},{"detail":"","passed":false,"test":"Bike presentation aligns with compound ground slope"},{"detail":"front=0.061 rear=0.568","passed":false,"test":"Both motorcycle tires remain close to the actual slope"},{"detail":"","passed":false,"test":"Cart presentation follows slope without tilting its body"},{"detail":"left=0.376 right=0.015","passed":false,"test":"Trailer tires neither bury nor float on cross slopes"},{"detail":"","passed":true,"test":"Ground-aligned loaded cart remains mountable and hitchable"},{"detail":"","passed":true,"test":"Loaded vehicles drive and stop on the slope without flipping"},{"detail":"","passed":true,"test":"Slope driving preserves drawbar distance and cargo"},{"detail":"left=0.375 right=0.015","passed":false,"test":"Moving trailer settles with tire contact intact"},{"detail":"","passed":true,"test":"Detached loaded cart stays parked on a traversable slope"},{"detail":"","passed":true,"test":"Recovery updates visual grounding for the new surface"}],"total":11}
+

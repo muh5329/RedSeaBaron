@@ -1,0 +1,54 @@
+{
+  "elapsed_seconds": 0.971,
+  "milestone": "51 stable resource source persistence",
+  "passed": 1,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Two timber sources begin with distinct live stock"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Save retains the original source stock"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Save retains the second source under its own identity"
+    },
+    {
+      "detail": "original=9 second=9",
+      "passed": false,
+      "test": "Restore does not duplicate or overwrite source quantities"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Worker transport still resolves the intended timber source after reordering"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Resource registration order does not change restored stock"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Duplicate registered source identities reject saving"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Missing registered source identity rejects saving"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Invalid secondary stock rejects before either source mutates"
+    }
+  ],
+  "total": 9
+}

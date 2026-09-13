@@ -1,0 +1,59 @@
+{
+  "elapsed_seconds": 9.699,
+  "milestone": "34 readable committed enemy strikes / Cinder beast",
+  "passed": 10,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Enemy windup gives time before damage"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "A front-facing strike deals damage only once"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Enemy commits direction before the strike"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Moving behind a committed attack avoids its hit"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "A committed forward strike cannot hit a side target"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes the attack windup and damage"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Resuming a windup yields one normal strike"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cover added during windup blocks the strike"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "A hit interruption cancels the pending strike"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Enemy death cancels a pending strike"
+    }
+  ],
+  "total": 10
+}

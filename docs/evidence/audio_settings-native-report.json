@@ -1,0 +1,69 @@
+{
+  "elapsed_seconds": 3.413,
+  "milestone": "88 player audio preferences",
+  "passed": 12,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause menu exposes sound controls"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Real mute button silences the master bus"
+    },
+    {
+      "detail": "volume=0.45",
+      "passed": true,
+      "test": "Real slider changes level while retaining deliberate mute"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Keyboard adjustment changes volume in one five-percent step"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Unmute restores selected volume without restarting gameplay"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Zero volume is digitally muted with a matching readout"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Debounced controls persist final level with no temporary file"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Fresh preferences reload the saved level and unmuted state"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wrong-type preference file is rejected without changing audio"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Out-of-range persisted volume is rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Non-finite adjustment cannot corrupt the mixer"
+    },
+    {
+      "detail": "menu=[P: (42.0, 130.0), S: (431.0, 576.0)] controls=[P: (60.0, 490.0), S: (387.0, 52.0)] slider=(213.0, 16.0)",
+      "passed": true,
+      "test": "Audio controls fit the visible pause panel"
+    }
+  ],
+  "total": 12
+}

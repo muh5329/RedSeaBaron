@@ -1,0 +1,89 @@
+{
+  "elapsed_seconds": 33.418,
+  "milestone": "97 physical NPC vehicle navigation",
+  "passed": 15,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Bike cell is blocked by actual vehicle occupancy"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Moving during grid initialization clears the previously sampled cell"
+    },
+    {
+      "detail": "intermediate sampled=true stale=true",
+      "passed": false,
+      "test": "Multiple startup moves retire intermediate vehicle occupancy"
+    },
+    {
+      "detail": "overlaps=0 x=-0.782",
+      "passed": true,
+      "test": "Hostile locomotion stops before the motorcycle"
+    },
+    {
+      "detail": "x=3.02 detour=2.09 requests=2 overlaps=0",
+      "passed": true,
+      "test": "Hostile pursuit routes around physical bike cover"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Moving a vehicle clears its old navigation footprint"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Deploying wings expands navigation occupancy"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Folding wings clears the retired wing footprint"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes dynamic navigation resampling"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Resume reconciles vehicle occupancy changed while paused"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removed obstacle leaves no stale blocked cell"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Worker accepts a resource job across parked vehicle cover"
+    },
+    {
+      "detail": "state=Idle delivered=5 overlaps=0",
+      "passed": true,
+      "test": "Worker physically detours and delivers without duplication"
+    },
+    {
+      "detail": "health=87 enemy=(-2.031733, 2.061508, 79.99993) distance=2.03 state=Attack",
+      "passed": true,
+      "test": "Hostile pursuit can reach and strike an exposed mounted rider"
+    },
+    {
+      "detail": "additional samples=0",
+      "passed": true,
+      "test": "Stationary vehicles do not repeatedly resample navigation"
+    },
+    {
+      "detail": "maximum batch=162 largest update=1.143 ms",
+      "passed": true,
+      "test": "Dynamic navigation remains bounded to local footprints"
+    }
+  ],
+  "total": 16
+}

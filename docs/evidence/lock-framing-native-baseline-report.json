@@ -1,0 +1,69 @@
+{
+  "elapsed_seconds": 13.29,
+  "milestone": "37 visible locked combatants",
+  "passed": 11,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Raider lock keeps both combatants in frame"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Raider head remains visible past the player"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cinder beast lock keeps both combatants in frame"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Cinder beast head remains visible past the player"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wrench user faces the locked enemy directly"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause preserves lock framing"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Unlock returns independent centered orbit"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Rifle retains shoulder framing with a distant lock"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Lock follows a target crossing the view"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "New cover releases the lock"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Leaving lock range releases the camera"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dead target releases lock and melee offset"
+    }
+  ],
+  "total": 12
+}

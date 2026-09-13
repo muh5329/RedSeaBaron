@@ -1,0 +1,19 @@
+{
+  "elapsed_seconds": 4.531,
+  "milestone": "86 seated rider collision",
+  "passed": 0,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Mounting rejects a ceiling through the seated rider"
+    },
+    {
+      "detail": "position=(0.0, 29.94899, 73.3375) speed=21.833",
+      "passed": false,
+      "test": "Driving stops before an overhead beam crosses the rider"
+    }
+  ],
+  "total": 2
+}

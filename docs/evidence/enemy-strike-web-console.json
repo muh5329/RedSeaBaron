@@ -1,0 +1,74 @@
+[
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T19:48:02.722Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Enemy windup gives time before damage | ",
+    "timestamp": "2026-09-12T19:48:04.254Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | A front-facing strike deals damage only once | ",
+    "timestamp": "2026-09-12T19:48:04.888Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Enemy commits direction before the strike | ",
+    "timestamp": "2026-09-12T19:48:06.088Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Moving behind a committed attack avoids its hit | ",
+    "timestamp": "2026-09-12T19:48:06.088Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | A committed forward strike cannot hit a side target | ",
+    "timestamp": "2026-09-12T19:48:07.287Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Pause freezes the attack windup and damage | ",
+    "timestamp": "2026-09-12T19:48:09.238Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Resuming a windup yields one normal strike | ",
+    "timestamp": "2026-09-12T19:48:09.488Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Cover added during windup blocks the strike | ",
+    "timestamp": "2026-09-12T19:48:10.688Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | A hit interruption cancels the pending strike | ",
+    "timestamp": "2026-09-12T19:48:11.887Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Enemy death cancels a pending strike | ",
+    "timestamp": "2026-09-12T19:48:13.171Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_ENEMY_STRIKE_REPORT {\"elapsed_seconds\":10.294,\"milestone\":\"34 readable committed enemy strikes\",\"passed\":10,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Enemy windup gives time before damage\"},{\"detail\":\"\",\"passed\":true,\"test\":\"A front-facing strike deals damage only once\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Enemy commits direction before the strike\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Moving behind a committed attack avoids its hit\"},{\"detail\":\"\",\"passed\":true,\"test\":\"A committed forward strike cannot hit a side target\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Pause freezes the attack windup and damage\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Resuming a windup yields one normal strike\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Cover added during windup blocks the strike\"},{\"detail\":\"\",\"passed\":true,\"test\":\"A hit interruption cancels the pending strike\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Enemy death cancels a pending strike\"}],\"total\":10}",
+    "timestamp": "2026-09-12T19:48:13.171Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  }
+]

@@ -1,0 +1,28 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Integration accepts a real parcel into cart | 
+RSB_BIKE | PASS | Integration mounts and hitches loaded vehicle | 
+INTEGRATION_LEG goal=(12.0, 43.0) position=(11.97655, 2.214901, 39.3185) error=3.68 frames=346 speed=0.00
+INTEGRATION_LEG goal=(-44.0, 43.0) position=(-40.33496, 1.384882, 43.29271) error=3.68 frames=508 speed=0.00
+INTEGRATION_LEG goal=(-57.0, 23.0) position=(-54.98925, 0.541459, 26.07326) error=3.67 frames=291 speed=0.00
+RSB_BIKE | PASS | Loaded route reaches hostile encounter physically | position=(-54.98925, 0.541459, 26.07326) distance=111.3
+RSB_BIKE | PASS | Encounter dismount restores combat controls | 
+RSB_BIKE | PASS | Player closes to melee range on foot | 
+RSB_BIKE | PASS | Wrench damages encountered hostile | enemy HP=64.0
+RSB_BIKE | PASS | Rifle finishes encounter using real ammunition | 
+RSB_BIKE | PASS | Parcel survives combat and dismount | 
+RSB_BIKE | PASS | Player returns to motorcycle on foot | 
+RSB_BIKE | PASS | Remount restores exclusive vehicle ownership | 
+INTEGRATION_LEG goal=(-72.0, 23.0) position=(-68.32049, 0.357521, 23.18078) error=3.68 frames=232 speed=0.00
+INTEGRATION_LEG goal=(-72.0, 43.0) position=(-72.43524, 1.106333, 39.33474) error=3.69 frames=296 speed=0.00
+INTEGRATION_LEG goal=(-44.0, 43.0) position=(-47.66838, 1.316027, 43.23273) error=3.68 frames=337 speed=0.00
+INTEGRATION_LEG goal=(10.0, 55.0) position=(6.45639, 1.957412, 54.00455) error=3.68 frames=490 speed=0.00
+INTEGRATION_LEG goal=(39.0, 67.0) position=(35.66068, 1.584285, 65.46301) error=3.68 frames=335 speed=0.00
+RSB_BIKE | PASS | Return route carries parcel to delivery quay | position=(35.66068, 1.584285, 65.46301)
+RSB_BIKE | PASS | Integrated trip unloads and pays exactly once | 
+RSB_BIKE | PASS | Player assigns worker after vehicle delivery | 
+RSB_BIKE | PASS | Worker harvest completes while player remains at quay | 
+RSB_BIKE | PASS | Harvest reaches economy without micromanagement | 
+RSB_BIKE | PASS | Integrated session retains one player and valid cargo | 
+RSB_INTEGRATION_REPORT {"elapsed_seconds":102.216,"milestone":"12 combat delivery worker integration","passed":16,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Integration accepts a real parcel into cart"},{"detail":"","passed":true,"test":"Integration mounts and hitches loaded vehicle"},{"detail":"position=(-54.98925, 0.541459, 26.07326) distance=111.3","passed":true,"test":"Loaded route reaches hostile encounter physically"},{"detail":"","passed":true,"test":"Encounter dismount restores combat controls"},{"detail":"","passed":true,"test":"Player closes to melee range on foot"},{"detail":"enemy HP=64.0","passed":true,"test":"Wrench damages encountered hostile"},{"detail":"","passed":true,"test":"Rifle finishes encounter using real ammunition"},{"detail":"","passed":true,"test":"Parcel survives combat and dismount"},{"detail":"","passed":true,"test":"Player returns to motorcycle on foot"},{"detail":"","passed":true,"test":"Remount restores exclusive vehicle ownership"},{"detail":"position=(35.66068, 1.584285, 65.46301)","passed":true,"test":"Return route carries parcel to delivery quay"},{"detail":"","passed":true,"test":"Integrated trip unloads and pays exactly once"},{"detail":"","passed":true,"test":"Player assigns worker after vehicle delivery"},{"detail":"","passed":true,"test":"Worker harvest completes while player remains at quay"},{"detail":"","passed":true,"test":"Harvest reaches economy without micromanagement"},{"detail":"","passed":true,"test":"Integrated session retains one player and valid cargo"}],"total":16}

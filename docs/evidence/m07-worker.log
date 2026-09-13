@@ -1,0 +1,14 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=100
+RSB_BIKE | PASS | Local navigation builds incrementally | 
+RSB_BIKE | PASS | Player input assigns a farm job | 
+RSB_BIKE | PASS | Busy worker rejects replacement job | 
+RSB_BIKE | PASS | Worker autonomously harvests and returns | state=Idle reason= pos=(-7.608613, 1.64505, 4.566342)
+RSB_BIKE | PASS | Harvest enters warehouse and leaves no carried duplicate | 
+RSB_BIKE | PASS | Worker used explicit job states | 
+RSB_BIKE | PASS | Harvest route was actually traversed | meters=189.5
+RSB_BIKE | FAIL | Worker stocks market and sells warehouse goods | 
+RSB_BIKE | FAIL | Worker gathers ore through same job executor | state=Failed reason=Route obstructed pos=(-13.83761, 1.397258, -12.55089)
+RSB_BIKE | FAIL | Worker completes courier contract without micromanagement | state=Failed reason=Route obstructed pos=(-13.83761, 1.397258, -12.55089)
+RSB_BIKE | FAIL | Courier uses same one-shot delivery API | 

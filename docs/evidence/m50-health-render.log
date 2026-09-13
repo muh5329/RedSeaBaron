@@ -1,0 +1,6 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_RIDER_HEALTH_CAPTURE | mounted=true damage accepted=true health=65.0 readout=65 / 100
+RSB_RIDER_HEALTH_CAPTURE | mounted=false actor visible=true health=100.0 readout=100 / 100

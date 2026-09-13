@@ -1,0 +1,445 @@
+{
+  "accepted": true,
+  "returncode": 0,
+  "files_verified": 384,
+  "changed_files": [],
+  "suites": 72,
+  "expected_suites": 72,
+  "passed": 1024,
+  "total": 1024,
+  "seconds": 1760.8080000000002,
+  "results": [
+    {
+      "suite": "traversal",
+      "passed": 21,
+      "total": 21,
+      "seconds": 59.749
+    },
+    {
+      "suite": "combat",
+      "passed": 34,
+      "total": 34,
+      "seconds": 31.583
+    },
+    {
+      "suite": "bike",
+      "passed": 26,
+      "total": 26,
+      "seconds": 17.601
+    },
+    {
+      "suite": "flight",
+      "passed": 22,
+      "total": 22,
+      "seconds": 17.173
+    },
+    {
+      "suite": "cart",
+      "passed": 25,
+      "total": 25,
+      "seconds": 11.833
+    },
+    {
+      "suite": "logistics",
+      "passed": 23,
+      "total": 23,
+      "seconds": 11.554
+    },
+    {
+      "suite": "worker",
+      "passed": 25,
+      "total": 25,
+      "seconds": 159.034
+    },
+    {
+      "suite": "world",
+      "passed": 15,
+      "total": 15,
+      "seconds": 67.51
+    },
+    {
+      "suite": "save",
+      "passed": 22,
+      "total": 22,
+      "seconds": 24.588
+    },
+    {
+      "suite": "ui",
+      "passed": 14,
+      "total": 14,
+      "seconds": 3.851
+    },
+    {
+      "suite": "integration",
+      "passed": 16,
+      "total": 16,
+      "seconds": 102.944
+    },
+    {
+      "suite": "feedback",
+      "passed": 9,
+      "total": 9,
+      "seconds": 5.999
+    },
+    {
+      "suite": "ai",
+      "passed": 10,
+      "total": 10,
+      "seconds": 22.021
+    },
+    {
+      "suite": "economy",
+      "passed": 21,
+      "total": 21,
+      "seconds": 2.177
+    },
+    {
+      "suite": "highland",
+      "passed": 8,
+      "total": 8,
+      "seconds": 38.991
+    },
+    {
+      "suite": "region",
+      "passed": 18,
+      "total": 18,
+      "seconds": 33.274
+    },
+    {
+      "suite": "recovery",
+      "passed": 8,
+      "total": 8,
+      "seconds": 12.652
+    },
+    {
+      "suite": "encounter",
+      "passed": 16,
+      "total": 16,
+      "seconds": 18.163
+    },
+    {
+      "suite": "routine",
+      "passed": 16,
+      "total": 16,
+      "seconds": 188.445
+    },
+    {
+      "suite": "routine_stop",
+      "passed": 4,
+      "total": 4,
+      "seconds": 51.93
+    },
+    {
+      "suite": "backdrop",
+      "passed": 7,
+      "total": 7,
+      "seconds": 8.827
+    },
+    {
+      "suite": "routes",
+      "passed": 20,
+      "total": 20,
+      "seconds": 3.637
+    },
+    {
+      "suite": "airmail",
+      "passed": 12,
+      "total": 12,
+      "seconds": 100.252
+    },
+    {
+      "suite": "cargo_access",
+      "passed": 11,
+      "total": 11,
+      "seconds": 5.796
+    },
+    {
+      "suite": "seat_safety",
+      "passed": 12,
+      "total": 12,
+      "seconds": 7.57
+    },
+    {
+      "suite": "water",
+      "passed": 13,
+      "total": 13,
+      "seconds": 24.199
+    },
+    {
+      "suite": "vehicle_ground",
+      "passed": 11,
+      "total": 11,
+      "seconds": 7.067
+    },
+    {
+      "suite": "chase_camera",
+      "passed": 12,
+      "total": 12,
+      "seconds": 22.375
+    },
+    {
+      "suite": "batching",
+      "passed": 8,
+      "total": 8,
+      "seconds": 0.001
+    },
+    {
+      "suite": "equipment_map",
+      "passed": 12,
+      "total": 12,
+      "seconds": 3.462
+    },
+    {
+      "suite": "enemy_strike",
+      "passed": 10,
+      "total": 10,
+      "seconds": 9.698
+    },
+    {
+      "suite": "food",
+      "passed": 17,
+      "total": 17,
+      "seconds": 5.373
+    },
+    {
+      "suite": "beast_strike",
+      "passed": 10,
+      "total": 10,
+      "seconds": 9.699
+    },
+    {
+      "suite": "lock_framing",
+      "passed": 12,
+      "total": 12,
+      "seconds": 13.273
+    },
+    {
+      "suite": "shoulder_clearance",
+      "passed": 8,
+      "total": 8,
+      "seconds": 5.034
+    },
+    {
+      "suite": "panel_combat",
+      "passed": 15,
+      "total": 15,
+      "seconds": 8.746
+    },
+    {
+      "suite": "wing_pose",
+      "passed": 8,
+      "total": 8,
+      "seconds": 10.45
+    },
+    {
+      "suite": "touchdown",
+      "passed": 8,
+      "total": 8,
+      "seconds": 3.287
+    },
+    {
+      "suite": "towing",
+      "passed": 15,
+      "total": 15,
+      "seconds": 24.134
+    },
+    {
+      "suite": "forest_airmail",
+      "passed": 12,
+      "total": 12,
+      "seconds": 171.206
+    },
+    {
+      "suite": "source_identity",
+      "passed": 9,
+      "total": 9,
+      "seconds": 0.969
+    },
+    {
+      "suite": "forest_resource",
+      "passed": 14,
+      "total": 14,
+      "seconds": 5.528
+    },
+    {
+      "suite": "lake",
+      "passed": 14,
+      "total": 14,
+      "seconds": 13.699
+    },
+    {
+      "suite": "multi_worker",
+      "passed": 25,
+      "total": 25,
+      "seconds": 72.073
+    },
+    {
+      "suite": "steering_clearance",
+      "passed": 16,
+      "total": 16,
+      "seconds": 9.321
+    },
+    {
+      "suite": "quarry_resource",
+      "passed": 19,
+      "total": 19,
+      "seconds": 10.413
+    },
+    {
+      "suite": "wing_transition",
+      "passed": 13,
+      "total": 13,
+      "seconds": 8.799
+    },
+    {
+      "suite": "tail_clearance",
+      "passed": 15,
+      "total": 15,
+      "seconds": 7.658
+    },
+    {
+      "suite": "worker_map",
+      "passed": 14,
+      "total": 14,
+      "seconds": 8.881
+    },
+    {
+      "suite": "brook",
+      "passed": 18,
+      "total": 18,
+      "seconds": 53.137
+    },
+    {
+      "suite": "rock_surface",
+      "passed": 4,
+      "total": 4,
+      "seconds": 0.003
+    },
+    {
+      "suite": "flight_navigation",
+      "passed": 20,
+      "total": 20,
+      "seconds": 4.447
+    },
+    {
+      "suite": "incoming_damage",
+      "passed": 13,
+      "total": 13,
+      "seconds": 6.783
+    },
+    {
+      "suite": "water_camera",
+      "passed": 2,
+      "total": 2,
+      "seconds": 0.838
+    },
+    {
+      "suite": "cart_recovery",
+      "passed": 16,
+      "total": 16,
+      "seconds": 4.574
+    },
+    {
+      "suite": "logistics_prompt",
+      "passed": 11,
+      "total": 11,
+      "seconds": 2.748
+    },
+    {
+      "suite": "roof_surface",
+      "passed": 7,
+      "total": 7,
+      "seconds": 3.011
+    },
+    {
+      "suite": "regional_roof",
+      "passed": 13,
+      "total": 13,
+      "seconds": 8.91
+    },
+    {
+      "suite": "terrain_seam",
+      "passed": 18,
+      "total": 18,
+      "seconds": 31.224
+    },
+    {
+      "suite": "regional_survey",
+      "passed": 28,
+      "total": 28,
+      "seconds": 21.08
+    },
+    {
+      "suite": "checkpoint_map",
+      "passed": 12,
+      "total": 12,
+      "seconds": 9.773
+    },
+    {
+      "suite": "cart_wheel",
+      "passed": 8,
+      "total": 8,
+      "seconds": 19.796
+    },
+    {
+      "suite": "cart_canopy",
+      "passed": 14,
+      "total": 14,
+      "seconds": 18.151
+    },
+    {
+      "suite": "rider_clearance",
+      "passed": 12,
+      "total": 12,
+      "seconds": 8.933
+    },
+    {
+      "suite": "ambience",
+      "passed": 12,
+      "total": 12,
+      "seconds": 9.132
+    },
+    {
+      "suite": "audio_settings",
+      "passed": 12,
+      "total": 12,
+      "seconds": 3.397
+    },
+    {
+      "suite": "worker_reach",
+      "passed": 7,
+      "total": 7,
+      "seconds": 23.532
+    },
+    {
+      "suite": "vehicle_cover",
+      "passed": 13,
+      "total": 13,
+      "seconds": 5.048
+    },
+    {
+      "suite": "hostile_cover",
+      "passed": 16,
+      "total": 16,
+      "seconds": 7.035
+    },
+    {
+      "suite": "flight_controls",
+      "passed": 13,
+      "total": 13,
+      "seconds": 16.789
+    },
+    {
+      "suite": "cartography",
+      "passed": 15,
+      "total": 15,
+      "seconds": 8.419
+    },
+    {
+      "suite": "vehicle_navigation",
+      "passed": 15,
+      "total": 15,
+      "seconds": 31.549
+    }
+  ]
+}

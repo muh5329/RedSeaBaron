@@ -1,0 +1,69 @@
+{
+  "elapsed_seconds": 22.721,
+  "milestone": "28 vehicle chase camera with free look",
+  "passed": 12,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Mounted camera follows the active vehicle anchor"
+    },
+    {
+      "detail": "heading error=0.056",
+      "passed": true,
+      "test": "Driving naturally brings camera behind the vehicle"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Keyboard free look remains responsive while driving"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Manual look has a grace period without camera fighting input"
+    },
+    {
+      "detail": "heading error=0.023",
+      "passed": true,
+      "test": "Chase camera resumes smoothly after free-look grace"
+    },
+    {
+      "detail": "heading error=0.079",
+      "passed": true,
+      "test": "Camera follows an actual steering turn"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes vehicle and camera steering"
+    },
+    {
+      "detail": "delta=-0.300 drag_started=true enabled=true viewport=(1440.0, 900.0)",
+      "passed": true,
+      "test": "Right-drag orbit works on a stopped vehicle"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stopped vehicle preserves the chosen camera view"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Save restores mounted camera orientation exactly"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Restored mounted camera resumes heading follow when driving"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dismount returns independent on-foot orbit"
+    }
+  ],
+  "total": 12
+}

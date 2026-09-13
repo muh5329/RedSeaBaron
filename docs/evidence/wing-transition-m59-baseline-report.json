@@ -1,0 +1,69 @@
+{
+  "elapsed_seconds": 7.774,
+  "milestone": "59 partial wing motion clearance",
+  "passed": 6,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Transition fixture is mounted on solid ground"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Full horizontal wing pose is clear below the higher obstruction"
+    },
+    {
+      "detail": "samples=27 missing=27",
+      "passed": false,
+      "test": "Collision follows both visible wings while unfolding"
+    },
+    {
+      "detail": "overlapping frames=9",
+      "passed": false,
+      "test": "Unfolding never moves visible wingtips through cover"
+    },
+    {
+      "detail": "mode=AIRCRAFT progress=1.000",
+      "passed": false,
+      "test": "Blocked unfolding waits before completing aircraft mode"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "A blocked transformation cannot be saved"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes blocked wing motion"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing cover lets unfolding finish with matching collision"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Grounded aircraft can begin folding under the same high obstruction"
+    },
+    {
+      "detail": "overlapping frames=9",
+      "passed": false,
+      "test": "Folding never moves visible wingtips through cover"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Blocked folding waits instead of clipping to bike mode"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Clearing cover finishes folding and restores a savable motorcycle"
+    }
+  ],
+  "total": 12
+}

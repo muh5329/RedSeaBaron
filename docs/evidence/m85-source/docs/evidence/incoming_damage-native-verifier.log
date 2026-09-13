@@ -1,0 +1,17 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Real committed hostile strike triggers one bounded damage cue | 
+RSB_BIKE | PASS | Incoming hit sound uses the existing bounded voice pool | 
+RSB_BIKE | PASS | Peripheral feedback cannot capture focus or mouse input | 
+RSB_BIKE | PASS | Incoming cue fades instead of holding a full-screen flash | 
+RSB_BIKE | PASS | Incoming cue expires without changing remaining health | 
+RSB_BIKE | PASS | Rejected friendly damage produces no hit cue | 
+RSB_BIKE | PASS | Real dodge immunity prevents both damage and feedback | 
+RSB_BIKE | PASS | Pause immediately clears the incoming cue | 
+RSB_BIKE | PASS | Inactive feedback ignores signals while paused | 
+RSB_BIKE | PASS | Health restoration clears stale incoming damage | 
+RSB_BIKE | PASS | A real attack click passes through the active edge cue | 
+RSB_BIKE | PASS | Mounted incoming damage remains visible with accurate health | 
+RSB_BIKE | PASS | Death recovery clears feedback and restores on-foot control | 
+RSB_INCOMING_DAMAGE_REPORT {"elapsed_seconds":6.794,"milestone":"67 incoming damage feedback","passed":13,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Real committed hostile strike triggers one bounded damage cue"},{"detail":"","passed":true,"test":"Incoming hit sound uses the existing bounded voice pool"},{"detail":"","passed":true,"test":"Peripheral feedback cannot capture focus or mouse input"},{"detail":"","passed":true,"test":"Incoming cue fades instead of holding a full-screen flash"},{"detail":"","passed":true,"test":"Incoming cue expires without changing remaining health"},{"detail":"","passed":true,"test":"Rejected friendly damage produces no hit cue"},{"detail":"","passed":true,"test":"Real dodge immunity prevents both damage and feedback"},{"detail":"","passed":true,"test":"Pause immediately clears the incoming cue"},{"detail":"","passed":true,"test":"Inactive feedback ignores signals while paused"},{"detail":"","passed":true,"test":"Health restoration clears stale incoming damage"},{"detail":"","passed":true,"test":"A real attack click passes through the active edge cue"},{"detail":"","passed":true,"test":"Mounted incoming damage remains visible with accurate health"},{"detail":"","passed":true,"test":"Death recovery clears feedback and restores on-foot control"}],"total":13}

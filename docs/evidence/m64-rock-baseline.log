@@ -1,0 +1,7 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | FAIL | Rock side faces have outward lighting normals | outward=0 / 42
+RSB_BIKE | FAIL | Rock cap supports an approaching downward ray | 
+RSB_BIKE | FAIL | Rock wall blocks entry from outside its visible surface | 
+RSB_ROCK_SURFACE_REPORT {"elapsed_seconds":0.003,"milestone":"64 solid outward cliff surfaces","passed":0,"platform":"macOS","tests":[{"detail":"outward=0 / 42","passed":false,"test":"Rock side faces have outward lighting normals"},{"detail":"","passed":false,"test":"Rock cap supports an approaching downward ray"},{"detail":"","passed":false,"test":"Rock wall blocks entry from outside its visible surface"}],"total":3}

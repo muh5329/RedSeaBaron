@@ -1,0 +1,79 @@
+{
+  "elapsed_seconds": 5.541,
+  "milestone": "52 regional timber and legacy stock migration",
+  "passed": 14,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Greenreach has its own registered timber reserve"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Regional timber cannot be harvested from the village"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Forest reserve activates with streamed ground and retires home visuals"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Gather input removes only regional timber"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Full pack does not consume regional stock"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Current stock revision records regional depletion"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Save restore preserves independent village and forest timber"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Incomplete current-revision stock rejects before mutation"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Malformed regional stock rejects before mutation"
+    },
+    {
+      "detail": "village=17 forest=60",
+      "passed": true,
+      "test": "Legacy save initializes new timber without resetting original stock"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Future stock revisions reject without changing resources"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Leaving the region hides timber while preserving depletion"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Returning to the forest preserves harvested stock"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Regional timber enters the existing market economy"
+    }
+  ],
+  "total": 14
+}

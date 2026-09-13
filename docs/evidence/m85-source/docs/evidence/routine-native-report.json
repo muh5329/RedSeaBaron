@@ -1,0 +1,89 @@
+{
+  "elapsed_seconds": 188.468,
+  "milestone": "20 autonomous harvest-market routines",
+  "passed": 16,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Player input starts configured harvest-market routine"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Busy routine rejects unrelated job replacement"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes routine without advancing its step"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "One order autonomously harvests and sells a full cycle"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stopping at cycle boundary prevents another harvest"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Second routine reaches a real carrying stage"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Routine snapshot validates with in-flight job phase"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Restore preserves active routine and acquired cargo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Restored routine sells once without reacquiring goods"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stopping mid-job finishes safely and keeps harvested goods"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Full warehouse blocks routine with cargo retained"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Failed routine cannot spin or duplicate extraction"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Retry completes blocked routine using retained cargo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Repeated routines conserve total harvested stock"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Inconsistent saved routine phase is rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Older worker saves without routines remain compatible"
+    }
+  ],
+  "total": 16
+}

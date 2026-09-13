@@ -1,0 +1,69 @@
+{
+  "elapsed_seconds": 30.624,
+  "milestone": "26 wading and deep-water recovery",
+  "passed": 7,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dry traversal keeps normal walking speed"
+    },
+    {
+      "detail": "speed=4.60 y=-2.98",
+      "passed": false,
+      "test": "Shallow coastal water permits slower wading"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Deep-water recovery state cannot be saved"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes submerged actor and recovery countdown"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Deep water returns player to survey checkpoint with pack intact"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dry recovery clears wading slowdown"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Shoreline test begins with a real loaded hitch"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Riding into deep water recovers bike and attached cargo together"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Detached submerged cart returns to workshop without losing goods"
+    },
+    {
+      "detail": "position=(100.8476, 15.70589, 50.01049)",
+      "passed": true,
+      "test": "Flying over water does not trigger recovery"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Water landing recovers the same aircraft and preserves parked cargo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Water volume stays within the displayed coast"
+    }
+  ],
+  "total": 12
+}

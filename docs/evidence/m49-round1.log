@@ -1,0 +1,4 @@
+ui: 14/14 in 3.7s
+region: 18/18 in 33.3s
+flight: 22/22 in 18.2s
+Web export built. Serve with tools/serve.sh and verify in a browser.

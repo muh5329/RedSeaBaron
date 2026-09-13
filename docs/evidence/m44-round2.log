@@ -1,0 +1,8 @@
+touchdown: 8/8 in 3.3s
+flight: 22/22 in 18.2s
+highland: 8/8 in 38.1s
+wing_pose: 8/8 in 10.5s
+seat_safety: 12/12 in 7.6s
+save: 22/22 in 24.7s
+airmail: 12/12 in 99.5s
+Web export built. Serve with tools/serve.sh and verify in a browser.

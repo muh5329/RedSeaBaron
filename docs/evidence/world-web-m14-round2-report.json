@@ -1,0 +1,79 @@
+{
+  "elapsed_seconds": 69.029,
+  "milestone": "08 bounded world streaming",
+  "passed": 13,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "mounted=true mode=AIRCRAFT speed=16.80 pos=(0.012286, 7.349091, 107.9295)",
+      "passed": true,
+      "test": "Flight starts in authored region"
+    },
+    {
+      "detail": "position=(0.012378, 115.3015, 720.3704) created=55",
+      "passed": true,
+      "test": "Continuous flight crosses streaming boundaries"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Terrain remains ready during flight"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Authored region physics and rendering deactivate"
+    },
+    {
+      "detail": "resident=25 retired=30",
+      "passed": true,
+      "test": "Resident terrain stays bounded"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Distant enemies stay inactive across pause/resume"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Distant worker order accepted"
+    },
+    {
+      "detail": "state=Idle",
+      "passed": true,
+      "test": "Distant simulation completes logistics without physics"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Distant quadrant terrain supports real body collision"
+    },
+    {
+      "detail": "build max=13.40 ms; created=215 retired=190",
+      "passed": true,
+      "test": "25 km coordinate domain uses bounded residency"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "World boundary recovery returns to authored terrain"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Returning restores worker state and core collision"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stationary streamer performs no repeated builds"
+    },
+    {
+      "detail": "max=13.40 ms (100 ms upper bound, not a 60fps claim)",
+      "passed": true,
+      "test": "Generation per chunk stays under frame-stall guard"
+    }
+  ],
+  "total": 14
+}

@@ -1,0 +1,9 @@
+wing_transition: 12/12 in 7.8s
+flight: 22/22 in 18.2s
+wing_pose: 8/8 in 10.5s
+steering_clearance: 16/16 in 9.3s
+seat_safety: 12/12 in 7.6s
+save: 22/22 in 24.6s
+highland: 8/8 in 38.1s
+airmail: 12/12 in 99.6s
+Web export built. Serve with tools/serve.sh and verify in a browser.

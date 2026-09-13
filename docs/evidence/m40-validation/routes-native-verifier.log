@@ -1,0 +1,20 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Route selection rejects distant desk access | 
+RSB_BIKE | PASS | Pause blocks route selection | 
+RSB_BIKE | PASS | Courier input selects Longfield with configured payment | 
+RSB_BIKE | PASS | Unknown route cannot alter the current offer | 
+RSB_BIKE | PASS | Regional acceptance issues one real parcel | 
+RSB_BIKE | PASS | Active delivery cannot change its destination or reward | 
+RSB_BIKE | PASS | Local quay rejects a parcel addressed to Longfield | 
+RSB_BIKE | PASS | Regional route validates in a normal save | 
+RSB_BIKE | PASS | Load restores destination and payment with parcel intact | 
+RSB_BIKE | PASS | Unknown saved route rejects before state mutation | 
+RSB_BIKE | PASS | Regional endpoint activates while home stations retire | 
+RSB_BIKE | PASS | Correct endpoint consumes parcel and pays configured amount | 
+RSB_BIKE | PASS | Repeated delivery cannot duplicate reward | 
+RSB_BIKE | PASS | Returning home hides regional endpoint and restores courier | 
+RSB_BIKE | PASS | Finished route can switch to local without losing completion history | 
+RSB_BIKE | PASS | Older save actually restores the original local route | 
+RSB_ROUTES_REPORT {"elapsed_seconds":3.366,"milestone":"22 selectable regional delivery routes","passed":16,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Route selection rejects distant desk access"},{"detail":"","passed":true,"test":"Pause blocks route selection"},{"detail":"","passed":true,"test":"Courier input selects Longfield with configured payment"},{"detail":"","passed":true,"test":"Unknown route cannot alter the current offer"},{"detail":"","passed":true,"test":"Regional acceptance issues one real parcel"},{"detail":"","passed":true,"test":"Active delivery cannot change its destination or reward"},{"detail":"","passed":true,"test":"Local quay rejects a parcel addressed to Longfield"},{"detail":"","passed":true,"test":"Regional route validates in a normal save"},{"detail":"","passed":true,"test":"Load restores destination and payment with parcel intact"},{"detail":"","passed":true,"test":"Unknown saved route rejects before state mutation"},{"detail":"","passed":true,"test":"Regional endpoint activates while home stations retire"},{"detail":"","passed":true,"test":"Correct endpoint consumes parcel and pays configured amount"},{"detail":"","passed":true,"test":"Repeated delivery cannot duplicate reward"},{"detail":"","passed":true,"test":"Returning home hides regional endpoint and restores courier"},{"detail":"","passed":true,"test":"Finished route can switch to local without losing completion history"},{"detail":"","passed":true,"test":"Older save actually restores the original local route"}],"total":16}

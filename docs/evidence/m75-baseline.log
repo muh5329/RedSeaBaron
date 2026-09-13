@@ -1,0 +1,12 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | FAIL | Greenreach timber camp roof has a physical top surface | hit=(0.0, 0.0, 0.0) expected_y=20.371
+RSB_BIKE | FAIL | Greenreach timber camp supports a player on its visible roof | player_y=14.758
+RSB_BIKE | FAIL | Red Mesa quarry roof has a physical top surface | hit=(0.0, 0.0, 0.0) expected_y=28.382
+RSB_BIKE | FAIL | Red Mesa quarry supports a player on its visible roof | player_y=22.767
+RSB_BIKE | FAIL | Snowwatch tower roof has a physical top surface | hit=(-1060.0, 133.9576, -10000.0) expected_y=134.558
+RSB_BIKE | FAIL | Snowwatch tower supports a player on its visible roof | player_y=133.943
+RSB_BIKE | FAIL | Longfield waystation roof has a physical top surface | hit=(0.0, 0.0, 0.0) expected_y=22.109
+RSB_BIKE | FAIL | Longfield waystation supports a player on its visible roof | player_y=16.494
+RSB_REGIONAL_ROOF_REPORT {"elapsed_seconds":6.513,"milestone":"75 solid streamed landmark roofs","passed":0,"platform":"macOS","tests":[{"detail":"hit=(0.0, 0.0, 0.0) expected_y=20.371","passed":false,"test":"Greenreach timber camp roof has a physical top surface"},{"detail":"player_y=14.758","passed":false,"test":"Greenreach timber camp supports a player on its visible roof"},{"detail":"hit=(0.0, 0.0, 0.0) expected_y=28.382","passed":false,"test":"Red Mesa quarry roof has a physical top surface"},{"detail":"player_y=22.767","passed":false,"test":"Red Mesa quarry supports a player on its visible roof"},{"detail":"hit=(-1060.0, 133.9576, -10000.0) expected_y=134.558","passed":false,"test":"Snowwatch tower roof has a physical top surface"},{"detail":"player_y=133.943","passed":false,"test":"Snowwatch tower supports a player on its visible roof"},{"detail":"hit=(0.0, 0.0, 0.0) expected_y=22.109","passed":false,"test":"Longfield waystation roof has a physical top surface"},{"detail":"player_y=16.494","passed":false,"test":"Longfield waystation supports a player on its visible roof"}],"total":8}

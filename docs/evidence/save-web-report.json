@@ -1,0 +1,124 @@
+{
+  "elapsed_seconds": 30.942,
+  "milestone": "10 validated persistence",
+  "passed": 23,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Save fixture has worker carrying real harvested goods"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Snapshot validates before writing"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Save writes committed file"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Saved state loads through actual JSON file"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Player equipment and cargo restore"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Restoration clears stale movement actions"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Economy and parcel state restore without paying"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Defeated enemy and survey remain defeated/discovered"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Worker resumes acquired stage with cargo intact"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Repeated restore does not duplicate stock"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Restored worker finishes original delivery once"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Negative inventory save rejected before mutation"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Partial save rejected without clearing live state"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Unknown schema version rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Non-finite coordinates rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Fractional ammunition save rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Truncated file rejected without mutation"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Mounted cargo save is supported"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Load restores exclusive seat and hitch ownership"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Airborne saving rejected without overwriting file"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Recall cannot orphan active courier parcel"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Rewinding enemy death restores health and upright presentation"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Browser restart probe saves through production API"
+    }
+  ],
+  "total": 23
+}

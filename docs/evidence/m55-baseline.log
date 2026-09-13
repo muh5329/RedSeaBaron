@@ -1,0 +1,5 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | FAIL | Two independently assignable workers are registered | 
+RSB_MULTI_WORKER_REPORT {"elapsed_seconds":0.849,"milestone":"55 independent worker roster","passed":0,"platform":"macOS","tests":[{"detail":"","passed":false,"test":"Two independently assignable workers are registered"}],"total":1}

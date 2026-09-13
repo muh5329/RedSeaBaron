@@ -1,0 +1,49 @@
+{
+  "native_passed": 82,
+  "native_total": 82,
+  "results": [
+    {
+      "suite": "vehicle_navigation",
+      "passed": 16,
+      "total": 16,
+      "seconds": 33.411
+    },
+    {
+      "suite": "worker",
+      "passed": 25,
+      "total": 25,
+      "seconds": 159.032
+    },
+    {
+      "suite": "multi_worker",
+      "passed": 25,
+      "total": 25,
+      "seconds": 72.062
+    },
+    {
+      "suite": "integration",
+      "passed": 16,
+      "total": 16,
+      "seconds": 102.949
+    }
+  ],
+  "web_export": "succeeded",
+  "web_verification": "focused navigation and UI passed; full M101 Web integration replay pending",
+  "web_passed": 31,
+  "web_total": 31,
+  "web": [
+    {
+      "suite": "navigation",
+      "passed": 16,
+      "total": 16,
+      "seconds": 34.022
+    },
+    {
+      "suite": "ui",
+      "passed": 15,
+      "total": 15,
+      "seconds": 4.447
+    }
+  ],
+  "paused_at_user_request": true
+}

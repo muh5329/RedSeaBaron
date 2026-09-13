@@ -1,0 +1,44 @@
+{
+  "elapsed_seconds": 3.011,
+  "milestone": "73 solid village roofs",
+  "passed": 7,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "hit=(0.0, 207.7, 80.0)",
+      "passed": true,
+      "test": "The visible roof ridge blocks a downward approach"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "The visible roof slope blocks entry above the walls"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "The overhanging roof underside blocks upward entry"
+    },
+    {
+      "detail": "player=(0.0, 207.6856, 80.0)",
+      "passed": true,
+      "test": "The player lands on the roof rather than inside its visible mesh"
+    },
+    {
+      "detail": "travel=2.37 min_y=207.686",
+      "passed": true,
+      "test": "Actual walking remains supported along the roof ridge"
+    },
+    {
+      "detail": "arm=4.117",
+      "passed": true,
+      "test": "Roof collision compresses the camera without entering the roof"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Static render batching preserves the original roof collision"
+    }
+  ],
+  "total": 7
+}

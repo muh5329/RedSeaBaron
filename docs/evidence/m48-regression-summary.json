@@ -1,0 +1,253 @@
+{
+  "accepted": true,
+  "returncode": 0,
+  "files_verified": 259,
+  "changed_files": [],
+  "suites": 40,
+  "expected_suites": 40,
+  "passed": 585,
+  "total": 585,
+  "seconds": 1325.1899999999998,
+  "results": [
+    {
+      "suite": "traversal",
+      "passed": 21,
+      "total": 21,
+      "seconds": 59.712
+    },
+    {
+      "suite": "combat",
+      "passed": 34,
+      "total": 34,
+      "seconds": 31.59
+    },
+    {
+      "suite": "bike",
+      "passed": 26,
+      "total": 26,
+      "seconds": 17.645
+    },
+    {
+      "suite": "flight",
+      "passed": 22,
+      "total": 22,
+      "seconds": 18.205
+    },
+    {
+      "suite": "cart",
+      "passed": 25,
+      "total": 25,
+      "seconds": 11.851
+    },
+    {
+      "suite": "logistics",
+      "passed": 23,
+      "total": 23,
+      "seconds": 11.161
+    },
+    {
+      "suite": "worker",
+      "passed": 25,
+      "total": 25,
+      "seconds": 158.836
+    },
+    {
+      "suite": "world",
+      "passed": 15,
+      "total": 15,
+      "seconds": 68.808
+    },
+    {
+      "suite": "save",
+      "passed": 22,
+      "total": 22,
+      "seconds": 24.697
+    },
+    {
+      "suite": "ui",
+      "passed": 14,
+      "total": 14,
+      "seconds": 3.726
+    },
+    {
+      "suite": "integration",
+      "passed": 16,
+      "total": 16,
+      "seconds": 102.572
+    },
+    {
+      "suite": "feedback",
+      "passed": 9,
+      "total": 9,
+      "seconds": 6.02
+    },
+    {
+      "suite": "ai",
+      "passed": 10,
+      "total": 10,
+      "seconds": 22.032
+    },
+    {
+      "suite": "economy",
+      "passed": 21,
+      "total": 21,
+      "seconds": 2.173
+    },
+    {
+      "suite": "highland",
+      "passed": 8,
+      "total": 8,
+      "seconds": 38.081
+    },
+    {
+      "suite": "region",
+      "passed": 18,
+      "total": 18,
+      "seconds": 33.276
+    },
+    {
+      "suite": "recovery",
+      "passed": 8,
+      "total": 8,
+      "seconds": 12.658
+    },
+    {
+      "suite": "encounter",
+      "passed": 16,
+      "total": 16,
+      "seconds": 18.188
+    },
+    {
+      "suite": "routine",
+      "passed": 16,
+      "total": 16,
+      "seconds": 188.463
+    },
+    {
+      "suite": "routine_stop",
+      "passed": 4,
+      "total": 4,
+      "seconds": 51.963
+    },
+    {
+      "suite": "backdrop",
+      "passed": 7,
+      "total": 7,
+      "seconds": 8.845
+    },
+    {
+      "suite": "routes",
+      "passed": 20,
+      "total": 20,
+      "seconds": 3.671
+    },
+    {
+      "suite": "airmail",
+      "passed": 12,
+      "total": 12,
+      "seconds": 99.466
+    },
+    {
+      "suite": "cargo_access",
+      "passed": 11,
+      "total": 11,
+      "seconds": 5.806
+    },
+    {
+      "suite": "seat_safety",
+      "passed": 12,
+      "total": 12,
+      "seconds": 7.586
+    },
+    {
+      "suite": "water",
+      "passed": 12,
+      "total": 12,
+      "seconds": 24.614
+    },
+    {
+      "suite": "vehicle_ground",
+      "passed": 11,
+      "total": 11,
+      "seconds": 7.076
+    },
+    {
+      "suite": "chase_camera",
+      "passed": 12,
+      "total": 12,
+      "seconds": 22.374
+    },
+    {
+      "suite": "batching",
+      "passed": 8,
+      "total": 8,
+      "seconds": 0.001
+    },
+    {
+      "suite": "equipment_map",
+      "passed": 12,
+      "total": 12,
+      "seconds": 3.318
+    },
+    {
+      "suite": "enemy_strike",
+      "passed": 10,
+      "total": 10,
+      "seconds": 9.711
+    },
+    {
+      "suite": "food",
+      "passed": 17,
+      "total": 17,
+      "seconds": 5.386
+    },
+    {
+      "suite": "beast_strike",
+      "passed": 10,
+      "total": 10,
+      "seconds": 9.713
+    },
+    {
+      "suite": "lock_framing",
+      "passed": 12,
+      "total": 12,
+      "seconds": 13.292
+    },
+    {
+      "suite": "shoulder_clearance",
+      "passed": 8,
+      "total": 8,
+      "seconds": 5.047
+    },
+    {
+      "suite": "panel_combat",
+      "passed": 15,
+      "total": 15,
+      "seconds": 8.664
+    },
+    {
+      "suite": "wing_pose",
+      "passed": 8,
+      "total": 8,
+      "seconds": 10.471
+    },
+    {
+      "suite": "touchdown",
+      "passed": 8,
+      "total": 8,
+      "seconds": 3.294
+    },
+    {
+      "suite": "towing",
+      "passed": 15,
+      "total": 15,
+      "seconds": 24.147
+    },
+    {
+      "suite": "forest_airmail",
+      "passed": 12,
+      "total": 12,
+      "seconds": 171.051
+    }
+  ]
+}

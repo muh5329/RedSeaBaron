@@ -1,0 +1,5 @@
+region: 18/18 in 33.3s
+ui: 14/14 in 3.7s
+save: 22/22 in 24.7s
+world: 15/15 in 68.9s
+Web export built. Serve with tools/serve.sh and verify in a browser.

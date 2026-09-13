@@ -1,0 +1,8 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Routine reaches its final selling job | 
+RSB_BIKE | PASS | Stop keeps current selling job but disables repetition | 
+RSB_BIKE | PASS | Finishing stopped final job still counts its completed cycle | cycles=1 credits=40
+RSB_BIKE | PASS | Stopped routine save finishes and counts exactly once | 
+RSB_ROUTINE_STOP_REPORT {"elapsed_seconds":51.952,"milestone":"20 stopped routine completion accounting","passed":4,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Routine reaches its final selling job"},{"detail":"","passed":true,"test":"Stop keeps current selling job but disables repetition"},{"detail":"cycles=1 credits=40","passed":true,"test":"Finishing stopped final job still counts its completed cycle"},{"detail":"","passed":true,"test":"Stopped routine save finishes and counts exactly once"}],"total":4}

@@ -1,0 +1,118 @@
+{
+  "native_passed": 160,
+  "native_total": 160,
+  "web_passed": 110,
+  "web_total": 110,
+  "native": [
+    {
+      "suite": "flight_controls",
+      "passed": 13,
+      "total": 13,
+      "seconds": 16.785
+    },
+    {
+      "suite": "cartography",
+      "passed": 15,
+      "total": 15,
+      "seconds": 8.424
+    },
+    {
+      "suite": "world",
+      "passed": 15,
+      "total": 15,
+      "seconds": 67.511
+    },
+    {
+      "suite": "highland",
+      "passed": 8,
+      "total": 8,
+      "seconds": 38.998
+    },
+    {
+      "suite": "recovery",
+      "passed": 8,
+      "total": 8,
+      "seconds": 12.65
+    },
+    {
+      "suite": "airmail",
+      "passed": 12,
+      "total": 12,
+      "seconds": 100.246
+    },
+    {
+      "suite": "forest_airmail",
+      "passed": 12,
+      "total": 12,
+      "seconds": 171.21
+    },
+    {
+      "suite": "save",
+      "passed": 22,
+      "total": 22,
+      "seconds": 24.601
+    },
+    {
+      "suite": "rider_clearance",
+      "passed": 12,
+      "total": 12,
+      "seconds": 8.942
+    },
+    {
+      "suite": "ui",
+      "passed": 14,
+      "total": 14,
+      "seconds": 3.855
+    },
+    {
+      "suite": "hostile_cover",
+      "passed": 16,
+      "total": 16,
+      "seconds": 7.039
+    },
+    {
+      "suite": "vehicle_cover",
+      "passed": 13,
+      "total": 13,
+      "seconds": 5.05
+    }
+  ],
+  "web": [
+    {
+      "report": "m94-web-flight-controls",
+      "passed": 13,
+      "total": 13
+    },
+    {
+      "report": "m95-web-cartography",
+      "passed": 15,
+      "total": 15
+    },
+    {
+      "report": "m95-web-ui",
+      "passed": 15,
+      "total": 15
+    },
+    {
+      "report": "m93-web-hostile-cover",
+      "passed": 16,
+      "total": 16
+    },
+    {
+      "report": "m95-web-vehicle-cover",
+      "passed": 13,
+      "total": 13
+    },
+    {
+      "report": "m95-web-integration",
+      "passed": 16,
+      "total": 16
+    },
+    {
+      "report": "m94-web-flight",
+      "passed": 22,
+      "total": 22
+    }
+  ],
+  "full_regression": false
+}

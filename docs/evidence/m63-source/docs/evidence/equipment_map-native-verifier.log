@@ -1,0 +1,17 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_UI | map_open=true
+RSB_BIKE | PASS | Clicking motorcycle marker tracks its real location | 
+RSB_BIKE | PASS | Tracked equipment appears in field notes | 
+RSB_BIKE | PASS | Map selection preserves pause and weapon safety | 
+RSB_BIKE | PASS | Cargo button selects the detached cart | 
+RSB_BIKE | PASS | Overlapping map icons remain separately selectable | 
+RSB_BIKE | PASS | Remote equipment automatically selects world scope | 
+RSB_BIKE | PASS | Tracked position refreshes without teleporting equipment | 
+RSB_BIKE | PASS | Unknown asset selection leaves current tracking intact | 
+RSB_BIKE | PASS | Ordinary map click replaces tracking with a fixed waypoint | 
+RSB_BIKE | PASS | Clear removes both map marker and field-note target | 
+RSB_BIKE | PASS | Equipment controls fit the map viewport | 
+RSB_BIKE | PASS | Existing tracking follows equipment through save restore | 
+RSB_EQUIPMENT_MAP_REPORT {"elapsed_seconds":3.327,"milestone":"32 parked equipment tracking","passed":12,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Clicking motorcycle marker tracks its real location"},{"detail":"","passed":true,"test":"Tracked equipment appears in field notes"},{"detail":"","passed":true,"test":"Map selection preserves pause and weapon safety"},{"detail":"","passed":true,"test":"Cargo button selects the detached cart"},{"detail":"","passed":true,"test":"Overlapping map icons remain separately selectable"},{"detail":"","passed":true,"test":"Remote equipment automatically selects world scope"},{"detail":"","passed":true,"test":"Tracked position refreshes without teleporting equipment"},{"detail":"","passed":true,"test":"Unknown asset selection leaves current tracking intact"},{"detail":"","passed":true,"test":"Ordinary map click replaces tracking with a fixed waypoint"},{"detail":"","passed":true,"test":"Clear removes both map marker and field-note target"},{"detail":"","passed":true,"test":"Equipment controls fit the map viewport"},{"detail":"","passed":true,"test":"Existing tracking follows equipment through save restore"}],"total":12}

@@ -1,0 +1,11 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+WORLD_DEBUG pre mount: playerfloor=true bikefloor=true player=(1.65, 1.936355, 80.0) bike=(0.0, 1.942891, 80.0)
+WORLD_DEBUG mounted=true
+WORLD_DEBUG mode=AIRCRAFT rejection=
+WORLD_DEBUG runway speed=0.0 pos=(0.005211, 1.943732, 86.69909) floor=true
+WORLD_COLLIDER /root/RedSeaBaron/CoastalRegion/Terrain_0_1/Terrain_0_1_col hit=(-0.369722, 2.013809, 85.39963) normal=(0.037324, 0.999303, 0.0)
+WORLD_COLLIDER /root/RedSeaBaron/CoastalRegion/Terrain_0_1/Terrain_0_1_col hit=(-0.369755, 2.01381, 85.39906) normal=(0.037324, 0.999303, 0.0)
+RSB_BIKE | FAIL | Flight starts in authored region | mounted=true mode=AIRCRAFT speed=0.00 pos=(0.005211, 1.943732, 86.69909)
+RSB_WORLD_REPORT {"elapsed_seconds":5.494,"milestone":"08 bounded world streaming","passed":0,"platform":"macOS","tests":[{"detail":"mounted=true mode=AIRCRAFT speed=0.00 pos=(0.005211, 1.943732, 86.69909)","passed":false,"test":"Flight starts in authored region"}],"total":1}

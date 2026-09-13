@@ -1,0 +1,12 @@
+shoulder_clearance-native-verifier FAILED: see docs/evidence/shoulder_clearance-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | FAIL | Shoulder camera stays outside an adjacent right wall | camera relative=(0.700003, -0.0, 6.199989)
+RSB_BIKE | FAIL | Shoulder pivot stays on the player's side of cover | pivot offset=0.700
+RSB_BIKE | PASS | Open space restores the rifle shoulder view | 
+RSB_BIKE | PASS | Rear wall compresses the camera arm | 
+RSB_BIKE | PASS | Removing rear cover restores orbit distance | 
+RSB_BIKE | FAIL | Camera snap cannot place the pivot inside side cover | 
+RSB_SHOULDER_CLEARANCE_REPORT {"elapsed_seconds":4.942,"milestone":"38 shoulder camera world clearance","passed":3,"platform":"macOS","tests":[{"detail":"camera relative=(0.700003, -0.0, 6.199989)","passed":false,"test":"Shoulder camera stays outside an adjacent right wall"},{"detail":"pivot offset=0.700","passed":false,"test":"Shoulder pivot stays on the player's side of cover"},{"detail":"","passed":true,"test":"Open space restores the rifle shoulder view"},{"detail":"","passed":true,"test":"Rear wall compresses the camera arm"},{"detail":"","passed":true,"test":"Removing rear cover restores orbit distance"},{"detail":"","passed":false,"test":"Camera snap cannot place the pivot inside side cover"}],"total":6}
+

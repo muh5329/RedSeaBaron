@@ -1,0 +1,29 @@
+{
+  "elapsed_seconds": 1.929,
+  "milestone": "10 browser restart persistence",
+  "passed": 4,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Browser reports persistent user filesystem"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Save file survives a fresh page launch"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cross-page save restores actual game state"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cross-page worker cargo restores without duplicate parcel"
+    }
+  ],
+  "total": 4
+}

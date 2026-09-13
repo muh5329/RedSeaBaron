@@ -1,0 +1,59 @@
+{
+  "elapsed_seconds": 22.053,
+  "milestone": "14 navigation-aware hostile pursuit",
+  "passed": 10,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Hostile detects target before cover appears"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Occluded hostile follows last sighting, not hidden player coordinates"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Enemy cannot damage through new wall"
+    },
+    {
+      "detail": "detour=4.85 routes=2 state=Attack",
+      "passed": true,
+      "test": "Hostile navigates around cover and attacks"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Path requests are throttled"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Leaving leash sends hostile home"
+    },
+    {
+      "detail": "position=(0.41104, 2.005268, 50.61973)",
+      "passed": true,
+      "test": "Return path also avoids cover"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Low barrier preserves visual detection"
+    },
+    {
+      "detail": "position=(3.411019, 1.975368, 62.03522) detour=4.88",
+      "passed": true,
+      "test": "Visible target beyond low barrier remains reachable"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Death cancels navigation movement"
+    }
+  ],
+  "total": 10
+}

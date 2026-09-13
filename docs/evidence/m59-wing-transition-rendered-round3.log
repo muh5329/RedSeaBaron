@@ -1,0 +1,18 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Transition fixture is mounted on solid ground | 
+RSB_BIKE | PASS | Full horizontal wing pose is clear below the higher obstruction | 
+RSB_BIKE | PASS | Collision follows both visible wings while unfolding | samples=61 missing=0
+RSB_BIKE | PASS | Unfolding never moves visible wingtips through cover | overlapping frames=0
+RSB_BIKE | PASS | Blocked unfolding waits before completing aircraft mode | mode=DEPLOYING progress=0.409
+RSB_BIKE | PASS | A blocked transformation cannot be saved | 
+RSB_BIKE | PASS | Pause freezes blocked wing motion | 
+RSB_BIKE | PASS | Reverse driving escapes blocked wings on solid ground | moved=8.44
+RSB_BIKE | PASS | Escaping cover completes unfolding with matching collision | 
+RSB_BIKE | PASS | Grounded aircraft can begin folding under the same high obstruction | 
+RSB_BIKE | PASS | Folding never moves visible wingtips through cover | overlapping=0 missing=0
+RSB_BIKE | PASS | Blocked folding waits instead of clipping to bike mode | 
+RSB_BIKE | PASS | Clearing cover finishes folding and restores a savable motorcycle | 
+RSB_WING_TRANSITION_REPORT {"elapsed_seconds":10.381,"milestone":"59 partial wing motion clearance","passed":13,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Transition fixture is mounted on solid ground"},{"detail":"","passed":true,"test":"Full horizontal wing pose is clear below the higher obstruction"},{"detail":"samples=61 missing=0","passed":true,"test":"Collision follows both visible wings while unfolding"},{"detail":"overlapping frames=0","passed":true,"test":"Unfolding never moves visible wingtips through cover"},{"detail":"mode=DEPLOYING progress=0.409","passed":true,"test":"Blocked unfolding waits before completing aircraft mode"},{"detail":"","passed":true,"test":"A blocked transformation cannot be saved"},{"detail":"","passed":true,"test":"Pause freezes blocked wing motion"},{"detail":"moved=8.44","passed":true,"test":"Reverse driving escapes blocked wings on solid ground"},{"detail":"","passed":true,"test":"Escaping cover completes unfolding with matching collision"},{"detail":"","passed":true,"test":"Grounded aircraft can begin folding under the same high obstruction"},{"detail":"overlapping=0 missing=0","passed":true,"test":"Folding never moves visible wingtips through cover"},{"detail":"","passed":true,"test":"Blocked folding waits instead of clipping to bike mode"},{"detail":"","passed":true,"test":"Clearing cover finishes folding and restores a savable motorcycle"}],"total":13}

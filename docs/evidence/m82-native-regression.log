@@ -1,0 +1,6 @@
+batching: 8/8 in 0.0s
+roof_surface: 7/7 in 3.0s
+bike: 26/26 in 17.6s
+traversal: 21/21 in 59.7s
+ui: 14/14 in 3.7s
+Web export built. Serve with tools/serve.sh and verify in a browser.

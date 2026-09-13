@@ -1,0 +1,134 @@
+{
+  "elapsed_seconds": 158.865,
+  "milestone": "07 autonomous jobs",
+  "passed": 25,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Local navigation builds incrementally"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Player input assigns a farm job"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Busy worker rejects replacement job"
+    },
+    {
+      "detail": "state=Idle reason= pos=(-7.608541, 1.645055, 4.566348)",
+      "passed": true,
+      "test": "Worker autonomously harvests and returns"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Harvest enters warehouse and leaves no carried duplicate"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Worker used explicit job states"
+    },
+    {
+      "detail": "meters=189.5",
+      "passed": true,
+      "test": "Harvest route was actually traversed"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Worker stocks market and sells warehouse goods"
+    },
+    {
+      "detail": "state=Idle reason= pos=(-8.200338, 1.632073, 11.44085)",
+      "passed": true,
+      "test": "Worker gathers ore through same job executor"
+    },
+    {
+      "detail": "state=Idle reason= pos=(-5.121574, 1.76587, 8.051873)",
+      "passed": true,
+      "test": "Worker completes courier contract without micromanagement"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Courier uses same one-shot delivery API"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Empty source yields visible blocked state"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Worker retries replenished resource automatically"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Full destination retains carried goods"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes worker and rejects new assignments"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Freed destination resumes delivery without duplication"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Competing jobs cannot extract the same stock twice"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Recall preserves carried cargo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Recalled cargo reaches home storage"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removed source is handled without state corruption"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Worker returns to usable idle after failure"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Physical enclosure triggers navigation recovery"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing obstacle restores autonomous route"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Two workers can receive competing jobs"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Concurrent workers conserve scarce source stock"
+    }
+  ],
+  "total": 25
+}

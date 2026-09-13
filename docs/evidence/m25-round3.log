@@ -1,0 +1,6 @@
+seat_safety: 12/12 in 7.6s
+bike: 26/26 in 17.6s
+flight: 22/22 in 18.2s
+save: 22/22 in 24.7s
+recovery: 8/8 in 12.7s
+Web export built. Serve with tools/serve.sh and verify in a browser.

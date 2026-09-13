@@ -1,0 +1,89 @@
+{
+  "elapsed_seconds": 103.558,
+  "milestone": "12 combat delivery worker integration",
+  "passed": 16,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Integration accepts a real parcel into cart"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Integration mounts and hitches loaded vehicle"
+    },
+    {
+      "detail": "position=(-54.99403, 0.558179, 26.07843) distance=111.3",
+      "passed": true,
+      "test": "Loaded route reaches hostile encounter physically"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Encounter dismount restores combat controls"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Player closes to melee range on foot"
+    },
+    {
+      "detail": "enemy HP=64.0",
+      "passed": true,
+      "test": "Wrench damages encountered hostile"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Rifle finishes encounter using real ammunition"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Parcel survives combat and dismount"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Player returns to motorcycle on foot"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Remount restores exclusive vehicle ownership"
+    },
+    {
+      "detail": "position=(35.6492, 1.599587, 65.481)",
+      "passed": true,
+      "test": "Return route carries parcel to delivery quay"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Integrated trip unloads and pays exactly once"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Player assigns worker after vehicle delivery"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Worker harvest completes while player remains at quay"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Harvest reaches economy without micromanagement"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Integrated session retains one player and valid cargo"
+    }
+  ],
+  "total": 16
+}

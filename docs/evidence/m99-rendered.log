@@ -1,0 +1,24 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_UI | map_open=true
+RSB_BIKE | PASS | Clicking the dunes label selects the exact named destination | waypoint error=0.0 m title=Saffron dunes
+RSB_BIKE | PASS | Named map label selects Windcut valley | error=0.0 title=Windcut valley
+RSB_BIKE | PASS | Named map label selects Crown mountains | error=0.0 title=Crown mountains
+RSB_BIKE | PASS | Named map label selects Whitecap peak | error=0.0 title=Whitecap peak
+RSB_BIKE | PASS | Named map label selects Quarry cave | error=0.0 title=Quarry cave
+RSB_BIKE | PASS | Named map label selects Greenreach timber camp | error=0.0 title=Greenreach timber camp
+RSB_BIKE | PASS | Named map label selects Red Mesa quarry | error=0.0 title=Red Mesa quarry
+RSB_BIKE | PASS | Named map label selects Snowwatch tower | error=0.0 title=Snowwatch tower
+RSB_BIKE | PASS | Named map label selects Longfield waystation | error=0.0 title=Longfield waystation
+RSB_BIKE | PASS | Unmarked map space still sets an exact cursor waypoint | 
+RSB_BIKE | PASS | Choosing a place cancels prior live asset tracking | 
+RSB_BIKE | PASS | Local beach label selects the named shoreline | 
+RSB_BIKE | PASS | Beach destination lies on dry ground | 
+RSB_BIKE | PASS | Landform marker also selects its exact destination | 
+RSB_BIKE | PASS | Named map clicks preserve pause and ammunition | 
+RSB_BIKE | PASS | Clear button removes a named waypoint | 
+RSB_UI | map_open=false
+RSB_BIKE | PASS | Closing destination selection restores gameplay and minimap | 
+RSB_MAP_LANDMARK_REPORT {"elapsed_seconds":4.794,"milestone":"99 exact landform map destinations","passed":17,"platform":"macOS","tests":[{"detail":"waypoint error=0.0 m title=Saffron dunes","passed":true,"test":"Clicking the dunes label selects the exact named destination"},{"detail":"error=0.0 title=Windcut valley","passed":true,"test":"Named map label selects Windcut valley"},{"detail":"error=0.0 title=Crown mountains","passed":true,"test":"Named map label selects Crown mountains"},{"detail":"error=0.0 title=Whitecap peak","passed":true,"test":"Named map label selects Whitecap peak"},{"detail":"error=0.0 title=Quarry cave","passed":true,"test":"Named map label selects Quarry cave"},{"detail":"error=0.0 title=Greenreach timber camp","passed":true,"test":"Named map label selects Greenreach timber camp"},{"detail":"error=0.0 title=Red Mesa quarry","passed":true,"test":"Named map label selects Red Mesa quarry"},{"detail":"error=0.0 title=Snowwatch tower","passed":true,"test":"Named map label selects Snowwatch tower"},{"detail":"error=0.0 title=Longfield waystation","passed":true,"test":"Named map label selects Longfield waystation"},{"detail":"","passed":true,"test":"Unmarked map space still sets an exact cursor waypoint"},{"detail":"","passed":true,"test":"Choosing a place cancels prior live asset tracking"},{"detail":"","passed":true,"test":"Local beach label selects the named shoreline"},{"detail":"","passed":true,"test":"Beach destination lies on dry ground"},{"detail":"","passed":true,"test":"Landform marker also selects its exact destination"},{"detail":"","passed":true,"test":"Named map clicks preserve pause and ammunition"},{"detail":"","passed":true,"test":"Clear button removes a named waypoint"},{"detail":"","passed":true,"test":"Closing destination selection restores gameplay and minimap"}],"total":17}

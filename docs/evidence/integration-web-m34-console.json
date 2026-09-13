@@ -1,0 +1,158 @@
+[
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T19:50:19.517Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Integration accepts a real parcel into cart | ",
+    "timestamp": "2026-09-12T19:50:20.704Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Integration mounts and hitches loaded vehicle | ",
+    "timestamp": "2026-09-12T19:50:21.138Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "INTEGRATION_LEG goal=(12.0, 43.0) position=(11.97655, 2.214901, 39.3185) error=3.68 frames=346 speed=0.00",
+    "timestamp": "2026-09-12T19:50:27.271Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "INTEGRATION_LEG goal=(-44.0, 43.0) position=(-40.33492, 1.385013, 43.2952) error=3.68 frames=508 speed=0.00",
+    "timestamp": "2026-09-12T19:50:36.104Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "INTEGRATION_LEG goal=(-57.0, 23.0) position=(-54.98659, 0.541443, 26.07224) error=3.67 frames=291 speed=0.00",
+    "timestamp": "2026-09-12T19:50:41.322Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Loaded route reaches hostile encounter physically | position=(-54.98659, 0.541443, 26.07224) distance=111.3",
+    "timestamp": "2026-09-12T19:50:41.401Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Encounter dismount restores combat controls | ",
+    "timestamp": "2026-09-12T19:50:41.401Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Player closes to melee range on foot | ",
+    "timestamp": "2026-09-12T19:50:42.412Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Wrench damages encountered hostile | enemy HP=64.0",
+    "timestamp": "2026-09-12T19:50:43.721Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Rifle finishes encounter using real ammunition | ",
+    "timestamp": "2026-09-12T19:50:45.337Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Parcel survives combat and dismount | ",
+    "timestamp": "2026-09-12T19:50:45.337Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Player returns to motorcycle on foot | ",
+    "timestamp": "2026-09-12T19:50:45.821Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Remount restores exclusive vehicle ownership | ",
+    "timestamp": "2026-09-12T19:50:45.887Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "INTEGRATION_LEG goal=(-72.0, 23.0) position=(-68.31956, 0.357539, 23.18031) error=3.68 frames=232 speed=0.00",
+    "timestamp": "2026-09-12T19:50:50.113Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "INTEGRATION_LEG goal=(-72.0, 43.0) position=(-72.43084, 1.106556, 39.33959) error=3.69 frames=296 speed=0.00",
+    "timestamp": "2026-09-12T19:50:55.413Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "INTEGRATION_LEG goal=(-44.0, 43.0) position=(-47.66145, 1.316084, 43.23692) error=3.67 frames=381 speed=0.00",
+    "timestamp": "2026-09-12T19:51:02.129Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "INTEGRATION_LEG goal=(10.0, 55.0) position=(6.44804, 1.957319, 54.01234) error=3.69 frames=480 speed=0.00",
+    "timestamp": "2026-09-12T19:51:10.496Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "INTEGRATION_LEG goal=(39.0, 67.0) position=(35.66719, 1.58479, 65.45066) error=3.68 frames=335 speed=0.00",
+    "timestamp": "2026-09-12T19:51:16.446Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Return route carries parcel to delivery quay | position=(35.66719, 1.58479, 65.45066)",
+    "timestamp": "2026-09-12T19:51:16.465Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Integrated trip unloads and pays exactly once | ",
+    "timestamp": "2026-09-12T19:51:16.512Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Player assigns worker after vehicle delivery | ",
+    "timestamp": "2026-09-12T19:51:16.646Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Worker harvest completes while player remains at quay | ",
+    "timestamp": "2026-09-12T19:51:58.147Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Harvest reaches economy without micromanagement | ",
+    "timestamp": "2026-09-12T19:52:02.746Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Integrated session retains one player and valid cargo | ",
+    "timestamp": "2026-09-12T19:52:02.746Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_INTEGRATION_REPORT {\"elapsed_seconds\":103.077,\"milestone\":\"12 combat delivery worker integration\",\"passed\":16,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Integration accepts a real parcel into cart\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Integration mounts and hitches loaded vehicle\"},{\"detail\":\"position=(-54.98659, 0.541443, 26.07224) distance=111.3\",\"passed\":true,\"test\":\"Loaded route reaches hostile encounter physically\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Encounter dismount restores combat controls\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Player closes to melee range on foot\"},{\"detail\":\"enemy HP=64.0\",\"passed\":true,\"test\":\"Wrench damages encountered hostile\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Rifle finishes encounter using real ammunition\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Parcel survives combat and dismount\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Player returns to motorcycle on foot\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Remount restores exclusive vehicle ownership\"},{\"detail\":\"position=(35.66719, 1.58479, 65.45066)\",\"passed\":true,\"test\":\"Return route carries parcel to delivery quay\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Integrated trip unloads and pays exactly once\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Player assigns worker after vehicle delivery\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Worker harvest completes while player remains at quay\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Harvest reaches economy without micromanagement\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Integrated session retains one player and valid cargo\"}],\"total\":16}",
+    "timestamp": "2026-09-12T19:52:02.768Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  }
+]

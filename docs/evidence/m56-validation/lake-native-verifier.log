@@ -1,0 +1,18 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Lake visual and safety share the same bounded water resource | 
+RSB_BIKE | PASS | Elliptical lake excludes rectangular corners | 
+RSB_BIKE | PASS | Distant terrain receives the same authored basin parameters | 
+RSB_BIKE | PASS | Dry lake bank retains normal traversal | 
+RSB_BIKE | PASS | Inland shallows apply wading slowdown | depth=0.979
+RSB_BIKE | PASS | Streamed foliage is not planted beneath the lake | 
+RSB_BIKE | PASS | The carved basin has real underwater terrain collision | y=7.984
+RSB_BIKE | PASS | Submerged inland state cannot be saved | 
+RSB_BIKE | PASS | Pause freezes inland water recovery | 
+RSB_BIKE | PASS | Deep lake water recovers the player with goods intact | 
+RSB_BIKE | PASS | Returning to land clears the wading multiplier | 
+RSB_BIKE | PASS | Lake approach permits normal grounded mounting | 
+RSB_BIKE | PASS | A waterlogged bike recovers from the inland lake | 
+RSB_BIKE | PASS | Lake remains visual-only with a bounded draw distance | 
+RSB_LAKE_REPORT {"elapsed_seconds":13.715,"milestone":"53 inland lake and water safety","passed":14,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Lake visual and safety share the same bounded water resource"},{"detail":"","passed":true,"test":"Elliptical lake excludes rectangular corners"},{"detail":"","passed":true,"test":"Distant terrain receives the same authored basin parameters"},{"detail":"","passed":true,"test":"Dry lake bank retains normal traversal"},{"detail":"depth=0.979","passed":true,"test":"Inland shallows apply wading slowdown"},{"detail":"","passed":true,"test":"Streamed foliage is not planted beneath the lake"},{"detail":"y=7.984","passed":true,"test":"The carved basin has real underwater terrain collision"},{"detail":"","passed":true,"test":"Submerged inland state cannot be saved"},{"detail":"","passed":true,"test":"Pause freezes inland water recovery"},{"detail":"","passed":true,"test":"Deep lake water recovers the player with goods intact"},{"detail":"","passed":true,"test":"Returning to land clears the wading multiplier"},{"detail":"","passed":true,"test":"Lake approach permits normal grounded mounting"},{"detail":"","passed":true,"test":"A waterlogged bike recovers from the inland lake"},{"detail":"","passed":true,"test":"Lake remains visual-only with a bounded draw distance"}],"total":14}

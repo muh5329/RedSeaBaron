@@ -1,0 +1,84 @@
+{
+  "elapsed_seconds": 8.424,
+  "milestone": "95 terrain relief and minimap",
+  "passed": 15,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Minimap is visible and inside the gameplay viewport"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Minimap clears expanding field notes"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Minimap centers the traveler with a metric scale"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stationary minimap reuses its terrain texture"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Full map hides the minimap and pauses gameplay"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Closing the map restores the minimap"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "New landforms preserve established settlement elevations"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dunes have traversable physical crest and trough relief"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Valley floor lies below its banks"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Mountain summits cross the snow line"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Summit has no angular singularity or one-meter spikes"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Relief chart distinguishes desert, water and snow"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Real streamed landforms support the player"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Travel updates minimap with bounded cached terrain"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cave marker references an existing playable gallery"
+    }
+  ],
+  "total": 15
+}

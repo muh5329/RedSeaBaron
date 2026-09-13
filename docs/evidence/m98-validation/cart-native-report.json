@@ -1,0 +1,134 @@
+{
+  "elapsed_seconds": 11.833,
+  "milestone": "05 cargo and inventory",
+  "passed": 25,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Unknown/negative inventory mutations rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Inventory obeys weight limit"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Oversized transfer leaves source unchanged"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Self transfer rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Inventory snapshots cannot mutate live cargo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Atomic cargo transfer"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cart capacity enforced"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Input hitches nearby grounded cart"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Loaded mass reaches drive controller"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Hitch prevents unsafe wing deployment"
+    },
+    {
+      "detail": "speed=5.33",
+      "passed": true,
+      "test": "Loaded bike accelerates more slowly"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Loaded cart physically follows"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cargo survives movement"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Moving hitch toggle rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stopped cart detaches"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Detached cart remains parked"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Remote reattachment rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Nearby cart reattaches"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Unload respects backpack capacity"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Total cargo conserved"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Full backpack does not lose cargo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes cart and transfer controls"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Recovery preserves attached cargo"
+    },
+    {
+      "detail": "x=35.17",
+      "passed": true,
+      "test": "Cart collides with world wall"
+    },
+    {
+      "detail": "gap=4.40 speed=0.00",
+      "passed": true,
+      "test": "Trapped cart stops towing bike without stretching"
+    }
+  ],
+  "total": 25
+}

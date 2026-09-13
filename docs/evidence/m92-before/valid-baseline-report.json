@@ -1,0 +1,29 @@
+{
+  "elapsed_seconds": 3.363,
+  "milestone": "92 player weapons respect vehicle cover",
+  "passed": 3,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Real parked aircraft geometry lies across the shot"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Blocked rifle shot still consumes one cartridge"
+    },
+    {
+      "detail": "enemy health=42",
+      "passed": false,
+      "test": "Parked aircraft stops rifle damage through its tail"
+    },
+    {
+      "detail": "enemy health=42",
+      "passed": true,
+      "test": "Removing vehicle cover restores rifle damage"
+    }
+  ],
+  "total": 4
+}

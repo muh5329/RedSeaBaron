@@ -1,0 +1,18 @@
+water-native-verifier FAILED: see docs/evidence/water-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Dry traversal keeps normal walking speed | 
+RSB_BIKE | PASS | Shallow coastal water permits slower wading | speed=2.76 y=-2.98
+RSB_BIKE | PASS | Deep-water recovery state cannot be saved | 
+RSB_BIKE | PASS | Pause freezes submerged actor and recovery countdown | 
+RSB_BIKE | PASS | Deep water returns player to survey checkpoint with pack intact | 
+RSB_BIKE | PASS | Dry recovery clears wading slowdown | 
+RSB_BIKE | PASS | Shoreline test begins with a real loaded hitch | 
+RSB_BIKE | FAIL | Riding into deep water recovers bike and attached cargo together | 
+RSB_BIKE | PASS | Detached submerged cart returns to workshop without losing goods | 
+RSB_BIKE | PASS | Flying over water does not trigger recovery | position=(100.8476, 15.70589, 50.01049)
+RSB_BIKE | FAIL | Water landing recovers the same aircraft and preserves parked cargo | 
+RSB_BIKE | PASS | Water volume stays within the displayed coast | 
+RSB_WATER_REPORT {"elapsed_seconds":30.342,"milestone":"26 wading and deep-water recovery","passed":10,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Dry traversal keeps normal walking speed"},{"detail":"speed=2.76 y=-2.98","passed":true,"test":"Shallow coastal water permits slower wading"},{"detail":"","passed":true,"test":"Deep-water recovery state cannot be saved"},{"detail":"","passed":true,"test":"Pause freezes submerged actor and recovery countdown"},{"detail":"","passed":true,"test":"Deep water returns player to survey checkpoint with pack intact"},{"detail":"","passed":true,"test":"Dry recovery clears wading slowdown"},{"detail":"","passed":true,"test":"Shoreline test begins with a real loaded hitch"},{"detail":"","passed":false,"test":"Riding into deep water recovers bike and attached cargo together"},{"detail":"","passed":true,"test":"Detached submerged cart returns to workshop without losing goods"},{"detail":"position=(100.8476, 15.70589, 50.01049)","passed":true,"test":"Flying over water does not trigger recovery"},{"detail":"","passed":false,"test":"Water landing recovers the same aircraft and preserves parked cargo"},{"detail":"","passed":true,"test":"Water volume stays within the displayed coast"}],"total":12}
+

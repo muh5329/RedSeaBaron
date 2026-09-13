@@ -1,0 +1,79 @@
+{
+  "elapsed_seconds": 20.898,
+  "milestone": "100 vehicle motion against NPC bodies",
+  "passed": 14,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "mode=BIKE",
+      "passed": true,
+      "test": "Stationary hostile blocks wing deployment"
+    },
+    {
+      "detail": "mode=BIKE",
+      "passed": true,
+      "test": "Stationary worker blocks wing deployment"
+    },
+    {
+      "detail": "mode=BIKE",
+      "passed": true,
+      "test": "Hostile standing in front propeller sweep blocks deployment"
+    },
+    {
+      "detail": "overlap frames=0 bike z=295.718",
+      "passed": true,
+      "test": "Driving motorcycle stops before a stationary hostile body"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Moving the hostile away releases the motorcycle"
+    },
+    {
+      "detail": "overlap frames=0 z=295.660",
+      "passed": true,
+      "test": "Driving motorcycle also stops before a stationary worker"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Clear space still permits wing deployment"
+    },
+    {
+      "detail": "overlap frames=0 mode=BIKE",
+      "passed": true,
+      "test": "Worker entering the unfolding span causes a safe abort"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing the worker permits complete aircraft deployment"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Aircraft yaw cannot sweep a deployed wing through a hostile"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Defeated hostile no longer blocks aircraft yaw"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "NPC-aware vehicles still mount and hitch a full cargo load"
+    },
+    {
+      "detail": "overlap frames=0 max gap=3.513 cart=(-0.013237, 30.00094, 285.8222)",
+      "passed": true,
+      "test": "Loaded towing cannot drag cart geometry through a worker"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Clearing the worker restores towing with all goods preserved"
+    }
+  ],
+  "total": 14
+}

@@ -1,0 +1,29 @@
+{
+  "elapsed_seconds": 6.113,
+  "milestone": "79 regional survey checkpoints",
+  "passed": 0,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "checkpoint=(0.0, 2.123746, 12.0)",
+      "passed": false,
+      "test": "Greenreach timber camp can establish a nearby recovery checkpoint"
+    },
+    {
+      "detail": "checkpoint=(0.0, 2.123746, 12.0)",
+      "passed": false,
+      "test": "Red Mesa quarry can establish a nearby recovery checkpoint"
+    },
+    {
+      "detail": "checkpoint=(0.0, 2.123746, 12.0)",
+      "passed": false,
+      "test": "Snowwatch tower can establish a nearby recovery checkpoint"
+    },
+    {
+      "detail": "checkpoint=(0.0, 2.123746, 12.0)",
+      "passed": false,
+      "test": "Longfield waystation can establish a nearby recovery checkpoint"
+    }
+  ],
+  "total": 4
+}

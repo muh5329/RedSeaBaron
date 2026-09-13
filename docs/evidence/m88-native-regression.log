@@ -1,0 +1,7 @@
+audio_settings: 12/12 in 3.4s
+ambience: 12/12 in 9.2s
+ui: 14/14 in 3.7s
+panel_combat: 15/15 in 8.7s
+save: 22/22 in 24.6s
+feedback: 9/9 in 6.0s
+Web export built. Serve with tools/serve.sh and verify in a browser.

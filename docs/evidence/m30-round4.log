@@ -1,0 +1,76 @@
+batching-native-verifier FAILED: see docs/evidence/batching-native-verifier.log
+Nonexistent function 'surface_get_array_index_len' in base 'BoxMesh'.
+          at: combine (res://scripts/world/static_batcher.gd:23)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/static_batcher.gd:23)
+              [1] _ready (res://scripts/world/coastal_region.gd:34)
+              [2] _ready (res://scripts/main.gd:31)
+SCRIPT ERROR: Invalid call. Nonexistent function 'surface_get_array_index_len' in base 'BoxMesh'.
+          at: combine (res://scripts/world/static_batcher.gd:23)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/static_batcher.gd:23)
+              [1] _ready (res://scripts/player/player_visual.gd:48)
+              [2] _ready (res://scripts/player/player_controller.gd:42)
+              [3] _ready (res://scripts/main.gd:34)
+SCRIPT ERROR: Invalid call. Nonexistent function 'surface_get_array_index_len' in base 'TorusMesh'.
+          at: combine (res://scripts/world/static_batcher.gd:23)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/static_batcher.gd:23)
+              [1] _wheel (res://scripts/vehicles/bike_visual.gd:106)
+              [2] _ready (res://scripts/vehicles/bike_visual.gd:18)
+              [3] _ready (res://scripts/vehicles/bike_controller.gd:34)
+              [4] _spawn_bike (res://scripts/main.gd:244)
+              [5] _ready (res://scripts/main.gd:48)
+SCRIPT ERROR: Invalid call. Nonexistent function 'surface_get_array_index_len' in base 'TorusMesh'.
+          at: combine (res://scripts/world/static_batcher.gd:23)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/static_batcher.gd:23)
+              [1] _wheel (res://scripts/vehicles/bike_visual.gd:106)
+              [2] _ready (res://scripts/vehicles/bike_visual.gd:19)
+              [3] _ready (res://scripts/vehicles/bike_controller.gd:34)
+              [4] _spawn_bike (res://scripts/main.gd:244)
+              [5] _ready (res://scripts/main.gd:48)
+SCRIPT ERROR: Invalid call. Nonexistent function 'surface_get_array_index_len' in base 'BoxMesh'.
+          at: combine (res://scripts/world/static_batcher.gd:23)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/static_batcher.gd:23)
+              [1] _ready (res://scripts/vehicles/bike_visual.gd:36)
+              [2] _ready (res://scripts/vehicles/bike_controller.gd:34)
+              [3] _spawn_bike (res://scripts/main.gd:244)
+              [4] _ready (res://scripts/main.gd:48)
+SCRIPT ERROR: Invalid call. Nonexistent function 'surface_get_array_index_len' in base 'CylinderMesh'.
+          at: combine (res://scripts/world/static_batcher.gd:23)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/static_batcher.gd:23)
+              [1] _ready (res://scripts/vehicles/bike_visual.gd:79)
+              [2] _ready (res://scripts/vehicles/bike_controller.gd:34)
+              [3] _spawn_bike (res://scripts/main.gd:244)
+              [4] _ready (res://scripts/main.gd:48)
+SCRIPT ERROR: Invalid call. Nonexistent function 'surface_get_array_index_len' in base 'BoxMesh'.
+          at: combine (res://scripts/world/static_batcher.gd:23)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/static_batcher.gd:23)
+              [1] _ready (res://scripts/player/player_visual.gd:48)
+              [2] _ready (res://scripts/vehicles/bike_visual.gd:83)
+              [3] _ready (res://scripts/vehicles/bike_controller.gd:34)
+              [4] _spawn_bike (res://scripts/main.gd:244)
+              [5] _ready (res://scripts/main.gd:48)
+SCRIPT ERROR: Invalid call. Nonexistent function 'surface_get_array_index_len' in base 'BoxMesh'.
+          at: combine (res://scripts/world/static_batcher.gd:23)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/static_batcher.gd:23)
+              [1] _ready (res://scripts/player/player_visual.gd:48)
+              [2] _ready (res://scripts/ai/worker_actor.gd:42)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:32)
+              [4] _ready (res://scripts/main.gd:58)
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+SCRIPT ERROR: Parse Error: Cannot infer the type of "indices" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://tests/batching_verifier.gd:4)
+          GDScript backtrace (most recent call first):
+              [0] _run_suite (res://scripts/main.gd:274)
+ERROR: Failed to load script "res://tests/batching_verifier.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+   GDScript backtrace (most recent call first):
+       [0] _run_suite (res://scripts/main.gd:274)
+RSB_VERIFICATION_ERROR | Cannot load verification suite: batching
+

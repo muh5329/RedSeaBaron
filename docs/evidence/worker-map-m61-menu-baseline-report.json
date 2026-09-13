@@ -1,0 +1,79 @@
+{
+  "elapsed_seconds": 8.757,
+  "milestone": "61 worker map tracking",
+  "passed": 13,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Worker marker selects Mara's real position"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Tracked worker appears in field notes"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Worker map selection preserves pause and ammunition"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Worker button selects Ivo independently"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Overlapping workers remain individually selectable"
+    },
+    {
+      "detail": "moved=13.19 state=MoveToTask",
+      "passed": true,
+      "test": "Tracking follows real worker job movement"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Tracking follows the same worker through save restoration"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Save restoration preserves the map without a second menu"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Unknown worker ID leaves tracking intact"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Remote worker switches to a usable world scope"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Retiring a tracked worker clears stale guidance safely"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Fixed waypoint replaces worker tracking"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Clear removes worker and HUD waypoint"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Worker map controls fit the viewport"
+    }
+  ],
+  "total": 14
+}

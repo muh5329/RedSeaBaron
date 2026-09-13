@@ -1,0 +1,29 @@
+{
+  "elapsed_seconds": 2.147,
+  "milestone": "73 solid village roofs",
+  "passed": 0,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "hit=(0.0, 205.0, 80.0)",
+      "passed": false,
+      "test": "The visible roof ridge blocks a downward approach"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "The visible roof slope blocks entry above the walls"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "The overhanging roof underside blocks upward entry"
+    },
+    {
+      "detail": "player=(0.0, 204.9852, 80.0)",
+      "passed": false,
+      "test": "The player lands on the roof rather than inside its visible mesh"
+    }
+  ],
+  "total": 4
+}

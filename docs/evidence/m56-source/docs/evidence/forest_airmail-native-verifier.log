@@ -1,0 +1,22 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Airmail contract loads selected parcel into workshop cart | 
+RSB_BIKE | PASS | Player walks back to the loaded motorcycle | 
+RSB_BIKE | PASS | Attached delivery cart blocks wing deployment | 
+RSB_BIKE | PASS | Flight preparation unloads parcel and parks the empty cart | 
+INTEGRATION_LEG goal=(12.0, 43.0) position=(11.9767, 2.214767, 39.32841) error=3.67 frames=334 speed=0.00
+INTEGRATION_LEG goal=(0.0, 105.0) position=(0.927788, 1.918391, 101.4369) error=3.68 frames=514 speed=0.00
+INTEGRATION_LEG goal=(25.0, 135.0) position=(22.57789, 1.085698, 132.213) error=3.69 frames=370 speed=0.00
+RSB_BIKE | PASS | Delivery bike drives from town to a clear takeoff area | 
+RSB_BIKE | PASS | Aircraft takes off with the parcel in player inventory | 
+RSB_BIKE | PASS | Airmail physically crosses the streamed world | travelled=3636.7 position=(-3301.516, 74.46935, 687.0784)
+RSB_BIKE | PASS | Parcel flight lands on real destination-region terrain | 
+RSB_BIKE | PASS | Landing restores bike mode for final delivery approach | 
+INTEGRATION_LEG goal=(-3576.0, 746.0) position=(-3572.546, 15.93066, 744.7199) error=3.68 frames=1193 speed=0.00
+INTEGRATION_LEG goal=(-3576.0, 716.0) position=(-3576.554, 15.28355, 719.6363) error=3.68 frames=360 speed=0.00
+INTEGRATION_LEG goal=(-3600.0, 716.0) position=(-3596.349, 15.06036, 715.554) error=3.68 frames=311 speed=0.00
+RSB_BIKE | PASS | Ground approach reaches the visible Greenreach timber camp desk | position=(-3596.349, 15.06036, 715.554)
+RSB_BIKE | PASS | Integrated flight delivery removes parcel and pays once | 
+RSB_BIKE | PASS | Repeat input cannot repay and distant parked cart stays intact | 
+RSB_FOREST_AIRMAIL_REPORT {"elapsed_seconds":171.064,"milestone":"47 Port Solis-to-Greenreach forest delivery","passed":12,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Airmail contract loads selected parcel into workshop cart"},{"detail":"","passed":true,"test":"Player walks back to the loaded motorcycle"},{"detail":"","passed":true,"test":"Attached delivery cart blocks wing deployment"},{"detail":"","passed":true,"test":"Flight preparation unloads parcel and parks the empty cart"},{"detail":"","passed":true,"test":"Delivery bike drives from town to a clear takeoff area"},{"detail":"","passed":true,"test":"Aircraft takes off with the parcel in player inventory"},{"detail":"travelled=3636.7 position=(-3301.516, 74.46935, 687.0784)","passed":true,"test":"Airmail physically crosses the streamed world"},{"detail":"","passed":true,"test":"Parcel flight lands on real destination-region terrain"},{"detail":"","passed":true,"test":"Landing restores bike mode for final delivery approach"},{"detail":"position=(-3596.349, 15.06036, 715.554)","passed":true,"test":"Ground approach reaches the visible Greenreach timber camp desk"},{"detail":"","passed":true,"test":"Integrated flight delivery removes parcel and pays once"},{"detail":"","passed":true,"test":"Repeat input cannot repay and distant parked cart stays intact"}],"total":12}

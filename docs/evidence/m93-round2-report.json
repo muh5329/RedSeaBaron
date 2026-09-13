@@ -1,0 +1,1 @@
+{"passed":4,"tests":[{"passed":true,"test":"Actual motorcycle blocks the eye-level segment"},{"passed":true,"sees":false,"test":"Enemy cannot see through the motorcycle"},{"health":100.0,"passed":true,"test":"Committed hostile strike cannot pass through chassis"},{"health":87.0,"passed":true,"test":"Removing cover allows the same hostile strike"}],"total":4}

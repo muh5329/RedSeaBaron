@@ -1,0 +1,8 @@
+panel_combat: 15/15 in 8.4s
+combat: 34/34 in 31.6s
+ui: 14/14 in 3.7s
+food: 17/17 in 5.4s
+logistics: 23/23 in 11.2s
+worker: 25/25 in 158.8s
+save: 22/22 in 24.7s
+Web export built. Serve with tools/serve.sh and verify in a browser.

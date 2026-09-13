@@ -1,0 +1,7 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_TANK | aabb=[P: (-0.34, -0.21, -0.43), S: (0.68, 0.42, 0.83)] position=(0.0, 1.11, -0.32) surfaces=1
+RSB_VEHICLE_RENDER | motorcycle draw_calls=159
+RSB_VEHICLE_RENDER | mode=AIRCRAFT draw_calls=196

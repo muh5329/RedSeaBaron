@@ -1,0 +1,24 @@
+{
+  "elapsed_seconds": 0.001,
+  "milestone": "88 browser audio preference persistence",
+  "passed": 3,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Audio preferences survive a fresh browser page"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Restart restores level and mute to the actual master bus"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Restarted controls reflect restored sound preferences"
+    }
+  ],
+  "total": 3
+}

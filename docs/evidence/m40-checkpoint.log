@@ -1,0 +1,12 @@
+Fixed source: 243 files; 36 suites; 529 minimum assertions
+{
+  "accepted": true,
+  "returncode": 0,
+  "files_verified": 243,
+  "changed_files": [],
+  "suites": 36,
+  "expected_suites": 36,
+  "passed": 529,
+  "total": 529,
+  "seconds": 1827.0489999999995
+}

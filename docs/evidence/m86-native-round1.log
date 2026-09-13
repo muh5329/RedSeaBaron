@@ -1,0 +1,6 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Mounting rejects a ceiling through the seated rider | 
+RSB_BIKE | PASS | Driving stops before an overhead beam crosses the rider | position=(-0.000133, 29.94546, 100.6088) speed=0.000
+RSB_RIDER_CLEARANCE_REPORT {"elapsed_seconds":4.526,"milestone":"86 seated rider collision","passed":2,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Mounting rejects a ceiling through the seated rider"},{"detail":"position=(-0.000133, 29.94546, 100.6088) speed=0.000","passed":true,"test":"Driving stops before an overhead beam crosses the rider"}],"total":2}

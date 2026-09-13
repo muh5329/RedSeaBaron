@@ -1,0 +1,22 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | North seam fixture mounts normally | 
+RSB_BIKE | PASS | North drive crosses multiple real terrain grid lines | travel=25.167 speed=20.000
+RSB_BIKE | PASS | North drive cannot settle into a seam soft lock | stalled frames=0 last-second travel=15.865
+RSB_BIKE | PASS | South seam fixture mounts normally | 
+RSB_BIKE | PASS | South drive crosses multiple real terrain grid lines | travel=25.168 speed=20.000
+RSB_BIKE | PASS | South drive cannot settle into a seam soft lock | stalled frames=0 last-second travel=15.866
+RSB_BIKE | PASS | East seam fixture mounts normally | 
+RSB_BIKE | PASS | East drive crosses multiple real terrain grid lines | travel=25.199 speed=20.000
+RSB_BIKE | PASS | East drive cannot settle into a seam soft lock | stalled frames=0 last-second travel=15.881
+RSB_BIKE | PASS | West seam fixture mounts normally | 
+RSB_BIKE | PASS | West drive crosses multiple real terrain grid lines | travel=25.103 speed=20.000
+RSB_BIKE | PASS | West drive cannot settle into a seam soft lock | stalled frames=0 last-second travel=15.834
+RSB_BIKE | PASS | Loaded seam fixture uses the normal hitch | 
+RSB_BIKE | PASS | Loaded cart crosses the seam without a stalled tow vehicle | travel=27.441 speed=10.421 stalls=0
+RSB_BIKE | PASS | Seam travel preserves cargo and the physical drawbar | 
+RSB_BIKE | PASS | Real-wall control mounts normally | 
+RSB_BIKE | PASS | A real wall at the same grid boundary still stops the motorcycle | position=(0.018597, 1.961881, 86.53053) speed=0.000
+RSB_BIKE | PASS | Collision recovery cannot climb the real wall | 
+RSB_TERRAIN_SEAM_REPORT {"elapsed_seconds":31.236,"milestone":"76 terrain seams and real obstacle distinction","passed":18,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"North seam fixture mounts normally"},{"detail":"travel=25.167 speed=20.000","passed":true,"test":"North drive crosses multiple real terrain grid lines"},{"detail":"stalled frames=0 last-second travel=15.865","passed":true,"test":"North drive cannot settle into a seam soft lock"},{"detail":"","passed":true,"test":"South seam fixture mounts normally"},{"detail":"travel=25.168 speed=20.000","passed":true,"test":"South drive crosses multiple real terrain grid lines"},{"detail":"stalled frames=0 last-second travel=15.866","passed":true,"test":"South drive cannot settle into a seam soft lock"},{"detail":"","passed":true,"test":"East seam fixture mounts normally"},{"detail":"travel=25.199 speed=20.000","passed":true,"test":"East drive crosses multiple real terrain grid lines"},{"detail":"stalled frames=0 last-second travel=15.881","passed":true,"test":"East drive cannot settle into a seam soft lock"},{"detail":"","passed":true,"test":"West seam fixture mounts normally"},{"detail":"travel=25.103 speed=20.000","passed":true,"test":"West drive crosses multiple real terrain grid lines"},{"detail":"stalled frames=0 last-second travel=15.834","passed":true,"test":"West drive cannot settle into a seam soft lock"},{"detail":"","passed":true,"test":"Loaded seam fixture uses the normal hitch"},{"detail":"travel=27.441 speed=10.421 stalls=0","passed":true,"test":"Loaded cart crosses the seam without a stalled tow vehicle"},{"detail":"","passed":true,"test":"Seam travel preserves cargo and the physical drawbar"},{"detail":"","passed":true,"test":"Real-wall control mounts normally"},{"detail":"position=(0.018597, 1.961881, 86.53053) speed=0.000","passed":true,"test":"A real wall at the same grid boundary still stops the motorcycle"},{"detail":"","passed":true,"test":"Collision recovery cannot climb the real wall"}],"total":18}

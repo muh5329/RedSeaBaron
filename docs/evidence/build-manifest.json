@@ -1,0 +1,33 @@
+{
+  "engine": "Godot 4.7.stable.official.5b4e0cb0f",
+  "milestone": "01 traversal foundations",
+  "source_sha256": {
+    "export_presets.cfg": "0577cf0bdcf872aa1f535de732aec084e109e6a7de38708a3e4c9f8b7943c416",
+    "project.godot": "6ebe4cff6552aa11732b6cceec10bc9c93070c9e335cce2bc0544fb2aeac47ad",
+    "scenes/main.tscn": "f34ed8a1637bc460debb6b6c8ffd9a52edb564a9f957a69b68c431e76448f668",
+    "scripts/interaction/interaction_controller.gd": "1e15f3083f05610f1ff34d82354df734532ba9669e38cde3a7070a6b01b502f5",
+    "scripts/interaction/survey_site.gd": "0e5eb1e0463e915b0a24c420d5b8a204ccc6692dcf83f3952ce54c73e979f019",
+    "scripts/main.gd": "759acf5e05a812aa052d2ac6f9139b6c2c426b9e0fc76391d7b3218c42326a3b",
+    "scripts/player/input_bindings.gd": "06d8825dc1d5ce0856a27ee72ba934aa449dfe82bb88081430d966ee09a747eb",
+    "scripts/player/movement_config.gd": "e3e15d0d6ffa7a2e951e593b958dd0b1eed261cc828da4c571626a250bcc7219",
+    "scripts/player/orbit_camera.gd": "efa185b23a32452bb455fd512d1ae33ecda61172c6f0efa0b89aa23e474341ed",
+    "scripts/player/player_controller.gd": "84ca6ebed8fe7943981166829d5fb60df25c46389d977ba42a8ad28ba1a0be5c",
+    "scripts/player/player_visual.gd": "cca517bb0eede43f995e90d0f1ae7c56c9c6f9cd3da9bfb4336d326972c20e5f",
+    "scripts/ui/game_hud.gd": "992cd277fbd896a7fdcb8c2de838e6d5a32416161acb117b2724119e76283d07",
+    "scripts/world/blockout_kit.gd": "8d0fca05ff8c240732af0bd8fb7c04746bc26a17fa23bf9935d411f9d0e10434",
+    "scripts/world/coastal_region.gd": "8b644f235526067e634061df66f189f1009978f044d6bf4e0266cdb3221d51a2",
+    "tests/traversal_verifier.gd": "0f94bde2eb9dcc6ca571f27bf36257c91210907293af103cbf9c487a87f7538f",
+    "tools/serve.sh": "d172de402928805ff76dddaaca8c85199ff60632931254cc7de055ae3eb5b49c",
+    "tools/verify.sh": "a556caed4de562af9bdd6131aa827d5cb7bdd769986a50b356f54ddde67ce52e"
+  },
+  "web_build_sha256": {
+    "builds/web/index.audio.position.worklet.js": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8",
+    "builds/web/index.audio.worklet.js": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3",
+    "builds/web/index.html": "570562a5e6eff70189c3888ff3de58bc351e95e5de86a0471842e9e1c505c6fa",
+    "builds/web/index.js": "ffc3898b59fba6f5af0c02f76e5ee526cc061e65c7d2d6f4f98186876cea15c4",
+    "builds/web/index.pck": "1a83a86955337dcc280cf2f2982799b633210ca1c1d5e068910387a461ee4e17",
+    "builds/web/index.png": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e",
+    "builds/web/index.png.import": "df0eeb8211f351f70b34aa2cb35960a6e4defc3126ca9e35c44ea7dfeb434545",
+    "builds/web/index.wasm": "a7f772811c728a540ff559a91742ef025f9dc6de1947a09dd9f5cf8c93bf85c7"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "elapsed_seconds": 4.794,
+  "milestone": "99 exact landform map destinations",
+  "passed": 17,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "waypoint error=0.0 m title=Saffron dunes",
+      "passed": true,
+      "test": "Clicking the dunes label selects the exact named destination"
+    },
+    {
+      "detail": "error=0.0 title=Windcut valley",
+      "passed": true,
+      "test": "Named map label selects Windcut valley"
+    },
+    {
+      "detail": "error=0.0 title=Crown mountains",
+      "passed": true,
+      "test": "Named map label selects Crown mountains"
+    },
+    {
+      "detail": "error=0.0 title=Whitecap peak",
+      "passed": true,
+      "test": "Named map label selects Whitecap peak"
+    },
+    {
+      "detail": "error=0.0 title=Quarry cave",
+      "passed": true,
+      "test": "Named map label selects Quarry cave"
+    },
+    {
+      "detail": "error=0.0 title=Greenreach timber camp",
+      "passed": true,
+      "test": "Named map label selects Greenreach timber camp"
+    },
+    {
+      "detail": "error=0.0 title=Red Mesa quarry",
+      "passed": true,
+      "test": "Named map label selects Red Mesa quarry"
+    },
+    {
+      "detail": "error=0.0 title=Snowwatch tower",
+      "passed": true,
+      "test": "Named map label selects Snowwatch tower"
+    },
+    {
+      "detail": "error=0.0 title=Longfield waystation",
+      "passed": true,
+      "test": "Named map label selects Longfield waystation"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Unmarked map space still sets an exact cursor waypoint"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Choosing a place cancels prior live asset tracking"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Local beach label selects the named shoreline"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Beach destination lies on dry ground"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Landform marker also selects its exact destination"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Named map clicks preserve pause and ammunition"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Clear button removes a named waypoint"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Closing destination selection restores gameplay and minimap"
+    }
+  ],
+  "total": 17
+}

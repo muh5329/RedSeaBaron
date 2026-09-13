@@ -1,0 +1,19 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Dry traversal keeps normal walking speed | 
+RSB_BIKE | PASS | Shallow coastal water permits slower wading | speed=2.76 y=-3.01
+RSB_BIKE | PASS | Deep-water recovery state cannot be saved | 
+RSB_BIKE | PASS | Pause freezes submerged actor and recovery countdown | 
+RSB_BIKE | PASS | Deep water returns player to survey checkpoint with pack intact | 
+RSB_BIKE | PASS | Dry recovery clears wading slowdown | 
+RSB_BIKE | PASS | Shoreline test begins with a real loaded hitch | 
+RSB_BIKE | PASS | Riding into deep water recovers bike and attached cargo together | events=[1, 1] water=1 mounted=true bike=(9.996005, 2.496175, -10.06595) gap=3.30 speed=0.00
+RSB_BIKE | PASS | Detached submerged cart returns to workshop without losing goods | 
+RSB_BIKE | PASS | Coastal flight starts from a grounded, deployed aircraft | mode=AIRCRAFT rejection=
+RSB_BIKE | PASS | Flying over water does not trigger recovery | position=(100.6121, 16.21573, 50.0385)
+RSB_BIKE | PASS | Water landing recovers the same aircraft and preserves parked cargo | events=[1, 2] water=2 mounted=true bike=(9.996918, 2.4966, -10.07228) mode=BIKE cargo=Olives × 10 pack=Timber × 5
+RSB_BIKE | PASS | Water volume stays within the displayed coast | 
+RSB_WATER_REPORT {"elapsed_seconds":24.197,"milestone":"26 wading and deep-water recovery","passed":13,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Dry traversal keeps normal walking speed"},{"detail":"speed=2.76 y=-3.01","passed":true,"test":"Shallow coastal water permits slower wading"},{"detail":"","passed":true,"test":"Deep-water recovery state cannot be saved"},{"detail":"","passed":true,"test":"Pause freezes submerged actor and recovery countdown"},{"detail":"","passed":true,"test":"Deep water returns player to survey checkpoint with pack intact"},{"detail":"","passed":true,"test":"Dry recovery clears wading slowdown"},{"detail":"","passed":true,"test":"Shoreline test begins with a real loaded hitch"},{"detail":"events=[1, 1] water=1 mounted=true bike=(9.996005, 2.496175, -10.06595) gap=3.30 speed=0.00","passed":true,"test":"Riding into deep water recovers bike and attached cargo together"},{"detail":"","passed":true,"test":"Detached submerged cart returns to workshop without losing goods"},{"detail":"mode=AIRCRAFT rejection=","passed":true,"test":"Coastal flight starts from a grounded, deployed aircraft"},{"detail":"position=(100.6121, 16.21573, 50.0385)","passed":true,"test":"Flying over water does not trigger recovery"},{"detail":"events=[1, 2] water=2 mounted=true bike=(9.996918, 2.4966, -10.07228) mode=BIKE cargo=Olives × 10 pack=Timber × 5","passed":true,"test":"Water landing recovers the same aircraft and preserves parked cargo"},{"detail":"","passed":true,"test":"Water volume stays within the displayed coast"}],"total":13}
+WARNING: 4 ObjectDB instances were leaked at exit (run with `--verbose` for details).
+   at: cleanup (core/object/object.cpp:2535)

@@ -1,0 +1,19 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Cargo panel clicks cannot spend a rifle round | panel=true ammo=5 gate=true pending=false
+RSB_BIKE | PASS | Worker panel clicks cannot fire into the world | 
+RSB_BIKE | PASS | Open orders reject keyboard attacks | 
+RSB_BIKE | PASS | Open orders reject starting a reload | 
+RSB_BIKE | PASS | Open orders cannot change weapon underneath the panel | 
+RSB_BIKE | PASS | Open cargo rejects heavy melee | 
+RSB_BIKE | PASS | Opening cargo cancels reload without creating ammunition | 
+RSB_BIKE | PASS | Opening cargo cancels an uncommitted swing | 
+RSB_BIKE | PASS | Same-frame panel open and attack cannot leak a shot 66 | 
+RSB_BIKE | PASS | Same-frame panel open and attack cannot leak a shot 78 | 
+RSB_BIKE | PASS | Closing a panel does not fire a held attack | 
+RSB_BIKE | PASS | A fresh attack works after the panel closes | 
+RSB_BIKE | PASS | Live orders retain movement controls | 
+RSB_BIKE | PASS | A live panel preserves the active dodge immunity window | 
+RSB_BIKE | PASS | Panel use cannot leave dodge immunity stuck on | 
+RSB_PANEL_COMBAT_REPORT {"elapsed_seconds":8.801,"milestone":"42 inventory and orders combat gating","passed":15,"platform":"macOS","tests":[{"detail":"panel=true ammo=5 gate=true pending=false","passed":true,"test":"Cargo panel clicks cannot spend a rifle round"},{"detail":"","passed":true,"test":"Worker panel clicks cannot fire into the world"},{"detail":"","passed":true,"test":"Open orders reject keyboard attacks"},{"detail":"","passed":true,"test":"Open orders reject starting a reload"},{"detail":"","passed":true,"test":"Open orders cannot change weapon underneath the panel"},{"detail":"","passed":true,"test":"Open cargo rejects heavy melee"},{"detail":"","passed":true,"test":"Opening cargo cancels reload without creating ammunition"},{"detail":"","passed":true,"test":"Opening cargo cancels an uncommitted swing"},{"detail":"","passed":true,"test":"Same-frame panel open and attack cannot leak a shot 66"},{"detail":"","passed":true,"test":"Same-frame panel open and attack cannot leak a shot 78"},{"detail":"","passed":true,"test":"Closing a panel does not fire a held attack"},{"detail":"","passed":true,"test":"A fresh attack works after the panel closes"},{"detail":"","passed":true,"test":"Live orders retain movement controls"},{"detail":"","passed":true,"test":"A live panel preserves the active dodge immunity window"},{"detail":"","passed":true,"test":"Panel use cannot leave dodge immunity stuck on"}],"total":15}

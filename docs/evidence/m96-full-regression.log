@@ -1,0 +1,44 @@
+traversal: 21/21 in 59.7s
+combat: 34/34 in 31.6s
+bike: 26/26 in 17.6s
+flight: 22/22 in 17.2s
+cart: 25/25 in 11.9s
+logistics: 23/23 in 11.5s
+worker: 25/25 in 159.0s
+world: 15/15 in 67.6s
+save: 22/22 in 24.6s
+ui: 14/14 in 3.8s
+integration: 16/16 in 102.9s
+feedback: 9/9 in 6.0s
+ai: 10/10 in 22.0s
+economy: 21/21 in 2.2s
+highland: 8/8 in 39.0s
+region: 18/18 in 33.3s
+recovery: 8/8 in 12.6s
+encounter: 16/16 in 18.2s
+routine: 16/16 in 188.5s
+routine_stop: 4/4 in 52.0s
+backdrop: 7/7 in 8.8s
+routes: 20/20 in 3.6s
+airmail: 12/12 in 100.2s
+cargo_access: 11/11 in 5.8s
+seat_safety: 12/12 in 7.6s
+water-native-verifier FAILED: see docs/evidence/water-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Dry traversal keeps normal walking speed | 
+RSB_BIKE | PASS | Shallow coastal water permits slower wading | speed=2.76 y=-3.01
+RSB_BIKE | PASS | Deep-water recovery state cannot be saved | 
+RSB_BIKE | PASS | Pause freezes submerged actor and recovery countdown | 
+RSB_BIKE | PASS | Deep water returns player to survey checkpoint with pack intact | 
+RSB_BIKE | PASS | Dry recovery clears wading slowdown | 
+RSB_BIKE | PASS | Shoreline test begins with a real loaded hitch | 
+RSB_BIKE | PASS | Riding into deep water recovers bike and attached cargo together | events=[1, 1] water=1 mounted=true bike=(9.996005, 2.496175, -10.06595) gap=3.30 speed=0.00
+RSB_BIKE | PASS | Detached submerged cart returns to workshop without losing goods | 
+RSB_BIKE | PASS | Coastal flight starts from a grounded, deployed aircraft | mode=AIRCRAFT rejection=
+RSB_BIKE | FAIL | Flying over water does not trigger recovery | position=(94.29931, -1.729334, 50.0103)
+RSB_BIKE | FAIL | Water landing recovers the same aircraft and preserves parked cargo | events=[1, 1] water=1 mounted=true bike=(52.73744, 2.205306, 51.69964) mode=AIRCRAFT cargo=Olives × 10 pack=Timber × 5
+RSB_BIKE | PASS | Water volume stays within the displayed coast | 
+RSB_WATER_REPORT {"elapsed_seconds":34.697,"milestone":"26 wading and deep-water recovery","passed":11,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Dry traversal keeps normal walking speed"},{"detail":"speed=2.76 y=-3.01","passed":true,"test":"Shallow coastal water permits slower wading"},{"detail":"","passed":true,"test":"Deep-water recovery state cannot be saved"},{"detail":"","passed":true,"test":"Pause freezes submerged actor and recovery countdown"},{"detail":"","passed":true,"test":"Deep water returns player to survey checkpoint with pack intact"},{"detail":"","passed":true,"test":"Dry recovery clears wading slowdown"},{"detail":"","passed":true,"test":"Shoreline test begins with a real loaded hitch"},{"detail":"events=[1, 1] water=1 mounted=true bike=(9.996005, 2.496175, -10.06595) gap=3.30 speed=0.00","passed":true,"test":"Riding into deep water recovers bike and attached cargo together"},{"detail":"","passed":true,"test":"Detached submerged cart returns to workshop without losing goods"},{"detail":"mode=AIRCRAFT rejection=","passed":true,"test":"Coastal flight starts from a grounded, deployed aircraft"},{"detail":"position=(94.29931, -1.729334, 50.0103)","passed":false,"test":"Flying over water does not trigger recovery"},{"detail":"events=[1, 1] water=1 mounted=true bike=(52.73744, 2.205306, 51.69964) mode=AIRCRAFT cargo=Olives × 10 pack=Timber × 5","passed":false,"test":"Water landing recovers the same aircraft and preserves parked cargo"},{"detail":"","passed":true,"test":"Water volume stays within the displayed coast"}],"total":13}
+

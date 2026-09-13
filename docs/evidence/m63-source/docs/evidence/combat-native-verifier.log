@@ -1,0 +1,38 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_COMBAT | PASS | Light swing one hit only | health=64; expected=64
+RSB_COMBAT | PASS | Melee costs stamina and animates | 
+RSB_COMBAT | PASS | Combo advances damage | combo=2; health=35
+RSB_COMBAT | PASS | Heavy hit kills and disables hurt body | 
+RSB_COMBAT | PASS | Dead actors reject damage | 
+RSB_COMBAT | PASS | Player cannot walk through enemy body | 
+RSB_COMBAT | PASS | Dodge window rejects incoming damage | 
+RSB_COMBAT | PASS | Dodge immunity expires | 
+RSB_COMBAT | PASS | Faction filter | 
+RSB_COMBAT | PASS | Wrench cannot hit behind actor | 
+RSB_COMBAT | PASS | Wrench range bound | 
+RSB_COMBAT | PASS | Melee respects world occlusion | 
+RSB_COMBAT | PASS | Lock selects live enemy | 
+RSB_COMBAT | PASS | Lock drops dead target | 
+RSB_COMBAT | PASS | Rifle aim narrows camera | 
+RSB_COMBAT | PASS | Hitscan deals damage and consumes round | hp=42; ammo=4
+RSB_COMBAT | PASS | Shot presents recoil and flash | 
+RSB_COMBAT | PASS | Shot rate guard | 
+RSB_COMBAT | PASS | Empty rifle cannot fire | 
+RSB_COMBAT | PASS | Partial reload conserves ammo | mag=3; reserve=0
+RSB_COMBAT | PASS | Dodge cancels reload without minting ammo | 
+RSB_COMBAT | PASS | Paused fire and attack reject | 
+RSB_COMBAT | PASS | Pause cancels reload transaction | 
+RSB_COMBAT | PASS | Rifle and lock respect cover | 
+RSB_COMBAT | PASS | Raider detects and pursues | 
+RSB_COMBAT | PASS | Raider attacks player | player hp=87; state=Attack
+RSB_COMBAT | PASS | Raider hit reaction | 
+RSB_COMBAT | PASS | Raider dies | 
+RSB_COMBAT | PASS | Cinder beast detects and pursues | 
+RSB_COMBAT | PASS | Cinder beast attacks player | player hp=81; state=Attack
+RSB_COMBAT | PASS | Cinder beast hit reaction | 
+RSB_COMBAT | PASS | Cinder beast dies | 
+RSB_COMBAT | PASS | Player death gates actions | 
+RSB_COMBAT | PASS | Death recovers at checkpoint | 
+RSB_COMBAT_REPORT {"elapsed_seconds":31.578,"milestone":"02 combat","passed":34,"platform":"macOS","tests":[{"detail":"health=64; expected=64","passed":true,"test":"Light swing one hit only"},{"detail":"","passed":true,"test":"Melee costs stamina and animates"},{"detail":"combo=2; health=35","passed":true,"test":"Combo advances damage"},{"detail":"","passed":true,"test":"Heavy hit kills and disables hurt body"},{"detail":"","passed":true,"test":"Dead actors reject damage"},{"detail":"","passed":true,"test":"Player cannot walk through enemy body"},{"detail":"","passed":true,"test":"Dodge window rejects incoming damage"},{"detail":"","passed":true,"test":"Dodge immunity expires"},{"detail":"","passed":true,"test":"Faction filter"},{"detail":"","passed":true,"test":"Wrench cannot hit behind actor"},{"detail":"","passed":true,"test":"Wrench range bound"},{"detail":"","passed":true,"test":"Melee respects world occlusion"},{"detail":"","passed":true,"test":"Lock selects live enemy"},{"detail":"","passed":true,"test":"Lock drops dead target"},{"detail":"","passed":true,"test":"Rifle aim narrows camera"},{"detail":"hp=42; ammo=4","passed":true,"test":"Hitscan deals damage and consumes round"},{"detail":"","passed":true,"test":"Shot presents recoil and flash"},{"detail":"","passed":true,"test":"Shot rate guard"},{"detail":"","passed":true,"test":"Empty rifle cannot fire"},{"detail":"mag=3; reserve=0","passed":true,"test":"Partial reload conserves ammo"},{"detail":"","passed":true,"test":"Dodge cancels reload without minting ammo"},{"detail":"","passed":true,"test":"Paused fire and attack reject"},{"detail":"","passed":true,"test":"Pause cancels reload transaction"},{"detail":"","passed":true,"test":"Rifle and lock respect cover"},{"detail":"","passed":true,"test":"Raider detects and pursues"},{"detail":"player hp=87; state=Attack","passed":true,"test":"Raider attacks player"},{"detail":"","passed":true,"test":"Raider hit reaction"},{"detail":"","passed":true,"test":"Raider dies"},{"detail":"","passed":true,"test":"Cinder beast detects and pursues"},{"detail":"player hp=81; state=Attack","passed":true,"test":"Cinder beast attacks player"},{"detail":"","passed":true,"test":"Cinder beast hit reaction"},{"detail":"","passed":true,"test":"Cinder beast dies"},{"detail":"","passed":true,"test":"Player death gates actions"},{"detail":"","passed":true,"test":"Death recovers at checkpoint"}],"total":34}

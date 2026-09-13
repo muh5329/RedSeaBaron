@@ -1,0 +1,100 @@
+class_name EnemyActor
+extends CharacterBody3D
+var kind: String = "Raider"
+var target: PlayerController
+var home := Vector3.ZERO
+var move_speed: float = 3.0
+var desired_velocity := Vector3.ZERO
+var health: HealthComponent
+var brain: CombatBrain
+var model: Node3D
+var state_label: Label3D
+var health_label: Label3D
+var hit_flash: float = 0
+var death_time: float = 0
+var simulation_enabled: bool = true
+var arm: Node3D
+var phase: float = 0
+
+func _ready() -> void:
+	add_to_group("hostiles")
+	collision_layer = 4
+	collision_mask = 3
+	floor_snap_length = 0.5
+	var collider := CollisionShape3D.new()
+	var capsule := CapsuleShape3D.new()
+	capsule.height = 1.8
+	capsule.radius = 0.4
+	collider.shape = capsule
+	collider.position.y = 0.9
+	add_child(collider)
+	health = HealthComponent.new()
+	health.faction = &"hostile"
+	health.maximum = 90 if kind == "Raider" else 140
+	add_child(health)
+	model = Node3D.new()
+	add_child(model)
+	var skin := Color("68765b") if kind == "Cinder beast" else Color("b99d7d")
+	BlockoutKit.box(model, Vector3(0, 1.05, 0), Vector3(0.7, 0.8, 0.45), Color("77664d") if kind == "Raider" else skin)
+	BlockoutKit.sphere(model, Vector3(0, 1.75, 0), Vector3(0.5, 0.3, 0.5), skin)
+	for x in [-0.22, 0.22]:
+		BlockoutKit.box(model, Vector3(x, 0.33, 0), Vector3(0.27, 0.65, 0.32), Color("423f36"))
+		BlockoutKit.box(model, Vector3(x * 0.6, 1.8, -0.24), Vector3(0.07, 0.06, 0.05), Color("edba69"))
+	if kind != "Raider":
+		for x in [-0.34, 0.34]:
+			BlockoutKit.cylinder(model, Vector3(x, 1.98, 0), 0.16, 0.62, Color("cfc6a4"), 0.02, 5)
+		move_speed = 2.6
+	arm = Node3D.new()
+	arm.position = Vector3(0.49, 1.36, 0)
+	model.add_child(arm)
+	BlockoutKit.box(arm, Vector3(0, -0.3, 0), Vector3(0.22, 0.65, 0.25), skin)
+	BlockoutKit.box(arm, Vector3(0, -0.58, -0.26), Vector3(0.15, 0.2, 0.7), Color("575d55"))
+	state_label = BlockoutKit.label(self, kind + " · Idle", Vector3(0, 2.6, 0), 23)
+	state_label.billboard = BaseMaterial3D.BILLBOARD_ENABLED
+	health_label = BlockoutKit.label(self, "", Vector3(0, 2.3, 0), 19)
+	health_label.billboard = BaseMaterial3D.BILLBOARD_ENABLED
+	brain = CombatBrain.new()
+	brain.actor = self
+	brain.target = target
+	if kind != "Raider":
+		brain.damage = 19
+	add_child(brain)
+	health.damaged.connect(func(_amount): hit_flash = 0.22; brain.react_to_hit())
+	health.died.connect(func():
+		brain.die()
+		set_collision_layer_value(3, false)
+		death_time = 0.01
+	)
+
+func face(point: Vector3) -> void:
+	var difference := point - position
+	if Vector2(difference.x, difference.z).length() > 0.1:
+		model.rotation.y = atan2(-difference.x, -difference.z)
+
+func _physics_process(delta: float) -> void:
+	if not simulation_enabled:
+		return
+	hit_flash = maxf(0, hit_flash - delta)
+	health_label.text = "%d / %d" % [health.current, health.maximum]
+	health_label.modulate = Color("ffb17b") if hit_flash > 0 else Color("f5e4bd")
+	if health.current <= 0:
+		death_time += delta
+		model.rotation.z = lerpf(model.rotation.z, PI / 2, delta * 6)
+		if death_time > 15:
+			queue_free()
+		return
+	velocity.x = desired_velocity.x
+	velocity.z = desired_velocity.z
+	velocity.y -= 24 * delta
+	move_and_slide()
+	if desired_velocity.length() > 0.1:
+		face(position + desired_velocity)
+	phase += delta * desired_velocity.length() * 2
+	model.position.y = absf(sin(phase)) * 0.05
+	arm.rotation.x = -1.6 if brain.machine.current == &"Attack" and brain.machine.elapsed < 0.55 else sin(phase) * 0.3
+
+func set_simulation(value: bool) -> void:
+	simulation_enabled = value
+	brain.enabled = value
+	if not value:
+		desired_velocity = Vector3.ZERO

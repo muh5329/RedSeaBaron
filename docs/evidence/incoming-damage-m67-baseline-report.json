@@ -1,0 +1,14 @@
+{
+  "elapsed_seconds": 0.0,
+  "milestone": "67 incoming damage feedback",
+  "passed": 0,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Incoming damage has a dedicated nonblocking feedback surface"
+    }
+  ],
+  "total": 1
+}

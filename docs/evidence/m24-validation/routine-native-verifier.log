@@ -1,0 +1,20 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Player input starts configured harvest-market routine | 
+RSB_BIKE | PASS | Busy routine rejects unrelated job replacement | 
+RSB_BIKE | PASS | Pause freezes routine without advancing its step | 
+RSB_BIKE | PASS | One order autonomously harvests and sells a full cycle | 
+RSB_BIKE | PASS | Stopping at cycle boundary prevents another harvest | 
+RSB_BIKE | PASS | Second routine reaches a real carrying stage | 
+RSB_BIKE | PASS | Routine snapshot validates with in-flight job phase | 
+RSB_BIKE | PASS | Restore preserves active routine and acquired cargo | 
+RSB_BIKE | PASS | Restored routine sells once without reacquiring goods | 
+RSB_BIKE | PASS | Stopping mid-job finishes safely and keeps harvested goods | 
+RSB_BIKE | PASS | Full warehouse blocks routine with cargo retained | 
+RSB_BIKE | PASS | Failed routine cannot spin or duplicate extraction | 
+RSB_BIKE | PASS | Retry completes blocked routine using retained cargo | 
+RSB_BIKE | PASS | Repeated routines conserve total harvested stock | 
+RSB_BIKE | PASS | Inconsistent saved routine phase is rejected | 
+RSB_BIKE | PASS | Older worker saves without routines remain compatible | 
+RSB_ROUTINE_REPORT {"elapsed_seconds":188.481,"milestone":"20 autonomous harvest-market routines","passed":16,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Player input starts configured harvest-market routine"},{"detail":"","passed":true,"test":"Busy routine rejects unrelated job replacement"},{"detail":"","passed":true,"test":"Pause freezes routine without advancing its step"},{"detail":"","passed":true,"test":"One order autonomously harvests and sells a full cycle"},{"detail":"","passed":true,"test":"Stopping at cycle boundary prevents another harvest"},{"detail":"","passed":true,"test":"Second routine reaches a real carrying stage"},{"detail":"","passed":true,"test":"Routine snapshot validates with in-flight job phase"},{"detail":"","passed":true,"test":"Restore preserves active routine and acquired cargo"},{"detail":"","passed":true,"test":"Restored routine sells once without reacquiring goods"},{"detail":"","passed":true,"test":"Stopping mid-job finishes safely and keeps harvested goods"},{"detail":"","passed":true,"test":"Full warehouse blocks routine with cargo retained"},{"detail":"","passed":true,"test":"Failed routine cannot spin or duplicate extraction"},{"detail":"","passed":true,"test":"Retry completes blocked routine using retained cargo"},{"detail":"","passed":true,"test":"Repeated routines conserve total harvested stock"},{"detail":"","passed":true,"test":"Inconsistent saved routine phase is rejected"},{"detail":"","passed":true,"test":"Older worker saves without routines remain compatible"}],"total":16}

@@ -1,0 +1,19 @@
+{
+  "elapsed_seconds": 0.003,
+  "milestone": "87 bounded exploration ambience",
+  "passed": 1,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Exploration has a dedicated wind ambience voice"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Active exploration starts its wind loop"
+    }
+  ],
+  "total": 2
+}

@@ -1,0 +1,12 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Wing begins clear of narrow post: move_right | 
+RSB_BIKE | FAIL | Steering cannot rotate the wing into post: move_right | yaw=-0.01583 overlaps=true
+RSB_BIKE | PASS | Removing post immediately permits the same turn: move_right | 
+RSB_BIKE | PASS | Wing begins clear of narrow post: move_left | 
+RSB_BIKE | FAIL | Steering cannot rotate the wing into post: move_left | yaw=0.01583 overlaps=true
+RSB_BIKE | PASS | Removing post immediately permits the same turn: move_left | 
+RSB_BIKE | FAIL | Ground aircraft steering also rejects blocked yaw | yaw=-0.02167
+RSB_BIKE | PASS | Clear ground steering remains responsive | 
+RSB_STEERING_CLEARANCE_REPORT {"elapsed_seconds":0.638,"milestone":"57 vehicle steering clearance","passed":5,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Wing begins clear of narrow post: move_right"},{"detail":"yaw=-0.01583 overlaps=true","passed":false,"test":"Steering cannot rotate the wing into post: move_right"},{"detail":"","passed":true,"test":"Removing post immediately permits the same turn: move_right"},{"detail":"","passed":true,"test":"Wing begins clear of narrow post: move_left"},{"detail":"yaw=0.01583 overlaps=true","passed":false,"test":"Steering cannot rotate the wing into post: move_left"},{"detail":"","passed":true,"test":"Removing post immediately permits the same turn: move_left"},{"detail":"yaw=-0.02167","passed":false,"test":"Ground aircraft steering also rejects blocked yaw"},{"detail":"","passed":true,"test":"Clear ground steering remains responsive"}],"total":8}

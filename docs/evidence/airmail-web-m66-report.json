@@ -1,0 +1,69 @@
+{
+  "elapsed_seconds": 100.052,
+  "milestone": "22 town-to-Longfield flight delivery integration",
+  "passed": 12,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Airmail contract loads selected parcel into workshop cart"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Player walks back to the loaded motorcycle"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Attached delivery cart blocks wing deployment"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Flight preparation unloads parcel and parks the empty cart"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Delivery bike drives from town to a clear takeoff area"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Aircraft takes off with the parcel in player inventory"
+    },
+    {
+      "detail": "travelled=1172.4 position=(694.9046, 72.15523, 897.6514)",
+      "passed": true,
+      "test": "Airmail physically crosses the streamed world"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Parcel flight lands on real destination-region terrain"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Landing restores bike mode for final delivery approach"
+    },
+    {
+      "detail": "position=(903.6626, 15.60175, 1116.291)",
+      "passed": true,
+      "test": "Ground approach reaches the visible Longfield waystation desk"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Integrated flight delivery removes parcel and pays once"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Repeat input cannot repay and distant parked cart stays intact"
+    }
+  ],
+  "total": 12
+}

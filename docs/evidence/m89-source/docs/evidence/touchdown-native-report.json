@@ -1,0 +1,49 @@
+{
+  "elapsed_seconds": 3.292,
+  "milestone": "44 undercarriage touchdown support",
+  "passed": 8,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "body y=18.559",
+      "passed": true,
+      "test": "Aircraft contacts a real elevated ledge with only its wing"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wing-only ground contact is not a completed landing"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wing-only contact cannot increment the landing count"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "An aircraft supported only by a wing cannot be saved"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "An aircraft supported only by a wing cannot fold"
+    },
+    {
+      "detail": "body y=19.941",
+      "passed": true,
+      "test": "Elevated runway supports a proper undercarriage touchdown"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "A proper elevated runway touchdown can be saved"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "A proper elevated runway touchdown permits folding"
+    }
+  ],
+  "total": 8
+}

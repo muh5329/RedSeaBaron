@@ -1,0 +1,34 @@
+{
+  "elapsed_seconds": 0.004,
+  "milestone": "30 mixed geometry batching",
+  "passed": 5,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Fixture mixes indexed and unindexed geometry"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Rigid sources become one material batch"
+    },
+    {
+      "detail": "expected=72 actual=72",
+      "passed": true,
+      "test": "Batch preserves every source triangle"
+    },
+    {
+      "detail": "bounds=[P: (-2.339999, -0.5, -0.5), S: (4.839999, 1.0, 1.0)]",
+      "passed": true,
+      "test": "Batch preserves both separated local mesh bounds"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Animated child remains independent"
+    }
+  ],
+  "total": 5
+}

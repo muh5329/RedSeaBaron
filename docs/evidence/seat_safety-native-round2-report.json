@@ -1,0 +1,69 @@
+{
+  "elapsed_seconds": 7.593,
+  "milestone": "25 vehicle boarding and wing-safe dismount",
+  "passed": 3,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Grounded player cannot board a falling or jumping motorcycle"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Moving motorcycle rejects boarding without changing ownership"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stopped grounded motorcycle still accepts boarding"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Unfolding wings block voluntary dismount"
+    },
+    {
+      "detail": "candidate=(1.7, 2.029468, 80.0)",
+      "passed": false,
+      "test": "Aircraft exit candidate clears its own deployed wing collider"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Grounded aircraft permits a clear exit outside the wings"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Aircraft dismount settles on ground without overlap correction"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Folding wings also block voluntary dismount"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Completed folding restores normal dismount"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Ground mode dismount waits for real floor contact"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Settled ground contact restores voluntary exit"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Forced recovery safely cancels an unfinished transformation"
+    }
+  ],
+  "total": 12
+}

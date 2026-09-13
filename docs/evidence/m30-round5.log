@@ -1,0 +1,4 @@
+batching: 5/5 in 0.0s
+ui: 14/14 in 3.7s
+region: 18/18 in 33.3s
+Web export built. Serve with tools/serve.sh and verify in a browser.

@@ -1,0 +1,89 @@
+{
+  "elapsed_seconds": 9.909,
+  "milestone": "57 vehicle steering clearance",
+  "passed": 16,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wing begins clear of narrow post: move_right"
+    },
+    {
+      "detail": "yaw=0.00000 overlaps=false",
+      "passed": true,
+      "test": "Steering cannot rotate the wing into post: move_right"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing post immediately permits the same turn: move_right"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wing begins clear of narrow post: move_left"
+    },
+    {
+      "detail": "yaw=0.00000 overlaps=false",
+      "passed": true,
+      "test": "Steering cannot rotate the wing into post: move_left"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing post immediately permits the same turn: move_left"
+    },
+    {
+      "detail": "yaw=0.00000",
+      "passed": true,
+      "test": "Ground aircraft steering also rejects blocked yaw"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Clear ground steering remains responsive"
+    },
+    {
+      "detail": "yaw=0.00000",
+      "passed": true,
+      "test": "Folded bike chassis also rejects obstructed steering"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Folded bike turns as soon as cover is removed"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cart starts clear of corner post"
+    },
+    {
+      "detail": "yaw=0.00000",
+      "passed": true,
+      "test": "Trailer yaw cannot rotate its corner into world cover"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing cover permits the trailer to align"
+    },
+    {
+      "detail": "yaw=-0.49833 floor=true",
+      "passed": true,
+      "test": "Open compound slope allows normal steering: move_right"
+    },
+    {
+      "detail": "yaw=0.49833 floor=true",
+      "passed": true,
+      "test": "Open compound slope allows normal steering: move_left"
+    },
+    {
+      "detail": "bike yaw=-1.798 cart yaw=-1.085 hitch=3.257",
+      "passed": true,
+      "test": "Loaded trailer follows a real turn on compound ground"
+    }
+  ],
+  "total": 16
+}

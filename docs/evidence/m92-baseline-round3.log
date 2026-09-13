@@ -1,0 +1,8 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Real parked aircraft geometry lies across the shot | 
+RSB_BIKE | PASS | Blocked rifle shot still consumes one cartridge | 
+RSB_BIKE | FAIL | Parked aircraft stops rifle damage through its tail | enemy health=42
+RSB_BIKE | PASS | Removing vehicle cover restores rifle damage | enemy health=42
+RSB_VEHICLE_COVER_REPORT {"elapsed_seconds":3.363,"milestone":"92 player weapons respect vehicle cover","passed":3,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Real parked aircraft geometry lies across the shot"},{"detail":"","passed":true,"test":"Blocked rifle shot still consumes one cartridge"},{"detail":"enemy health=42","passed":false,"test":"Parked aircraft stops rifle damage through its tail"},{"detail":"enemy health=42","passed":true,"test":"Removing vehicle cover restores rifle damage"}],"total":4}

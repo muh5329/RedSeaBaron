@@ -1,0 +1,4 @@
+ui: 14/14 in 3.7s
+worker_map: 14/14 in 8.8s
+flight_navigation: 20/20 in 4.3s
+Web export built. Serve with tools/serve.sh and verify in a browser.

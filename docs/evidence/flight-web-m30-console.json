@@ -1,0 +1,146 @@
+[
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T19:25:35.924Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Flight begins with exclusive seat ownership | ",
+    "timestamp": "2026-09-12T19:25:36.690Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Deployment begins through player input | ",
+    "timestamp": "2026-09-12T19:25:36.758Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Repeated deployment rejected | ",
+    "timestamp": "2026-09-12T19:25:36.758Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Wings fully deploy with collision | ",
+    "timestamp": "2026-09-12T19:25:38.008Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Stationary takeoff rejected | ",
+    "timestamp": "2026-09-12T19:25:38.375Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Runway acceleration reaches takeoff speed | speed=14.67",
+    "timestamp": "2026-09-12T19:25:40.208Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Takeoff and climb | AGL=13.24",
+    "timestamp": "2026-09-12T19:25:41.875Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Airborne folding rejected | ",
+    "timestamp": "2026-09-12T19:25:41.875Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Airborne dismount rejected | ",
+    "timestamp": "2026-09-12T19:25:41.875Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Flight blocks weapon use | ",
+    "timestamp": "2026-09-12T19:25:41.875Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Pause freezes aircraft | ",
+    "timestamp": "2026-09-12T19:25:42.240Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Aircraft steering changes heading | ",
+    "timestamp": "2026-09-12T19:25:42.941Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Descent control lowers altitude | y=21.66 to 15.75",
+    "timestamp": "2026-09-12T19:25:44.441Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Controlled landing restores grounded mode | position=(28.74007, 3.004716, 23.11177)",
+    "timestamp": "2026-09-12T19:25:46.275Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Landed aircraft folds into bike | ",
+    "timestamp": "2026-09-12T19:25:47.675Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Transition preserves one actor and vehicle | ",
+    "timestamp": "2026-09-12T19:25:47.675Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Grounded exit remains usable | ",
+    "timestamp": "2026-09-12T19:25:47.675Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Deployment into obstacle rejected | ",
+    "timestamp": "2026-09-12T19:25:48.291Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Deployment resumes after clearing obstacle | ",
+    "timestamp": "2026-09-12T19:25:48.341Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | New obstruction during deployment aborts safely | ",
+    "timestamp": "2026-09-12T19:25:50.841Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | High-speed folding rejected | ",
+    "timestamp": "2026-09-12T19:25:52.225Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Airborne death recovers actor and resets aircraft | ",
+    "timestamp": "2026-09-12T19:25:54.475Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_FLIGHT_REPORT {\"elapsed_seconds\":18.487,\"milestone\":\"04 flight\",\"passed\":22,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Flight begins with exclusive seat ownership\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Deployment begins through player input\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Repeated deployment rejected\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Wings fully deploy with collision\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Stationary takeoff rejected\"},{\"detail\":\"speed=14.67\",\"passed\":true,\"test\":\"Runway acceleration reaches takeoff speed\"},{\"detail\":\"AGL=13.24\",\"passed\":true,\"test\":\"Takeoff and climb\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Airborne folding rejected\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Airborne dismount rejected\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Flight blocks weapon use\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Pause freezes aircraft\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Aircraft steering changes heading\"},{\"detail\":\"y=21.66 to 15.75\",\"passed\":true,\"test\":\"Descent control lowers altitude\"},{\"detail\":\"position=(28.74007, 3.004716, 23.11177)\",\"passed\":true,\"test\":\"Controlled landing restores grounded mode\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Landed aircraft folds into bike\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Transition preserves one actor and vehicle\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Grounded exit remains usable\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Deployment into obstacle rejected\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Deployment resumes after clearing obstacle\"},{\"detail\":\"\",\"passed\":true,\"test\":\"New obstruction during deployment aborts safely\"},{\"detail\":\"\",\"passed\":true,\"test\":\"High-speed folding rejected\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Airborne death recovers actor and resets aircraft\"}],\"total\":22}",
+    "timestamp": "2026-09-12T19:25:54.475Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  }
+]

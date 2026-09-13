@@ -1,0 +1,39 @@
+{
+  "elapsed_seconds": 719.103,
+  "milestone": "09 sustained 24 km flight",
+  "passed": 6,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Long-range test takes off using vehicle controls"
+    },
+    {
+      "detail": "distance=23953.7 m",
+      "passed": true,
+      "test": "24 km domain crossed continuously"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Aircraft remains controllable across entire journey"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "No missing terrain under continuous long flight"
+    },
+    {
+      "detail": "peak=25 created=1895 retired=1870",
+      "passed": true,
+      "test": "Long-range terrain residency stays bounded"
+    },
+    {
+      "detail": "max build 13.00 ms",
+      "passed": true,
+      "test": "Long-flight chunk generation stays within stall guard"
+    }
+  ],
+  "total": 6
+}

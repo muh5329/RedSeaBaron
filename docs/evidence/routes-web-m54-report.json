@@ -1,0 +1,109 @@
+{
+  "elapsed_seconds": 4.162,
+  "milestone": "22 selectable regional delivery routes",
+  "passed": 20,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Route selection rejects distant desk access"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause blocks route selection"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Courier input selects Longfield with configured payment"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Unknown route cannot alter the current offer"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Regional acceptance issues one real parcel"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Active delivery cannot change its destination or reward"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Local quay rejects a parcel addressed to Longfield"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Regional route validates in a normal save"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Load restores destination and payment with parcel intact"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Unknown saved route rejects before state mutation"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Regional endpoint activates while home stations retire"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Correct endpoint consumes parcel and pays configured amount"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Repeated delivery cannot duplicate reward"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Returning home hides regional endpoint and restores courier"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Finished route can switch to local without losing completion history"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Older save actually restores the original local route"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Courier input cycles every catalog destination and wraps"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Forest offer uses its own endpoint and payment"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Forest acceptance issues one parcel and locks the route"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Forest parcel destination survives a validated save restore"
+    }
+  ],
+  "total": 20
+}

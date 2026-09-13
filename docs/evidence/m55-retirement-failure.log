@@ -1,0 +1,37 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Local navigation builds incrementally | 
+RSB_BIKE | PASS | Player input assigns a farm job | 
+RSB_BIKE | PASS | Busy worker rejects replacement job | 
+RSB_BIKE | PASS | Worker autonomously harvests and returns | state=Idle reason= pos=(-7.608636, 1.645006, 4.56633)
+RSB_BIKE | PASS | Harvest enters warehouse and leaves no carried duplicate | 
+RSB_BIKE | PASS | Worker used explicit job states | 
+RSB_BIKE | PASS | Harvest route was actually traversed | meters=189.5
+RSB_BIKE | PASS | Worker stocks market and sells warehouse goods | 
+RSB_BIKE | PASS | Worker gathers ore through same job executor | state=Idle reason= pos=(-8.200385, 1.630991, 11.44085)
+RSB_BIKE | PASS | Worker completes courier contract without micromanagement | state=Idle reason= pos=(-5.121494, 1.765874, 8.051868)
+RSB_BIKE | PASS | Courier uses same one-shot delivery API | 
+RSB_BIKE | PASS | Empty source yields visible blocked state | 
+RSB_BIKE | PASS | Worker retries replenished resource automatically | 
+RSB_BIKE | PASS | Full destination retains carried goods | 
+RSB_BIKE | PASS | Pause freezes worker and rejects new assignments | 
+RSB_BIKE | PASS | Freed destination resumes delivery without duplication | 
+RSB_BIKE | PASS | Competing jobs cannot extract the same stock twice | 
+RSB_BIKE | PASS | Recall preserves carried cargo | 
+RSB_BIKE | PASS | Recalled cargo reaches home storage | 
+RSB_BIKE | PASS | Removed source is handled without state corruption | 
+RSB_BIKE | PASS | Worker returns to usable idle after failure | 
+RSB_BIKE | PASS | Physical enclosure triggers navigation recovery | 
+RSB_BIKE | PASS | Removing obstacle restores autonomous route | 
+RSB_BIKE | PASS | Two workers can receive competing jobs | 
+RSB_BIKE | PASS | Concurrent workers conserve scarce source stock | 
+RSB_WORKER_REPORT {"elapsed_seconds":159.051,"milestone":"07 autonomous jobs","passed":25,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Local navigation builds incrementally"},{"detail":"","passed":true,"test":"Player input assigns a farm job"},{"detail":"","passed":true,"test":"Busy worker rejects replacement job"},{"detail":"state=Idle reason= pos=(-7.608636, 1.645006, 4.56633)","passed":true,"test":"Worker autonomously harvests and returns"},{"detail":"","passed":true,"test":"Harvest enters warehouse and leaves no carried duplicate"},{"detail":"","passed":true,"test":"Worker used explicit job states"},{"detail":"meters=189.5","passed":true,"test":"Harvest route was actually traversed"},{"detail":"","passed":true,"test":"Worker stocks market and sells warehouse goods"},{"detail":"state=Idle reason= pos=(-8.200385, 1.630991, 11.44085)","passed":true,"test":"Worker gathers ore through same job executor"},{"detail":"state=Idle reason= pos=(-5.121494, 1.765874, 8.051868)","passed":true,"test":"Worker completes courier contract without micromanagement"},{"detail":"","passed":true,"test":"Courier uses same one-shot delivery API"},{"detail":"","passed":true,"test":"Empty source yields visible blocked state"},{"detail":"","passed":true,"test":"Worker retries replenished resource automatically"},{"detail":"","passed":true,"test":"Full destination retains carried goods"},{"detail":"","passed":true,"test":"Pause freezes worker and rejects new assignments"},{"detail":"","passed":true,"test":"Freed destination resumes delivery without duplication"},{"detail":"","passed":true,"test":"Competing jobs cannot extract the same stock twice"},{"detail":"","passed":true,"test":"Recall preserves carried cargo"},{"detail":"","passed":true,"test":"Recalled cargo reaches home storage"},{"detail":"","passed":true,"test":"Removed source is handled without state corruption"},{"detail":"","passed":true,"test":"Worker returns to usable idle after failure"},{"detail":"","passed":true,"test":"Physical enclosure triggers navigation recovery"},{"detail":"","passed":true,"test":"Removing obstacle restores autonomous route"},{"detail":"","passed":true,"test":"Two workers can receive competing jobs"},{"detail":"","passed":true,"test":"Concurrent workers conserve scarce source stock"}],"total":25}
+ERROR: Attempted to use 'has' an invalid (previously freed?) object instance into a 'TypedArray'.
+   at: _internal_validate_object (./core/variant/container_type_validate.h:97)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://scripts/jobs/worker_manager.gd:167)
+ERROR: Condition "!_p->typed.validate(value, "use 'has'")" is true. Returning: false
+   at: has (core/variant/array.cpp:499)
+   GDScript backtrace (most recent call first):
+       [0] _process (res://scripts/jobs/worker_manager.gd:167)

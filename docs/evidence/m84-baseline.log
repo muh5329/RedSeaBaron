@@ -1,0 +1,8 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | FAIL | Curved cart cover has matching physical height at x=0.0 | hit=(-0.000001, 31.30011, 113.3) expected=(-0.000001, 32.38, 113.3)
+RSB_BIKE | FAIL | Curved cart cover has matching physical height at x=-0.6 | hit=(-0.600001, 31.30011, 113.3) expected=(-0.600001, 32.20985, 113.3)
+RSB_BIKE | FAIL | Curved cart cover has matching physical height at x=0.6 | hit=(0.599999, 31.30011, 113.3) expected=(0.599999, 32.20985, 113.3)
+RSB_BIKE | FAIL | Upper cargo obstruction stops the complete towing assembly | cart=(0.0, 30.00094, 79.08205) speed=7.167 gap=3.300
+RSB_CART_CANOPY_REPORT {"elapsed_seconds":7.43,"milestone":"84 covered expedition cart","passed":0,"platform":"macOS","tests":[{"detail":"hit=(-0.000001, 31.30011, 113.3) expected=(-0.000001, 32.38, 113.3)","passed":false,"test":"Curved cart cover has matching physical height at x=0.0"},{"detail":"hit=(-0.600001, 31.30011, 113.3) expected=(-0.600001, 32.20985, 113.3)","passed":false,"test":"Curved cart cover has matching physical height at x=-0.6"},{"detail":"hit=(0.599999, 31.30011, 113.3) expected=(0.599999, 32.20985, 113.3)","passed":false,"test":"Curved cart cover has matching physical height at x=0.6"},{"detail":"cart=(0.0, 30.00094, 79.08205) speed=7.167 gap=3.300","passed":false,"test":"Upper cargo obstruction stops the complete towing assembly"}],"total":4}

@@ -1,0 +1,23 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Red Mesa quarry contains a registered ore reserve | 
+RSB_BIKE | PASS | Remote ore cannot be gathered from the village | 
+RSB_BIKE | PASS | Quarry gallery streams with its local reserve | 
+RSB_BIKE | PASS | Player walks through the mine opening to reachable ore | position=(4829.0, 23.79013, 1222.352) distance=2.65
+RSB_BIKE | PASS | Mine roof has real overhead collision | 
+RSB_BIKE | PASS | Gather input consumes only the quarry's independent ore | 
+RSB_BIKE | PASS | Back wall prevents gathering despite being within reach distance | 
+RSB_BIKE | PASS | Full backpack cannot consume additional quarry ore | 
+RSB_BIKE | PASS | Current save records all three independent regional/core stocks | 
+RSB_BIKE | PASS | Restore preserves quarry depletion without overwriting other sources | 
+RSB_BIKE | PASS | Current save missing quarry stock rejects before mutation | 
+RSB_BIKE | PASS | Malformed quarry stock rejects before mutation | 
+RSB_BIKE | PASS | Revision 2 initializes only the newly added quarry | 
+RSB_BIKE | PASS | Original stock saves initialize later sources and retain core depletion | 
+RSB_BIKE | PASS | Leaving frees the gallery and hides its depleted logical source | 
+RSB_BIKE | PASS | Returning rebuilds the gallery without resetting ore | 
+RSB_BIKE | PASS | Quarry ore sells through the existing market | 
+RSB_BIKE | PASS | Harvested ore supplies ammunition without duplicating value | 
+RSB_QUARRY_RESOURCE_REPORT {"elapsed_seconds":12.076,"milestone":"58 quarry ore adit","passed":18,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Red Mesa quarry contains a registered ore reserve"},{"detail":"","passed":true,"test":"Remote ore cannot be gathered from the village"},{"detail":"","passed":true,"test":"Quarry gallery streams with its local reserve"},{"detail":"position=(4829.0, 23.79013, 1222.352) distance=2.65","passed":true,"test":"Player walks through the mine opening to reachable ore"},{"detail":"","passed":true,"test":"Mine roof has real overhead collision"},{"detail":"","passed":true,"test":"Gather input consumes only the quarry's independent ore"},{"detail":"","passed":true,"test":"Back wall prevents gathering despite being within reach distance"},{"detail":"","passed":true,"test":"Full backpack cannot consume additional quarry ore"},{"detail":"","passed":true,"test":"Current save records all three independent regional/core stocks"},{"detail":"","passed":true,"test":"Restore preserves quarry depletion without overwriting other sources"},{"detail":"","passed":true,"test":"Current save missing quarry stock rejects before mutation"},{"detail":"","passed":true,"test":"Malformed quarry stock rejects before mutation"},{"detail":"","passed":true,"test":"Revision 2 initializes only the newly added quarry"},{"detail":"","passed":true,"test":"Original stock saves initialize later sources and retain core depletion"},{"detail":"","passed":true,"test":"Leaving frees the gallery and hides its depleted logical source"},{"detail":"","passed":true,"test":"Returning rebuilds the gallery without resetting ore"},{"detail":"","passed":true,"test":"Quarry ore sells through the existing market"},{"detail":"","passed":true,"test":"Harvested ore supplies ammunition without duplicating value"}],"total":18}

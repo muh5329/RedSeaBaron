@@ -1,0 +1,5 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | FAIL | Incoming damage has a dedicated nonblocking feedback surface | 
+RSB_INCOMING_DAMAGE_REPORT {"elapsed_seconds":0.0,"milestone":"67 incoming damage feedback","passed":0,"platform":"macOS","tests":[{"detail":"","passed":false,"test":"Incoming damage has a dedicated nonblocking feedback surface"}],"total":1}

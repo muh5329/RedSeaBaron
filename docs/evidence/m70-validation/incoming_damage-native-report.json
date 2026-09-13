@@ -1,0 +1,74 @@
+{
+  "elapsed_seconds": 6.788,
+  "milestone": "67 incoming damage feedback",
+  "passed": 13,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Real committed hostile strike triggers one bounded damage cue"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Incoming hit sound uses the existing bounded voice pool"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Peripheral feedback cannot capture focus or mouse input"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Incoming cue fades instead of holding a full-screen flash"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Incoming cue expires without changing remaining health"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Rejected friendly damage produces no hit cue"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Real dodge immunity prevents both damage and feedback"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause immediately clears the incoming cue"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Inactive feedback ignores signals while paused"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Health restoration clears stale incoming damage"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "A real attack click passes through the active edge cue"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Mounted incoming damage remains visible with accurate health"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Death recovery clears feedback and restores on-foot control"
+    }
+  ],
+  "total": 13
+}

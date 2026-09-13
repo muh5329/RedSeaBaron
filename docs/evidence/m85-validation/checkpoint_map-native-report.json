@@ -1,0 +1,69 @@
+{
+  "elapsed_seconds": 9.571,
+  "milestone": "81 recovery checkpoint guidance",
+  "passed": 12,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Map offers an explicit recovery checkpoint target"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Button selects the current checkpoint independently of player tracking"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Checkpoint selection preserves pause and rifle ammunition"
+    },
+    {
+      "detail": "checkpoint=(888.0, 16.38584, 1109.5)",
+      "passed": true,
+      "test": "An actual regional survey updates guidance and world scope"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Regional checkpoint has readable field notes and map location"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Returning to a village survey updates the tracked checkpoint"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Save restore updates checkpoint guidance without stale coordinates"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Equipment selection releases checkpoint tracking"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Worker selection releases checkpoint tracking"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "A fixed map point replaces checkpoint tracking"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cleared checkpoint guidance stays clear after another survey"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Checkpoint controls fit without another map row"
+    }
+  ],
+  "total": 12
+}

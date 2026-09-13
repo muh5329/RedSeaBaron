@@ -1,0 +1,182 @@
+[
+  {
+    "level": "log",
+    "message": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org",
+    "timestamp": "2026-09-12T15:06:29.786Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-09-12T15:06:29.872Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support.",
+    "timestamp": "2026-09-12T15:06:29.909Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=100",
+    "timestamp": "2026-09-12T15:06:30.073Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Grounded motorcycle | ",
+    "timestamp": "2026-09-12T15:06:30.728Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Remote mounting rejected | ",
+    "timestamp": "2026-09-12T15:06:30.728Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Jump plus mount rejected | ",
+    "timestamp": "2026-09-12T15:06:31.261Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Dodge plus mount rejected | ",
+    "timestamp": "2026-09-12T15:06:31.794Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Mount transfers exclusive controls | ",
+    "timestamp": "2026-09-12T15:06:33.011Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Simultaneous mount/fire cannot shoot | ",
+    "timestamp": "2026-09-12T15:06:33.011Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Mounted melee/rifle blocked | ",
+    "timestamp": "2026-09-12T15:06:33.011Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Duplicate mount rejected | ",
+    "timestamp": "2026-09-12T15:06:33.011Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Acceleration and travel | speed=16.00; distance=16.13",
+    "timestamp": "2026-09-12T15:06:35.011Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Moving dismount denied | ",
+    "timestamp": "2026-09-12T15:06:35.012Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Steering changes heading | yaw=-0.97",
+    "timestamp": "2026-09-12T15:06:35.761Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Brake stops vehicle | speed=0.000",
+    "timestamp": "2026-09-12T15:06:37.294Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Physics remains upright | ",
+    "timestamp": "2026-09-12T15:06:37.294Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Dismount restores actor and camera | ",
+    "timestamp": "2026-09-12T15:06:37.361Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Dismount uses clear ground | ",
+    "timestamp": "2026-09-12T15:06:37.361Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Reverse works | ",
+    "timestamp": "2026-09-12T15:06:38.961Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Pause freezes vehicle and combat | ",
+    "timestamp": "2026-09-12T15:06:39.661Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Resume preserves seat ownership | ",
+    "timestamp": "2026-09-12T15:06:39.661Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Blocked dismount preserves mounted state | ",
+    "timestamp": "2026-09-12T15:06:39.711Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Dismount recovers after obstruction removed | ",
+    "timestamp": "2026-09-12T15:06:39.761Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | World wall prevents driving through | x=34.700",
+    "timestamp": "2026-09-12T15:06:41.861Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Collision reduces speed | speed=0.000",
+    "timestamp": "2026-09-12T15:06:41.861Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Mounted death releases seat | ",
+    "timestamp": "2026-09-12T15:06:42.429Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Mounted death recovers playable actor | ",
+    "timestamp": "2026-09-12T15:06:44.594Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Out-of-bounds riding recovery | ",
+    "timestamp": "2026-09-12T15:06:45.411Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE_REPORT {\"elapsed_seconds\":15.289,\"milestone\":\"03 grounded bike\",\"passed\":25,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Grounded motorcycle\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Remote mounting rejected\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Jump plus mount rejected\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Dodge plus mount rejected\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Mount transfers exclusive controls\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Simultaneous mount/fire cannot shoot\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Mounted melee/rifle blocked\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Duplicate mount rejected\"},{\"detail\":\"speed=16.00; distance=16.13\",\"passed\":true,\"test\":\"Acceleration and travel\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Moving dismount denied\"},{\"detail\":\"yaw=-0.97\",\"passed\":true,\"test\":\"Steering changes heading\"},{\"detail\":\"speed=0.000\",\"passed\":true,\"test\":\"Brake stops vehicle\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Physics remains upright\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Dismount restores actor and camera\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Dismount uses clear ground\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Reverse works\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Pause freezes vehicle and combat\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Resume preserves seat ownership\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Blocked dismount preserves mounted state\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Dismount recovers after obstruction removed\"},{\"detail\":\"x=34.700\",\"passed\":true,\"test\":\"World wall prevents driving through\"},{\"detail\":\"speed=0.000\",\"passed\":true,\"test\":\"Collision reduces speed\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Mounted death releases seat\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Mounted death recovers playable actor\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Out-of-bounds riding recovery\"}],\"total\":25}",
+    "timestamp": "2026-09-12T15:06:45.412Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  }
+]

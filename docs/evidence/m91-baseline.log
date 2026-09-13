@@ -1,0 +1,5 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | FAIL | Working farmer reaches toward the resource | front=0/30 least_reach=-0.482
+RSB_WORKER_REACH_REPORT {"elapsed_seconds":2.338,"milestone":"91 workers reach toward their task","passed":0,"platform":"macOS","tests":[{"detail":"front=0/30 least_reach=-0.482","passed":false,"test":"Working farmer reaches toward the resource"}],"total":1}

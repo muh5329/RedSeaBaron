@@ -1,0 +1,22 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Brook rendering and safety share one bounded resource | 
+RSB_BIKE | PASS | Horizon receives the same channel and end-cap parameters | 
+RSB_BIKE | PASS | Water bounds cover all submerged curved-channel samples | 
+RSB_BIKE | PASS | Approaching the brook streams its bridge with solid deck | 
+RSB_BIKE | PASS | Player physically walks across both bridge approaches | from=(-658.0, 12.82829, -500.0) to=(-545.6531, 13.9772, -499.9713)
+RSB_BIKE | PASS | Bridge crossing stays dry and preserves water recovery state | 
+RSB_BIKE | PASS | Bridge approach accepts a real mounted loaded hitch | 
+RSB_BIKE | PASS | Stopped loaded bridge crossing permits a valid save | 
+RSB_BIKE | PASS | Offsite restore fixture retires the bridge first | 
+RSB_BIKE | PASS | Restore rebuilds bridge support before resuming loaded vehicles | 
+RSB_BIKE | PASS | Loaded motorcycle and cart physically cross the brook | bike=(-542.9819, 14.01067, -499.772) cart=(-546.2819, 14.01247, -499.7723)
+RSB_BIKE | PASS | Loaded crossing has continuous dry support | deck samples=295 minimum y=9.942
+RSB_BIKE | PASS | Crossing conserves cargo and drawbar constraint | max gap=3.886
+RSB_BIKE | PASS | Vegetation avoids underwater terrain and bridge approaches | 
+RSB_BIKE | PASS | Brook has real submerged terrain and rejects saving | y=0.986 depth=5.014
+RSB_BIKE | PASS | Deep brook recovery preserves the player's goods | 
+RSB_BIKE | PASS | Distant bridge retires with its terrain chunk | 
+RSB_BIKE | PASS | Returning rebuilds one bridge and retains parked cargo | 
+RSB_BROOK_REPORT {"elapsed_seconds":53.164,"milestone":"62 brook and loaded bridge crossing","passed":18,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Brook rendering and safety share one bounded resource"},{"detail":"","passed":true,"test":"Horizon receives the same channel and end-cap parameters"},{"detail":"","passed":true,"test":"Water bounds cover all submerged curved-channel samples"},{"detail":"","passed":true,"test":"Approaching the brook streams its bridge with solid deck"},{"detail":"from=(-658.0, 12.82829, -500.0) to=(-545.6531, 13.9772, -499.9713)","passed":true,"test":"Player physically walks across both bridge approaches"},{"detail":"","passed":true,"test":"Bridge crossing stays dry and preserves water recovery state"},{"detail":"","passed":true,"test":"Bridge approach accepts a real mounted loaded hitch"},{"detail":"","passed":true,"test":"Stopped loaded bridge crossing permits a valid save"},{"detail":"","passed":true,"test":"Offsite restore fixture retires the bridge first"},{"detail":"","passed":true,"test":"Restore rebuilds bridge support before resuming loaded vehicles"},{"detail":"bike=(-542.9819, 14.01067, -499.772) cart=(-546.2819, 14.01247, -499.7723)","passed":true,"test":"Loaded motorcycle and cart physically cross the brook"},{"detail":"deck samples=295 minimum y=9.942","passed":true,"test":"Loaded crossing has continuous dry support"},{"detail":"max gap=3.886","passed":true,"test":"Crossing conserves cargo and drawbar constraint"},{"detail":"","passed":true,"test":"Vegetation avoids underwater terrain and bridge approaches"},{"detail":"y=0.986 depth=5.014","passed":true,"test":"Brook has real submerged terrain and rejects saving"},{"detail":"","passed":true,"test":"Deep brook recovery preserves the player's goods"},{"detail":"","passed":true,"test":"Distant bridge retires with its terrain chunk"},{"detail":"","passed":true,"test":"Returning rebuilds one bridge and retains parked cargo"}],"total":18}

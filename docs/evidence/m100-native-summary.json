@@ -1,0 +1,109 @@
+{
+  "native_passed": 303,
+  "native_total": 303,
+  "suites": 17,
+  "results": [
+    {
+      "suite": "vehicle_actor_clearance",
+      "passed": 14,
+      "total": 14,
+      "seconds": 20.898
+    },
+    {
+      "suite": "bike",
+      "passed": 26,
+      "total": 26,
+      "seconds": 17.609
+    },
+    {
+      "suite": "flight_controls",
+      "passed": 13,
+      "total": 13,
+      "seconds": 16.789
+    },
+    {
+      "suite": "cart",
+      "passed": 25,
+      "total": 25,
+      "seconds": 11.85
+    },
+    {
+      "suite": "towing",
+      "passed": 15,
+      "total": 15,
+      "seconds": 24.141
+    },
+    {
+      "suite": "wing_transition",
+      "passed": 13,
+      "total": 13,
+      "seconds": 8.803
+    },
+    {
+      "suite": "tail_clearance",
+      "passed": 15,
+      "total": 15,
+      "seconds": 7.653
+    },
+    {
+      "suite": "rider_clearance",
+      "passed": 12,
+      "total": 12,
+      "seconds": 8.928
+    },
+    {
+      "suite": "cart_canopy",
+      "passed": 14,
+      "total": 14,
+      "seconds": 18.159
+    },
+    {
+      "suite": "steering_clearance",
+      "passed": 16,
+      "total": 16,
+      "seconds": 9.318
+    },
+    {
+      "suite": "seat_safety",
+      "passed": 12,
+      "total": 12,
+      "seconds": 7.558
+    },
+    {
+      "suite": "vehicle_navigation",
+      "passed": 15,
+      "total": 15,
+      "seconds": 31.555
+    },
+    {
+      "suite": "multi_worker",
+      "passed": 25,
+      "total": 25,
+      "seconds": 72.073
+    },
+    {
+      "suite": "hostile_cover",
+      "passed": 16,
+      "total": 16,
+      "seconds": 7.028
+    },
+    {
+      "suite": "combat",
+      "passed": 34,
+      "total": 34,
+      "seconds": 31.582
+    },
+    {
+      "suite": "integration",
+      "passed": 16,
+      "total": 16,
+      "seconds": 102.942
+    },
+    {
+      "suite": "save",
+      "passed": 22,
+      "total": 22,
+      "seconds": 24.601
+    }
+  ]
+}

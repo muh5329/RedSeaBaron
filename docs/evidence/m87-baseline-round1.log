@@ -1,0 +1,12 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+SCRIPT ERROR: Parse Error: Cannot infer the type of "wind" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://tests/ambience_verifier.gd:11)
+          GDScript backtrace (most recent call first):
+              [0] _run_suite (res://scripts/main.gd:304)
+ERROR: Failed to load script "res://tests/ambience_verifier.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+   GDScript backtrace (most recent call first):
+       [0] _run_suite (res://scripts/main.gd:304)
+RSB_VERIFICATION_ERROR | Cannot load verification suite: ambience

@@ -1,0 +1,22 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Greenreach timber camp landmark streams with its terrain | 
+RSB_BIKE | PASS | Walking approach discovers Greenreach timber camp | position=(-3600.0, 15.3938, 728.8164)
+RSB_BIKE | PASS | Red Mesa quarry landmark streams with its terrain | 
+RSB_BIKE | PASS | Walking approach discovers Red Mesa quarry | position=(4800.0, 23.0638, 1228.82)
+RSB_BIKE | PASS | Snowwatch tower landmark streams with its terrain | 
+RSB_BIKE | PASS | Walking approach discovers Snowwatch tower | position=(-1060.0, 124.9625, -9971.172)
+RSB_BIKE | PASS | Longfield waystation landmark streams with its terrain | 
+RSB_BIKE | PASS | Walking approach discovers Longfield waystation | position=(900.0002, 15.03543, 1128.939)
+RSB_BIKE | PASS | Regional decoration remains bounded with terrain | resident=25
+RSB_BIKE | PASS | Retired region releases its scenery node | 
+RSB_BIKE | PASS | Discovery emits one event per visited landmark | 
+RSB_BIKE | PASS | Saved journey restores regional discoveries | 
+RSB_BIKE | PASS | Earlier saves without regions still validate | 
+RSB_BIKE | PASS | Unknown regional save keys reject before mutation | 
+RSB_BIKE | PASS | Retired region regenerates deterministic foliage | 
+RSB_BIKE | PASS | Revisit preserves discovery without duplicate events | 
+RSB_BIKE | PASS | Paused exploration cannot discover landmarks | 
+RSB_BIKE | PASS | Decorated chunk builds remain under stall guard | max 1.25 ms
+RSB_REGION_REPORT {"elapsed_seconds":33.291,"milestone":"17 streamed regional scenery and discovery","passed":18,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Greenreach timber camp landmark streams with its terrain"},{"detail":"position=(-3600.0, 15.3938, 728.8164)","passed":true,"test":"Walking approach discovers Greenreach timber camp"},{"detail":"","passed":true,"test":"Red Mesa quarry landmark streams with its terrain"},{"detail":"position=(4800.0, 23.0638, 1228.82)","passed":true,"test":"Walking approach discovers Red Mesa quarry"},{"detail":"","passed":true,"test":"Snowwatch tower landmark streams with its terrain"},{"detail":"position=(-1060.0, 124.9625, -9971.172)","passed":true,"test":"Walking approach discovers Snowwatch tower"},{"detail":"","passed":true,"test":"Longfield waystation landmark streams with its terrain"},{"detail":"position=(900.0002, 15.03543, 1128.939)","passed":true,"test":"Walking approach discovers Longfield waystation"},{"detail":"resident=25","passed":true,"test":"Regional decoration remains bounded with terrain"},{"detail":"","passed":true,"test":"Retired region releases its scenery node"},{"detail":"","passed":true,"test":"Discovery emits one event per visited landmark"},{"detail":"","passed":true,"test":"Saved journey restores regional discoveries"},{"detail":"","passed":true,"test":"Earlier saves without regions still validate"},{"detail":"","passed":true,"test":"Unknown regional save keys reject before mutation"},{"detail":"","passed":true,"test":"Retired region regenerates deterministic foliage"},{"detail":"","passed":true,"test":"Revisit preserves discovery without duplicate events"},{"detail":"","passed":true,"test":"Paused exploration cannot discover landmarks"},{"detail":"max 1.25 ms","passed":true,"test":"Decorated chunk builds remain under stall guard"}],"total":18}

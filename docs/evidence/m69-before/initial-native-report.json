@@ -1,0 +1,19 @@
+{
+  "elapsed_seconds": 1.181,
+  "milestone": "69 detached cargo recovery",
+  "passed": 0,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "cart=(500.4514, -11.86667, 500.0) home=(10.0, 2.564617, -6.7)",
+      "passed": false,
+      "test": "A fallen detached cart returns to its workshop"
+    },
+    {
+      "detail": "cart=(12502.95, 19.63333, 0.0)",
+      "passed": false,
+      "test": "A detached cart beyond the world domain returns safely"
+    }
+  ],
+  "total": 2
+}

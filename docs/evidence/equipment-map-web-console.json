@@ -1,0 +1,92 @@
+[
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T19:34:16.464Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_UI | map_open=true",
+    "timestamp": "2026-09-12T19:34:17.700Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Clicking motorcycle marker tracks its real location | ",
+    "timestamp": "2026-09-12T19:34:17.866Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Tracked equipment appears in field notes | ",
+    "timestamp": "2026-09-12T19:34:18.158Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Map selection preserves pause and weapon safety | ",
+    "timestamp": "2026-09-12T19:34:18.158Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Cargo button selects the detached cart | ",
+    "timestamp": "2026-09-12T19:34:18.305Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Overlapping map icons remain separately selectable | ",
+    "timestamp": "2026-09-12T19:34:18.508Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Remote equipment automatically selects world scope | ",
+    "timestamp": "2026-09-12T19:34:18.610Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Tracked position refreshes without teleporting equipment | ",
+    "timestamp": "2026-09-12T19:34:18.890Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Unknown asset selection leaves current tracking intact | ",
+    "timestamp": "2026-09-12T19:34:18.890Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Ordinary map click replaces tracking with a fixed waypoint | ",
+    "timestamp": "2026-09-12T19:34:18.990Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Clear removes both map marker and field-note target | ",
+    "timestamp": "2026-09-12T19:34:19.118Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Equipment controls fit the map viewport | ",
+    "timestamp": "2026-09-12T19:34:19.492Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Existing tracking follows equipment through save restore | ",
+    "timestamp": "2026-09-12T19:34:20.175Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_EQUIPMENT_MAP_REPORT {\"elapsed_seconds\":3.637,\"milestone\":\"32 parked equipment tracking\",\"passed\":12,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Clicking motorcycle marker tracks its real location\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Tracked equipment appears in field notes\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Map selection preserves pause and weapon safety\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Cargo button selects the detached cart\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Overlapping map icons remain separately selectable\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Remote equipment automatically selects world scope\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Tracked position refreshes without teleporting equipment\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Unknown asset selection leaves current tracking intact\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Ordinary map click replaces tracking with a fixed waypoint\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Clear removes both map marker and field-note target\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Equipment controls fit the map viewport\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Existing tracking follows equipment through save restore\"}],\"total\":12}",
+    "timestamp": "2026-09-12T19:34:20.175Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  }
+]

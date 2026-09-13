@@ -1,0 +1,109 @@
+{
+  "elapsed_seconds": 4.466,
+  "milestone": "66 flight course guidance",
+  "passed": 20,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Flight guidance fixture mounts through the normal seat"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Unselected flight shows instruments without stale course guidance"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Course identifies cardinal bearing 0"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Course identifies cardinal bearing 90"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Course identifies cardinal bearing 180"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Course identifies cardinal bearing 270"
+    },
+    {
+      "detail": "turn=2.000 label=COURSE 001° · ON COURSE · 1.0 km",
+      "passed": true,
+      "test": "North wraparound chooses the short right turn"
+    },
+    {
+      "detail": "turn=-2.000 label=COURSE 359° · ON COURSE · 1.0 km",
+      "passed": true,
+      "test": "Reverse north wraparound chooses the short left turn"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "North-crossing cue directs a larger correction: RIGHT 20°"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "North-crossing cue directs a larger correction: LEFT 20°"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Vertical instrument reads actual climb velocity"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Looking sideways cannot alter the aircraft heading instrument"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Accepted delivery provides default aircraft course"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Map pause hides the flight panel and disables pilot input"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Actual map selection overrides delivery course"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Clearing selected waypoint resumes the active delivery course"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Nearby target uses horizontal range without claiming delivery completion"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Low airspeed warning takes priority over course directions"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Expanded flight panel fits above the bottom controls"
+    },
+    {
+      "detail": "travel=46.41 heading=108.9",
+      "passed": true,
+      "test": "Guidance updates during actual aircraft movement"
+    }
+  ],
+  "total": 20
+}

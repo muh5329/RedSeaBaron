@@ -1,0 +1,74 @@
+{
+  "elapsed_seconds": 5.523,
+  "milestone": "92 player weapons respect vehicle cover",
+  "passed": 13,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Real parked aircraft geometry lies across the shot"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Blocked rifle shot still consumes one cartridge"
+    },
+    {
+      "detail": "enemy health=90",
+      "passed": true,
+      "test": "Parked aircraft stops rifle damage through its tail"
+    },
+    {
+      "detail": "enemy health=42",
+      "passed": true,
+      "test": "Removing vehicle cover restores rifle damage"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Shoulder camera sees the target while the muzzle is covered"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Muzzle cover stops a camera-clear shot"
+    },
+    {
+      "detail": "endpoint=(0.280234, 31.35059, 98.23999) impact=(0.280235, 31.35059, 98.24)",
+      "passed": true,
+      "test": "Rifle tracer ends at the physical vehicle impact"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Vehicle cover prevents player target lock"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing cover makes the same enemy lockable"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "New vehicle cover releases an existing player lock"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Ground motorcycle separates a real in-range melee pair"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wrench cannot hit through the motorcycle chassis"
+    },
+    {
+      "detail": "enemy health=64",
+      "passed": true,
+      "test": "Moving the motorcycle restores the same melee strike"
+    }
+  ],
+  "total": 13
+}

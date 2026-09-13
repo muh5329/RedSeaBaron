@@ -1,0 +1,22 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Airmail contract loads selected parcel into workshop cart | 
+RSB_BIKE | PASS | Player walks back to the loaded motorcycle | 
+RSB_BIKE | PASS | Attached delivery cart blocks wing deployment | 
+RSB_BIKE | PASS | Flight preparation unloads parcel and parks the empty cart | 
+INTEGRATION_LEG goal=(12.0, 43.0) position=(11.9767, 2.214767, 39.32841) error=3.67 frames=334 speed=0.00
+INTEGRATION_LEG goal=(0.0, 105.0) position=(0.927746, 1.918393, 101.437) error=3.68 frames=514 speed=0.00
+INTEGRATION_LEG goal=(25.0, 135.0) position=(22.58713, 1.085692, 132.2265) error=3.68 frames=371 speed=0.00
+RSB_BIKE | PASS | Delivery bike drives from town to a clear takeoff area | 
+RSB_BIKE | PASS | Aircraft takes off with the parcel in player inventory | 
+RSB_BIKE | PASS | Airmail physically crosses the streamed world | travelled=1172.4 position=(694.9046, 72.15523, 897.6514)
+RSB_BIKE | PASS | Parcel flight lands on real destination-region terrain | 
+RSB_BIKE | PASS | Landing restores bike mode for final delivery approach | 
+INTEGRATION_LEG goal=(924.0, 1055.0) position=(920.5794, 18.63117, 1053.654) error=3.68 frames=1201 speed=0.00
+INTEGRATION_LEG goal=(924.0, 1116.0) position=(924.2222, 15.59055, 1112.328) error=3.68 frames=517 speed=0.00
+INTEGRATION_LEG goal=(900.0, 1116.0) position=(903.663, 15.60103, 1116.294) error=3.67 frames=305 speed=0.00
+RSB_BIKE | PASS | Ground approach reaches the visible Longfield waystation desk | position=(903.663, 15.60103, 1116.294)
+RSB_BIKE | PASS | Integrated flight delivery removes parcel and pays once | 
+RSB_BIKE | PASS | Repeat input cannot repay and distant parked cart stays intact | 
+RSB_AIRMAIL_REPORT {"elapsed_seconds":99.623,"milestone":"22 town-to-Longfield flight delivery integration","passed":12,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Airmail contract loads selected parcel into workshop cart"},{"detail":"","passed":true,"test":"Player walks back to the loaded motorcycle"},{"detail":"","passed":true,"test":"Attached delivery cart blocks wing deployment"},{"detail":"","passed":true,"test":"Flight preparation unloads parcel and parks the empty cart"},{"detail":"","passed":true,"test":"Delivery bike drives from town to a clear takeoff area"},{"detail":"","passed":true,"test":"Aircraft takes off with the parcel in player inventory"},{"detail":"travelled=1172.4 position=(694.9046, 72.15523, 897.6514)","passed":true,"test":"Airmail physically crosses the streamed world"},{"detail":"","passed":true,"test":"Parcel flight lands on real destination-region terrain"},{"detail":"","passed":true,"test":"Landing restores bike mode for final delivery approach"},{"detail":"position=(903.663, 15.60103, 1116.294)","passed":true,"test":"Ground approach reaches the visible Longfield waystation desk"},{"detail":"","passed":true,"test":"Integrated flight delivery removes parcel and pays once"},{"detail":"","passed":true,"test":"Repeat input cannot repay and distant parked cart stays intact"}],"total":12}

@@ -1,0 +1,79 @@
+{
+  "elapsed_seconds": 18.159,
+  "milestone": "84 covered expedition cart",
+  "passed": 14,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "hit=(-0.000001, 32.38, 113.3) expected=(-0.000001, 32.38, 113.3)",
+      "passed": true,
+      "test": "Curved cart cover has matching physical height at x=0.0"
+    },
+    {
+      "detail": "hit=(-0.600001, 32.20855, 113.3) expected=(-0.600001, 32.20985, 113.3)",
+      "passed": true,
+      "test": "Curved cart cover has matching physical height at x=-0.6"
+    },
+    {
+      "detail": "hit=(0.599999, 32.20845, 113.3) expected=(0.599999, 32.20985, 113.3)",
+      "passed": true,
+      "test": "Curved cart cover has matching physical height at x=0.6"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Covered loaded cart mounts and hitches normally"
+    },
+    {
+      "detail": "cart=(-0.035498, 29.99983, 101.3543) speed=0.000 gap=4.400",
+      "passed": true,
+      "test": "Upper cargo obstruction stops the complete towing assembly"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing the upper beam restores normal towing"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Curved collision follows the cover on compound ground"
+    },
+    {
+      "detail": "bike=-1.149 cart=-0.380 gap=3.323",
+      "passed": true,
+      "test": "Convex canopy preserves loaded turns on compound ground"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes cover collision and cargo pose"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "An upper corner obstacle rejects canopy yaw"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing upper cover immediately restores yaw"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Ground-pose adjustment cannot tilt the cover through an obstacle"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Clear cover resumes pose alignment"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Save restoration retains loaded cart and physical cover"
+    }
+  ],
+  "total": 14
+}

@@ -1,0 +1,7 @@
+forest_resource-native-verifier FAILED: see docs/evidence/forest_resource-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | FAIL | Greenreach has its own registered timber reserve | 
+RSB_FOREST_RESOURCE_REPORT {"elapsed_seconds":0.841,"milestone":"52 regional timber and legacy stock migration","passed":0,"platform":"macOS","tests":[{"detail":"","passed":false,"test":"Greenreach has its own registered timber reserve"}],"total":1}
+

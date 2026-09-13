@@ -1,0 +1,13 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Late light attack enters bounded input buffer | 
+RSB_BIKE | PASS | Buffered follow-up produces one valid combo hit | swings=2 HP=35.0
+RSB_BIKE | PASS | Combat emits swing and confirmed-hit feedback | 
+RSB_BIKE | PASS | Pause discards buffered attacks | 
+RSB_BIKE | PASS | Dodge cancels buffered follow-up | 
+RSB_BIKE | PASS | Buffered attack cannot bypass stamina cost | 
+RSB_BIKE | PASS | Original feedback clips load with bounded duration | 
+RSB_BIKE | PASS | Audio requests use a fixed voice pool | 
+RSB_BIKE | PASS | Pause silences effects and vehicle engine | 
+RSB_FEEDBACK_REPORT {"elapsed_seconds":6.004,"milestone":"13 combat feel and sound hooks","passed":9,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Late light attack enters bounded input buffer"},{"detail":"swings=2 HP=35.0","passed":true,"test":"Buffered follow-up produces one valid combo hit"},{"detail":"","passed":true,"test":"Combat emits swing and confirmed-hit feedback"},{"detail":"","passed":true,"test":"Pause discards buffered attacks"},{"detail":"","passed":true,"test":"Dodge cancels buffered follow-up"},{"detail":"","passed":true,"test":"Buffered attack cannot bypass stamina cost"},{"detail":"","passed":true,"test":"Original feedback clips load with bounded duration"},{"detail":"","passed":true,"test":"Audio requests use a fixed voice pool"},{"detail":"","passed":true,"test":"Pause silences effects and vehicle engine"}],"total":9}

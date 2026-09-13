@@ -1,0 +1,134 @@
+{
+  "elapsed_seconds": 72.062,
+  "milestone": "55 independent worker roster",
+  "passed": 25,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Two independently assignable workers are registered"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Panel Tab selects Ivo without combat lock"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Closed panel does not change selected worker"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Different selected workers accept independent jobs"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Both workers acquire real separate source stock"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Snapshot preserves distinct cargo under stable identities"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Roster reordering cannot swap cargo or jobs on restore"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes both workers and rejects orders"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Invalid secondary roster rejects atomically: negative"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Invalid secondary roster rejects atomically: missing"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Invalid secondary roster rejects atomically: unknown"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Invalid secondary roster rejects atomically: future"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Invalid secondary roster rejects atomically: downgrade"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Invalid secondary roster rejects atomically: routine"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Invalid secondary roster rejects atomically: wrong_type"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Invalid secondary roster rejects atomically: container"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Duplicate registered worker identities reject saving"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Missing registered worker identity rejects saving"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Restored independent jobs deliver once and return"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Ivo sells Mara's harvest through shared warehouse once"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stopping Ivo's routine leaves Mara running"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Save restores each worker's active and finishing routine flags"
+    },
+    {
+      "detail": "Mara cycles=1 Ivo cycles=0 jobs=3",
+      "passed": true,
+      "test": "Real completion advances only the owning worker's routine"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Legacy save initializes only newly introduced Ivo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Retired worker discards its routine state safely"
+    }
+  ],
+  "total": 25
+}

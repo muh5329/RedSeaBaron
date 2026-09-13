@@ -1,0 +1,49 @@
+{
+  "elapsed_seconds": 12.665,
+  "milestone": "18 distant vehicle recovery lifecycle",
+  "passed": 8,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Recovery fixture mounts a loaded distant vehicle"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Mounted recovery activates home collision immediately"
+    },
+    {
+      "detail": "bike=(10.0, 2.479942, -10.0) cart=(10.0, 2.565437, -6.7)",
+      "passed": true,
+      "test": "Recovered bike and cart settle on home terrain"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Mounted recovery preserves seat and cargo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Airborne death fixture uses actual distant takeoff"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Airborne death releases seat onto active home terrain"
+    },
+    {
+      "detail": "player=(11.7, 2.598887, -10.0) bike=(10.0, 2.479955, -10.0)",
+      "passed": true,
+      "test": "Death recovery cannot fall through unloaded home"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Death recovery restores live controls without duplicating cargo"
+    }
+  ],
+  "total": 8
+}

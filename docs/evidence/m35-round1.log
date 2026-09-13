@@ -1,0 +1,5 @@
+food: 16/16 in 5.3s
+combat: 34/34 in 31.6s
+save: 22/22 in 24.7s
+logistics: 23/23 in 11.2s
+Web export built. Serve with tools/serve.sh and verify in a browser.

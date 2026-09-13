@@ -1,0 +1,34 @@
+{
+  "elapsed_seconds": 2.002,
+  "milestone": "10 browser restart persistence",
+  "passed": 5,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Browser reports persistent user filesystem"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Save file survives a fresh page launch"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cross-page save restores actual game state"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cross-page worker cargo restores without duplicate parcel"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cross-page load preserves depleted regional timber stock"
+    }
+  ],
+  "total": 5
+}

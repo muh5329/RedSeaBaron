@@ -1,0 +1,29 @@
+{
+  "elapsed_seconds": 0.007,
+  "milestone": "64 solid outward cliff surfaces",
+  "passed": 4,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "outward=42 / 42",
+      "passed": true,
+      "test": "Rock side faces have outward lighting normals"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Rock cap supports an approaching downward ray"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Rock wall blocks entry from outside its visible surface"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Rock underside blocks upward entry beneath an arch"
+    }
+  ],
+  "total": 4
+}

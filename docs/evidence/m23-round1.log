@@ -1,0 +1,15 @@
+cargo_access-native-verifier FAILED: see docs/evidence/cargo_access-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | FAIL | Solid wall blocks loading cargo without consuming inventory | 
+RSB_BIKE | PASS | Clear nearby access loads the same cargo | 
+RSB_BIKE | FAIL | Solid wall also blocks unloading | 
+RSB_BIKE | PASS | Mounted rider can access rear cargo without self-occlusion | 
+RSB_BIKE | FAIL | Stationary airborne bike cannot attach a grounded cart | 
+RSB_BIKE | FAIL | Airborne rider cannot transfer ground cargo | 
+RSB_BIKE | FAIL | Low drawbar obstacle rejects hitching | 
+RSB_BIKE | PASS | Removing obstacle permits grounded hitching | 
+RSB_BIKE | PASS | Loaded cart still follows after guarded attachment | 
+RSB_CARGO_ACCESS_REPORT {"elapsed_seconds":5.212,"milestone":"23 physical cargo access guards","passed":4,"platform":"macOS","tests":[{"detail":"","passed":false,"test":"Solid wall blocks loading cargo without consuming inventory"},{"detail":"","passed":true,"test":"Clear nearby access loads the same cargo"},{"detail":"","passed":false,"test":"Solid wall also blocks unloading"},{"detail":"","passed":true,"test":"Mounted rider can access rear cargo without self-occlusion"},{"detail":"","passed":false,"test":"Stationary airborne bike cannot attach a grounded cart"},{"detail":"","passed":false,"test":"Airborne rider cannot transfer ground cargo"},{"detail":"","passed":false,"test":"Low drawbar obstacle rejects hitching"},{"detail":"","passed":true,"test":"Removing obstacle permits grounded hitching"},{"detail":"","passed":true,"test":"Loaded cart still follows after guarded attachment"}],"total":9}
+

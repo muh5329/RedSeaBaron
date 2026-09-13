@@ -1,0 +1,18 @@
+seat_safety-native-verifier FAILED: see docs/evidence/seat_safety-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | FAIL | Grounded player cannot board a falling or jumping motorcycle | 
+RSB_BIKE | FAIL | Moving motorcycle rejects boarding without changing ownership | 
+RSB_BIKE | PASS | Stopped grounded motorcycle still accepts boarding | 
+RSB_BIKE | FAIL | Unfolding wings block voluntary dismount | 
+RSB_BIKE | FAIL | Aircraft exit candidate clears its own deployed wing collider | candidate=(1.7, 2.029468, 80.0)
+RSB_BIKE | FAIL | Grounded aircraft permits a clear exit outside the wings | 
+RSB_BIKE | FAIL | Aircraft dismount settles on ground without overlap correction | 
+RSB_BIKE | FAIL | Folding wings also block voluntary dismount | 
+RSB_BIKE | PASS | Completed folding restores normal dismount | 
+RSB_BIKE | FAIL | Ground mode dismount waits for real floor contact | 
+RSB_BIKE | PASS | Settled ground contact restores voluntary exit | 
+RSB_BIKE | FAIL | Forced recovery safely cancels an unfinished transformation | 
+RSB_SEAT_SAFETY_REPORT {"elapsed_seconds":7.593,"milestone":"25 vehicle boarding and wing-safe dismount","passed":3,"platform":"macOS","tests":[{"detail":"","passed":false,"test":"Grounded player cannot board a falling or jumping motorcycle"},{"detail":"","passed":false,"test":"Moving motorcycle rejects boarding without changing ownership"},{"detail":"","passed":true,"test":"Stopped grounded motorcycle still accepts boarding"},{"detail":"","passed":false,"test":"Unfolding wings block voluntary dismount"},{"detail":"candidate=(1.7, 2.029468, 80.0)","passed":false,"test":"Aircraft exit candidate clears its own deployed wing collider"},{"detail":"","passed":false,"test":"Grounded aircraft permits a clear exit outside the wings"},{"detail":"","passed":false,"test":"Aircraft dismount settles on ground without overlap correction"},{"detail":"","passed":false,"test":"Folding wings also block voluntary dismount"},{"detail":"","passed":true,"test":"Completed folding restores normal dismount"},{"detail":"","passed":false,"test":"Ground mode dismount waits for real floor contact"},{"detail":"","passed":true,"test":"Settled ground contact restores voluntary exit"},{"detail":"","passed":false,"test":"Forced recovery safely cancels an unfinished transformation"}],"total":12}
+

@@ -1,0 +1,5 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | FAIL | Aircraft can provide a course to a selected destination | 
+RSB_FLIGHT_NAVIGATION_REPORT {"elapsed_seconds":0.0,"milestone":"66 flight course guidance","passed":0,"platform":"macOS","tests":[{"detail":"","passed":false,"test":"Aircraft can provide a course to a selected destination"}],"total":1}

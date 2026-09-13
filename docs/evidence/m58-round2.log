@@ -1,0 +1,18 @@
+quarry_resource-native-verifier FAILED: see docs/evidence/quarry_resource-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+SCRIPT ERROR: Parse Error: Cannot infer the type of "gallery" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://tests/quarry_resource_verifier.gd:51)
+          GDScript backtrace (most recent call first):
+              [0] _run_suite (res://scripts/main.gd:287)
+SCRIPT ERROR: Parse Error: The variable type is being inferred from a Variant value, so it will be typed as Variant. (Warning treated as error.)
+          at: GDScript::reload (res://tests/quarry_resource_verifier.gd:99)
+          GDScript backtrace (most recent call first):
+              [0] _run_suite (res://scripts/main.gd:287)
+ERROR: Failed to load script "res://tests/quarry_resource_verifier.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+   GDScript backtrace (most recent call first):
+       [0] _run_suite (res://scripts/main.gd:287)
+RSB_VERIFICATION_ERROR | Cannot load verification suite: quarry_resource
+

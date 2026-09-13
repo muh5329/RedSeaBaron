@@ -1,0 +1,685 @@
+OBJECTIVE
+Create a playable open-world 3D action RPG in Godot where the player controls a third-person character with responsive action-RPG movement and combat, including:
+
+- Third-person movement inspired by modern action RPGs such as Elden Ring:
+  - walking
+  - sprinting
+  - jumping
+  - dodging / rolling
+  - lock-on targeting
+  - camera-relative movement
+  - stamina-aware combat and traversal where appropriate
+
+- Two primary player weapons:
+  - A wrench used for melee combat with light attacks, heavy attacks, combos, hit reactions, and enemy damage.
+  - A WWII-style rifle used for ranged combat with aiming, firing, reloading, ammunition, recoil, and projectile or hitscan damage.
+
+- Generic hostile human NPCs and monster enemies using reusable combat AI/state machines.
+
+- A mountable motorcycle/bike that:
+  - can be entered and exited by the player
+  - supports grounded motorcycle-style driving
+  - can transform by unfolding wings
+  - transitions into controllable airplane-style flight
+  - can transition back from aircraft mode into bike mode
+  - maintains responsive controls in both modes
+
+- A detachable/hitchable cargo cart that:
+  - attaches to the rear of the bike
+  - physically follows the bike
+  - can carry resources, harvested goods, packages, and other cargo
+  - affects the bike appropriately when loaded
+  - can be detached and reattached
+  - works with delivery and resource-management systems
+
+- A reusable NPC worker automation system where friendly NPCs operate through explicit state machines and can be assigned jobs such as:
+  - delivery
+  - farming
+  - harvesting
+  - mining
+  - resource gathering
+  - transporting cargo
+  - shop keeping
+  - stocking shops
+  - moving resources between storage locations
+  - other future jobs through extensible task definitions
+
+NPC workers must be capable of performing these jobs without direct player control once assigned and configured.
+
+- A basic economy / logistics loop where:
+  - resources can be gathered
+  - resources can be transported
+  - items/packages can be delivered
+  - resources can be stored
+  - resources or goods can be sold through shops
+  - NPC workers can automate parts of these systems
+
+- A large open-world architecture designed to support a final playable world approximately 25 km × 25 km.
+
+The world should eventually contain visually and functionally varied regions such as:
+- grasslands
+- forests
+- farmland
+- mountains
+- cliffs
+- rivers
+- lakes
+- streams
+- towns
+- villages
+- roads
+- industrial/resource zones
+- deserts or dry regions
+- snow-covered highlands
+- caves
+- docks/coastal areas where appropriate
+
+Do NOT attempt to hand-build the entire 25 km × 25 km world immediately.
+
+Instead, first prove all gameplay systems inside a small representative vertical-slice region, then progressively scale the terrain/world streaming architecture while preserving performance.
+
+Use placeholder/blockout graphics first. Prioritize gameplay correctness, modular architecture, performance, and automation before spending effort on final art.
+
+The project must use Godot and must maintain a Web-compatible verification build whenever reasonably possible.
+
+Use Godot Web export as an automated gameplay verification target:
+- export the project to Web
+- launch the Web build
+- verify startup and gameplay through the browser
+- inspect errors and runtime logs
+- use repeatable test scenes or automated test inputs where practical
+- fix failures before proceeding
+
+The final project should be modular enough that major systems such as combat, vehicles, NPC automation, resources, jobs, enemies, and world streaming can be independently expanded or replaced.
+
+
+INPUTS AND STATE
+Use:
+- the existing Godot project
+- all project files and source code
+- available reference images and design references
+- current scenes and scripts
+- existing assets
+- project.godot
+- input mappings
+- shaders/materials
+- Web export configuration
+- previous progress notes
+- screenshots
+- runtime logs
+- browser/Web build output
+- profiler information
+- previous verifier results
+
+Maintain a project progress file such as:
+
+docs/GAUNTLET_PROGRESS.md
+
+After every round record:
+- round number
+- objective attempted
+- files changed
+- scenes changed
+- systems added or modified
+- bugs discovered
+- bugs fixed
+- Web export result
+- runtime verification evidence
+- screenshots or captured evidence where available
+- performance observations
+- quality score
+- failed approaches
+- technical debt introduced
+- next highest-impact action
+- remaining iteration budget
+
+Prefer modular systems with explicit interfaces.
+
+Suggested architecture should evolve toward systems such as:
+
+Player/
+  PlayerController
+  PlayerMovement
+  PlayerCombat
+  PlayerInventory
+  PlayerInteraction
+
+Combat/
+  HealthComponent
+  HitboxComponent
+  HurtboxComponent
+  MeleeWeapon
+  RangedWeapon
+  DamageSystem
+  TargetLockSystem
+
+Vehicles/
+  BikeController
+  BikeFlightController
+  VehicleTransformation
+  VehicleSeat
+  CargoCart
+  HitchSystem
+
+AI/
+  StateMachine
+  NavigationController
+  CombatAI
+  WorkerAI
+  TaskPlanner
+  JobExecutor
+
+Jobs/
+  JobDefinition
+  DeliveryJob
+  FarmingJob
+  GatheringJob
+  MiningJob
+  ShopkeeperJob
+  TransportJob
+
+Resources/
+  ResourceNode
+  Inventory
+  Storage
+  CargoContainer
+  ItemDefinition
+
+World/
+  WorldManager
+  RegionManager
+  TerrainChunk
+  WorldStreamer
+  SpawnManager
+  NavigationRegionManager
+
+Economy/
+  Shop
+  BuySellSystem
+  DeliveryContract
+  ResourceValueSystem
+
+UI/
+  HUD
+  InteractionPrompt
+  InventoryUI
+  WorkerManagementUI
+  JobAssignmentUI
+  VehicleHUD
+  MapUI
+
+
+METRIC / VERIFIER
+Success requires all of the following:
+
+- The Godot project launches without fatal errors.
+
+- A Web export successfully builds and launches in a browser.
+
+- The browser build reaches the playable game instead of only a loading screen, crash, or blank canvas.
+
+PLAYER
+- Player movement is responsive and camera-relative.
+- Player can walk and sprint.
+- Player can jump.
+- Player can dodge/roll.
+- Camera behaves correctly around terrain and obstacles.
+- Player does not regularly fall through terrain or become permanently stuck.
+
+MELEE
+- Player can equip/use the wrench.
+- Wrench attacks produce visible attack animations or placeholder motion.
+- Wrench attacks only damage valid targets.
+- Enemies receive damage.
+- Enemies can die.
+- Hit detection does not repeatedly damage the same target incorrectly during one attack unless intentionally configured.
+
+RIFLE
+- Player can aim the rifle.
+- Player can fire.
+- Rifle consumes ammunition.
+- Reloading works.
+- Hits can damage enemies.
+- Weapon does not fire incorrectly while menus or incompatible states are active.
+
+ENEMY AI
+- At least one human enemy and one monster-type enemy can:
+  - idle
+  - detect the player
+  - pursue the player
+  - attack the player
+  - take damage
+  - die
+
+- Enemy AI must use reusable state-machine architecture rather than one monolithic script.
+
+BIKE
+- Player can approach and mount the bike.
+- Player control transfers correctly to the bike.
+- Player can accelerate, steer, brake, and dismount.
+- Bike does not immediately flip or become uncontrollable under ordinary use.
+
+FLIGHT TRANSFORMATION
+- Player can trigger transformation from bike to aircraft mode.
+- Wings visibly deploy, even if using placeholder geometry.
+- Controls transition to flight mode.
+- Aircraft can take off, gain altitude, steer, descend, and land.
+- Vehicle can transition back into bike mode.
+- Transformation does not duplicate vehicles or lose the player.
+
+CART
+- Cart can hitch to the bike.
+- Cart follows the bike.
+- Cart can detach.
+- Cargo can be added and removed.
+- Cargo state remains valid while the cart moves.
+- A loaded cart can be used during at least one delivery/resource task.
+
+WORKER NPC SYSTEM
+- Friendly NPC workers operate through an explicit state machine.
+- Worker has visible/debuggable states such as:
+  - Idle
+  - MoveToTask
+  - AcquireResource
+  - PerformTask
+  - DeliverResource
+  - Return
+  - Eat/Rest or equivalent if implemented
+  - Failed/Blocked recovery
+
+- Player can assign at least one NPC worker a task.
+- Worker independently navigates to the task.
+- Worker performs the task.
+- Worker completes the task without player micromanagement.
+
+At minimum verify automated examples for:
+- delivery
+- farming or harvesting
+- resource gathering
+- shop keeping or resource stocking
+
+LOGISTICS
+Demonstrate at least one complete loop:
+
+resource source
+→ worker gathers item
+→ item enters worker/cart/storage inventory
+→ item is transported
+→ item reaches destination
+→ item is stored or sold
+
+DELIVERY
+Demonstrate at least one complete delivery loop:
+
+accept delivery
+→ load package
+→ transport package
+→ arrive at destination
+→ unload/deliver package
+→ reward player
+
+The same delivery system should be usable by an NPC worker where practical.
+
+WORLD
+- Initial vertical slice should contain enough terrain to test:
+  - walking
+  - combat
+  - bike driving
+  - flight
+  - worker navigation
+  - resource gathering
+  - delivery
+  - towns/shops
+
+- World system must later support expansion toward approximately 25 km × 25 km without requiring the entire world to remain fully active.
+
+- Use region/chunk/streaming systems or equivalent.
+
+- Distant AI, physics, vegetation, navigation, and simulation should be reduced, abstracted, pooled, disabled, or otherwise optimized.
+
+PERFORMANCE
+Web verification should maintain playable performance on the target test environment.
+
+Avoid:
+- thousands of always-active physics bodies
+- every NPC processing full AI every frame
+- full-world navigation meshes loaded simultaneously without justification
+- enormous single meshes
+- excessive draw calls
+- unbounded object creation
+- synchronous generation that causes major frame stalls
+
+Prefer:
+- chunk streaming
+- object pooling
+- MultiMesh where appropriate
+- LOD
+- distance-based AI simulation
+- reduced tick rates for distant NPCs
+- hierarchical world simulation
+- asynchronous/background-compatible generation where Godot permits it
+
+CODE QUALITY
+- No major system should depend on hard-coded scene paths when reusable references/resources are more appropriate.
+- Avoid enormous scripts that combine unrelated responsibilities.
+- Use signals/events where systems should be decoupled.
+- Use Resources for reusable configuration where useful.
+- Make worker jobs data-driven wherever practical.
+- Keep combat, vehicle, worker, economy, and world systems separated.
+
+QUALITY RUBRIC
+Score each category from 0–10 after every major milestone:
+
+- Player movement
+- Camera
+- Melee combat
+- Rifle combat
+- Enemy AI
+- Bike handling
+- Flight handling
+- Vehicle transformation
+- Cargo/cart physics
+- Worker automation
+- Job architecture
+- Resource/logistics loop
+- Economy
+- Open-world architecture
+- Visual readability
+- UI clarity
+- Web compatibility
+- Performance
+- Code modularity
+- Stability
+
+A milestone should not be considered complete if any critical category involved in that milestone scores below 7/10.
+
+A final vertical slice should target at least 8/10 average across implemented systems.
+
+INTEGRATION CHECK
+Major systems must work together rather than only in isolated demo scenes.
+
+Example final integration scenario:
+
+1. Player starts in a small town.
+2. Player talks to or interacts with a delivery/job source.
+3. Player accepts a delivery contract.
+4. Player loads cargo into the bike cart.
+5. Player drives across the terrain.
+6. Player encounters hostile enemies.
+7. Player dismounts.
+8. Player fights using the wrench and rifle.
+9. Player remounts the bike.
+10. Player optionally transforms into aircraft mode to cross difficult terrain.
+11. Player lands.
+12. Player delivers the cargo.
+13. Player receives payment/resources.
+14. Player assigns a worker to gather a resource.
+15. Worker autonomously gathers the resource.
+16. Worker transports it to storage or a shop.
+17. Resource enters the economy/logistics system.
+18. Game continues without errors or broken state.
+
+The Web build must be capable of verifying as much of this integrated loop as the browser environment supports.
+
+
+PROCESS
+1. Inspect the current state.
+
+Read the project structure, project.godot, scenes, scripts, assets, input mappings, autoloads, navigation setup, vehicle code, combat code, worker systems, and Web export setup.
+
+Run the existing game before modifying it.
+
+Export and run the current Web build if possible.
+
+Record all existing errors and warnings.
+
+2. Identify the highest-impact unmet criterion.
+
+Prioritize foundations over cosmetic improvements.
+
+Recommended order:
+
+PHASE 1 — PROJECT FOUNDATION
+- clean project architecture
+- input mapping
+- test/debug scene
+- Web export
+- repeatable verification pipeline
+
+PHASE 2 — PLAYER CONTROLLER
+- movement
+- camera
+- sprint
+- jump
+- dodge
+- interaction
+
+PHASE 3 — COMBAT
+- health/damage architecture
+- wrench melee
+- rifle shooting
+- lock-on targeting
+- basic enemy
+
+PHASE 4 — BIKE
+- mounting
+- driving
+- camera
+- dismounting
+
+PHASE 5 — BIKE → AIRCRAFT
+- wing deployment
+- mode switching
+- flight controls
+- landing
+- transition safety
+
+PHASE 6 — CART/CARGO
+- hitching
+- cart physics
+- cargo inventory
+- loaded/unloaded behavior
+
+PHASE 7 — RESOURCE SYSTEM
+- gatherable resources
+- item definitions
+- inventory
+- storage
+
+PHASE 8 — WORKER STATE MACHINE
+Build a reusable worker state machine.
+
+Do NOT hard-code each worker task into the NPC controller.
+
+Worker should execute abstract job definitions.
+
+PHASE 9 — JOB SYSTEM
+Implement jobs such as:
+- Gather
+- Deliver
+- Farm
+- Transport
+- ShopKeep
+
+PHASE 10 — ECONOMY
+- shops
+- buying/selling
+- contracts
+- worker wages if desired
+- item values
+
+PHASE 11 — WORLD VERTICAL SLICE
+Build one polished representative region containing:
+- town
+- farm
+- wilderness
+- road
+- resource site
+- shop
+- delivery destination
+- enemies
+- terrain suitable for driving and flight
+
+PHASE 12 — WORLD STREAMING
+Once the gameplay loop is proven, build scalable region/chunk streaming.
+
+PHASE 13 — WORLD EXPANSION
+Expand toward the 25 km × 25 km world using procedural and authored regions.
+
+PHASE 14 — POLISH
+Only after gameplay systems work:
+- improve models
+- animations
+- VFX
+- sounds
+- terrain detail
+- vegetation
+- towns
+- environmental storytelling
+
+3. Make one coherent improvement.
+
+Avoid changing many unrelated systems during a single iteration.
+
+Each iteration should produce a testable result.
+
+4. Run the real verifier.
+
+At minimum:
+- launch Godot
+- run the relevant scene
+- inspect errors
+- export Web build
+- run Web build
+- verify the changed feature
+- capture evidence
+
+When practical, create deterministic test scenes and scripted verification.
+
+Examples:
+
+tests/
+  test_player_movement.tscn
+  test_melee_combat.tscn
+  test_rifle.tscn
+  test_bike.tscn
+  test_flight.tscn
+  test_cart.tscn
+  test_worker_delivery.tscn
+  test_worker_farming.tscn
+  test_world_streaming.tscn
+
+Prefer automated or semi-automated verifier scenes over relying entirely on visual inspection.
+
+5. If verification fails, collect evidence.
+
+Record:
+- exact error
+- reproduction steps
+- console output
+- relevant screenshots
+- expected behavior
+- actual behavior
+- suspected system responsible
+
+Do not repeatedly apply the same unsuccessful fix.
+
+Change strategy based on evidence.
+
+6. If the criterion passes, perform an adversarial review.
+
+Try to break it.
+
+Examples:
+- jump while entering the bike
+- transform while cart is attached
+- detach cart on a slope
+- fire rifle while mounting
+- kill an enemy during a worker task
+- remove a resource before a worker arrives
+- block worker navigation
+- reload a save while NPC is carrying cargo
+- fly outside the active terrain region
+- rapidly switch bike/aircraft modes
+- assign several workers to the same resource
+- unload a world region containing active workers
+- hitch a heavily loaded cart before taking off
+
+Fix state corruption and soft locks before moving forward.
+
+
+BOUNDARIES
+Allowed actions:
+- read project files
+- inspect scenes
+- inspect scripts
+- inspect assets
+- create scenes
+- create scripts
+- edit scripts
+- refactor code
+- create Resources
+- create shaders
+- create placeholder meshes
+- create UI
+- create test scenes
+- run Godot
+- run tests
+- export Web builds
+- launch local Web builds
+- inspect browser/runtime logs
+- profile performance
+- render screenshots
+- generate procedural terrain
+- modify project configuration when required for the game
+
+Prefer placeholder/blockout geometry instead of spending excessive effort creating final art during early iterations.
+
+Forbidden without approval:
+- deleting substantial user-authored content
+- deleting unrelated project systems
+- purchasing assets
+- using paid APIs/services
+- publishing the game publicly
+- deploying to production hosting
+- sending external messages
+- exposing credentials
+- reading secrets unrelated to the project
+- modifying unrelated repositories
+- destructive repository operations
+- overwriting valuable source assets without backups
+
+Do not fake successful verification.
+
+A feature only counts as working when it has been run and verified.
+
+Do not claim the 25 km × 25 km world is complete simply because terrain generation exists.
+
+The large world requirement passes only when the architecture demonstrates that large regions can be streamed and traversed without requiring the entire world to run at full simulation cost.
+
+Stop and report when:
+- the current milestone passes all required verifier checks;
+- 20 improvement attempts for the current milestone have been completed;
+- the same blocking failure occurs 3 times despite materially different fixes;
+- Web export exposes an engine/platform limitation requiring architectural changes;
+- a destructive operation would be required;
+- a required external dependency cannot be obtained;
+- uncertainty about a major architectural decision exceeds 30%;
+- or the project reaches a state where the next step requires explicit user design approval.
+
+At every stopping point provide:
+
+1. Current status
+2. What was implemented
+3. What was verified
+4. Web verification result
+5. Remaining failures
+6. Current rubric scores
+7. Architecture changes made
+8. Known technical debt
+9. Recommended next milestone
+10. Exact files/scenes most relevant to the next agent
+
+Do not stop merely because a prototype technically launches.
+
+Continue the gauntlet until the current milestone is robust, integrated, Web-verified, and ready to hand off to the next development phase.

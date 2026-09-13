@@ -1,0 +1,602 @@
+[
+  {
+    "level": "log",
+    "message": "INTEGRATION_LEG goal=(924.0, 1116.0) position=(924.2068, 15.59053, 1112.331) error=3.67 frames=512 speed=0.00",
+    "timestamp": "2026-09-12T18:26:20.296Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "INTEGRATION_LEG goal=(900.0, 1116.0) position=(903.6705, 15.6013, 1116.302) error=3.68 frames=307 speed=0.00",
+    "timestamp": "2026-09-12T18:26:25.778Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Ground approach reaches the visible Longfield desk | position=(903.6705, 15.6013, 1116.302)",
+    "timestamp": "2026-09-12T18:26:25.820Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Integrated flight delivery removes parcel and pays once | ",
+    "timestamp": "2026-09-12T18:26:25.846Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Repeat input cannot repay and distant parked cart stays intact | ",
+    "timestamp": "2026-09-12T18:26:25.912Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_AIRMAIL_REPORT {\"elapsed_seconds\":99.757,\"milestone\":\"22 town-to-Longfield flight delivery integration\",\"passed\":12,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Airmail contract loads selected parcel into workshop cart\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Player walks back to the loaded motorcycle\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Attached delivery cart blocks wing deployment\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Flight preparation unloads parcel and parks the empty cart\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Delivery bike drives from town to a clear takeoff area\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Aircraft takes off with the parcel in player inventory\"},{\"detail\":\"travelled=1172.4 position=(694.9107, 72.29099, 897.7114)\",\"passed\":true,\"test\":\"Airmail physically crosses the streamed world\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Parcel flight lands on real destination-region terrain\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Landing restores bike mode for final delivery approach\"},{\"detail\":\"position=(903.6705, 15.6013, 1116.302)\",\"passed\":true,\"test\":\"Ground approach reaches the visible Longfield desk\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Integrated flight delivery removes parcel and pays once\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Repeat input cannot repay and distant parked cart stays intact\"}],\"total\":12}",
+    "timestamp": "2026-09-12T18:26:25.919Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org",
+    "timestamp": "2026-09-12T18:27:04.328Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-09-12T18:27:04.404Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support.",
+    "timestamp": "2026-09-12T18:27:04.437Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T18:27:04.805Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_UI | map_open=true",
+    "timestamp": "2026-09-12T18:27:06.044Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Map opens through real key event and pauses gameplay | ",
+    "timestamp": "2026-09-12T18:27:06.103Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Map click selects a usable delivery waypoint | ",
+    "timestamp": "2026-09-12T18:27:06.204Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Map clicking cannot fire rifle | ",
+    "timestamp": "2026-09-12T18:27:06.204Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Local map keeps region in panel bounds | ",
+    "timestamp": "2026-09-12T18:27:06.204Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | World map fits distant coordinates | ",
+    "timestamp": "2026-09-12T18:27:06.287Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_UI | map_open=false",
+    "timestamp": "2026-09-12T18:27:06.296Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Closing map restores active controls | ",
+    "timestamp": "2026-09-12T18:27:06.354Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Worker order panel is available | ",
+    "timestamp": "2026-09-12T18:27:06.421Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Cargo readout replaces worker panel | ",
+    "timestamp": "2026-09-12T18:27:06.486Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Worker panel replaces cargo readout | ",
+    "timestamp": "2026-09-12T18:27:06.554Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Short key pulse opens cargo | ",
+    "timestamp": "2026-09-12T18:27:06.671Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Short key pulse opens workers | ",
+    "timestamp": "2026-09-12T18:27:06.721Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Pause menu fits viewport height | ",
+    "timestamp": "2026-09-12T18:27:06.854Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Static render batching is active | merged=248",
+    "timestamp": "2026-09-12T18:27:06.921Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Core terrain reduced to 25 bounded tiles | ",
+    "timestamp": "2026-09-12T18:27:06.921Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Village draw calls reduced below prior 679 baseline | median calls=390 fps=120",
+    "timestamp": "2026-09-12T18:27:08.921Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_UI_REPORT {\"elapsed_seconds\":4.057,\"milestone\":\"11 map and render readability\",\"passed\":15,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Map opens through real key event and pauses gameplay\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Map click selects a usable delivery waypoint\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Map clicking cannot fire rifle\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Local map keeps region in panel bounds\"},{\"detail\":\"\",\"passed\":true,\"test\":\"World map fits distant coordinates\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Closing map restores active controls\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Worker order panel is available\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Cargo readout replaces worker panel\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Worker panel replaces cargo readout\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Short key pulse opens cargo\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Short key pulse opens workers\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Pause menu fits viewport height\"},{\"detail\":\"merged=248\",\"passed\":true,\"test\":\"Static render batching is active\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Core terrain reduced to 25 bounded tiles\"},{\"detail\":\"median calls=390 fps=120\",\"passed\":true,\"test\":\"Village draw calls reduced below prior 679 baseline\"}],\"total\":15}",
+    "timestamp": "2026-09-12T18:27:08.921Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org",
+    "timestamp": "2026-09-12T18:29:05.708Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-09-12T18:29:05.777Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support.",
+    "timestamp": "2026-09-12T18:29:05.808Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T18:29:06.147Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_UI | map_open=true",
+    "timestamp": "2026-09-12T18:29:07.362Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Map opens through real key event and pauses gameplay | ",
+    "timestamp": "2026-09-12T18:29:07.421Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Map click selects a usable delivery waypoint | ",
+    "timestamp": "2026-09-12T18:29:07.512Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Map clicking cannot fire rifle | ",
+    "timestamp": "2026-09-12T18:29:07.513Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Local map keeps region in panel bounds | ",
+    "timestamp": "2026-09-12T18:29:07.513Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | World map fits distant coordinates | ",
+    "timestamp": "2026-09-12T18:29:07.594Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_UI | map_open=false",
+    "timestamp": "2026-09-12T18:29:07.604Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Closing map restores active controls | ",
+    "timestamp": "2026-09-12T18:29:07.662Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Worker order panel is available | ",
+    "timestamp": "2026-09-12T18:29:07.729Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Cargo readout replaces worker panel | ",
+    "timestamp": "2026-09-12T18:29:07.795Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Worker panel replaces cargo readout | ",
+    "timestamp": "2026-09-12T18:29:07.862Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Short key pulse opens cargo | ",
+    "timestamp": "2026-09-12T18:29:07.979Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Short key pulse opens workers | ",
+    "timestamp": "2026-09-12T18:29:08.029Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Pause menu fits viewport height | ",
+    "timestamp": "2026-09-12T18:29:08.162Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Static render batching is active | merged=248",
+    "timestamp": "2026-09-12T18:29:08.229Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Core terrain reduced to 25 bounded tiles | ",
+    "timestamp": "2026-09-12T18:29:08.229Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Village draw calls reduced below prior 679 baseline | median calls=377 fps=120",
+    "timestamp": "2026-09-12T18:29:10.228Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_UI_REPORT {\"elapsed_seconds\":4.03,\"milestone\":\"11 map and render readability\",\"passed\":15,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Map opens through real key event and pauses gameplay\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Map click selects a usable delivery waypoint\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Map clicking cannot fire rifle\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Local map keeps region in panel bounds\"},{\"detail\":\"\",\"passed\":true,\"test\":\"World map fits distant coordinates\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Closing map restores active controls\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Worker order panel is available\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Cargo readout replaces worker panel\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Worker panel replaces cargo readout\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Short key pulse opens cargo\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Short key pulse opens workers\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Pause menu fits viewport height\"},{\"detail\":\"merged=248\",\"passed\":true,\"test\":\"Static render batching is active\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Core terrain reduced to 25 bounded tiles\"},{\"detail\":\"median calls=377 fps=120\",\"passed\":true,\"test\":\"Village draw calls reduced below prior 679 baseline\"}],\"total\":15}",
+    "timestamp": "2026-09-12T18:29:10.228Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org",
+    "timestamp": "2026-09-12T18:36:26.653Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-09-12T18:36:26.725Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support.",
+    "timestamp": "2026-09-12T18:36:26.757Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T18:36:27.127Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Grounded player cannot board a falling or jumping motorcycle | ",
+    "timestamp": "2026-09-12T18:36:27.927Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Moving motorcycle rejects boarding without changing ownership | ",
+    "timestamp": "2026-09-12T18:36:28.461Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Stopped grounded motorcycle still accepts boarding | ",
+    "timestamp": "2026-09-12T18:36:28.961Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Unfolding wings block voluntary dismount | ",
+    "timestamp": "2026-09-12T18:36:29.028Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Aircraft exit candidate clears its own deployed wing collider | candidate=(0.0, 2.08, 77.8)",
+    "timestamp": "2026-09-12T18:36:30.361Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Grounded aircraft permits a clear exit outside the wings | ",
+    "timestamp": "2026-09-12T18:36:30.361Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Aircraft dismount settles on ground without overlap correction | ",
+    "timestamp": "2026-09-12T18:36:30.861Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Folding wings also block voluntary dismount | ",
+    "timestamp": "2026-09-12T18:36:31.344Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Completed folding restores normal dismount | ",
+    "timestamp": "2026-09-12T18:36:32.676Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Ground mode dismount waits for real floor contact | ",
+    "timestamp": "2026-09-12T18:36:33.260Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Settled ground contact restores voluntary exit | ",
+    "timestamp": "2026-09-12T18:36:34.511Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Forced recovery safely cancels an unfinished transformation | ",
+    "timestamp": "2026-09-12T18:36:35.078Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_SEAT_SAFETY_REPORT {\"elapsed_seconds\":7.897,\"milestone\":\"25 vehicle boarding and wing-safe dismount\",\"passed\":12,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Grounded player cannot board a falling or jumping motorcycle\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Moving motorcycle rejects boarding without changing ownership\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Stopped grounded motorcycle still accepts boarding\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Unfolding wings block voluntary dismount\"},{\"detail\":\"candidate=(0.0, 2.08, 77.8)\",\"passed\":true,\"test\":\"Aircraft exit candidate clears its own deployed wing collider\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Grounded aircraft permits a clear exit outside the wings\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Aircraft dismount settles on ground without overlap correction\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Folding wings also block voluntary dismount\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Completed folding restores normal dismount\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Ground mode dismount waits for real floor contact\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Settled ground contact restores voluntary exit\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Forced recovery safely cancels an unfinished transformation\"}],\"total\":12}",
+    "timestamp": "2026-09-12T18:36:35.097Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org",
+    "timestamp": "2026-09-12T18:48:43.714Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-09-12T18:48:43.805Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support.",
+    "timestamp": "2026-09-12T18:48:43.837Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T18:48:44.206Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Dry traversal keeps normal walking speed | ",
+    "timestamp": "2026-09-12T18:48:45.432Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Shallow coastal water permits slower wading | speed=2.76 y=-3.01",
+    "timestamp": "2026-09-12T18:48:46.265Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Deep-water recovery state cannot be saved | ",
+    "timestamp": "2026-09-12T18:48:46.598Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Pause freezes submerged actor and recovery countdown | ",
+    "timestamp": "2026-09-12T18:48:49.098Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Deep water returns player to survey checkpoint with pack intact | ",
+    "timestamp": "2026-09-12T18:48:51.598Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Dry recovery clears wading slowdown | ",
+    "timestamp": "2026-09-12T18:48:51.598Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Shoreline test begins with a real loaded hitch | ",
+    "timestamp": "2026-09-12T18:48:52.598Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Riding into deep water recovers bike and attached cargo together | events=[1, 1] water=1 mounted=true bike=(9.999477, 2.480709, -10.02946) gap=3.31 speed=0.00",
+    "timestamp": "2026-09-12T18:48:54.898Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Detached submerged cart returns to workshop without losing goods | ",
+    "timestamp": "2026-09-12T18:48:57.898Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Flying over water does not trigger recovery | position=(100.8476, 15.70589, 50.01049)",
+    "timestamp": "2026-09-12T18:49:03.298Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Water landing recovers the same aircraft and preserves parked cargo | events=[1, 2] water=2 mounted=true bike=(10.0, 2.479955, -9.973889) mode=BIKE cargo=Olives × 10 pack=Timber × 5",
+    "timestamp": "2026-09-12T18:49:09.198Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Water volume stays within the displayed coast | ",
+    "timestamp": "2026-09-12T18:49:09.198Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_WATER_REPORT {\"elapsed_seconds\":24.933,\"milestone\":\"26 wading and deep-water recovery\",\"passed\":12,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Dry traversal keeps normal walking speed\"},{\"detail\":\"speed=2.76 y=-3.01\",\"passed\":true,\"test\":\"Shallow coastal water permits slower wading\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Deep-water recovery state cannot be saved\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Pause freezes submerged actor and recovery countdown\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Deep water returns player to survey checkpoint with pack intact\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Dry recovery clears wading slowdown\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Shoreline test begins with a real loaded hitch\"},{\"detail\":\"events=[1, 1] water=1 mounted=true bike=(9.999477, 2.480709, -10.02946) gap=3.31 speed=0.00\",\"passed\":true,\"test\":\"Riding into deep water recovers bike and attached cargo together\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Detached submerged cart returns to workshop without losing goods\"},{\"detail\":\"position=(100.8476, 15.70589, 50.01049)\",\"passed\":true,\"test\":\"Flying over water does not trigger recovery\"},{\"detail\":\"events=[1, 2] water=2 mounted=true bike=(10.0, 2.479955, -9.973889) mode=BIKE cargo=Olives × 10 pack=Timber × 5\",\"passed\":true,\"test\":\"Water landing recovers the same aircraft and preserves parked cargo\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Water volume stays within the displayed coast\"}],\"total\":12}",
+    "timestamp": "2026-09-12T18:49:09.199Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org",
+    "timestamp": "2026-09-12T18:57:07.608Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-09-12T18:57:07.687Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support.",
+    "timestamp": "2026-09-12T18:57:07.720Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T18:57:08.093Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Slope fixture supports bike and loaded cart through real collision | ",
+    "timestamp": "2026-09-12T18:57:10.003Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Bike presentation aligns with compound ground slope | ",
+    "timestamp": "2026-09-12T18:57:10.003Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Both motorcycle tires remain close to the actual slope | front=0.000 rear=0.000",
+    "timestamp": "2026-09-12T18:57:10.003Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Cart presentation follows slope without tilting its body | ",
+    "timestamp": "2026-09-12T18:57:10.003Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Trailer tires neither bury nor float on cross slopes | left=0.000 right=0.000",
+    "timestamp": "2026-09-12T18:57:10.003Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Ground-aligned loaded cart remains mountable and hitchable | ",
+    "timestamp": "2026-09-12T18:57:10.003Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Loaded vehicles drive and stop on the slope without flipping | ",
+    "timestamp": "2026-09-12T18:57:12.561Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Slope driving preserves drawbar distance and cargo | ",
+    "timestamp": "2026-09-12T18:57:12.561Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Moving trailer settles with tire contact intact | left=0.000 right=0.000",
+    "timestamp": "2026-09-12T18:57:12.561Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Detached loaded cart stays parked on a traversable slope | ",
+    "timestamp": "2026-09-12T18:57:14.561Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Recovery updates visual grounding for the new surface | ",
+    "timestamp": "2026-09-12T18:57:15.561Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_VEHICLE_GROUND_REPORT {\"elapsed_seconds\":7.414,\"milestone\":\"27 grounded vehicle presentation and trailer contact\",\"passed\":11,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Slope fixture supports bike and loaded cart through real collision\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Bike presentation aligns with compound ground slope\"},{\"detail\":\"front=0.000 rear=0.000\",\"passed\":true,\"test\":\"Both motorcycle tires remain close to the actual slope\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Cart presentation follows slope without tilting its body\"},{\"detail\":\"left=0.000 right=0.000\",\"passed\":true,\"test\":\"Trailer tires neither bury nor float on cross slopes\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Ground-aligned loaded cart remains mountable and hitchable\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Loaded vehicles drive and stop on the slope without flipping\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Slope driving preserves drawbar distance and cargo\"},{\"detail\":\"left=0.000 right=0.000\",\"passed\":true,\"test\":\"Moving trailer settles with tire contact intact\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Detached loaded cart stays parked on a traversable slope\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Recovery updates visual grounding for the new surface\"}],\"total\":11}",
+    "timestamp": "2026-09-12T18:57:15.561Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  }
+]

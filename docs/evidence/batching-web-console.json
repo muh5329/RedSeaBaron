@@ -1,0 +1,44 @@
+[
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T19:24:45.557Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Fixture mixes indexed and unindexed geometry | ",
+    "timestamp": "2026-09-12T19:24:45.635Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Rigid sources become one material batch | ",
+    "timestamp": "2026-09-12T19:24:45.636Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Batch preserves every source triangle | expected=72 actual=72",
+    "timestamp": "2026-09-12T19:24:45.636Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Batch preserves both separated local mesh bounds | bounds=[P: (-2.339999, -0.5, -0.5), S: (4.839999, 1.0, 1.0)]",
+    "timestamp": "2026-09-12T19:24:45.636Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Animated child remains independent | ",
+    "timestamp": "2026-09-12T19:24:45.637Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BATCHING_REPORT {\"elapsed_seconds\":0.004,\"milestone\":\"30 mixed geometry batching\",\"passed\":5,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Fixture mixes indexed and unindexed geometry\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Rigid sources become one material batch\"},{\"detail\":\"expected=72 actual=72\",\"passed\":true,\"test\":\"Batch preserves every source triangle\"},{\"detail\":\"bounds=[P: (-2.339999, -0.5, -0.5), S: (4.839999, 1.0, 1.0)]\",\"passed\":true,\"test\":\"Batch preserves both separated local mesh bounds\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Animated child remains independent\"}],\"total\":5}",
+    "timestamp": "2026-09-12T19:24:45.637Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  }
+]

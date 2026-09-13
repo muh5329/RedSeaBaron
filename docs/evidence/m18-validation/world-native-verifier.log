@@ -1,0 +1,19 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Flight starts in authored region | mounted=true mode=AIRCRAFT speed=16.80 pos=(0.012286, 7.349091, 107.9295)
+RSB_BIKE | PASS | Continuous flight crosses streaming boundaries | position=(0.012378, 133.4486, 720.4792) created=55
+RSB_BIKE | PASS | Terrain remains ready during flight | 
+RSB_BIKE | PASS | Authored region physics and rendering deactivate | 
+RSB_BIKE | PASS | Resident terrain stays bounded | resident=25 retired=30
+RSB_BIKE | PASS | Distant enemies stay inactive across pause/resume | 
+RSB_BIKE | PASS | Distant worker order accepted | 
+RSB_BIKE | PASS | Distant simulation completes logistics without physics | state=Idle
+RSB_BIKE | PASS | Distant quadrant terrain supports real body collision | 
+RSB_BIKE | PASS | 25 km coordinate domain uses bounded residency | build max=5.59 ms; created=215 retired=190
+RSB_BIKE | PASS | Recovery activates checkpoint collision immediately | position=(0.0, 2.117079, 12.0)
+RSB_BIKE | PASS | World boundary recovery returns to authored terrain | position=(0.0, 1.989293, 12.0) spawn=(0.0, 2.123746, 12.0) floor=true
+RSB_BIKE | PASS | Returning restores worker state and core collision | 
+RSB_BIKE | PASS | Stationary streamer performs no repeated builds | 
+RSB_BIKE | PASS | Generation per chunk stays under frame-stall guard | max=5.59 ms (100 ms upper bound, not a 60fps claim)
+RSB_WORLD_REPORT {"elapsed_seconds":68.941,"milestone":"08 bounded world streaming","passed":15,"platform":"macOS","tests":[{"detail":"mounted=true mode=AIRCRAFT speed=16.80 pos=(0.012286, 7.349091, 107.9295)","passed":true,"test":"Flight starts in authored region"},{"detail":"position=(0.012378, 133.4486, 720.4792) created=55","passed":true,"test":"Continuous flight crosses streaming boundaries"},{"detail":"","passed":true,"test":"Terrain remains ready during flight"},{"detail":"","passed":true,"test":"Authored region physics and rendering deactivate"},{"detail":"resident=25 retired=30","passed":true,"test":"Resident terrain stays bounded"},{"detail":"","passed":true,"test":"Distant enemies stay inactive across pause/resume"},{"detail":"","passed":true,"test":"Distant worker order accepted"},{"detail":"state=Idle","passed":true,"test":"Distant simulation completes logistics without physics"},{"detail":"","passed":true,"test":"Distant quadrant terrain supports real body collision"},{"detail":"build max=5.59 ms; created=215 retired=190","passed":true,"test":"25 km coordinate domain uses bounded residency"},{"detail":"position=(0.0, 2.117079, 12.0)","passed":true,"test":"Recovery activates checkpoint collision immediately"},{"detail":"position=(0.0, 1.989293, 12.0) spawn=(0.0, 2.123746, 12.0) floor=true","passed":true,"test":"World boundary recovery returns to authored terrain"},{"detail":"","passed":true,"test":"Returning restores worker state and core collision"},{"detail":"","passed":true,"test":"Stationary streamer performs no repeated builds"},{"detail":"max=5.59 ms (100 ms upper bound, not a 60fps claim)","passed":true,"test":"Generation per chunk stays under frame-stall guard"}],"total":15}

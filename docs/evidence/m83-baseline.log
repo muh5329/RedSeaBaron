@@ -1,0 +1,7 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Physical forward towing spins cargo wheels forward | travel=(0.0, 0.000834, -9.679855) spin=-22.000
+RSB_BIKE | FAIL | Physical reverse towing reverses cargo wheel spin | travel=(0.0, -0.000002, 7.43718) spin=-16.903
+RSB_BIKE | FAIL | Vertical cargo landing does not roll the tires | travel=(0.0, -5.999222, 0.0) spin=-13.635
+RSB_CART_WHEEL_REPORT {"elapsed_seconds":9.251,"milestone":"83 signed cargo wheel travel","passed":1,"platform":"macOS","tests":[{"detail":"travel=(0.0, 0.000834, -9.679855) spin=-22.000","passed":true,"test":"Physical forward towing spins cargo wheels forward"},{"detail":"travel=(0.0, -0.000002, 7.43718) spin=-16.903","passed":false,"test":"Physical reverse towing reverses cargo wheel spin"},{"detail":"travel=(0.0, -5.999222, 0.0) spin=-13.635","passed":false,"test":"Vertical cargo landing does not roll the tires"}],"total":3}

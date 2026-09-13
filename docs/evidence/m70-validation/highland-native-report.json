@@ -1,0 +1,49 @@
+{
+  "elapsed_seconds": 38.898,
+  "milestone": "16 highland flight envelope",
+  "passed": 8,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "height=124.48",
+      "passed": true,
+      "test": "Highland runway streams above old absolute ceiling"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Highland deployment preserves seat and wing clearance"
+    },
+    {
+      "detail": "world y=137.50 AGL=14.25",
+      "passed": true,
+      "test": "Aircraft can take off above 120 m terrain"
+    },
+    {
+      "detail": "position=(-1000.0, 217.9211, -10175.59) AGL=100.51",
+      "passed": true,
+      "test": "Highland climb crosses real streamed terrain"
+    },
+    {
+      "detail": "AGL=112.92",
+      "passed": true,
+      "test": "Flight ceiling remains bounded relative to terrain"
+    },
+    {
+      "detail": "speed=5.00 vertical=-4.30",
+      "passed": true,
+      "test": "Low-speed flight loses lift"
+    },
+    {
+      "detail": "height=102.88 ground=102.89 landings=1",
+      "passed": true,
+      "test": "Highland descent lands on active terrain"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Highland flight folds and allows grounded exit"
+    }
+  ],
+  "total": 8
+}

@@ -1,0 +1,14 @@
+{
+  "elapsed_seconds": 0.917,
+  "milestone": "81 recovery checkpoint guidance",
+  "passed": 0,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Map offers an explicit recovery checkpoint target"
+    }
+  ],
+  "total": 1
+}

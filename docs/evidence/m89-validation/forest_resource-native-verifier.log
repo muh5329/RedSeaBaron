@@ -1,0 +1,18 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Greenreach has its own registered timber reserve | 
+RSB_BIKE | PASS | Regional timber cannot be harvested from the village | 
+RSB_BIKE | PASS | Forest reserve activates with streamed ground and retires home visuals | 
+RSB_BIKE | PASS | Gather input removes only regional timber | 
+RSB_BIKE | PASS | Full pack does not consume regional stock | 
+RSB_BIKE | PASS | Current stock revision records regional depletion | 
+RSB_BIKE | PASS | Save restore preserves independent village and forest timber | 
+RSB_BIKE | PASS | Incomplete current-revision stock rejects before mutation | 
+RSB_BIKE | PASS | Malformed regional stock rejects before mutation | 
+RSB_BIKE | PASS | Legacy save initializes new timber without resetting original stock | village=17 forest=60
+RSB_BIKE | PASS | Future stock revisions reject without changing resources | 
+RSB_BIKE | PASS | Leaving the region hides timber while preserving depletion | 
+RSB_BIKE | PASS | Returning to the forest preserves harvested stock | 
+RSB_BIKE | PASS | Regional timber enters the existing market economy | 
+RSB_FOREST_RESOURCE_REPORT {"elapsed_seconds":5.547,"milestone":"52 regional timber and legacy stock migration","passed":14,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Greenreach has its own registered timber reserve"},{"detail":"","passed":true,"test":"Regional timber cannot be harvested from the village"},{"detail":"","passed":true,"test":"Forest reserve activates with streamed ground and retires home visuals"},{"detail":"","passed":true,"test":"Gather input removes only regional timber"},{"detail":"","passed":true,"test":"Full pack does not consume regional stock"},{"detail":"","passed":true,"test":"Current stock revision records regional depletion"},{"detail":"","passed":true,"test":"Save restore preserves independent village and forest timber"},{"detail":"","passed":true,"test":"Incomplete current-revision stock rejects before mutation"},{"detail":"","passed":true,"test":"Malformed regional stock rejects before mutation"},{"detail":"village=17 forest=60","passed":true,"test":"Legacy save initializes new timber without resetting original stock"},{"detail":"","passed":true,"test":"Future stock revisions reject without changing resources"},{"detail":"","passed":true,"test":"Leaving the region hides timber while preserving depletion"},{"detail":"","passed":true,"test":"Returning to the forest preserves harvested stock"},{"detail":"","passed":true,"test":"Regional timber enters the existing market economy"}],"total":14}

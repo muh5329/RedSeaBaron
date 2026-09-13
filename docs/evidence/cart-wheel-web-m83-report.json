@@ -1,0 +1,49 @@
+{
+  "elapsed_seconds": 20.265,
+  "milestone": "83 signed cargo wheel travel",
+  "passed": 8,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wheel fixture mounts and hitches a loaded cart"
+    },
+    {
+      "detail": "travel=(0.0, 0.000834, -9.679855) spin=-22.000",
+      "passed": true,
+      "test": "Physical forward towing rolls the expected tire distance"
+    },
+    {
+      "detail": "travel=(0.0, -0.000002, 7.43718) spin=16.903",
+      "passed": true,
+      "test": "Physical reverse towing reverses cargo wheel spin"
+    },
+    {
+      "detail": "travel=(-9.589002, 0.000824, 0.59063) spin=-21.891",
+      "passed": true,
+      "test": "Rolling direction follows the turned cart rather than world Z"
+    },
+    {
+      "detail": "travel=(0.0, 2.362061, -8.814445) spin=-20.740 expected=-20.740",
+      "passed": true,
+      "test": "Uphill tire rotation includes the inclined ground distance"
+    },
+    {
+      "detail": "travel=(0.0, -5.999222, 0.0) spin=0.000",
+      "passed": true,
+      "test": "Vertical cargo landing does not roll the tires"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Parked cargo tires do not creep"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wheel presentation preserves cargo and detached ownership"
+    }
+  ],
+  "total": 8
+}

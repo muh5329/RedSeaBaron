@@ -1,0 +1,30 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=100
+RSB_BIKE | PASS | Unknown/negative inventory mutations rejected | 
+RSB_BIKE | PASS | Inventory obeys weight limit | 
+RSB_BIKE | PASS | Oversized transfer leaves source unchanged | 
+RSB_BIKE | PASS | Self transfer rejected | 
+RSB_BIKE | PASS | Inventory snapshots cannot mutate live cargo | 
+RSB_BIKE | PASS | Atomic cargo transfer | 
+RSB_BIKE | PASS | Cart capacity enforced | 
+RSB_BIKE | PASS | Input hitches nearby grounded cart | 
+RSB_BIKE | PASS | Loaded mass reaches drive controller | 
+RSB_BIKE | PASS | Hitch prevents unsafe wing deployment | 
+RSB_BIKE | PASS | Loaded bike accelerates more slowly | speed=5.33
+RSB_BIKE | PASS | Loaded cart physically follows | 
+RSB_BIKE | PASS | Cargo survives movement | 
+RSB_BIKE | PASS | Moving hitch toggle rejected | 
+RSB_BIKE | PASS | Stopped cart detaches | 
+RSB_BIKE | PASS | Detached cart remains parked | 
+RSB_BIKE | PASS | Remote reattachment rejected | 
+RSB_BIKE | PASS | Nearby cart reattaches | 
+RSB_BIKE | PASS | Unload respects backpack capacity | 
+RSB_BIKE | PASS | Total cargo conserved | 
+RSB_BIKE | PASS | Full backpack does not lose cargo | 
+RSB_BIKE | PASS | Pause freezes cart and transfer controls | 
+RSB_BIKE | PASS | Recovery preserves attached cargo | 
+RSB_BIKE | PASS | Cart collides with world wall | x=35.17
+RSB_BIKE | FAIL | Trapped cart stops towing bike without stretching | gap=6.56 speed=0.00
+RSB_CART_REPORT {"elapsed_seconds":12.415,"milestone":"05 cargo and inventory","passed":24,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Unknown/negative inventory mutations rejected"},{"detail":"","passed":true,"test":"Inventory obeys weight limit"},{"detail":"","passed":true,"test":"Oversized transfer leaves source unchanged"},{"detail":"","passed":true,"test":"Self transfer rejected"},{"detail":"","passed":true,"test":"Inventory snapshots cannot mutate live cargo"},{"detail":"","passed":true,"test":"Atomic cargo transfer"},{"detail":"","passed":true,"test":"Cart capacity enforced"},{"detail":"","passed":true,"test":"Input hitches nearby grounded cart"},{"detail":"","passed":true,"test":"Loaded mass reaches drive controller"},{"detail":"","passed":true,"test":"Hitch prevents unsafe wing deployment"},{"detail":"speed=5.33","passed":true,"test":"Loaded bike accelerates more slowly"},{"detail":"","passed":true,"test":"Loaded cart physically follows"},{"detail":"","passed":true,"test":"Cargo survives movement"},{"detail":"","passed":true,"test":"Moving hitch toggle rejected"},{"detail":"","passed":true,"test":"Stopped cart detaches"},{"detail":"","passed":true,"test":"Detached cart remains parked"},{"detail":"","passed":true,"test":"Remote reattachment rejected"},{"detail":"","passed":true,"test":"Nearby cart reattaches"},{"detail":"","passed":true,"test":"Unload respects backpack capacity"},{"detail":"","passed":true,"test":"Total cargo conserved"},{"detail":"","passed":true,"test":"Full backpack does not lose cargo"},{"detail":"","passed":true,"test":"Pause freezes cart and transfer controls"},{"detail":"","passed":true,"test":"Recovery preserves attached cargo"},{"detail":"x=35.17","passed":true,"test":"Cart collides with world wall"},{"detail":"gap=6.56 speed=0.00","passed":false,"test":"Trapped cart stops towing bike without stretching"}],"total":25}

@@ -1,0 +1,4 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+ENEMY_COVER_BASELINE {"passed":2,"tests":[{"passed":true,"test":"Actual motorcycle blocks the eye-level segment"},{"passed":false,"sees":true,"test":"Enemy cannot see through the motorcycle"},{"health":87.0,"passed":false,"test":"Committed hostile strike cannot pass through chassis"},{"health":87.0,"passed":true,"test":"Removing cover allows the same hostile strike"}],"total":4}

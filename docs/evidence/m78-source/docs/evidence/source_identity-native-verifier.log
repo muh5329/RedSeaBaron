@@ -1,0 +1,13 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Two timber sources begin with distinct live stock | 
+RSB_BIKE | PASS | Save retains the original source stock | 
+RSB_BIKE | PASS | Save retains the second source under its own identity | 
+RSB_BIKE | PASS | Restore does not duplicate or overwrite source quantities | original=17 second=9
+RSB_BIKE | PASS | Worker transport still resolves the intended timber source after reordering | 
+RSB_BIKE | PASS | Resource registration order does not change restored stock | 
+RSB_BIKE | PASS | Duplicate registered source identities reject saving | 
+RSB_BIKE | PASS | Missing registered source identity rejects saving | 
+RSB_BIKE | PASS | Invalid secondary stock rejects before either source mutates | 
+RSB_SOURCE_IDENTITY_REPORT {"elapsed_seconds":0.974,"milestone":"51 stable resource source persistence","passed":9,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Two timber sources begin with distinct live stock"},{"detail":"","passed":true,"test":"Save retains the original source stock"},{"detail":"","passed":true,"test":"Save retains the second source under its own identity"},{"detail":"original=17 second=9","passed":true,"test":"Restore does not duplicate or overwrite source quantities"},{"detail":"","passed":true,"test":"Worker transport still resolves the intended timber source after reordering"},{"detail":"","passed":true,"test":"Resource registration order does not change restored stock"},{"detail":"","passed":true,"test":"Duplicate registered source identities reject saving"},{"detail":"","passed":true,"test":"Missing registered source identity rejects saving"},{"detail":"","passed":true,"test":"Invalid secondary stock rejects before either source mutates"}],"total":9}

@@ -1,0 +1,84 @@
+{
+  "elapsed_seconds": 24.154,
+  "milestone": "45 loaded towing maneuvers",
+  "passed": 15,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Loaded towing fixture mounts and hitches through normal interfaces"
+    },
+    {
+      "detail": "travel=9.939",
+      "passed": true,
+      "test": "Forward turn makes progress"
+    },
+    {
+      "detail": "penetrating frames=0",
+      "passed": true,
+      "test": "Forward turn keeps bike and cart solids separated"
+    },
+    {
+      "detail": "max gap=3.301",
+      "passed": true,
+      "test": "Forward turn preserves the drawbar constraint"
+    },
+    {
+      "detail": "travel=10.512",
+      "passed": true,
+      "test": "Reverse turn makes progress"
+    },
+    {
+      "detail": "penetrating frames=0",
+      "passed": true,
+      "test": "Reverse turn keeps bike and cart solids separated"
+    },
+    {
+      "detail": "max gap=3.266",
+      "passed": true,
+      "test": "Reverse turn preserves the drawbar constraint"
+    },
+    {
+      "detail": "travel=9.958",
+      "passed": true,
+      "test": "Forward recovery makes progress"
+    },
+    {
+      "detail": "penetrating frames=0",
+      "passed": true,
+      "test": "Forward recovery keeps bike and cart solids separated"
+    },
+    {
+      "detail": "max gap=3.300",
+      "passed": true,
+      "test": "Forward recovery preserves the drawbar constraint"
+    },
+    {
+      "detail": "travel=33.976",
+      "passed": true,
+      "test": "Straight driving recovers from a tight reverse"
+    },
+    {
+      "detail": "cart in bike frame=(-0.000011, 0.058634, 3.300018)",
+      "passed": true,
+      "test": "Recovered cart trails behind the bike"
+    },
+    {
+      "detail": "penetrating frames=0",
+      "passed": true,
+      "test": "Straight recovery keeps both vehicle solids separated"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Loaded maneuvers conserve all cargo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cart can detach after reverse maneuvers"
+    }
+  ],
+  "total": 15
+}

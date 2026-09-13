@@ -1,0 +1,20 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Wing begins clear of narrow post: move_right | 
+RSB_BIKE | PASS | Steering cannot rotate the wing into post: move_right | yaw=0.00000 overlaps=false
+RSB_BIKE | PASS | Removing post immediately permits the same turn: move_right | 
+RSB_BIKE | PASS | Wing begins clear of narrow post: move_left | 
+RSB_BIKE | PASS | Steering cannot rotate the wing into post: move_left | yaw=0.00000 overlaps=false
+RSB_BIKE | PASS | Removing post immediately permits the same turn: move_left | 
+RSB_BIKE | PASS | Ground aircraft steering also rejects blocked yaw | yaw=0.00000
+RSB_BIKE | PASS | Clear ground steering remains responsive | 
+RSB_BIKE | PASS | Folded bike chassis also rejects obstructed steering | yaw=0.00000
+RSB_BIKE | PASS | Folded bike turns as soon as cover is removed | 
+RSB_BIKE | PASS | Cart starts clear of corner post | 
+RSB_BIKE | PASS | Trailer yaw cannot rotate its corner into world cover | yaw=0.00000
+RSB_BIKE | PASS | Removing cover permits the trailer to align | 
+RSB_BIKE | PASS | Open compound slope allows normal steering: move_right | yaw=-0.49833 floor=true
+RSB_BIKE | PASS | Open compound slope allows normal steering: move_left | yaw=0.49833 floor=true
+RSB_BIKE | PASS | Loaded trailer follows a real turn on compound ground | bike yaw=-1.798 cart yaw=-1.118 hitch=3.268
+RSB_STEERING_CLEARANCE_REPORT {"elapsed_seconds":9.321,"milestone":"57 vehicle steering clearance","passed":16,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Wing begins clear of narrow post: move_right"},{"detail":"yaw=0.00000 overlaps=false","passed":true,"test":"Steering cannot rotate the wing into post: move_right"},{"detail":"","passed":true,"test":"Removing post immediately permits the same turn: move_right"},{"detail":"","passed":true,"test":"Wing begins clear of narrow post: move_left"},{"detail":"yaw=0.00000 overlaps=false","passed":true,"test":"Steering cannot rotate the wing into post: move_left"},{"detail":"","passed":true,"test":"Removing post immediately permits the same turn: move_left"},{"detail":"yaw=0.00000","passed":true,"test":"Ground aircraft steering also rejects blocked yaw"},{"detail":"","passed":true,"test":"Clear ground steering remains responsive"},{"detail":"yaw=0.00000","passed":true,"test":"Folded bike chassis also rejects obstructed steering"},{"detail":"","passed":true,"test":"Folded bike turns as soon as cover is removed"},{"detail":"","passed":true,"test":"Cart starts clear of corner post"},{"detail":"yaw=0.00000","passed":true,"test":"Trailer yaw cannot rotate its corner into world cover"},{"detail":"","passed":true,"test":"Removing cover permits the trailer to align"},{"detail":"yaw=-0.49833 floor=true","passed":true,"test":"Open compound slope allows normal steering: move_right"},{"detail":"yaw=0.49833 floor=true","passed":true,"test":"Open compound slope allows normal steering: move_left"},{"detail":"bike yaw=-1.798 cart yaw=-1.118 hitch=3.268","passed":true,"test":"Loaded trailer follows a real turn on compound ground"}],"total":16}

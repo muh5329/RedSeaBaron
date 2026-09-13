@@ -1,0 +1,7 @@
+worker_map: 14/14 in 8.8s
+equipment_map: 12/12 in 3.3s
+panel_combat: 15/15 in 8.7s
+save: 22/22 in 24.6s
+ui: 14/14 in 3.7s
+multi_worker: 25/25 in 72.1s
+Web export built. Serve with tools/serve.sh and verify in a browser.

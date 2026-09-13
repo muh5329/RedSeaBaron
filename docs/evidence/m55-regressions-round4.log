@@ -1,0 +1,5 @@
+worker: 25/25 in 159.1s
+routine: 16/16 in 188.5s
+routine_stop: 4/4 in 52.0s
+integration: 16/16 in 102.5s
+panel_combat: 15/15 in 8.7s

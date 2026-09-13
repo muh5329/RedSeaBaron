@@ -1,0 +1,8 @@
+[
+  {
+    "level": "error",
+    "message": "Failed to save IDB file system: No such file or directory",
+    "timestamp": "2026-09-12T16:58:35.576Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  }
+]

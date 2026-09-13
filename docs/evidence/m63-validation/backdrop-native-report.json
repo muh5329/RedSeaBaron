@@ -1,0 +1,44 @@
+{
+  "elapsed_seconds": 8.847,
+  "milestone": "21 bounded distant terrain horizon",
+  "passed": 7,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Horizon uses one bounded reusable mesh"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Horizon cannot replace gameplay collision"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Distant relocation reuses mesh and material resources"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Horizon covers camera range in every tested region"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Real streamed terrain still supports player collision"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Horizon does not expand terrain residency"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stationary horizon does not recreate or relocate resources"
+    }
+  ],
+  "total": 7
+}

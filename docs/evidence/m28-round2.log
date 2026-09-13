@@ -1,0 +1,8 @@
+chase_camera: 12/12 in 22.4s
+traversal: 21/21 in 59.7s
+combat: 34/34 in 31.6s
+flight: 22/22 in 18.2s
+save: 22/22 in 24.7s
+integration: 16/16 in 102.2s
+airmail: 12/12 in 99.5s
+Web export built. Serve with tools/serve.sh and verify in a browser.

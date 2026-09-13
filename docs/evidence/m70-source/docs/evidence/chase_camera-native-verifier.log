@@ -1,0 +1,16 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Mounted camera follows the active vehicle anchor | 
+RSB_BIKE | PASS | Driving naturally brings camera behind the vehicle | heading error=0.056
+RSB_BIKE | PASS | Keyboard free look remains responsive while driving | 
+RSB_BIKE | PASS | Manual look has a grace period without camera fighting input | 
+RSB_BIKE | PASS | Chase camera resumes smoothly after free-look grace | heading error=0.023
+RSB_BIKE | PASS | Camera follows an actual steering turn | heading error=0.079
+RSB_BIKE | PASS | Pause freezes vehicle and camera steering | 
+RSB_BIKE | PASS | Right-drag orbit works on a stopped vehicle | delta=-0.300 drag_started=true enabled=true viewport=(1440.0, 900.0)
+RSB_BIKE | PASS | Stopped vehicle preserves the chosen camera view | 
+RSB_BIKE | PASS | Save restores mounted camera orientation exactly | 
+RSB_BIKE | PASS | Restored mounted camera resumes heading follow when driving | 
+RSB_BIKE | PASS | Dismount returns independent on-foot orbit | 
+RSB_CHASE_CAMERA_REPORT {"elapsed_seconds":22.375,"milestone":"28 vehicle chase camera with free look","passed":12,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Mounted camera follows the active vehicle anchor"},{"detail":"heading error=0.056","passed":true,"test":"Driving naturally brings camera behind the vehicle"},{"detail":"","passed":true,"test":"Keyboard free look remains responsive while driving"},{"detail":"","passed":true,"test":"Manual look has a grace period without camera fighting input"},{"detail":"heading error=0.023","passed":true,"test":"Chase camera resumes smoothly after free-look grace"},{"detail":"heading error=0.079","passed":true,"test":"Camera follows an actual steering turn"},{"detail":"","passed":true,"test":"Pause freezes vehicle and camera steering"},{"detail":"delta=-0.300 drag_started=true enabled=true viewport=(1440.0, 900.0)","passed":true,"test":"Right-drag orbit works on a stopped vehicle"},{"detail":"","passed":true,"test":"Stopped vehicle preserves the chosen camera view"},{"detail":"","passed":true,"test":"Save restores mounted camera orientation exactly"},{"detail":"","passed":true,"test":"Restored mounted camera resumes heading follow when driving"},{"detail":"","passed":true,"test":"Dismount returns independent on-foot orbit"}],"total":12}

@@ -1,0 +1,52 @@
+{
+  "status": "paused; native regression passed; rendered/Web acceptance pending",
+  "full_regression_checkpoint": false,
+  "files": 372,
+  "passed": 125,
+  "total": 125,
+  "web_export": true,
+  "results": [
+    {
+      "suite": "hostile_cover",
+      "passed": 16,
+      "total": 16,
+      "seconds": 7.048
+    },
+    {
+      "suite": "vehicle_cover",
+      "passed": 13,
+      "total": 13,
+      "seconds": 5.068
+    },
+    {
+      "suite": "combat",
+      "passed": 34,
+      "total": 34,
+      "seconds": 31.59
+    },
+    {
+      "suite": "seat_safety",
+      "passed": 12,
+      "total": 12,
+      "seconds": 7.58
+    },
+    {
+      "suite": "rider_clearance",
+      "passed": 12,
+      "total": 12,
+      "seconds": 8.946
+    },
+    {
+      "suite": "save",
+      "passed": 22,
+      "total": 22,
+      "seconds": 24.614
+    },
+    {
+      "suite": "integration",
+      "passed": 16,
+      "total": 16,
+      "seconds": 102.948
+    }
+  ]
+}

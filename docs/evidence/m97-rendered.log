@@ -1,0 +1,20 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Bike cell is blocked by actual vehicle occupancy | 
+RSB_BIKE | PASS | Moving during grid initialization clears the previously sampled cell | 
+RSB_BIKE | PASS | Hostile locomotion stops before the motorcycle | overlaps=0 x=-0.782
+RSB_BIKE | PASS | Hostile pursuit routes around physical bike cover | x=3.02 detour=2.09 requests=2 overlaps=0
+RSB_BIKE | PASS | Moving a vehicle clears its old navigation footprint | 
+RSB_BIKE | PASS | Deploying wings expands navigation occupancy | 
+RSB_BIKE | PASS | Folding wings clears the retired wing footprint | 
+RSB_BIKE | PASS | Pause freezes dynamic navigation resampling | 
+RSB_BIKE | PASS | Resume reconciles vehicle occupancy changed while paused | 
+RSB_BIKE | PASS | Removed obstacle leaves no stale blocked cell | 
+RSB_BIKE | PASS | Worker accepts a resource job across parked vehicle cover | 
+RSB_BIKE | PASS | Worker physically detours and delivers without duplication | state=Idle delivered=5 overlaps=0
+RSB_BIKE | PASS | Hostile pursuit can reach and strike an exposed mounted rider | health=87 enemy=(-2.031733, 2.061508, 79.99993) distance=2.03 state=Attack
+RSB_BIKE | PASS | Stationary vehicles do not repeatedly resample navigation | additional samples=0
+RSB_BIKE | PASS | Dynamic navigation remains bounded to local footprints | maximum batch=162 largest update=0.436 ms
+RSB_VEHICLE_NAVIGATION_REPORT {"elapsed_seconds":32.536,"milestone":"97 physical NPC vehicle navigation","passed":15,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Bike cell is blocked by actual vehicle occupancy"},{"detail":"","passed":true,"test":"Moving during grid initialization clears the previously sampled cell"},{"detail":"overlaps=0 x=-0.782","passed":true,"test":"Hostile locomotion stops before the motorcycle"},{"detail":"x=3.02 detour=2.09 requests=2 overlaps=0","passed":true,"test":"Hostile pursuit routes around physical bike cover"},{"detail":"","passed":true,"test":"Moving a vehicle clears its old navigation footprint"},{"detail":"","passed":true,"test":"Deploying wings expands navigation occupancy"},{"detail":"","passed":true,"test":"Folding wings clears the retired wing footprint"},{"detail":"","passed":true,"test":"Pause freezes dynamic navigation resampling"},{"detail":"","passed":true,"test":"Resume reconciles vehicle occupancy changed while paused"},{"detail":"","passed":true,"test":"Removed obstacle leaves no stale blocked cell"},{"detail":"","passed":true,"test":"Worker accepts a resource job across parked vehicle cover"},{"detail":"state=Idle delivered=5 overlaps=0","passed":true,"test":"Worker physically detours and delivers without duplication"},{"detail":"health=87 enemy=(-2.031733, 2.061508, 79.99993) distance=2.03 state=Attack","passed":true,"test":"Hostile pursuit can reach and strike an exposed mounted rider"},{"detail":"additional samples=0","passed":true,"test":"Stationary vehicles do not repeatedly resample navigation"},{"detail":"maximum batch=162 largest update=0.436 ms","passed":true,"test":"Dynamic navigation remains bounded to local footprints"}],"total":15}

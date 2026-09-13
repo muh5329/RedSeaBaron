@@ -1,0 +1,19 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Stationary hostile blocks wing deployment | mode=BIKE
+RSB_BIKE | PASS | Stationary worker blocks wing deployment | mode=BIKE
+RSB_BIKE | PASS | Hostile standing in front propeller sweep blocks deployment | mode=BIKE
+RSB_BIKE | PASS | Driving motorcycle stops before a stationary hostile body | overlap frames=0 bike z=295.718
+RSB_BIKE | PASS | Moving the hostile away releases the motorcycle | 
+RSB_BIKE | PASS | Driving motorcycle also stops before a stationary worker | overlap frames=0 z=295.660
+RSB_BIKE | PASS | Clear space still permits wing deployment | 
+RSB_BIKE | PASS | Worker entering the unfolding span causes a safe abort | overlap frames=0 mode=BIKE
+RSB_BIKE | PASS | Removing the worker permits complete aircraft deployment | 
+RSB_BIKE | PASS | Aircraft yaw cannot sweep a deployed wing through a hostile | 
+RSB_BIKE | PASS | Defeated hostile no longer blocks aircraft yaw | 
+RSB_BIKE | PASS | NPC-aware vehicles still mount and hitch a full cargo load | 
+RSB_BIKE | PASS | Loaded towing cannot drag cart geometry through a worker | overlap frames=0 max gap=3.513 cart=(-0.013237, 30.00094, 285.8222)
+RSB_BIKE | PASS | Clearing the worker restores towing with all goods preserved | 
+RSB_VEHICLE_ACTOR_CLEARANCE_REPORT {"elapsed_seconds":21.901,"milestone":"100 vehicle motion against NPC bodies","passed":14,"platform":"macOS","tests":[{"detail":"mode=BIKE","passed":true,"test":"Stationary hostile blocks wing deployment"},{"detail":"mode=BIKE","passed":true,"test":"Stationary worker blocks wing deployment"},{"detail":"mode=BIKE","passed":true,"test":"Hostile standing in front propeller sweep blocks deployment"},{"detail":"overlap frames=0 bike z=295.718","passed":true,"test":"Driving motorcycle stops before a stationary hostile body"},{"detail":"","passed":true,"test":"Moving the hostile away releases the motorcycle"},{"detail":"overlap frames=0 z=295.660","passed":true,"test":"Driving motorcycle also stops before a stationary worker"},{"detail":"","passed":true,"test":"Clear space still permits wing deployment"},{"detail":"overlap frames=0 mode=BIKE","passed":true,"test":"Worker entering the unfolding span causes a safe abort"},{"detail":"","passed":true,"test":"Removing the worker permits complete aircraft deployment"},{"detail":"","passed":true,"test":"Aircraft yaw cannot sweep a deployed wing through a hostile"},{"detail":"","passed":true,"test":"Defeated hostile no longer blocks aircraft yaw"},{"detail":"","passed":true,"test":"NPC-aware vehicles still mount and hitch a full cargo load"},{"detail":"overlap frames=0 max gap=3.513 cart=(-0.013237, 30.00094, 285.8222)","passed":true,"test":"Loaded towing cannot drag cart geometry through a worker"},{"detail":"","passed":true,"test":"Clearing the worker restores towing with all goods preserved"}],"total":14}

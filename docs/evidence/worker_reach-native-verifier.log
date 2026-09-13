@@ -1,0 +1,11 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Actual farmer job reaches visible work after acquiring goods | 
+RSB_BIKE | PASS | Working farmer reaches toward the resource | front=30/30 least_reach=0.203
+RSB_BIKE | PASS | Pause freezes the work gesture and task clock | 
+RSB_BIKE | PASS | Task pose turns back toward its actual source | reach=0.390
+RSB_BIKE | PASS | Removed source reference cannot break an acquired work gesture | 
+RSB_BIKE | PASS | Pose changes preserve exact harvest and delivery | 
+RSB_BIKE | PASS | Idle releases the working arm to its resting pose | 
+RSB_WORKER_REACH_REPORT {"elapsed_seconds":23.542,"milestone":"91 workers reach toward their task","passed":7,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Actual farmer job reaches visible work after acquiring goods"},{"detail":"front=30/30 least_reach=0.203","passed":true,"test":"Working farmer reaches toward the resource"},{"detail":"","passed":true,"test":"Pause freezes the work gesture and task clock"},{"detail":"reach=0.390","passed":true,"test":"Task pose turns back toward its actual source"},{"detail":"","passed":true,"test":"Removed source reference cannot break an acquired work gesture"},{"detail":"","passed":true,"test":"Pose changes preserve exact harvest and delivery"},{"detail":"","passed":true,"test":"Idle releases the working arm to its resting pose"}],"total":7}

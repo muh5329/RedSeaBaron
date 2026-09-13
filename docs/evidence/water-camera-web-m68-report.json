@@ -1,0 +1,29 @@
+{
+  "elapsed_seconds": 2.494,
+  "milestone": "68 world-anchored water rendering",
+  "passed": 4,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Coastal water render occupies its safety resource's level"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "The visual sample lies over genuinely submerged terrain"
+    },
+    {
+      "detail": "color a=(0.1882, 0.4, 0.4196, 1.0) b=(0.1843, 0.4, 0.4196, 1.0) difference=0.00392",
+      "passed": true,
+      "test": "Camera motion cannot drag the ripple pattern over a fixed world point"
+    },
+    {
+      "detail": "phase difference=0.06050",
+      "passed": true,
+      "test": "World anchoring retains animated water variation"
+    }
+  ],
+  "total": 4
+}

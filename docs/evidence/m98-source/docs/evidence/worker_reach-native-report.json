@@ -1,0 +1,44 @@
+{
+  "elapsed_seconds": 23.532,
+  "milestone": "91 workers reach toward their task",
+  "passed": 7,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Actual farmer job reaches visible work after acquiring goods"
+    },
+    {
+      "detail": "front=30/30 least_reach=0.203",
+      "passed": true,
+      "test": "Working farmer reaches toward the resource"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes the work gesture and task clock"
+    },
+    {
+      "detail": "reach=0.390",
+      "passed": true,
+      "test": "Task pose turns back toward its actual source"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removed source reference cannot break an acquired work gesture"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pose changes preserve exact harvest and delivery"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Idle releases the working arm to its resting pose"
+    }
+  ],
+  "total": 7
+}

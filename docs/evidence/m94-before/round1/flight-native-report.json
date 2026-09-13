@@ -1,0 +1,119 @@
+{
+  "elapsed_seconds": 20.055,
+  "milestone": "04 flight",
+  "passed": 18,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Flight begins with exclusive seat ownership"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Deployment begins through player input"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Repeated deployment rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wings fully deploy with collision"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stationary takeoff rejected"
+    },
+    {
+      "detail": "speed=14.67",
+      "passed": true,
+      "test": "Runway acceleration reaches takeoff speed"
+    },
+    {
+      "detail": "AGL=13.26",
+      "passed": true,
+      "test": "Takeoff and climb"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Airborne folding rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Airborne dismount rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Flight blocks weapon use"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes aircraft"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Aircraft steering changes heading"
+    },
+    {
+      "detail": "y=21.68 to 14.04",
+      "passed": true,
+      "test": "Descent control lowers altitude"
+    },
+    {
+      "detail": "position=(31.64901, 3.965303, 17.80853)",
+      "passed": false,
+      "test": "Controlled landing restores grounded mode"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Landed aircraft folds into bike"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Transition preserves one actor and vehicle"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Grounded exit remains usable"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Deployment into obstacle rejected"
+    },
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Deployment resumes after clearing obstacle"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "New obstruction during deployment aborts safely"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "High-speed folding rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Airborne death recovers actor and resets aircraft"
+    }
+  ],
+  "total": 22
+}

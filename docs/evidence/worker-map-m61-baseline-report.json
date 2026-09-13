@@ -1,0 +1,14 @@
+{
+  "elapsed_seconds": 0.848,
+  "milestone": "61 worker map tracking",
+  "passed": 0,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Map can track a registered worker"
+    }
+  ],
+  "total": 1
+}

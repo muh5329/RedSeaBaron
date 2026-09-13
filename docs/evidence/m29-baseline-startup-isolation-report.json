@@ -1,0 +1,21 @@
+{
+  "passed": 0,
+  "total": 3,
+  "assertions": [
+    {
+      "name": "ordinary",
+      "passed": false,
+      "exit_code": 0
+    },
+    {
+      "name": "selected-broken",
+      "passed": false,
+      "exit_code": 0
+    },
+    {
+      "name": "unknown",
+      "passed": false,
+      "exit_code": 0
+    }
+  ]
+}

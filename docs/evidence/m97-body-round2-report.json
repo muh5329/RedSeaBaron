@@ -1,0 +1,20 @@
+{
+  "passed": 3,
+  "tests": [
+    {
+      "passed": true,
+      "test": "Physical motorcycle occupies the navigation sample"
+    },
+    {
+      "passed": true,
+      "test": "Navigation marks the occupied bike cell blocked"
+    },
+    {
+      "end_x": -0.782415270805359,
+      "overlap_samples": 0,
+      "passed": true,
+      "test": "Hostile body cannot walk through motorcycle"
+    }
+  ],
+  "total": 3
+}

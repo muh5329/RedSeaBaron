@@ -1,0 +1,29 @@
+{
+  "elapsed_seconds": 51.957,
+  "milestone": "20 stopped routine completion accounting",
+  "passed": 4,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Routine reaches its final selling job"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stop keeps current selling job but disables repetition"
+    },
+    {
+      "detail": "cycles=1 credits=40",
+      "passed": true,
+      "test": "Finishing stopped final job still counts its completed cycle"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stopped routine save finishes and counts exactly once"
+    }
+  ],
+  "total": 4
+}

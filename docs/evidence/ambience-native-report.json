@@ -1,0 +1,69 @@
+{
+  "elapsed_seconds": 9.161,
+  "milestone": "87 bounded exploration ambience",
+  "passed": 12,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Exploration has exactly one dedicated wind voice"
+    },
+    {
+      "detail": "playing=true gain=0.10945 db=-19.22",
+      "passed": true,
+      "test": "Active exploration starts its wind loop"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wind uses a bounded preloaded circular clip"
+    },
+    {
+      "detail": "open=0.12589 sheltered=0.03162",
+      "passed": true,
+      "test": "Physical roof attenuates wind without stopping the loop"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Leaving shelter restores open-air ambience"
+    },
+    {
+      "detail": "ground=0.06314 high=0.12589",
+      "passed": true,
+      "test": "High exposed travel raises wind within a restrained ceiling"
+    },
+    {
+      "detail": "loop time=1.756",
+      "passed": true,
+      "test": "Wind crosses the loop boundary without stopping"
+    },
+    {
+      "detail": "frames=86016 rms=0.018108 peak=0.073470",
+      "passed": true,
+      "test": "Loop boundary produces actual bounded mixer audio"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause silences ambience and existing effects"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Resume fades the same wind voice back in"
+    },
+    {
+      "detail": "voices=10 queries=13",
+      "passed": true,
+      "test": "Repeated distant travel keeps voices and context queries bounded"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Disabling audio stops wind and resets fade state"
+    }
+  ],
+  "total": 12
+}

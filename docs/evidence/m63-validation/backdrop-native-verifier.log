@@ -1,0 +1,11 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Horizon uses one bounded reusable mesh | 
+RSB_BIKE | PASS | Horizon cannot replace gameplay collision | 
+RSB_BIKE | PASS | Distant relocation reuses mesh and material resources | 
+RSB_BIKE | PASS | Horizon covers camera range in every tested region | 
+RSB_BIKE | PASS | Real streamed terrain still supports player collision | 
+RSB_BIKE | PASS | Horizon does not expand terrain residency | 
+RSB_BIKE | PASS | Stationary horizon does not recreate or relocate resources | 
+RSB_BACKDROP_REPORT {"elapsed_seconds":8.847,"milestone":"21 bounded distant terrain horizon","passed":7,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Horizon uses one bounded reusable mesh"},{"detail":"","passed":true,"test":"Horizon cannot replace gameplay collision"},{"detail":"","passed":true,"test":"Distant relocation reuses mesh and material resources"},{"detail":"","passed":true,"test":"Horizon covers camera range in every tested region"},{"detail":"","passed":true,"test":"Real streamed terrain still supports player collision"},{"detail":"","passed":true,"test":"Horizon does not expand terrain residency"},{"detail":"","passed":true,"test":"Stationary horizon does not recreate or relocate resources"}],"total":7}

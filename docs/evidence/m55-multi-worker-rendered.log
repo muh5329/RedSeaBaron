@@ -1,0 +1,29 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Two independently assignable workers are registered | 
+RSB_BIKE | PASS | Panel Tab selects Ivo without combat lock | 
+RSB_BIKE | PASS | Closed panel does not change selected worker | 
+RSB_BIKE | PASS | Different selected workers accept independent jobs | 
+RSB_BIKE | PASS | Both workers acquire real separate source stock | 
+RSB_BIKE | PASS | Snapshot preserves distinct cargo under stable identities | 
+RSB_BIKE | PASS | Roster reordering cannot swap cargo or jobs on restore | 
+RSB_BIKE | PASS | Pause freezes both workers and rejects orders | 
+RSB_BIKE | PASS | Invalid secondary roster rejects atomically: negative | 
+RSB_BIKE | PASS | Invalid secondary roster rejects atomically: missing | 
+RSB_BIKE | PASS | Invalid secondary roster rejects atomically: unknown | 
+RSB_BIKE | PASS | Invalid secondary roster rejects atomically: future | 
+RSB_BIKE | PASS | Invalid secondary roster rejects atomically: downgrade | 
+RSB_BIKE | PASS | Invalid secondary roster rejects atomically: routine | 
+RSB_BIKE | PASS | Invalid secondary roster rejects atomically: wrong_type | 
+RSB_BIKE | PASS | Invalid secondary roster rejects atomically: container | 
+RSB_BIKE | PASS | Duplicate registered worker identities reject saving | 
+RSB_BIKE | PASS | Missing registered worker identity rejects saving | 
+RSB_BIKE | PASS | Restored independent jobs deliver once and return | 
+RSB_BIKE | PASS | Ivo sells Mara's harvest through shared warehouse once | 
+RSB_BIKE | PASS | Stopping Ivo's routine leaves Mara running | 
+RSB_BIKE | PASS | Save restores each worker's active and finishing routine flags | 
+RSB_BIKE | PASS | Real completion advances only the owning worker's routine | Mara cycles=1 Ivo cycles=0 jobs=3
+RSB_BIKE | PASS | Legacy save initializes only newly introduced Ivo | 
+RSB_MULTI_WORKER_REPORT {"elapsed_seconds":73.009,"milestone":"55 independent worker roster","passed":24,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Two independently assignable workers are registered"},{"detail":"","passed":true,"test":"Panel Tab selects Ivo without combat lock"},{"detail":"","passed":true,"test":"Closed panel does not change selected worker"},{"detail":"","passed":true,"test":"Different selected workers accept independent jobs"},{"detail":"","passed":true,"test":"Both workers acquire real separate source stock"},{"detail":"","passed":true,"test":"Snapshot preserves distinct cargo under stable identities"},{"detail":"","passed":true,"test":"Roster reordering cannot swap cargo or jobs on restore"},{"detail":"","passed":true,"test":"Pause freezes both workers and rejects orders"},{"detail":"","passed":true,"test":"Invalid secondary roster rejects atomically: negative"},{"detail":"","passed":true,"test":"Invalid secondary roster rejects atomically: missing"},{"detail":"","passed":true,"test":"Invalid secondary roster rejects atomically: unknown"},{"detail":"","passed":true,"test":"Invalid secondary roster rejects atomically: future"},{"detail":"","passed":true,"test":"Invalid secondary roster rejects atomically: downgrade"},{"detail":"","passed":true,"test":"Invalid secondary roster rejects atomically: routine"},{"detail":"","passed":true,"test":"Invalid secondary roster rejects atomically: wrong_type"},{"detail":"","passed":true,"test":"Invalid secondary roster rejects atomically: container"},{"detail":"","passed":true,"test":"Duplicate registered worker identities reject saving"},{"detail":"","passed":true,"test":"Missing registered worker identity rejects saving"},{"detail":"","passed":true,"test":"Restored independent jobs deliver once and return"},{"detail":"","passed":true,"test":"Ivo sells Mara's harvest through shared warehouse once"},{"detail":"","passed":true,"test":"Stopping Ivo's routine leaves Mara running"},{"detail":"","passed":true,"test":"Save restores each worker's active and finishing routine flags"},{"detail":"Mara cycles=1 Ivo cycles=0 jobs=3","passed":true,"test":"Real completion advances only the owning worker's routine"},{"detail":"","passed":true,"test":"Legacy save initializes only newly introduced Ivo"}],"total":24}

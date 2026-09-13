@@ -1,0 +1,1649 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+SCRIPT ERROR: Parse Error: Cannot infer the type of "static_material" variable because the value doesn't have a set type.
+          at: GDScript::reload (res://scripts/world/static_batcher.gd:9)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://scripts/vehicles/vehicle_mesh.gd:0)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://scripts/vehicles/cart_visual.gd:0)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://scripts/vehicles/cargo_cart.gd:0)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://scripts/vehicles/bike_controller.gd:0)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://scripts/player/orbit_camera.gd:0)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://scripts/player/player_controller.gd:0)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://scripts/resources/consumable_use.gd:0)
+SCRIPT ERROR: Compile Error: Failed to compile depended scripts.
+          at: GDScript::reload (res://scripts/main.gd:0)
+ERROR: Failed to load script "res://scripts/main.gd" with error "Compilation failed".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)
+SCRIPT ERROR: Invalid call. Nonexistent function 'combine' in base 'GDScript'.
+          at: CoastalRegion._ready (res://scripts/world/coastal_region.gd:49)
+          GDScript backtrace (most recent call first):
+              [0] _ready (res://scripts/world/coastal_region.gd:49)
+              [1] _ready (res://scripts/main.gd:34)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:59)
+              [2] _ready (res://scripts/player/player_controller.gd:42)
+              [3] _ready (res://scripts/main.gd:37)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:61)
+              [2] _ready (res://scripts/player/player_controller.gd:42)
+              [3] _ready (res://scripts/main.gd:37)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:69)
+              [2] _ready (res://scripts/player/player_controller.gd:42)
+              [3] _ready (res://scripts/main.gd:37)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:59)
+              [2] _ready (res://scripts/player/player_controller.gd:42)
+              [3] _ready (res://scripts/main.gd:37)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:61)
+              [2] _ready (res://scripts/player/player_controller.gd:42)
+              [3] _ready (res://scripts/main.gd:37)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:69)
+              [2] _ready (res://scripts/player/player_controller.gd:42)
+              [3] _ready (res://scripts/main.gd:37)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:79)
+              [2] _ready (res://scripts/player/player_controller.gd:42)
+              [3] _ready (res://scripts/main.gd:37)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _wrench (res://scripts/combat/weapon_visual.gd:26)
+              [2] _ready (res://scripts/combat/weapon_visual.gd:11)
+              [3] _build_weapons (res://scripts/combat/player_combat.gd:54)
+              [4] _ready (res://scripts/combat/player_combat.gd:49)
+              [5] _ready (res://scripts/main.gd:49)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _rifle (res://scripts/combat/weapon_visual.gd:40)
+              [2] _ready (res://scripts/combat/weapon_visual.gd:10)
+              [3] _build_weapons (res://scripts/combat/player_combat.gd:58)
+              [4] _ready (res://scripts/combat/player_combat.gd:49)
+              [5] _ready (res://scripts/main.gd:49)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _rifle (res://scripts/combat/weapon_visual.gd:46)
+              [2] _ready (res://scripts/combat/weapon_visual.gd:10)
+              [3] _build_weapons (res://scripts/combat/player_combat.gd:58)
+              [4] _ready (res://scripts/combat/player_combat.gd:49)
+              [5] _ready (res://scripts/main.gd:49)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _finish_joint (res://scripts/ai/enemy_visual.gd:26)
+              [2] _raider (res://scripts/ai/enemy_visual.gd:42)
+              [3] _ready (res://scripts/ai/enemy_visual.gd:12)
+              [4] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [5] _spawn_camp (res://scripts/main.gd:260)
+              [6] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _finish_joint (res://scripts/ai/enemy_visual.gd:26)
+              [2] _raider (res://scripts/ai/enemy_visual.gd:53)
+              [3] _ready (res://scripts/ai/enemy_visual.gd:12)
+              [4] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [5] _spawn_camp (res://scripts/main.gd:260)
+              [6] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _finish_joint (res://scripts/ai/enemy_visual.gd:26)
+              [2] _raider (res://scripts/ai/enemy_visual.gd:42)
+              [3] _ready (res://scripts/ai/enemy_visual.gd:12)
+              [4] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [5] _spawn_camp (res://scripts/main.gd:260)
+              [6] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _finish_joint (res://scripts/ai/enemy_visual.gd:26)
+              [2] _raider (res://scripts/ai/enemy_visual.gd:53)
+              [3] _ready (res://scripts/ai/enemy_visual.gd:12)
+              [4] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [5] _spawn_camp (res://scripts/main.gd:260)
+              [6] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/ai/enemy_visual.gd:13)
+              [2] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [3] _spawn_camp (res://scripts/main.gd:260)
+              [4] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _finish_joint (res://scripts/ai/enemy_visual.gd:26)
+              [2] _beast (res://scripts/ai/enemy_visual.gd:75)
+              [3] _ready (res://scripts/ai/enemy_visual.gd:11)
+              [4] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [5] _spawn_camp (res://scripts/main.gd:260)
+              [6] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _finish_joint (res://scripts/ai/enemy_visual.gd:26)
+              [2] _beast (res://scripts/ai/enemy_visual.gd:75)
+              [3] _ready (res://scripts/ai/enemy_visual.gd:11)
+              [4] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [5] _spawn_camp (res://scripts/main.gd:260)
+              [6] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _finish_joint (res://scripts/ai/enemy_visual.gd:26)
+              [2] _beast (res://scripts/ai/enemy_visual.gd:75)
+              [3] _ready (res://scripts/ai/enemy_visual.gd:11)
+              [4] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [5] _spawn_camp (res://scripts/main.gd:260)
+              [6] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _finish_joint (res://scripts/ai/enemy_visual.gd:26)
+              [2] _beast (res://scripts/ai/enemy_visual.gd:75)
+              [3] _ready (res://scripts/ai/enemy_visual.gd:11)
+              [4] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [5] _spawn_camp (res://scripts/main.gd:260)
+              [6] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/ai/enemy_visual.gd:13)
+              [2] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [3] _spawn_camp (res://scripts/main.gd:260)
+              [4] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _finish_joint (res://scripts/ai/enemy_visual.gd:26)
+              [2] _raider (res://scripts/ai/enemy_visual.gd:42)
+              [3] _ready (res://scripts/ai/enemy_visual.gd:12)
+              [4] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [5] _spawn_camp (res://scripts/main.gd:260)
+              [6] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _finish_joint (res://scripts/ai/enemy_visual.gd:26)
+              [2] _raider (res://scripts/ai/enemy_visual.gd:53)
+              [3] _ready (res://scripts/ai/enemy_visual.gd:12)
+              [4] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [5] _spawn_camp (res://scripts/main.gd:260)
+              [6] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _finish_joint (res://scripts/ai/enemy_visual.gd:26)
+              [2] _raider (res://scripts/ai/enemy_visual.gd:42)
+              [3] _ready (res://scripts/ai/enemy_visual.gd:12)
+              [4] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [5] _spawn_camp (res://scripts/main.gd:260)
+              [6] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _finish_joint (res://scripts/ai/enemy_visual.gd:26)
+              [2] _raider (res://scripts/ai/enemy_visual.gd:53)
+              [3] _ready (res://scripts/ai/enemy_visual.gd:12)
+              [4] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [5] _spawn_camp (res://scripts/main.gd:260)
+              [6] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/ai/enemy_visual.gd:13)
+              [2] _ready (res://scripts/ai/enemy_actor.gd:38)
+              [3] _spawn_camp (res://scripts/main.gd:260)
+              [4] _ready (res://scripts/main.gd:50)
+SCRIPT ERROR: Invalid call. Nonexistent function 'combine' in base 'GDScript'.
+          at: wheel (res://scripts/vehicles/vehicle_mesh.gd:61)
+          GDScript backtrace (most recent call first):
+              [0] wheel (res://scripts/vehicles/vehicle_mesh.gd:61)
+              [1] _wheel (res://scripts/vehicles/bike_visual.gd:88)
+              [2] _ready (res://scripts/vehicles/bike_visual.gd:18)
+              [3] _ready (res://scripts/vehicles/bike_controller.gd:36)
+              [4] _spawn_bike (res://scripts/main.gd:274)
+              [5] _ready (res://scripts/main.gd:51)
+SCRIPT ERROR: Invalid call. Nonexistent function 'combine' in base 'GDScript'.
+          at: wheel (res://scripts/vehicles/vehicle_mesh.gd:61)
+          GDScript backtrace (most recent call first):
+              [0] wheel (res://scripts/vehicles/vehicle_mesh.gd:61)
+              [1] _wheel (res://scripts/vehicles/bike_visual.gd:88)
+              [2] _ready (res://scripts/vehicles/bike_visual.gd:19)
+              [3] _ready (res://scripts/vehicles/bike_controller.gd:36)
+              [4] _spawn_bike (res://scripts/main.gd:274)
+              [5] _ready (res://scripts/main.gd:51)
+SCRIPT ERROR: Cannot call method 'set_meta' on a null value.
+          at: BikeVisual._ready (res://scripts/vehicles/bike_visual.gd:35)
+          GDScript backtrace (most recent call first):
+              [0] _ready (res://scripts/vehicles/bike_visual.gd:35)
+              [1] _ready (res://scripts/vehicles/bike_controller.gd:36)
+              [2] _spawn_bike (res://scripts/main.gd:274)
+              [3] _ready (res://scripts/main.gd:51)
+SCRIPT ERROR: Invalid call. Nonexistent function 'combine' in base 'GDScript'.
+          at: wheel (res://scripts/vehicles/vehicle_mesh.gd:61)
+          GDScript backtrace (most recent call first):
+              [0] wheel (res://scripts/vehicles/vehicle_mesh.gd:61)
+              [1] _ready (res://scripts/vehicles/cart_visual.gd:25)
+              [2] _ready (res://scripts/vehicles/cargo_cart.gd:30)
+              [3] _spawn_cart (res://scripts/main.gd:291)
+              [4] _ready (res://scripts/main.gd:52)
+SCRIPT ERROR: Cannot call method 'set_meta' on a null value.
+          at: CartVisual._ready (res://scripts/vehicles/cart_visual.gd:26)
+          GDScript backtrace (most recent call first):
+              [0] _ready (res://scripts/vehicles/cart_visual.gd:26)
+              [1] _ready (res://scripts/vehicles/cargo_cart.gd:30)
+              [2] _spawn_cart (res://scripts/main.gd:291)
+              [3] _ready (res://scripts/main.gd:52)
+SCRIPT ERROR: Invalid call. Nonexistent function 'combine' in base 'GDScript'.
+          at: ResourceSource._ready (res://scripts/resources/resource_source.gd:34)
+          GDScript backtrace (most recent call first):
+              [0] _ready (res://scripts/resources/resource_source.gd:34)
+              [1] _ready (res://scripts/economy/logistics_world.gd:45)
+              [2] _ready (res://scripts/main.gd:58)
+SCRIPT ERROR: Invalid call. Nonexistent function 'combine' in base 'GDScript'.
+          at: ResourceSource._ready (res://scripts/resources/resource_source.gd:34)
+          GDScript backtrace (most recent call first):
+              [0] _ready (res://scripts/resources/resource_source.gd:34)
+              [1] _ready (res://scripts/economy/logistics_world.gd:45)
+              [2] _ready (res://scripts/main.gd:58)
+SCRIPT ERROR: Invalid call. Nonexistent function 'combine' in base 'GDScript'.
+          at: ResourceSource._ready (res://scripts/resources/resource_source.gd:34)
+          GDScript backtrace (most recent call first):
+              [0] _ready (res://scripts/resources/resource_source.gd:34)
+              [1] _ready (res://scripts/economy/logistics_world.gd:45)
+              [2] _ready (res://scripts/main.gd:58)
+SCRIPT ERROR: Invalid call. Nonexistent function 'combine' in base 'GDScript'.
+          at: ResourceSource._ready (res://scripts/resources/resource_source.gd:34)
+          GDScript backtrace (most recent call first):
+              [0] _ready (res://scripts/resources/resource_source.gd:34)
+              [1] _ready (res://scripts/economy/logistics_world.gd:53)
+              [2] _ready (res://scripts/main.gd:58)
+SCRIPT ERROR: Invalid call. Nonexistent function 'combine' in base 'GDScript'.
+          at: ResourceSource._ready (res://scripts/resources/resource_source.gd:34)
+          GDScript backtrace (most recent call first):
+              [0] _ready (res://scripts/resources/resource_source.gd:34)
+              [1] _ready (res://scripts/economy/logistics_world.gd:64)
+              [2] _ready (res://scripts/main.gd:58)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:59)
+              [2] _ready (res://scripts/ai/worker_actor.gd:49)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:64)
+              [4] _ready (res://scripts/main.gd:61)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:61)
+              [2] _ready (res://scripts/ai/worker_actor.gd:49)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:64)
+              [4] _ready (res://scripts/main.gd:61)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:69)
+              [2] _ready (res://scripts/ai/worker_actor.gd:49)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:64)
+              [4] _ready (res://scripts/main.gd:61)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:59)
+              [2] _ready (res://scripts/ai/worker_actor.gd:49)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:64)
+              [4] _ready (res://scripts/main.gd:61)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:61)
+              [2] _ready (res://scripts/ai/worker_actor.gd:49)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:64)
+              [4] _ready (res://scripts/main.gd:61)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:69)
+              [2] _ready (res://scripts/ai/worker_actor.gd:49)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:64)
+              [4] _ready (res://scripts/main.gd:61)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:79)
+              [2] _ready (res://scripts/ai/worker_actor.gd:49)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:64)
+              [4] _ready (res://scripts/main.gd:61)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:59)
+              [2] _ready (res://scripts/ai/worker_actor.gd:49)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:64)
+              [4] _ready (res://scripts/main.gd:61)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:61)
+              [2] _ready (res://scripts/ai/worker_actor.gd:49)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:64)
+              [4] _ready (res://scripts/main.gd:61)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:69)
+              [2] _ready (res://scripts/ai/worker_actor.gd:49)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:64)
+              [4] _ready (res://scripts/main.gd:61)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:59)
+              [2] _ready (res://scripts/ai/worker_actor.gd:49)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:64)
+              [4] _ready (res://scripts/main.gd:61)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:61)
+              [2] _ready (res://scripts/ai/worker_actor.gd:49)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:64)
+              [4] _ready (res://scripts/main.gd:61)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:69)
+              [2] _ready (res://scripts/ai/worker_actor.gd:49)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:64)
+              [4] _ready (res://scripts/main.gd:61)
+SCRIPT ERROR: Invalid call. Nonexistent function '_collect' in base 'GDScript'.
+          at: combine (res://scripts/world/color_batch.gd:7)
+          GDScript backtrace (most recent call first):
+              [0] combine (res://scripts/world/color_batch.gd:7)
+              [1] _ready (res://scripts/player/player_visual.gd:79)
+              [2] _ready (res://scripts/ai/worker_actor.gd:49)
+              [3] _ready (res://scripts/jobs/worker_manager.gd:64)
+              [4] _ready (res://scripts/main.gd:61)
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+RSB_UI | map_open=true
+RSB_BIKE | PASS | Map opens through real key event and pauses gameplay | 
+RSB_BIKE | PASS | Map click selects a usable delivery waypoint | 
+RSB_BIKE | PASS | Map clicking cannot fire rifle | 
+RSB_BIKE | PASS | Local map keeps region in panel bounds | 
+RSB_BIKE | PASS | World map fits distant coordinates | 
+RSB_UI | map_open=false
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+RSB_BIKE | PASS | Closing map restores active controls | 
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+RSB_BIKE | PASS | Worker order panel is available | 
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+RSB_BIKE | PASS | Cargo readout replaces worker panel | 
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+RSB_BIKE | PASS | Worker panel replaces cargo readout | 
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+RSB_BIKE | PASS | Short key pulse opens cargo | 
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+RSB_BIKE | PASS | Short key pulse opens workers | 
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+RSB_BIKE | PASS | Pause menu fits viewport height | 
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+RSB_BIKE | FAIL | Static render batching is active | merged=0
+RSB_BIKE | PASS | Core terrain reduced to 25 bounded tiles | 
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid assignment of property or key 'visible' with value of type 'bool' on a base object of type 'Nil'.
+          at: LogisticsWorld.refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+          GDScript backtrace (most recent call first):
+              [0] refresh_prompt (res://scripts/economy/logistics_world.gd:239)
+              [1] _process (res://scripts/economy/logistics_world.gd:220)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)
+RSB_BIKE | FAIL | Village draw calls reduced below prior 679 baseline | median calls=2045 fps=103
+RSB_UI_REPORT {"elapsed_seconds":4.736,"milestone":"11 map and render readability","passed":13,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Map opens through real key event and pauses gameplay"},{"detail":"","passed":true,"test":"Map click selects a usable delivery waypoint"},{"detail":"","passed":true,"test":"Map clicking cannot fire rifle"},{"detail":"","passed":true,"test":"Local map keeps region in panel bounds"},{"detail":"","passed":true,"test":"World map fits distant coordinates"},{"detail":"","passed":true,"test":"Closing map restores active controls"},{"detail":"","passed":true,"test":"Worker order panel is available"},{"detail":"","passed":true,"test":"Cargo readout replaces worker panel"},{"detail":"","passed":true,"test":"Worker panel replaces cargo readout"},{"detail":"","passed":true,"test":"Short key pulse opens cargo"},{"detail":"","passed":true,"test":"Short key pulse opens workers"},{"detail":"","passed":true,"test":"Pause menu fits viewport height"},{"detail":"merged=0","passed":false,"test":"Static render batching is active"},{"detail":"","passed":true,"test":"Core terrain reduced to 25 bounded tiles"},{"detail":"median calls=2045 fps=103","passed":false,"test":"Village draw calls reduced below prior 679 baseline"}],"total":15}
+SCRIPT ERROR: Invalid access to property or key 'rotation' on a base object of type 'Nil'.
+          at: BikeVisual.animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+          GDScript backtrace (most recent call first):
+              [0] animate_vehicle (res://scripts/vehicles/bike_visual.gd:92)
+              [1] _physics_process (res://scripts/vehicles/bike_controller.gd:89)

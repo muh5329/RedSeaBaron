@@ -1,0 +1,15 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Distant resource and desk actions do not clutter the world | visible action labels=0
+RSB_BIKE | PASS | Reachability fixture contains a blocked nearer and clear farther source | 
+RSB_BIKE | PASS | A blocked nearest source cannot starve the reachable action | 
+RSB_BIKE | PASS | Real use input gathers from the reachable source | 
+RSB_BIKE | PASS | Only the reachable selected source advertises its action | 
+RSB_BIKE | PASS | Pause clears the action prompt | 
+RSB_BIKE | PASS | Resume restores the reachable action | 
+RSB_BIKE | PASS | Use input refreshes stale selection before acting | 
+RSB_BIKE | PASS | Leaving range removes the advertised action | 
+RSB_BIKE | PASS | A real courier desk exposes its nearby action | 
+RSB_BIKE | PASS | Real courier input accepts one parcel through the selected prompt | 
+RSB_LOGISTICS_PROMPT_REPORT {"elapsed_seconds":2.964,"milestone":"72 reachable logistics prompts","passed":11,"platform":"macOS","tests":[{"detail":"visible action labels=0","passed":true,"test":"Distant resource and desk actions do not clutter the world"},{"detail":"","passed":true,"test":"Reachability fixture contains a blocked nearer and clear farther source"},{"detail":"","passed":true,"test":"A blocked nearest source cannot starve the reachable action"},{"detail":"","passed":true,"test":"Real use input gathers from the reachable source"},{"detail":"","passed":true,"test":"Only the reachable selected source advertises its action"},{"detail":"","passed":true,"test":"Pause clears the action prompt"},{"detail":"","passed":true,"test":"Resume restores the reachable action"},{"detail":"","passed":true,"test":"Use input refreshes stale selection before acting"},{"detail":"","passed":true,"test":"Leaving range removes the advertised action"},{"detail":"","passed":true,"test":"A real courier desk exposes its nearby action"},{"detail":"","passed":true,"test":"Real courier input accepts one parcel through the selected prompt"}],"total":11}

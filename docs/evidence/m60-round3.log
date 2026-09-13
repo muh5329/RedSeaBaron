@@ -1,0 +1,8 @@
+tail_clearance: 15/15 in 7.7s
+steering_clearance: 16/16 in 9.3s
+touchdown: 8/8 in 3.3s
+seat_safety: 12/12 in 7.6s
+highland: 8/8 in 38.1s
+airmail: 12/12 in 99.6s
+forest_airmail: 12/12 in 171.3s
+Web export built. Serve with tools/serve.sh and verify in a browser.

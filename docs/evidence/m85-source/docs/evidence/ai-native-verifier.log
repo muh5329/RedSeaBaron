@@ -1,0 +1,14 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Hostile detects target before cover appears | 
+RSB_BIKE | PASS | Occluded hostile follows last sighting, not hidden player coordinates | 
+RSB_BIKE | PASS | Enemy cannot damage through new wall | 
+RSB_BIKE | PASS | Hostile navigates around cover and attacks | detour=4.85 routes=2 state=Attack
+RSB_BIKE | PASS | Path requests are throttled | 
+RSB_BIKE | PASS | Leaving leash sends hostile home | 
+RSB_BIKE | PASS | Return path also avoids cover | position=(0.41104, 2.005268, 50.61973)
+RSB_BIKE | PASS | Low barrier preserves visual detection | 
+RSB_BIKE | PASS | Visible target beyond low barrier remains reachable | position=(3.411019, 1.975368, 62.03522) detour=4.88
+RSB_BIKE | PASS | Death cancels navigation movement | 
+RSB_AI_REPORT {"elapsed_seconds":22.052,"milestone":"14 navigation-aware hostile pursuit","passed":10,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Hostile detects target before cover appears"},{"detail":"","passed":true,"test":"Occluded hostile follows last sighting, not hidden player coordinates"},{"detail":"","passed":true,"test":"Enemy cannot damage through new wall"},{"detail":"detour=4.85 routes=2 state=Attack","passed":true,"test":"Hostile navigates around cover and attacks"},{"detail":"","passed":true,"test":"Path requests are throttled"},{"detail":"","passed":true,"test":"Leaving leash sends hostile home"},{"detail":"position=(0.41104, 2.005268, 50.61973)","passed":true,"test":"Return path also avoids cover"},{"detail":"","passed":true,"test":"Low barrier preserves visual detection"},{"detail":"position=(3.411019, 1.975368, 62.03522) detour=4.88","passed":true,"test":"Visible target beyond low barrier remains reachable"},{"detail":"","passed":true,"test":"Death cancels navigation movement"}],"total":10}

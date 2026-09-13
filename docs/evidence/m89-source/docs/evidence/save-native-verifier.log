@@ -1,0 +1,26 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Save fixture has worker carrying real harvested goods | 
+RSB_BIKE | PASS | Snapshot validates before writing | 
+RSB_BIKE | PASS | Save writes committed file | 
+RSB_BIKE | PASS | Saved state loads through actual JSON file | 
+RSB_BIKE | PASS | Player equipment and cargo restore | 
+RSB_BIKE | PASS | Restoration clears stale movement actions | 
+RSB_BIKE | PASS | Economy and parcel state restore without paying | 
+RSB_BIKE | PASS | Defeated enemy and survey remain defeated/discovered | 
+RSB_BIKE | PASS | Worker resumes acquired stage with cargo intact | 
+RSB_BIKE | PASS | Repeated restore does not duplicate stock | 
+RSB_BIKE | PASS | Restored worker finishes original delivery once | 
+RSB_BIKE | PASS | Negative inventory save rejected before mutation | 
+RSB_BIKE | PASS | Partial save rejected without clearing live state | 
+RSB_BIKE | PASS | Unknown schema version rejected | 
+RSB_BIKE | PASS | Non-finite coordinates rejected | 
+RSB_BIKE | PASS | Fractional ammunition save rejected | 
+RSB_BIKE | PASS | Truncated file rejected without mutation | 
+RSB_BIKE | PASS | Mounted cargo save is supported | 
+RSB_BIKE | PASS | Load restores exclusive seat and hitch ownership | 
+RSB_BIKE | PASS | Airborne saving rejected without overwriting file | 
+RSB_BIKE | PASS | Recall cannot orphan active courier parcel | 
+RSB_BIKE | PASS | Rewinding enemy death restores health and upright presentation | 
+RSB_SAVE_REPORT {"elapsed_seconds":24.619,"milestone":"10 validated persistence","passed":22,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Save fixture has worker carrying real harvested goods"},{"detail":"","passed":true,"test":"Snapshot validates before writing"},{"detail":"","passed":true,"test":"Save writes committed file"},{"detail":"","passed":true,"test":"Saved state loads through actual JSON file"},{"detail":"","passed":true,"test":"Player equipment and cargo restore"},{"detail":"","passed":true,"test":"Restoration clears stale movement actions"},{"detail":"","passed":true,"test":"Economy and parcel state restore without paying"},{"detail":"","passed":true,"test":"Defeated enemy and survey remain defeated/discovered"},{"detail":"","passed":true,"test":"Worker resumes acquired stage with cargo intact"},{"detail":"","passed":true,"test":"Repeated restore does not duplicate stock"},{"detail":"","passed":true,"test":"Restored worker finishes original delivery once"},{"detail":"","passed":true,"test":"Negative inventory save rejected before mutation"},{"detail":"","passed":true,"test":"Partial save rejected without clearing live state"},{"detail":"","passed":true,"test":"Unknown schema version rejected"},{"detail":"","passed":true,"test":"Non-finite coordinates rejected"},{"detail":"","passed":true,"test":"Fractional ammunition save rejected"},{"detail":"","passed":true,"test":"Truncated file rejected without mutation"},{"detail":"","passed":true,"test":"Mounted cargo save is supported"},{"detail":"","passed":true,"test":"Load restores exclusive seat and hitch ownership"},{"detail":"","passed":true,"test":"Airborne saving rejected without overwriting file"},{"detail":"","passed":true,"test":"Recall cannot orphan active courier parcel"},{"detail":"","passed":true,"test":"Rewinding enemy death restores health and upright presentation"}],"total":22}

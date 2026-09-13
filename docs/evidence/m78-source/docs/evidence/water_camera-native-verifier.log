@@ -1,0 +1,6 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Coastal water render occupies its safety resource's level | 
+RSB_BIKE | PASS | The visual sample lies over genuinely submerged terrain | 
+RSB_WATER_CAMERA_REPORT {"elapsed_seconds":0.837,"milestone":"68 world-anchored water rendering","passed":2,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Coastal water render occupies its safety resource's level"},{"detail":"","passed":true,"test":"The visual sample lies over genuinely submerged terrain"}],"total":2}

@@ -1,0 +1,17 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Real parked aircraft geometry lies across the shot | 
+RSB_BIKE | PASS | Blocked rifle shot still consumes one cartridge | 
+RSB_BIKE | PASS | Parked aircraft stops rifle damage through its tail | enemy health=90
+RSB_BIKE | PASS | Removing vehicle cover restores rifle damage | enemy health=42
+RSB_BIKE | PASS | Shoulder camera sees the target while the muzzle is covered | 
+RSB_BIKE | PASS | Muzzle cover stops a camera-clear shot | 
+RSB_BIKE | PASS | Rifle tracer ends at the physical vehicle impact | endpoint=(0.065929, 31.33009, 102.99) impact=(0.065929, 31.33009, 102.99)
+RSB_BIKE | PASS | Vehicle cover prevents player target lock | 
+RSB_BIKE | PASS | Removing cover makes the same enemy lockable | 
+RSB_BIKE | PASS | New vehicle cover releases an existing player lock | 
+RSB_BIKE | PASS | Ground motorcycle separates a real in-range melee pair | 
+RSB_BIKE | PASS | Wrench cannot hit through the motorcycle chassis | 
+RSB_BIKE | PASS | Moving the motorcycle restores the same melee strike | enemy health=64
+RSB_VEHICLE_COVER_REPORT {"elapsed_seconds":5.062,"milestone":"92 player weapons respect vehicle cover","passed":13,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Real parked aircraft geometry lies across the shot"},{"detail":"","passed":true,"test":"Blocked rifle shot still consumes one cartridge"},{"detail":"enemy health=90","passed":true,"test":"Parked aircraft stops rifle damage through its tail"},{"detail":"enemy health=42","passed":true,"test":"Removing vehicle cover restores rifle damage"},{"detail":"","passed":true,"test":"Shoulder camera sees the target while the muzzle is covered"},{"detail":"","passed":true,"test":"Muzzle cover stops a camera-clear shot"},{"detail":"endpoint=(0.065929, 31.33009, 102.99) impact=(0.065929, 31.33009, 102.99)","passed":true,"test":"Rifle tracer ends at the physical vehicle impact"},{"detail":"","passed":true,"test":"Vehicle cover prevents player target lock"},{"detail":"","passed":true,"test":"Removing cover makes the same enemy lockable"},{"detail":"","passed":true,"test":"New vehicle cover releases an existing player lock"},{"detail":"","passed":true,"test":"Ground motorcycle separates a real in-range melee pair"},{"detail":"","passed":true,"test":"Wrench cannot hit through the motorcycle chassis"},{"detail":"enemy health=64","passed":true,"test":"Moving the motorcycle restores the same melee strike"}],"total":13}

@@ -1,0 +1,27 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_TEST | PASS | Terrain grounding | on_floor=true; y=1.986
+RSB_TEST | PASS | Walk and forward direction | distance=4.28 m in 60 ticks
+RSB_TEST | PASS | Sprint and stamina drain | distance=7.37 m; stamina=82.0
+RSB_TEST | PASS | Stamina recovery | stamina=100.0
+RSB_TEST | PASS | Normalized diagonal movement | straight=4.28; diagonal=4.38
+RSB_TEST | PASS | Camera-relative movement | delta=(-4.292964, -0.127793, 0.000145)
+RSB_TEST | PASS | Jump apex and landing | apex=1.40 m; grounded=true
+RSB_TEST | PASS | Dodge displacement and one-shot input | distance=5.81; rolls=1; stamina=73.0
+RSB_TEST | PASS | Insufficient stamina rejects actions | No roll or jump at 5 stamina
+RSB_TEST | PASS | Sprint exhaustion falls back to walk | speed=4.60; exhausted=true
+RSB_TEST | PASS | Wall blocks sprint | wall x=36; player x=35.679
+RSB_TEST | PASS | Wall blocks dodge tunnelling | x=35.679; grounded=true
+RSB_TEST | PASS | Camera retracts before obstacle | arm=2.88 / 6.20 m
+RSB_TEST | PASS | Camera returns to full clearance | arm=6.20 m
+RSB_TEST | PASS | Pause gates movement and actions | delta=0.0000
+RSB_UI | map_open=true
+RSB_UI | map_open=false
+RSB_TEST | PASS | Map toggles and releases controls | map opened/closed via real InputEventKey dispatch
+RSB_TEST | PASS | Out-of-bounds recovery | position=(0.0, 1.989293, 12.0)
+RSB_TEST | PASS | Integrated survey route | stops=3; stamps=3; grounded surface deviation=0.057
+RSB_TEST | PASS | Repeated interaction is idempotent | stamps=3
+RSB_TEST | PASS | Remote interaction rejected | distance=99.2 m
+RSB_TEST | PASS | Action spam preserves state | rolls=1; jumps=0; stamina=73.0
+RSB_REPORT {"draw_calls":0.0,"elapsed_seconds":59.712,"engine":"4.7-stable (official)","median_fps":145.0,"milestone":"01 - traversal foundations","nodes":1411.0,"passed":21,"platform":"macOS","tests":[{"detail":"on_floor=true; y=1.986","passed":true,"test":"Terrain grounding"},{"detail":"distance=4.28 m in 60 ticks","passed":true,"test":"Walk and forward direction"},{"detail":"distance=7.37 m; stamina=82.0","passed":true,"test":"Sprint and stamina drain"},{"detail":"stamina=100.0","passed":true,"test":"Stamina recovery"},{"detail":"straight=4.28; diagonal=4.38","passed":true,"test":"Normalized diagonal movement"},{"detail":"delta=(-4.292964, -0.127793, 0.000145)","passed":true,"test":"Camera-relative movement"},{"detail":"apex=1.40 m; grounded=true","passed":true,"test":"Jump apex and landing"},{"detail":"distance=5.81; rolls=1; stamina=73.0","passed":true,"test":"Dodge displacement and one-shot input"},{"detail":"No roll or jump at 5 stamina","passed":true,"test":"Insufficient stamina rejects actions"},{"detail":"speed=4.60; exhausted=true","passed":true,"test":"Sprint exhaustion falls back to walk"},{"detail":"wall x=36; player x=35.679","passed":true,"test":"Wall blocks sprint"},{"detail":"x=35.679; grounded=true","passed":true,"test":"Wall blocks dodge tunnelling"},{"detail":"arm=2.88 / 6.20 m","passed":true,"test":"Camera retracts before obstacle"},{"detail":"arm=6.20 m","passed":true,"test":"Camera returns to full clearance"},{"detail":"delta=0.0000","passed":true,"test":"Pause gates movement and actions"},{"detail":"map opened/closed via real InputEventKey dispatch","passed":true,"test":"Map toggles and releases controls"},{"detail":"position=(0.0, 1.989293, 12.0)","passed":true,"test":"Out-of-bounds recovery"},{"detail":"stops=3; stamps=3; grounded surface deviation=0.057","passed":true,"test":"Integrated survey route"},{"detail":"stamps=3","passed":true,"test":"Repeated interaction is idempotent"},{"detail":"distance=99.2 m","passed":true,"test":"Remote interaction rejected"},{"detail":"rolls=1; jumps=0; stamina=73.0","passed":true,"test":"Action spam preserves state"}],"total":21}

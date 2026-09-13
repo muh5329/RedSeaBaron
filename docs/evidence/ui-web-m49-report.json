@@ -1,0 +1,84 @@
+{
+  "elapsed_seconds": 4.304,
+  "milestone": "11 map and render readability",
+  "passed": 15,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Map opens through real key event and pauses gameplay"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Map click selects a usable delivery waypoint"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Map clicking cannot fire rifle"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Local map keeps region in panel bounds"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "World map fits distant coordinates"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Closing map restores active controls"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Worker order panel is available"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cargo readout replaces worker panel"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Worker panel replaces cargo readout"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Short key pulse opens cargo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Short key pulse opens workers"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause menu fits viewport height"
+    },
+    {
+      "detail": "merged=238",
+      "passed": true,
+      "test": "Static render batching is active"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Core terrain reduced to 25 bounded tiles"
+    },
+    {
+      "detail": "median calls=346 fps=113",
+      "passed": true,
+      "test": "Village draw calls reduced below prior 679 baseline"
+    }
+  ],
+  "total": 15
+}

@@ -1,0 +1,8 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+SCRIPT ERROR: Parse Error: Could not preload resource script "res://tests/chase_camera_verifier.gd".
+          at: GDScript::reload (res://scripts/main.gd:13)
+SCRIPT ERROR: Parse Error: Could not resolve script "res://tests/chase_camera_verifier.gd".
+          at: GDScript::reload (res://scripts/main.gd:13)
+ERROR: Failed to load script "res://scripts/main.gd" with error "Parse error".
+   at: load (modules/gdscript/gdscript_resource_format.cpp:46)

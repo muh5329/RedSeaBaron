@@ -1,0 +1,116 @@
+[
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T19:42:18.740Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_UI | map_open=true",
+    "timestamp": "2026-09-12T19:42:19.966Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Map opens through real key event and pauses gameplay | ",
+    "timestamp": "2026-09-12T19:42:20.025Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Map click selects a usable delivery waypoint | ",
+    "timestamp": "2026-09-12T19:42:20.125Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Map clicking cannot fire rifle | ",
+    "timestamp": "2026-09-12T19:42:20.125Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Local map keeps region in panel bounds | ",
+    "timestamp": "2026-09-12T19:42:20.142Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | World map fits distant coordinates | ",
+    "timestamp": "2026-09-12T19:42:20.208Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_UI | map_open=false",
+    "timestamp": "2026-09-12T19:42:20.216Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Closing map restores active controls | ",
+    "timestamp": "2026-09-12T19:42:20.275Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Worker order panel is available | ",
+    "timestamp": "2026-09-12T19:42:20.341Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Cargo readout replaces worker panel | ",
+    "timestamp": "2026-09-12T19:42:20.408Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Worker panel replaces cargo readout | ",
+    "timestamp": "2026-09-12T19:42:20.475Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Short key pulse opens cargo | ",
+    "timestamp": "2026-09-12T19:42:20.591Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Short key pulse opens workers | ",
+    "timestamp": "2026-09-12T19:42:20.641Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Pause menu fits viewport height | ",
+    "timestamp": "2026-09-12T19:42:20.775Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Static render batching is active | merged=248",
+    "timestamp": "2026-09-12T19:42:20.841Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Core terrain reduced to 25 bounded tiles | ",
+    "timestamp": "2026-09-12T19:42:20.842Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Village draw calls reduced below prior 679 baseline | median calls=387 fps=120",
+    "timestamp": "2026-09-12T19:42:22.841Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_UI_REPORT {\"elapsed_seconds\":4.027,\"milestone\":\"11 map and render readability\",\"passed\":15,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Map opens through real key event and pauses gameplay\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Map click selects a usable delivery waypoint\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Map clicking cannot fire rifle\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Local map keeps region in panel bounds\"},{\"detail\":\"\",\"passed\":true,\"test\":\"World map fits distant coordinates\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Closing map restores active controls\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Worker order panel is available\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Cargo readout replaces worker panel\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Worker panel replaces cargo readout\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Short key pulse opens cargo\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Short key pulse opens workers\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Pause menu fits viewport height\"},{\"detail\":\"merged=248\",\"passed\":true,\"test\":\"Static render batching is active\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Core terrain reduced to 25 bounded tiles\"},{\"detail\":\"median calls=387 fps=120\",\"passed\":true,\"test\":\"Village draw calls reduced below prior 679 baseline\"}],\"total\":15}",
+    "timestamp": "2026-09-12T19:42:22.841Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  }
+]

@@ -1,0 +1,89 @@
+{
+  "elapsed_seconds": 18.205,
+  "milestone": "19 persistent regional encounters",
+  "passed": 16,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Town keeps regional encounter actors unloaded"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Quarry streams human and monster hostiles"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Encounter uses bounded navigation at world coordinates"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Core hostiles remain inactive during regional combat"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Player approaches regional hostile through locomotion"
+    },
+    {
+      "detail": "health=42 ammo=4",
+      "passed": true,
+      "test": "Rifle damages regional hostile using actual ammunition"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wounded regional state validates for saving"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Regional kill updates persistent record"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Leaving retires actors and local navigation"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Killed enemy stays dead after returning"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Loading wounded save restores health without healing"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause freezes regional hostile physics and decisions"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Impossible regional health rejects before restore"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Out-of-region saved hostile position is rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Earlier saves without encounters remain compatible"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Only nearby encounter actors and records are resident"
+    }
+  ],
+  "total": 16
+}

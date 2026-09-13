@@ -1,0 +1,18 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Aircraft control fixture mounts normally | 
+RSB_BIKE | PASS | Wings can deploy above the former speed restriction | speed=15.33
+RSB_BIKE | PASS | Deployment completes while driving forward | 
+RSB_BIKE | PASS | Propeller is ahead of the front wheel | nose=(0.0, 1.450001, -1.899994)
+RSB_BIKE | PASS | Front propeller sweep has physical collision | 
+RSB_BIKE | PASS | Back control takes off and pulls up | 
+RSB_BIKE | PASS | Space boosts forward speed without commanding climb | speed 22.00 -> 30.17 pitch 0.000
+RSB_BIKE | PASS | Forward control pitches down and descends | 
+RSB_BIKE | PASS | Ctrl or dodge no longer commands descent | 
+RSB_BIKE | PASS | Shift airbrake reduces speed without a pitch command | 
+RSB_BIKE | PASS | Pause freezes boost and propeller motion | 
+RSB_BIKE | PASS | Moving deployment starts before an upcoming roadside obstacle | 
+RSB_BIKE | PASS | Driving deployment cannot grow wings through roadside cover | penetrating samples=0 mode=BIKE
+RSB_FLIGHT_CONTROLS_REPORT {"elapsed_seconds":17.749,"milestone":"94 revised aircraft controls","passed":13,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Aircraft control fixture mounts normally"},{"detail":"speed=15.33","passed":true,"test":"Wings can deploy above the former speed restriction"},{"detail":"","passed":true,"test":"Deployment completes while driving forward"},{"detail":"nose=(0.0, 1.450001, -1.899994)","passed":true,"test":"Propeller is ahead of the front wheel"},{"detail":"","passed":true,"test":"Front propeller sweep has physical collision"},{"detail":"","passed":true,"test":"Back control takes off and pulls up"},{"detail":"speed 22.00 -> 30.17 pitch 0.000","passed":true,"test":"Space boosts forward speed without commanding climb"},{"detail":"","passed":true,"test":"Forward control pitches down and descends"},{"detail":"","passed":true,"test":"Ctrl or dodge no longer commands descent"},{"detail":"","passed":true,"test":"Shift airbrake reduces speed without a pitch command"},{"detail":"","passed":true,"test":"Pause freezes boost and propeller motion"},{"detail":"","passed":true,"test":"Moving deployment starts before an upcoming roadside obstacle"},{"detail":"penetrating samples=0 mode=BIKE","passed":true,"test":"Driving deployment cannot grow wings through roadside cover"}],"total":13}

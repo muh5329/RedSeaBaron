@@ -1,0 +1,14 @@
+source_identity-native-verifier FAILED: see docs/evidence/source_identity-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Two timber sources begin with distinct live stock | 
+RSB_BIKE | FAIL | Save retains the original source stock | 
+RSB_BIKE | FAIL | Save retains the second source under its own identity | 
+RSB_BIKE | FAIL | Restore does not duplicate or overwrite source quantities | original=9 second=9
+RSB_BIKE | FAIL | Resource registration order does not change restored stock | 
+RSB_BIKE | FAIL | Duplicate registered source identities reject saving | 
+RSB_BIKE | FAIL | Missing registered source identity rejects saving | 
+RSB_BIKE | FAIL | Invalid secondary stock rejects before either source mutates | 
+RSB_SOURCE_IDENTITY_REPORT {"elapsed_seconds":1.007,"milestone":"51 stable resource source persistence","passed":1,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Two timber sources begin with distinct live stock"},{"detail":"","passed":false,"test":"Save retains the original source stock"},{"detail":"","passed":false,"test":"Save retains the second source under its own identity"},{"detail":"original=9 second=9","passed":false,"test":"Restore does not duplicate or overwrite source quantities"},{"detail":"","passed":false,"test":"Resource registration order does not change restored stock"},{"detail":"","passed":false,"test":"Duplicate registered source identities reject saving"},{"detail":"","passed":false,"test":"Missing registered source identity rejects saving"},{"detail":"","passed":false,"test":"Invalid secondary stock rejects before either source mutates"}],"total":8}
+

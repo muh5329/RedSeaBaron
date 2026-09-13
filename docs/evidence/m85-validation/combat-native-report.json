@@ -1,0 +1,179 @@
+{
+  "elapsed_seconds": 31.593,
+  "milestone": "02 combat",
+  "passed": 34,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "health=64; expected=64",
+      "passed": true,
+      "test": "Light swing one hit only"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Melee costs stamina and animates"
+    },
+    {
+      "detail": "combo=2; health=35",
+      "passed": true,
+      "test": "Combo advances damage"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Heavy hit kills and disables hurt body"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dead actors reject damage"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Player cannot walk through enemy body"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dodge window rejects incoming damage"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dodge immunity expires"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Faction filter"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wrench cannot hit behind actor"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Wrench range bound"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Melee respects world occlusion"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Lock selects live enemy"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Lock drops dead target"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Rifle aim narrows camera"
+    },
+    {
+      "detail": "hp=42; ammo=4",
+      "passed": true,
+      "test": "Hitscan deals damage and consumes round"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Shot presents recoil and flash"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Shot rate guard"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Empty rifle cannot fire"
+    },
+    {
+      "detail": "mag=3; reserve=0",
+      "passed": true,
+      "test": "Partial reload conserves ammo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dodge cancels reload without minting ammo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Paused fire and attack reject"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause cancels reload transaction"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Rifle and lock respect cover"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Raider detects and pursues"
+    },
+    {
+      "detail": "player hp=87; state=Attack",
+      "passed": true,
+      "test": "Raider attacks player"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Raider hit reaction"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Raider dies"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cinder beast detects and pursues"
+    },
+    {
+      "detail": "player hp=81; state=Attack",
+      "passed": true,
+      "test": "Cinder beast attacks player"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cinder beast hit reaction"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cinder beast dies"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Player death gates actions"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Death recovers at checkpoint"
+    }
+  ],
+  "total": 34
+}

@@ -1,0 +1,193 @@
+class_name LogisticsWorld
+extends Node3D
+signal message(text: String)
+signal panel_opened
+var actor: PlayerController
+var hitch: HitchSystem
+var seat: VehicleSeat
+var combat: PlayerCombat
+var supplies := FieldSupplies.new()
+var sources: Array[ResourceSource] = []
+var stations: Array[Storage] = []
+var warehouse: Storage
+var market: Storage
+var dispatch: Storage
+var destination: Storage
+var route_id: String = "south_quay"
+var routes: Array[DeliveryRoute] = DeliveryRoute.catalog()
+var delivery_stations: Dictionary = {}
+var remote_stations: Array[Storage] = []
+var contract := DeliveryContract.new()
+var shop := Shop.new()
+var enabled: bool = false
+var nearest: Node3D
+var scan_timer: float = 0
+var panel: PanelContainer
+var readout: Label
+var ui: CanvasLayer
+var panel_key_held: bool = false
+var pending_panel_toggle: bool = false
+
+func _input(event: InputEvent) -> void:
+	if enabled and not event.is_echo() and event.is_action_pressed("inventory"):
+		pending_panel_toggle = true
+
+func _ready() -> void:
+	for entry in [["Olive orchard","olive",Vector2(-48,-48),true],["Iron outcrop","ore",Vector2(61,29),false],["Timber yard","wood",Vector2(-27,53),false]]:
+		var source := ResourceSource.new()
+		source.title = entry[0]
+		source.item_id = entry[1]
+		source.position = grounded(entry[2])
+		source.renewable = entry[3]
+		add_child(source)
+		sources.append(source)
+	warehouse = station("warehouse","Warehouse · deposit",Vector2(-9,8),"storage")
+	market = station("market","Market · sell / P rifle rounds",Vector2(-13,1),"shop")
+	dispatch = station("dispatch","Courier desk · accept parcel",Vector2(9,3),"dispatch")
+	destination = station("destination","South quay · deliver parcel",Vector2(39,67),"delivery")
+	contract.origin = dispatch
+	contract.destination = destination
+	delivery_stations["south_quay"] = destination
+	for route in routes:
+		if route.id=="south_quay": continue
+		var endpoint := Storage.new()
+		endpoint.station_id = "delivery_"+route.id
+		endpoint.title = route.title+" · deliver parcel"
+		endpoint.kind = "delivery"
+		endpoint.position = grounded(route.point)
+		add_child(endpoint)
+		endpoint.visible = false
+		remote_stations.append(endpoint)
+		delivery_stations[route.id] = endpoint
+	contract.completed.connect(func(reward: int):
+		shop.credits += reward
+		message.emit("Delivery complete · earned %d crowns."%reward)
+	)
+	shop.stock = market.inventory
+	shop.stock.add("ore",6)
+	supplies.shop = shop
+	supplies.combat = combat
+	ui = CanvasLayer.new()
+	ui.layer = 5
+	add_child(ui)
+	panel = PanelContainer.new()
+	panel.position = Vector2(300,145)
+	panel.size = Vector2(660,270)
+	var style := StyleBoxFlat.new()
+	style.bg_color = Color("203a35")
+	style.content_margin_left = 24
+	style.content_margin_top = 20
+	style.content_margin_right = 24
+	style.content_margin_bottom = 20
+	panel.add_theme_stylebox_override("panel",style)
+	ui.add_child(panel)
+	readout = Label.new()
+	readout.add_theme_color_override("font_color",Color("f6e7c7"))
+	readout.add_theme_font_size_override("font_size",18)
+	panel.add_child(readout)
+	panel.visible = false
+
+func grounded(at: Vector2) -> Vector3:
+	return Vector3(at.x,CoastalRegion.height_at(at.x,at.y)+0.1,at.y)
+
+func station(id: String, title: String, at: Vector2, kind: String) -> Storage:
+	var result := Storage.new()
+	result.station_id = id
+	result.title = title
+	result.position = grounded(at)
+	result.kind = kind
+	add_child(result)
+	stations.append(result)
+	return result
+
+func nearby_container() -> Inventory:
+	if hitch.can_access_cart(7): return hitch.cart.inventory
+	return hitch.backpack
+
+func selected_route() -> DeliveryRoute:
+	for route in routes:
+		if route.id==route_id: return route
+	return routes[0]
+
+func select_route(id: String) -> bool:
+	if not can_reach(dispatch) or not delivery_stations.has(id): return false
+	for route in routes:
+		if route.id==id and contract.configure(delivery_stations[id],route.reward):
+			route_id = id
+			return true
+	return false
+
+func restore_route(id: String) -> void:
+	# Called only by validated persistence while gameplay is paused.
+	route_id = id
+	contract.destination = delivery_stations[id]
+	contract.reward = selected_route().reward
+
+func refresh_visibility(core_near: bool, point: Vector3) -> void:
+	for node: Node3D in sources+stations: node.visible = core_near
+	for node in remote_stations: node.visible = point.distance_to(node.position)<110
+
+func use_station(target: Node3D, reverse: bool = false) -> bool:
+	if not can_reach(target): return false
+	if target is ResourceSource:
+		return target.gather(hitch.backpack)
+	if target is Storage:
+		var container := nearby_container()
+		match target.kind:
+			"dispatch": return contract.reissue(container) if reverse else contract.accept(container)
+			"delivery":
+				if target!=contract.destination: return false
+				return contract.deliver(container) or (container!=hitch.backpack and contract.deliver(hitch.backpack))
+			"storage":
+				if reverse: return target.inventory.transfer_available(hitch.backpack)>0
+				var moved := hitch.backpack.transfer_available(target.inventory)
+				if container!=hitch.backpack: moved += container.transfer_available(target.inventory)
+				return moved>0
+			"shop":
+				if reverse: return shop.buy(hitch.backpack,"olive",1)
+				var sold := false
+				for pack: Inventory in [hitch.backpack,container] if container!=hitch.backpack else [container]:
+					for id: String in pack.contents(): sold = shop.sell(pack,id,pack.count(id)) or sold
+				return sold
+	return false
+
+func can_reach(target: Node3D) -> bool:
+	return enabled and combat.health.current>0 and is_instance_valid(target) and actor.position.distance_to(target.position)<=4.5 and (not seat.mounted or absf(hitch.bike.speed)<=1) and DamageSystem.clear_line(get_world_3d(),actor.position+Vector3.UP,target.position+Vector3.UP)
+
+func buy_ammunition() -> bool:
+	return can_reach(market) and supplies.purchase_rounds()
+
+func _process(delta: float) -> void:
+	var held := Input.is_action_pressed("inventory")
+	var toggle := pending_panel_toggle or (held and not panel_key_held)
+	pending_panel_toggle = false
+	panel_key_held = held
+	for source in sources: source.enabled = enabled
+	if not enabled:
+		panel.visible = false
+		return
+	if toggle:
+		panel.visible = not panel.visible
+		if panel.visible: panel_opened.emit()
+	scan_timer -= delta
+	if scan_timer<=0:
+		scan_timer = 0.15
+		nearest = null
+		var distance := 4.5
+		for target: Node3D in sources+stations+remote_stations:
+			var d := actor.position.distance_to(target.position)
+			if d<distance:
+				distance = d
+				nearest = target
+	if Input.is_action_just_pressed("use_resource"):
+		message.emit("Done · "+hitch.backpack.summary() if use_station(nearest,Input.is_action_pressed("sprint")) else "Approach a resource or desk; check capacity and cargo.")
+	if Input.is_action_just_pressed("buy_ammunition"):
+		message.emit("Bought 5 rifle rounds for 12 crowns." if buy_ammunition() else "At market: 12 crowns and 1 stocked ore buy 5 rounds. Reserve limit 100; finish reloading first.")
+	if Input.is_action_just_pressed("delivery_route"):
+		var next := DeliveryRoute.next_id(route_id)
+		message.emit("Selected %s · %d crowns. U to accept."%[selected_route().title,contract.reward] if select_route(next) else "Choose a route at the courier desk after finishing your current delivery.")
+	if panel.visible:
+		readout.text = "CARGO & TRADE     %d crowns\n\nPack  %.0f / %.0f kg · %s\nCart  %.0f / %.0f kg · %s\nWarehouse · %s\nMarket ore · %d    Rifle reserve · %d / 100\n%s · %s · %d crowns · %d completed\n\nO  Courier desk: choose destination   U  Accept / deliver\nShift+U at courier: repeat completed route\nP  Market: 5 rounds / 12 crowns / 1 ore\nC  Hitch   V  Load pack   Shift+V  Unload for flight\nB  Close" % [shop.credits,hitch.backpack.mass(),hitch.backpack.capacity,hitch.backpack.summary(),hitch.cart.inventory.mass(),hitch.cart.inventory.capacity,hitch.cart.inventory.summary(),warehouse.inventory.summary(),shop.stock.count("ore"),combat.reserve,selected_route().title,contract.state,contract.reward,contract.deliveries_completed]
+
+func blocks_combat_input() -> bool:
+	return enabled and (panel.visible or pending_panel_toggle or Input.is_action_just_pressed("inventory"))

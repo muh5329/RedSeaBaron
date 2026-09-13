@@ -1,0 +1,164 @@
+[
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T19:40:54.387Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Unknown/negative inventory mutations rejected | ",
+    "timestamp": "2026-09-12T19:40:54.457Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Inventory obeys weight limit | ",
+    "timestamp": "2026-09-12T19:40:54.457Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Oversized transfer leaves source unchanged | ",
+    "timestamp": "2026-09-12T19:40:54.457Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Self transfer rejected | ",
+    "timestamp": "2026-09-12T19:40:54.458Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Inventory snapshots cannot mutate live cargo | ",
+    "timestamp": "2026-09-12T19:40:54.458Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Atomic cargo transfer | ",
+    "timestamp": "2026-09-12T19:40:54.458Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Cart capacity enforced | ",
+    "timestamp": "2026-09-12T19:40:54.458Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Input hitches nearby grounded cart | ",
+    "timestamp": "2026-09-12T19:40:55.743Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Loaded mass reaches drive controller | ",
+    "timestamp": "2026-09-12T19:40:55.743Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Hitch prevents unsafe wing deployment | ",
+    "timestamp": "2026-09-12T19:40:55.743Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Loaded bike accelerates more slowly | speed=5.33",
+    "timestamp": "2026-09-12T19:40:57.750Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Loaded cart physically follows | ",
+    "timestamp": "2026-09-12T19:40:57.750Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Cargo survives movement | ",
+    "timestamp": "2026-09-12T19:40:57.750Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Moving hitch toggle rejected | ",
+    "timestamp": "2026-09-12T19:40:57.751Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Stopped cart detaches | ",
+    "timestamp": "2026-09-12T19:40:58.784Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Detached cart remains parked | ",
+    "timestamp": "2026-09-12T19:41:00.067Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Remote reattachment rejected | ",
+    "timestamp": "2026-09-12T19:41:01.099Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Nearby cart reattaches | ",
+    "timestamp": "2026-09-12T19:41:01.351Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Unload respects backpack capacity | ",
+    "timestamp": "2026-09-12T19:41:01.351Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Total cargo conserved | ",
+    "timestamp": "2026-09-12T19:41:01.351Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Full backpack does not lose cargo | ",
+    "timestamp": "2026-09-12T19:41:01.351Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Pause freezes cart and transfer controls | ",
+    "timestamp": "2026-09-12T19:41:01.684Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Recovery preserves attached cargo | ",
+    "timestamp": "2026-09-12T19:41:01.850Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Cart collides with world wall | x=35.17",
+    "timestamp": "2026-09-12T19:41:03.183Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Trapped cart stops towing bike without stretching | gap=4.40 speed=0.00",
+    "timestamp": "2026-09-12T19:41:06.616Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_CART_REPORT {\"elapsed_seconds\":12.16,\"milestone\":\"05 cargo and inventory\",\"passed\":25,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Unknown/negative inventory mutations rejected\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Inventory obeys weight limit\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Oversized transfer leaves source unchanged\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Self transfer rejected\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Inventory snapshots cannot mutate live cargo\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Atomic cargo transfer\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Cart capacity enforced\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Input hitches nearby grounded cart\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Loaded mass reaches drive controller\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Hitch prevents unsafe wing deployment\"},{\"detail\":\"speed=5.33\",\"passed\":true,\"test\":\"Loaded bike accelerates more slowly\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Loaded cart physically follows\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Cargo survives movement\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Moving hitch toggle rejected\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Stopped cart detaches\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Detached cart remains parked\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Remote reattachment rejected\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Nearby cart reattaches\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Unload respects backpack capacity\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Total cargo conserved\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Full backpack does not lose cargo\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Pause freezes cart and transfer controls\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Recovery preserves attached cargo\"},{\"detail\":\"x=35.17\",\"passed\":true,\"test\":\"Cart collides with world wall\"},{\"detail\":\"gap=4.40 speed=0.00\",\"passed\":true,\"test\":\"Trapped cart stops towing bike without stretching\"}],\"total\":25}",
+    "timestamp": "2026-09-12T19:41:06.617Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  }
+]

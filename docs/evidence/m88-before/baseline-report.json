@@ -1,0 +1,14 @@
+{
+  "elapsed_seconds": 0.001,
+  "milestone": "88 player audio preferences",
+  "passed": 0,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Pause menu exposes sound controls"
+    }
+  ],
+  "total": 1
+}

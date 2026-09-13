@@ -1,0 +1,20 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Tail fixture mounts on grounded motorcycle | 
+RSB_BIKE | PASS | Deployed aircraft collision covers its fin | 
+RSB_BIKE | PASS | Deployed aircraft collision covers its stabilizer | 
+RSB_BIKE | PASS | Deployed aircraft collision covers its propeller | 
+RSB_BIKE | PASS | Deployed aircraft collision covers its shaft | 
+RSB_BIKE | PASS | Rear collision follows actual flight attitude: move_right | 
+RSB_BIKE | PASS | Rear collision follows actual flight attitude: jump | 
+RSB_BIKE | PASS | Tail obstruction prevents deployment despite clear wings | 
+RSB_BIKE | PASS | Clearing rear space permits deployment | 
+RSB_BIKE | PASS | Visible rear assembly retains collision during its transition | progress=0.485
+RSB_BIKE | PASS | Reverse driving stops the rear assembly before a wall | reverse=0.034 overlapping samples=0
+RSB_BIKE | PASS | Rear attitude fixture starts clear of cover | 
+RSB_BIKE | PASS | Visual banking cannot rotate the fin into cover | 
+RSB_BIKE | PASS | Cleared fin can bank with matching collision | roll=0.3000 covered=true physics=false
+RSB_BIKE | PASS | Reset disables every aircraft collider | 
+RSB_TAIL_CLEARANCE_REPORT {"elapsed_seconds":8.56,"milestone":"60 aircraft rear assembly collision","passed":15,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Tail fixture mounts on grounded motorcycle"},{"detail":"","passed":true,"test":"Deployed aircraft collision covers its fin"},{"detail":"","passed":true,"test":"Deployed aircraft collision covers its stabilizer"},{"detail":"","passed":true,"test":"Deployed aircraft collision covers its propeller"},{"detail":"","passed":true,"test":"Deployed aircraft collision covers its shaft"},{"detail":"","passed":true,"test":"Rear collision follows actual flight attitude: move_right"},{"detail":"","passed":true,"test":"Rear collision follows actual flight attitude: jump"},{"detail":"","passed":true,"test":"Tail obstruction prevents deployment despite clear wings"},{"detail":"","passed":true,"test":"Clearing rear space permits deployment"},{"detail":"progress=0.485","passed":true,"test":"Visible rear assembly retains collision during its transition"},{"detail":"reverse=0.034 overlapping samples=0","passed":true,"test":"Reverse driving stops the rear assembly before a wall"},{"detail":"","passed":true,"test":"Rear attitude fixture starts clear of cover"},{"detail":"","passed":true,"test":"Visual banking cannot rotate the fin into cover"},{"detail":"roll=0.3000 covered=true physics=false","passed":true,"test":"Cleared fin can bank with matching collision"},{"detail":"","passed":true,"test":"Reset disables every aircraft collider"}],"total":15}

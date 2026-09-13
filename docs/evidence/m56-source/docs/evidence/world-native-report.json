@@ -1,0 +1,84 @@
+{
+  "elapsed_seconds": 68.816,
+  "milestone": "08 bounded world streaming",
+  "passed": 15,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "mounted=true mode=AIRCRAFT speed=16.80 pos=(0.012286, 7.349091, 107.9295)",
+      "passed": true,
+      "test": "Flight starts in authored region"
+    },
+    {
+      "detail": "position=(0.012378, 133.4486, 720.4792) created=55",
+      "passed": true,
+      "test": "Continuous flight crosses streaming boundaries"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Terrain remains ready during flight"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Authored region physics and rendering deactivate"
+    },
+    {
+      "detail": "resident=25 retired=30",
+      "passed": true,
+      "test": "Resident terrain stays bounded"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Distant enemies stay inactive across pause/resume"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Distant orders accepted for every registered worker"
+    },
+    {
+      "detail": "workers=2 warehouse=10",
+      "passed": true,
+      "test": "Distant roster completes independent logistics without physics"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Distant quadrant terrain supports real body collision"
+    },
+    {
+      "detail": "build max=1.09 ms; created=215 retired=190",
+      "passed": true,
+      "test": "25 km coordinate domain uses bounded residency"
+    },
+    {
+      "detail": "position=(0.0, 2.117079, 12.0)",
+      "passed": true,
+      "test": "Recovery activates checkpoint collision immediately"
+    },
+    {
+      "detail": "position=(0.0, 1.989293, 12.0) spawn=(0.0, 2.123746, 12.0) floor=true",
+      "passed": true,
+      "test": "World boundary recovery returns to authored terrain"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Returning restores worker state and core collision"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Stationary streamer performs no repeated builds"
+    },
+    {
+      "detail": "max=1.09 ms (100 ms upper bound, not a 60fps claim)",
+      "passed": true,
+      "test": "Generation per chunk stays under frame-stall guard"
+    }
+  ],
+  "total": 15
+}

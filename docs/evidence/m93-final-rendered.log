@@ -1,0 +1,21 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+OpenGL API 4.1 Metal - 90.5 - Compatibility - Using Device: Apple - Apple M4 Pro
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Real motorcycle blocks hostile eye-level segment | 
+RSB_BIKE | PASS | Hostile cannot see through motorcycle chassis | 
+RSB_BIKE | PASS | Committed hostile strike cannot pass through chassis | 
+RSB_BIKE | PASS | Removing chassis cover restores hostile damage | 
+RSB_BIKE | PASS | Normal mounting binds the physical rider target | 
+RSB_BIKE | PASS | Mounted sight terminates on the rider's own collision shape | hit=MountedRiderCollision:<CollisionShape3D#132791669610> target=(0.0, 31.7464, 99.88603)
+RSB_BIKE | PASS | Exposed mounted rider remains visible to hostiles | 
+RSB_BIKE | PASS | A committed strike damages the occupied rider | health=87
+RSB_BIKE | PASS | World cover still hides the mounted receiver | 
+RSB_BIKE | PASS | World cover stops a committed mounted strike | 
+RSB_BIKE | PASS | Removing world cover reveals the rider | 
+RSB_BIKE | PASS | Dismount clears transient combat target ownership | 
+RSB_BIKE | PASS | Mounted journey restoration rebinds the receiver | 
+RSB_BIKE | PASS | Pause preserves mounted target ownership and pose | 
+RSB_BIKE | PASS | Aircraft tail hides rider without ignoring the whole bike | 
+RSB_BIKE | PASS | Forced exit also clears rider targeting | 
+RSB_HOSTILE_COVER_REPORT {"elapsed_seconds":7.979,"milestone":"93 hostile cover and rider targeting","passed":16,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Real motorcycle blocks hostile eye-level segment"},{"detail":"","passed":true,"test":"Hostile cannot see through motorcycle chassis"},{"detail":"","passed":true,"test":"Committed hostile strike cannot pass through chassis"},{"detail":"","passed":true,"test":"Removing chassis cover restores hostile damage"},{"detail":"","passed":true,"test":"Normal mounting binds the physical rider target"},{"detail":"hit=MountedRiderCollision:<CollisionShape3D#132791669610> target=(0.0, 31.7464, 99.88603)","passed":true,"test":"Mounted sight terminates on the rider's own collision shape"},{"detail":"","passed":true,"test":"Exposed mounted rider remains visible to hostiles"},{"detail":"health=87","passed":true,"test":"A committed strike damages the occupied rider"},{"detail":"","passed":true,"test":"World cover still hides the mounted receiver"},{"detail":"","passed":true,"test":"World cover stops a committed mounted strike"},{"detail":"","passed":true,"test":"Removing world cover reveals the rider"},{"detail":"","passed":true,"test":"Dismount clears transient combat target ownership"},{"detail":"","passed":true,"test":"Mounted journey restoration rebinds the receiver"},{"detail":"","passed":true,"test":"Pause preserves mounted target ownership and pose"},{"detail":"","passed":true,"test":"Aircraft tail hides rider without ignoring the whole bike"},{"detail":"","passed":true,"test":"Forced exit also clears rider targeting"}],"total":16}

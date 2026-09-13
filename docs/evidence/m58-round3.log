@@ -1,0 +1,9 @@
+quarry_resource: 18/18 in 10.4s
+forest_resource: 14/14 in 5.5s
+source_identity: 9/9 in 1.0s
+save: 22/22 in 24.6s
+region: 18/18 in 33.3s
+encounter: 16/16 in 18.2s
+logistics: 23/23 in 11.2s
+ui: 14/14 in 3.7s
+Web export built. Serve with tools/serve.sh and verify in a browser.

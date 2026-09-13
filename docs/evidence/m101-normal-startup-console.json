@@ -1,0 +1,9 @@
+{
+  "ready": {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-13T15:12:34.240Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  "errors": []
+}

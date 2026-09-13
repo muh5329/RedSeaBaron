@@ -1,0 +1,14 @@
+recovery-native-verifier FAILED: see docs/evidence/recovery-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Recovery fixture mounts a loaded distant vehicle | 
+RSB_BIKE | FAIL | Mounted recovery activates home collision immediately | 
+RSB_BIKE | PASS | Recovered bike and cart settle on home terrain | bike=(9.974893, 2.47867, -9.998926) cart=(9.97534, 2.263295, -6.698912)
+RSB_BIKE | PASS | Mounted recovery preserves seat and cargo | 
+RSB_BIKE | PASS | Airborne death fixture uses actual distant takeoff | 
+RSB_BIKE | FAIL | Airborne death releases seat onto active home terrain | 
+RSB_BIKE | FAIL | Death recovery cannot fall through unloaded home | player=(-0.373641, 1.323746, 11.91976) bike=(10.0, -0.422232, -10.0)
+RSB_BIKE | PASS | Death recovery restores live controls without duplicating cargo | 
+RSB_RECOVERY_REPORT {"elapsed_seconds":12.684,"milestone":"18 distant vehicle recovery lifecycle","passed":5,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Recovery fixture mounts a loaded distant vehicle"},{"detail":"","passed":false,"test":"Mounted recovery activates home collision immediately"},{"detail":"bike=(9.974893, 2.47867, -9.998926) cart=(9.97534, 2.263295, -6.698912)","passed":true,"test":"Recovered bike and cart settle on home terrain"},{"detail":"","passed":true,"test":"Mounted recovery preserves seat and cargo"},{"detail":"","passed":true,"test":"Airborne death fixture uses actual distant takeoff"},{"detail":"","passed":false,"test":"Airborne death releases seat onto active home terrain"},{"detail":"player=(-0.373641, 1.323746, 11.91976) bike=(10.0, -0.422232, -10.0)","passed":false,"test":"Death recovery cannot fall through unloaded home"},{"detail":"","passed":true,"test":"Death recovery restores live controls without duplicating cargo"}],"total":8}
+

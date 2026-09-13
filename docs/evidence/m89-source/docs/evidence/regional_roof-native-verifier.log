@@ -1,0 +1,17 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Greenreach timber camp roof has a physical top surface | hit=(-3600.0, 20.37098, 700.0) expected_y=20.371
+RSB_BIKE | PASS | Greenreach timber camp supports a player on its visible roof | player_y=20.356
+RSB_BIKE | PASS | Red Mesa quarry roof has a physical top surface | hit=(4800.0, 28.38205, 1200.0) expected_y=28.382
+RSB_BIKE | PASS | Red Mesa quarry supports a player on its visible roof | player_y=28.367
+RSB_BIKE | PASS | Snowwatch tower roof has a physical top surface | hit=(-1060.0, 134.5576, -10000.0) expected_y=134.558
+RSB_BIKE | PASS | Snowwatch tower supports a player on its visible roof | player_y=134.544
+RSB_BIKE | PASS | Longfield waystation roof has a physical top surface | hit=(900.0, 22.1088, 1100.0) expected_y=22.109
+RSB_BIKE | PASS | Longfield waystation supports a player on its visible roof | player_y=22.095
+RSB_BIKE | PASS | A supported rooftop session is valid for saving | 
+RSB_BIKE | PASS | Leaving the region retires its roof owner chunk | 
+RSB_BIKE | PASS | Restoration rebuilds the roof owner before controls resume | 
+RSB_BIKE | PASS | Restored player stays on the rebuilt roof | 
+RSB_BIKE | PASS | Roof collision remains inside the bounded terrain window | 
+RSB_REGIONAL_ROOF_REPORT {"elapsed_seconds":8.935,"milestone":"75 solid streamed landmark roofs","passed":13,"platform":"macOS","tests":[{"detail":"hit=(-3600.0, 20.37098, 700.0) expected_y=20.371","passed":true,"test":"Greenreach timber camp roof has a physical top surface"},{"detail":"player_y=20.356","passed":true,"test":"Greenreach timber camp supports a player on its visible roof"},{"detail":"hit=(4800.0, 28.38205, 1200.0) expected_y=28.382","passed":true,"test":"Red Mesa quarry roof has a physical top surface"},{"detail":"player_y=28.367","passed":true,"test":"Red Mesa quarry supports a player on its visible roof"},{"detail":"hit=(-1060.0, 134.5576, -10000.0) expected_y=134.558","passed":true,"test":"Snowwatch tower roof has a physical top surface"},{"detail":"player_y=134.544","passed":true,"test":"Snowwatch tower supports a player on its visible roof"},{"detail":"hit=(900.0, 22.1088, 1100.0) expected_y=22.109","passed":true,"test":"Longfield waystation roof has a physical top surface"},{"detail":"player_y=22.095","passed":true,"test":"Longfield waystation supports a player on its visible roof"},{"detail":"","passed":true,"test":"A supported rooftop session is valid for saving"},{"detail":"","passed":true,"test":"Leaving the region retires its roof owner chunk"},{"detail":"","passed":true,"test":"Restoration rebuilds the roof owner before controls resume"},{"detail":"","passed":true,"test":"Restored player stays on the rebuilt roof"},{"detail":"","passed":true,"test":"Roof collision remains inside the bounded terrain window"}],"total":13}

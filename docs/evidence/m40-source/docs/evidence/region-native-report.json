@@ -1,0 +1,99 @@
+{
+  "elapsed_seconds": 33.27,
+  "milestone": "17 streamed regional scenery and discovery",
+  "passed": 18,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Greenreach timber camp landmark streams with its terrain"
+    },
+    {
+      "detail": "position=(-3600.0, 15.3938, 728.8164)",
+      "passed": true,
+      "test": "Walking approach discovers Greenreach timber camp"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Red Mesa quarry landmark streams with its terrain"
+    },
+    {
+      "detail": "position=(4800.0, 23.0638, 1228.82)",
+      "passed": true,
+      "test": "Walking approach discovers Red Mesa quarry"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Snowwatch tower landmark streams with its terrain"
+    },
+    {
+      "detail": "position=(-1060.0, 124.9625, -9971.172)",
+      "passed": true,
+      "test": "Walking approach discovers Snowwatch tower"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Longfield waystation landmark streams with its terrain"
+    },
+    {
+      "detail": "position=(900.0002, 15.03543, 1128.939)",
+      "passed": true,
+      "test": "Walking approach discovers Longfield waystation"
+    },
+    {
+      "detail": "resident=25",
+      "passed": true,
+      "test": "Regional decoration remains bounded with terrain"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Retired region releases its scenery node"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Discovery emits one event per visited landmark"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Saved journey restores regional discoveries"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Earlier saves without regions still validate"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Unknown regional save keys reject before mutation"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Retired region regenerates deterministic foliage"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Revisit preserves discovery without duplicate events"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Paused exploration cannot discover landmarks"
+    },
+    {
+      "detail": "max 1.27 ms",
+      "passed": true,
+      "test": "Decorated chunk builds remain under stall guard"
+    }
+  ],
+  "total": 18
+}

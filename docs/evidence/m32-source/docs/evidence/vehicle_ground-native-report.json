@@ -1,0 +1,64 @@
+{
+  "elapsed_seconds": 7.068,
+  "milestone": "27 grounded vehicle presentation and trailer contact",
+  "passed": 11,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Slope fixture supports bike and loaded cart through real collision"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Bike presentation aligns with compound ground slope"
+    },
+    {
+      "detail": "front=0.000 rear=0.000",
+      "passed": true,
+      "test": "Both motorcycle tires remain close to the actual slope"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cart presentation follows slope without tilting its body"
+    },
+    {
+      "detail": "left=0.000 right=0.000",
+      "passed": true,
+      "test": "Trailer tires neither bury nor float on cross slopes"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Ground-aligned loaded cart remains mountable and hitchable"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Loaded vehicles drive and stop on the slope without flipping"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Slope driving preserves drawbar distance and cargo"
+    },
+    {
+      "detail": "left=0.000 right=0.000",
+      "passed": true,
+      "test": "Moving trailer settles with tire contact intact"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Detached loaded cart stays parked on a traversable slope"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Recovery updates visual grounding for the new surface"
+    }
+  ],
+  "total": 11
+}

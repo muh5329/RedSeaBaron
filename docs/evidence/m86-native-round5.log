@@ -1,0 +1,9 @@
+wing_transition: 13/13 in 8.8s
+tail_clearance: 15/15 in 7.7s
+touchdown: 8/8 in 3.3s
+vehicle_ground: 11/11 in 7.1s
+cart_canopy: 14/14 in 18.2s
+recovery: 8/8 in 12.7s
+save: 22/22 in 24.6s
+ui: 14/14 in 3.7s
+Web export built. Serve with tools/serve.sh and verify in a browser.

@@ -1,0 +1,17 @@
+{
+  "message": "Unknown verification suite: not_a_suite",
+  "logs": [
+    {
+      "level": "log",
+      "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+      "timestamp": "2026-09-12T19:12:41.382Z",
+      "url": "http://127.0.0.1:8067/index.js"
+    },
+    {
+      "level": "log",
+      "message": "RSB_VERIFICATION_ERROR | Unknown verification suite: not_a_suite",
+      "timestamp": "2026-09-12T19:12:41.433Z",
+      "url": "http://127.0.0.1:8067/index.js"
+    }
+  ]
+}

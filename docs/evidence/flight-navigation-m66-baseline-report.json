@@ -1,0 +1,14 @@
+{
+  "elapsed_seconds": 0.0,
+  "milestone": "66 flight course guidance",
+  "passed": 0,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Aircraft can provide a course to a selected destination"
+    }
+  ],
+  "total": 1
+}

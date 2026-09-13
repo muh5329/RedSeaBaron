@@ -1,0 +1,18 @@
+towing-native-verifier FAILED: see docs/evidence/towing-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Loaded towing fixture mounts and hitches through normal interfaces | 
+RSB_BIKE | PASS | Forward turn makes progress | travel=15.429
+RSB_BIKE | FAIL | Forward turn keeps bike and cart solids separated | penetrating frames=42
+RSB_BIKE | PASS | Forward turn preserves the drawbar constraint | max gap=3.301
+RSB_BIKE | PASS | Reverse turn makes progress | travel=11.829
+RSB_BIKE | FAIL | Reverse turn keeps bike and cart solids separated | penetrating frames=213
+RSB_BIKE | PASS | Reverse turn preserves the drawbar constraint | max gap=1.675
+RSB_BIKE | PASS | Forward recovery makes progress | travel=9.944
+RSB_BIKE | PASS | Forward recovery keeps bike and cart solids separated | penetrating frames=0
+RSB_BIKE | PASS | Forward recovery preserves the drawbar constraint | max gap=3.301
+RSB_BIKE | PASS | Loaded maneuvers conserve all cargo | 
+RSB_BIKE | PASS | Cart can detach after reverse maneuvers | 
+RSB_TOWING_REPORT {"elapsed_seconds":16.86,"milestone":"45 loaded towing maneuvers","passed":10,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Loaded towing fixture mounts and hitches through normal interfaces"},{"detail":"travel=15.429","passed":true,"test":"Forward turn makes progress"},{"detail":"penetrating frames=42","passed":false,"test":"Forward turn keeps bike and cart solids separated"},{"detail":"max gap=3.301","passed":true,"test":"Forward turn preserves the drawbar constraint"},{"detail":"travel=11.829","passed":true,"test":"Reverse turn makes progress"},{"detail":"penetrating frames=213","passed":false,"test":"Reverse turn keeps bike and cart solids separated"},{"detail":"max gap=1.675","passed":true,"test":"Reverse turn preserves the drawbar constraint"},{"detail":"travel=9.944","passed":true,"test":"Forward recovery makes progress"},{"detail":"penetrating frames=0","passed":true,"test":"Forward recovery keeps bike and cart solids separated"},{"detail":"max gap=3.301","passed":true,"test":"Forward recovery preserves the drawbar constraint"},{"detail":"","passed":true,"test":"Loaded maneuvers conserve all cargo"},{"detail":"","passed":true,"test":"Cart can detach after reverse maneuvers"}],"total":12}
+

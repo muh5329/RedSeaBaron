@@ -1,0 +1,16 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Transition fixture is mounted on solid ground | 
+RSB_BIKE | PASS | Full horizontal wing pose is clear below the higher obstruction | 
+RSB_BIKE | FAIL | Collision follows both visible wings while unfolding | samples=27 missing=27
+RSB_BIKE | FAIL | Unfolding never moves visible wingtips through cover | overlapping frames=9
+RSB_BIKE | FAIL | Blocked unfolding waits before completing aircraft mode | mode=AIRCRAFT progress=1.000
+RSB_BIKE | FAIL | A blocked transformation cannot be saved | 
+RSB_BIKE | PASS | Pause freezes blocked wing motion | 
+RSB_BIKE | PASS | Removing cover lets unfolding finish with matching collision | 
+RSB_BIKE | PASS | Grounded aircraft can begin folding under the same high obstruction | 
+RSB_BIKE | FAIL | Folding never moves visible wingtips through cover | overlapping frames=9
+RSB_BIKE | FAIL | Blocked folding waits instead of clipping to bike mode | 
+RSB_BIKE | PASS | Clearing cover finishes folding and restores a savable motorcycle | 
+RSB_WING_TRANSITION_REPORT {"elapsed_seconds":7.774,"milestone":"59 partial wing motion clearance","passed":6,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Transition fixture is mounted on solid ground"},{"detail":"","passed":true,"test":"Full horizontal wing pose is clear below the higher obstruction"},{"detail":"samples=27 missing=27","passed":false,"test":"Collision follows both visible wings while unfolding"},{"detail":"overlapping frames=9","passed":false,"test":"Unfolding never moves visible wingtips through cover"},{"detail":"mode=AIRCRAFT progress=1.000","passed":false,"test":"Blocked unfolding waits before completing aircraft mode"},{"detail":"","passed":false,"test":"A blocked transformation cannot be saved"},{"detail":"","passed":true,"test":"Pause freezes blocked wing motion"},{"detail":"","passed":true,"test":"Removing cover lets unfolding finish with matching collision"},{"detail":"","passed":true,"test":"Grounded aircraft can begin folding under the same high obstruction"},{"detail":"overlapping frames=9","passed":false,"test":"Folding never moves visible wingtips through cover"},{"detail":"","passed":false,"test":"Blocked folding waits instead of clipping to bike mode"},{"detail":"","passed":true,"test":"Clearing cover finishes folding and restores a savable motorcycle"}],"total":12}

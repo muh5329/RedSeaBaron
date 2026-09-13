@@ -1,0 +1,114 @@
+{
+  "elapsed_seconds": 2.173,
+  "milestone": "15 repeat deliveries and ammunition supply",
+  "passed": 21,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Remote ammunition purchase rejected"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Market input exchanges ore and earnings for rounds"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Second supply purchase succeeds"
+    },
+    {
+      "detail": "[[76, 10, 4, false]]",
+      "passed": true,
+      "test": "Notifications observe committed trade and reject reentry"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Paused supply request cannot spend money"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Actual reload blocks supply purchase"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Reserve cap rejects whole bundle without partial charge"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Insufficient money retains stock and ammunition"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Empty market ore blocks ammunition production"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Player-supplied ore restores ammunition supply chain"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Courier accepts first parcel normally"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "In-transit contract cannot issue another parcel"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "First delivery pays and records completion"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Repeated delivery cannot claim previous reward"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Full cargo preserves completed contract and receipt"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Courier input issues one new parcel after completion"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Second delivery pays once without accumulating receipt cargo"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Extended economy saves through production API"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Reload preserves rounds, earnings and delivery history"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Earlier version-one saves retain compatibility"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Fractional completion history is rejected"
+    }
+  ],
+  "total": 21
+}

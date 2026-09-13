@@ -1,0 +1,14 @@
+{
+  "elapsed_seconds": 0.849,
+  "milestone": "55 independent worker roster",
+  "passed": 0,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": false,
+      "test": "Two independently assignable workers are registered"
+    }
+  ],
+  "total": 1
+}

@@ -1,0 +1,69 @@
+{
+  "elapsed_seconds": 3.319,
+  "milestone": "32 parked equipment tracking",
+  "passed": 12,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Clicking motorcycle marker tracks its real location"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Tracked equipment appears in field notes"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Map selection preserves pause and weapon safety"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Cargo button selects the detached cart"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Overlapping map icons remain separately selectable"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Remote equipment automatically selects world scope"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Tracked position refreshes without teleporting equipment"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Unknown asset selection leaves current tracking intact"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Ordinary map click replaces tracking with a fixed waypoint"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Clear removes both map marker and field-note target"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Equipment controls fit the map viewport"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Existing tracking follows equipment through save restore"
+    }
+  ],
+  "total": 12
+}

@@ -1,0 +1,6 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | FAIL | Exploration has a dedicated wind ambience voice | 
+RSB_BIKE | FAIL | Active exploration starts its wind loop | 
+RSB_AMBIENCE_REPORT {"elapsed_seconds":0.002,"milestone":"87 bounded exploration ambience","passed":0,"platform":"macOS","tests":[{"detail":"","passed":false,"test":"Exploration has a dedicated wind ambience voice"},{"detail":"","passed":false,"test":"Active exploration starts its wind loop"}],"total":2}

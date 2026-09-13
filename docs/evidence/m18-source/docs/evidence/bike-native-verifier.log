@@ -1,0 +1,30 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Grounded motorcycle | 
+RSB_BIKE | PASS | Remote mounting rejected | 
+RSB_BIKE | PASS | Jump plus mount rejected | 
+RSB_BIKE | PASS | Dodge plus mount rejected | 
+RSB_BIKE | PASS | Mount transfers exclusive controls | 
+RSB_BIKE | PASS | Simultaneous mount/fire cannot shoot | 
+RSB_BIKE | PASS | Mounted melee/rifle blocked | 
+RSB_BIKE | PASS | Duplicate mount rejected | 
+RSB_BIKE | PASS | Acceleration and travel | speed=16.00; distance=16.13
+RSB_BIKE | PASS | Moving dismount denied | 
+RSB_BIKE | PASS | Steering changes heading | yaw=-0.97
+RSB_BIKE | PASS | Brake stops vehicle | speed=0.000
+RSB_BIKE | PASS | Physics remains upright | 
+RSB_BIKE | PASS | Dismount restores actor and camera | 
+RSB_BIKE | PASS | Dismount uses clear ground | 
+RSB_BIKE | PASS | Reverse works | 
+RSB_BIKE | PASS | Pause freezes vehicle and combat | 
+RSB_BIKE | PASS | Resume preserves seat ownership | 
+RSB_BIKE | PASS | Blocked dismount preserves mounted state | 
+RSB_BIKE | PASS | Dismount recovers after obstruction removed | 
+RSB_BIKE | PASS | World wall prevents driving through | x=34.700
+RSB_BIKE | PASS | Collision reduces speed | speed=0.000
+RSB_BIKE | PASS | Mounted death releases seat | 
+RSB_BIKE | PASS | Mounted death recovers playable actor | 
+RSB_BIKE | PASS | Out-of-bounds riding recovery | 
+RSB_BIKE | PASS | Ground contacts do not erase acceleration at terrain seams | z=96.66 speed=15.83
+RSB_BIKE_REPORT {"elapsed_seconds":17.658,"milestone":"03 grounded bike","passed":26,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Grounded motorcycle"},{"detail":"","passed":true,"test":"Remote mounting rejected"},{"detail":"","passed":true,"test":"Jump plus mount rejected"},{"detail":"","passed":true,"test":"Dodge plus mount rejected"},{"detail":"","passed":true,"test":"Mount transfers exclusive controls"},{"detail":"","passed":true,"test":"Simultaneous mount/fire cannot shoot"},{"detail":"","passed":true,"test":"Mounted melee/rifle blocked"},{"detail":"","passed":true,"test":"Duplicate mount rejected"},{"detail":"speed=16.00; distance=16.13","passed":true,"test":"Acceleration and travel"},{"detail":"","passed":true,"test":"Moving dismount denied"},{"detail":"yaw=-0.97","passed":true,"test":"Steering changes heading"},{"detail":"speed=0.000","passed":true,"test":"Brake stops vehicle"},{"detail":"","passed":true,"test":"Physics remains upright"},{"detail":"","passed":true,"test":"Dismount restores actor and camera"},{"detail":"","passed":true,"test":"Dismount uses clear ground"},{"detail":"","passed":true,"test":"Reverse works"},{"detail":"","passed":true,"test":"Pause freezes vehicle and combat"},{"detail":"","passed":true,"test":"Resume preserves seat ownership"},{"detail":"","passed":true,"test":"Blocked dismount preserves mounted state"},{"detail":"","passed":true,"test":"Dismount recovers after obstruction removed"},{"detail":"x=34.700","passed":true,"test":"World wall prevents driving through"},{"detail":"speed=0.000","passed":true,"test":"Collision reduces speed"},{"detail":"","passed":true,"test":"Mounted death releases seat"},{"detail":"","passed":true,"test":"Mounted death recovers playable actor"},{"detail":"","passed":true,"test":"Out-of-bounds riding recovery"},{"detail":"z=96.66 speed=15.83","passed":true,"test":"Ground contacts do not erase acceleration at terrain seams"}],"total":26}

@@ -1,0 +1,1 @@
+These placeholder WAV effects are original procedural synth/noise output from `tools/generate_sfx.py`. No third-party recording or music is used. The engine loop is deliberately quiet; replace these with final sound design later.

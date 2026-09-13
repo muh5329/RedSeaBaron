@@ -1,0 +1,69 @@
+{
+  "elapsed_seconds": 8.946,
+  "milestone": "86 seated rider collision",
+  "passed": 12,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Mounting rejects a ceiling through the seated rider"
+    },
+    {
+      "detail": "hull vertices=59",
+      "passed": true,
+      "test": "Clear seat allows normal mounting"
+    },
+    {
+      "detail": "position=(-0.000133, 29.94546, 100.6088) speed=0.000",
+      "passed": true,
+      "test": "Driving stops before an overhead beam crosses the rider"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing overhead cover restores driving"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Dismount removes the parked motorcycle's rider collision"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Mounted save restore reinstates physical rider ownership"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause preserves rider ownership and collision pose"
+    },
+    {
+      "detail": "before_clear=true proposal_clear=false yaw=0.0000",
+      "passed": true,
+      "test": "Upper rider corner prevents a turn into a post"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing rider-height obstruction releases steering"
+    },
+    {
+      "detail": "proposal_clear=false roll=0.0000",
+      "passed": true,
+      "test": "Visual bank cannot push the rider through an obstacle"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Clear rider resumes matching visual and collision attitude"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "On-foot save restore leaves no ghost rider collider"
+    }
+  ],
+  "total": 12
+}

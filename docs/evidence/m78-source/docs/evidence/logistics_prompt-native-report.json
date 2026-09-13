@@ -1,0 +1,64 @@
+{
+  "elapsed_seconds": 2.741,
+  "milestone": "72 reachable logistics prompts",
+  "passed": 11,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "visible action labels=0",
+      "passed": true,
+      "test": "Distant resource and desk actions do not clutter the world"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Reachability fixture contains a blocked nearer and clear farther source"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "A blocked nearest source cannot starve the reachable action"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Real use input gathers from the reachable source"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Only the reachable selected source advertises its action"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Pause clears the action prompt"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Resume restores the reachable action"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Use input refreshes stale selection before acting"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Leaving range removes the advertised action"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "A real courier desk exposes its nearby action"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Real courier input accepts one parcel through the selected prompt"
+    }
+  ],
+  "total": 11
+}

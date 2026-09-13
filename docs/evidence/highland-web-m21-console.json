@@ -1,0 +1,602 @@
+[
+  {
+    "level": "log",
+    "message": "RSB_DISTANCE_REPORT {\"elapsed_seconds\":719.856,\"milestone\":\"09 sustained 24 km flight\",\"passed\":6,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Long-range test takes off using vehicle controls\"},{\"detail\":\"distance=23954.0 m\",\"passed\":true,\"test\":\"24 km domain crossed continuously\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Aircraft remains controllable across entire journey\"},{\"detail\":\"\",\"passed\":true,\"test\":\"No missing terrain under continuous long flight\"},{\"detail\":\"peak=25 created=1895 retired=1870\",\"passed\":true,\"test\":\"Long-range terrain residency stays bounded\"},{\"detail\":\"max build 13.60 ms\",\"passed\":true,\"test\":\"Long-flight chunk generation stays within stall guard\"}],\"total\":6}",
+    "timestamp": "2026-09-12T17:47:29.545Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org",
+    "timestamp": "2026-09-12T17:48:48.221Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-09-12T17:48:48.315Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support.",
+    "timestamp": "2026-09-12T17:48:48.351Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T17:48:48.694Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Town keeps regional encounter actors unloaded | ",
+    "timestamp": "2026-09-12T17:48:48.752Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Quarry streams human and monster hostiles | ",
+    "timestamp": "2026-09-12T17:48:50.827Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Encounter uses bounded navigation at world coordinates | ",
+    "timestamp": "2026-09-12T17:48:50.827Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Core hostiles remain inactive during regional combat | ",
+    "timestamp": "2026-09-12T17:48:50.827Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Player approaches regional hostile through locomotion | ",
+    "timestamp": "2026-09-12T17:49:00.426Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Rifle damages regional hostile using actual ammunition | health=42 ammo=4",
+    "timestamp": "2026-09-12T17:49:01.260Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Wounded regional state validates for saving | ",
+    "timestamp": "2026-09-12T17:49:01.260Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Regional kill updates persistent record | ",
+    "timestamp": "2026-09-12T17:49:02.093Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Leaving retires actors and local navigation | ",
+    "timestamp": "2026-09-12T17:49:02.593Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Killed enemy stays dead after returning | ",
+    "timestamp": "2026-09-12T17:49:04.593Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Loading wounded save restores health without healing | ",
+    "timestamp": "2026-09-12T17:49:06.176Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Pause freezes regional hostile physics and decisions | ",
+    "timestamp": "2026-09-12T17:49:06.677Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Impossible regional health rejects before restore | ",
+    "timestamp": "2026-09-12T17:49:06.677Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Out-of-region saved hostile position is rejected | ",
+    "timestamp": "2026-09-12T17:49:06.677Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Earlier saves without encounters remain compatible | ",
+    "timestamp": "2026-09-12T17:49:06.677Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Only nearby encounter actors and records are resident | ",
+    "timestamp": "2026-09-12T17:49:06.677Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_ENCOUNTER_REPORT {\"elapsed_seconds\":18.424,\"milestone\":\"19 persistent regional encounters\",\"passed\":16,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Town keeps regional encounter actors unloaded\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Quarry streams human and monster hostiles\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Encounter uses bounded navigation at world coordinates\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Core hostiles remain inactive during regional combat\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Player approaches regional hostile through locomotion\"},{\"detail\":\"health=42 ammo=4\",\"passed\":true,\"test\":\"Rifle damages regional hostile using actual ammunition\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Wounded regional state validates for saving\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Regional kill updates persistent record\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Leaving retires actors and local navigation\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Killed enemy stays dead after returning\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Loading wounded save restores health without healing\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Pause freezes regional hostile physics and decisions\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Impossible regional health rejects before restore\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Out-of-region saved hostile position is rejected\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Earlier saves without encounters remain compatible\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Only nearby encounter actors and records are resident\"}],\"total\":16}",
+    "timestamp": "2026-09-12T17:49:07.176Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org",
+    "timestamp": "2026-09-12T17:57:19.009Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-09-12T17:57:19.088Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support.",
+    "timestamp": "2026-09-12T17:57:19.119Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T17:57:19.458Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Player input starts configured harvest-market routine | ",
+    "timestamp": "2026-09-12T17:57:20.940Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Busy routine rejects unrelated job replacement | ",
+    "timestamp": "2026-09-12T17:57:20.940Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Pause freezes routine without advancing its step | ",
+    "timestamp": "2026-09-12T17:57:21.353Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | One order autonomously harvests and sells a full cycle | ",
+    "timestamp": "2026-09-12T17:58:07.595Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Stopping at cycle boundary prevents another harvest | ",
+    "timestamp": "2026-09-12T17:58:07.595Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Second routine reaches a real carrying stage | ",
+    "timestamp": "2026-09-12T17:58:26.961Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Routine snapshot validates with in-flight job phase | ",
+    "timestamp": "2026-09-12T17:58:26.961Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Restore preserves active routine and acquired cargo | ",
+    "timestamp": "2026-09-12T17:58:26.977Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Restored routine sells once without reacquiring goods | ",
+    "timestamp": "2026-09-12T17:58:52.410Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Stopping mid-job finishes safely and keeps harvested goods | ",
+    "timestamp": "2026-09-12T17:59:32.545Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Full warehouse blocks routine with cargo retained | ",
+    "timestamp": "2026-09-12T18:00:21.311Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Failed routine cannot spin or duplicate extraction | ",
+    "timestamp": "2026-09-12T18:00:23.311Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Retry completes blocked routine using retained cargo | ",
+    "timestamp": "2026-09-12T18:00:28.244Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Repeated routines conserve total harvested stock | ",
+    "timestamp": "2026-09-12T18:00:28.244Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Inconsistent saved routine phase is rejected | ",
+    "timestamp": "2026-09-12T18:00:28.244Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Older worker saves without routines remain compatible | ",
+    "timestamp": "2026-09-12T18:00:28.245Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_ROUTINE_REPORT {\"elapsed_seconds\":188.728,\"milestone\":\"20 autonomous harvest-market routines\",\"passed\":16,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Player input starts configured harvest-market routine\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Busy routine rejects unrelated job replacement\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Pause freezes routine without advancing its step\"},{\"detail\":\"\",\"passed\":true,\"test\":\"One order autonomously harvests and sells a full cycle\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Stopping at cycle boundary prevents another harvest\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Second routine reaches a real carrying stage\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Routine snapshot validates with in-flight job phase\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Restore preserves active routine and acquired cargo\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Restored routine sells once without reacquiring goods\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Stopping mid-job finishes safely and keeps harvested goods\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Full warehouse blocks routine with cargo retained\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Failed routine cannot spin or duplicate extraction\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Retry completes blocked routine using retained cargo\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Repeated routines conserve total harvested stock\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Inconsistent saved routine phase is rejected\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Older worker saves without routines remain compatible\"}],\"total\":16}",
+    "timestamp": "2026-09-12T18:00:28.279Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org",
+    "timestamp": "2026-09-12T18:07:28.080Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-09-12T18:07:28.137Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support.",
+    "timestamp": "2026-09-12T18:07:28.167Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T18:07:28.498Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Routine reaches its final selling job | ",
+    "timestamp": "2026-09-12T18:08:11.970Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Stop keeps current selling job but disables repetition | ",
+    "timestamp": "2026-09-12T18:08:12.138Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Finishing stopped final job still counts its completed cycle | cycles=1 credits=40",
+    "timestamp": "2026-09-12T18:08:16.637Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Stopped routine save finishes and counts exactly once | ",
+    "timestamp": "2026-09-12T18:08:21.354Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_ROUTINE_STOP_REPORT {\"elapsed_seconds\":52.804,\"milestone\":\"20 stopped routine completion accounting\",\"passed\":4,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Routine reaches its final selling job\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Stop keeps current selling job but disables repetition\"},{\"detail\":\"cycles=1 credits=40\",\"passed\":true,\"test\":\"Finishing stopped final job still counts its completed cycle\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Stopped routine save finishes and counts exactly once\"}],\"total\":4}",
+    "timestamp": "2026-09-12T18:08:21.354Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org",
+    "timestamp": "2026-09-12T18:09:14.154Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-09-12T18:09:14.226Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support.",
+    "timestamp": "2026-09-12T18:09:14.270Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T18:09:14.608Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_UI | map_open=true",
+    "timestamp": "2026-09-12T18:09:15.824Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Map opens through real key event and pauses gameplay | ",
+    "timestamp": "2026-09-12T18:09:15.882Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Map click selects a usable delivery waypoint | ",
+    "timestamp": "2026-09-12T18:09:15.982Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Map clicking cannot fire rifle | ",
+    "timestamp": "2026-09-12T18:09:15.982Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Local map keeps region in panel bounds | ",
+    "timestamp": "2026-09-12T18:09:15.982Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | World map fits distant coordinates | ",
+    "timestamp": "2026-09-12T18:09:16.065Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_UI | map_open=false",
+    "timestamp": "2026-09-12T18:09:16.074Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Closing map restores active controls | ",
+    "timestamp": "2026-09-12T18:09:16.132Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Worker order panel is available | ",
+    "timestamp": "2026-09-12T18:09:16.198Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Cargo readout replaces worker panel | ",
+    "timestamp": "2026-09-12T18:09:16.265Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Worker panel replaces cargo readout | ",
+    "timestamp": "2026-09-12T18:09:16.331Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Short key pulse opens cargo | ",
+    "timestamp": "2026-09-12T18:09:16.448Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Short key pulse opens workers | ",
+    "timestamp": "2026-09-12T18:09:16.498Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Pause menu fits viewport height | ",
+    "timestamp": "2026-09-12T18:09:16.631Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Static render batching is active | merged=248",
+    "timestamp": "2026-09-12T18:09:16.698Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Core terrain reduced to 25 bounded tiles | ",
+    "timestamp": "2026-09-12T18:09:16.698Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Village draw calls reduced below prior 679 baseline | median calls=390 fps=119",
+    "timestamp": "2026-09-12T18:09:18.697Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_UI_REPORT {\"elapsed_seconds\":4.036,\"milestone\":\"11 map and render readability\",\"passed\":15,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Map opens through real key event and pauses gameplay\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Map click selects a usable delivery waypoint\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Map clicking cannot fire rifle\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Local map keeps region in panel bounds\"},{\"detail\":\"\",\"passed\":true,\"test\":\"World map fits distant coordinates\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Closing map restores active controls\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Worker order panel is available\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Cargo readout replaces worker panel\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Worker panel replaces cargo readout\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Short key pulse opens cargo\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Short key pulse opens workers\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Pause menu fits viewport height\"},{\"detail\":\"merged=248\",\"passed\":true,\"test\":\"Static render batching is active\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Core terrain reduced to 25 bounded tiles\"},{\"detail\":\"median calls=390 fps=119\",\"passed\":true,\"test\":\"Village draw calls reduced below prior 679 baseline\"}],\"total\":15}",
+    "timestamp": "2026-09-12T18:09:18.697Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org",
+    "timestamp": "2026-09-12T18:11:32.833Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-09-12T18:11:32.909Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support.",
+    "timestamp": "2026-09-12T18:11:32.940Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T18:11:33.283Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Horizon uses one bounded reusable mesh | ",
+    "timestamp": "2026-09-12T18:11:33.351Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Horizon cannot replace gameplay collision | ",
+    "timestamp": "2026-09-12T18:11:33.351Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Distant relocation reuses mesh and material resources | ",
+    "timestamp": "2026-09-12T18:11:42.082Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Horizon covers camera range in every tested region | ",
+    "timestamp": "2026-09-12T18:11:42.083Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Real streamed terrain still supports player collision | ",
+    "timestamp": "2026-09-12T18:11:42.083Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Horizon does not expand terrain residency | ",
+    "timestamp": "2026-09-12T18:11:42.083Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Stationary horizon does not recreate or relocate resources | ",
+    "timestamp": "2026-09-12T18:11:43.082Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Decorated horizon stays within rendering budget | calls=162 fps=120",
+    "timestamp": "2026-09-12T18:11:44.083Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BACKDROP_REPORT {\"elapsed_seconds\":11.247,\"milestone\":\"21 bounded distant terrain horizon\",\"passed\":8,\"platform\":\"Web\",\"tests\":[{\"detail\":\"\",\"passed\":true,\"test\":\"Horizon uses one bounded reusable mesh\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Horizon cannot replace gameplay collision\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Distant relocation reuses mesh and material resources\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Horizon covers camera range in every tested region\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Real streamed terrain still supports player collision\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Horizon does not expand terrain residency\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Stationary horizon does not recreate or relocate resources\"},{\"detail\":\"calls=162 fps=120\",\"passed\":true,\"test\":\"Decorated horizon stays within rendering budget\"}],\"total\":8}",
+    "timestamp": "2026-09-12T18:11:44.582Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org",
+    "timestamp": "2026-09-12T18:11:54.159Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "OpenGL API OpenGL ES 3.0 (WebGL 2.0 (OpenGL ES 3.0 Chromium)) - Compatibility - Using Device: WebKit - WebKit WebGL",
+    "timestamp": "2026-09-12T18:11:54.279Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "Build configuration: Emscripten 4.0.20, single-threaded, no GDExtension support.",
+    "timestamp": "2026-09-12T18:11:54.279Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25",
+    "timestamp": "2026-09-12T18:11:54.602Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Highland runway streams above old absolute ceiling | height=124.48",
+    "timestamp": "2026-09-12T18:11:56.741Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Highland deployment preserves seat and wing clearance | ",
+    "timestamp": "2026-09-12T18:11:58.115Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Aircraft can take off above 120 m terrain | world y=137.50 AGL=14.25",
+    "timestamp": "2026-09-12T18:12:01.615Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Highland climb crosses real streamed terrain | position=(-1000.0, 217.9211, -10175.59) AGL=100.51",
+    "timestamp": "2026-09-12T18:12:06.616Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Flight ceiling remains bounded relative to terrain | AGL=112.92",
+    "timestamp": "2026-09-12T18:12:09.616Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Low-speed flight loses lift | speed=5.00 vertical=-4.30",
+    "timestamp": "2026-09-12T18:12:15.615Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Highland descent lands on active terrain | height=102.88 ground=102.89 landings=1",
+    "timestamp": "2026-09-12T18:12:31.064Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_BIKE | PASS | Highland flight folds and allows grounded exit | ",
+    "timestamp": "2026-09-12T18:12:32.465Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  },
+  {
+    "level": "log",
+    "message": "RSB_HIGHLAND_REPORT {\"elapsed_seconds\":38.322,\"milestone\":\"16 highland flight envelope\",\"passed\":8,\"platform\":\"Web\",\"tests\":[{\"detail\":\"height=124.48\",\"passed\":true,\"test\":\"Highland runway streams above old absolute ceiling\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Highland deployment preserves seat and wing clearance\"},{\"detail\":\"world y=137.50 AGL=14.25\",\"passed\":true,\"test\":\"Aircraft can take off above 120 m terrain\"},{\"detail\":\"position=(-1000.0, 217.9211, -10175.59) AGL=100.51\",\"passed\":true,\"test\":\"Highland climb crosses real streamed terrain\"},{\"detail\":\"AGL=112.92\",\"passed\":true,\"test\":\"Flight ceiling remains bounded relative to terrain\"},{\"detail\":\"speed=5.00 vertical=-4.30\",\"passed\":true,\"test\":\"Low-speed flight loses lift\"},{\"detail\":\"height=102.88 ground=102.89 landings=1\",\"passed\":true,\"test\":\"Highland descent lands on active terrain\"},{\"detail\":\"\",\"passed\":true,\"test\":\"Highland flight folds and allows grounded exit\"}],\"total\":8}",
+    "timestamp": "2026-09-12T18:12:32.981Z",
+    "url": "http://127.0.0.1:8067/index.js"
+  }
+]

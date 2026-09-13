@@ -1,0 +1,21 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Minimap is visible and inside the gameplay viewport | 
+RSB_BIKE | PASS | Minimap clears expanding field notes | 
+RSB_BIKE | PASS | Minimap centers the traveler with a metric scale | 
+RSB_BIKE | PASS | Stationary minimap reuses its terrain texture | 
+RSB_UI | map_open=true
+RSB_BIKE | PASS | Full map hides the minimap and pauses gameplay | 
+RSB_UI | map_open=false
+RSB_BIKE | PASS | Closing the map restores the minimap | 
+RSB_BIKE | PASS | New landforms preserve established settlement elevations | 
+RSB_BIKE | PASS | Dunes have traversable physical crest and trough relief | 
+RSB_BIKE | PASS | Valley floor lies below its banks | 
+RSB_BIKE | PASS | Mountain summits cross the snow line | 
+RSB_BIKE | PASS | Summit has no angular singularity or one-meter spikes | 
+RSB_BIKE | PASS | Relief chart distinguishes desert, water and snow | 
+RSB_BIKE | PASS | Real streamed landforms support the player | 
+RSB_BIKE | PASS | Travel updates minimap with bounded cached terrain | 
+RSB_BIKE | PASS | Cave marker references an existing playable gallery | 
+RSB_CARTOGRAPHY_REPORT {"elapsed_seconds":8.453,"milestone":"95 terrain relief and minimap","passed":15,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Minimap is visible and inside the gameplay viewport"},{"detail":"","passed":true,"test":"Minimap clears expanding field notes"},{"detail":"","passed":true,"test":"Minimap centers the traveler with a metric scale"},{"detail":"","passed":true,"test":"Stationary minimap reuses its terrain texture"},{"detail":"","passed":true,"test":"Full map hides the minimap and pauses gameplay"},{"detail":"","passed":true,"test":"Closing the map restores the minimap"},{"detail":"","passed":true,"test":"New landforms preserve established settlement elevations"},{"detail":"","passed":true,"test":"Dunes have traversable physical crest and trough relief"},{"detail":"","passed":true,"test":"Valley floor lies below its banks"},{"detail":"","passed":true,"test":"Mountain summits cross the snow line"},{"detail":"","passed":true,"test":"Summit has no angular singularity or one-meter spikes"},{"detail":"","passed":true,"test":"Relief chart distinguishes desert, water and snow"},{"detail":"","passed":true,"test":"Real streamed landforms support the player"},{"detail":"","passed":true,"test":"Travel updates minimap with bounded cached terrain"},{"detail":"","passed":true,"test":"Cave marker references an existing playable gallery"}],"total":15}

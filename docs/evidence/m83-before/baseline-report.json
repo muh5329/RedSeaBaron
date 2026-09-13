@@ -1,0 +1,24 @@
+{
+  "elapsed_seconds": 9.251,
+  "milestone": "83 signed cargo wheel travel",
+  "passed": 1,
+  "platform": "macOS",
+  "tests": [
+    {
+      "detail": "travel=(0.0, 0.000834, -9.679855) spin=-22.000",
+      "passed": true,
+      "test": "Physical forward towing spins cargo wheels forward"
+    },
+    {
+      "detail": "travel=(0.0, -0.000002, 7.43718) spin=-16.903",
+      "passed": false,
+      "test": "Physical reverse towing reverses cargo wheel spin"
+    },
+    {
+      "detail": "travel=(0.0, -5.999222, 0.0) spin=-13.635",
+      "passed": false,
+      "test": "Vertical cargo landing does not roll the tires"
+    }
+  ],
+  "total": 3
+}

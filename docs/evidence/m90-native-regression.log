@@ -1,0 +1,5 @@
+region: 18/18 in 33.3s
+forest_resource: 14/14 in 5.5s
+backdrop: 7/7 in 8.8s
+world: 15/15 in 67.6s
+Web export built. Serve with tools/serve.sh and verify in a browser.

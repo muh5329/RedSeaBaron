@@ -1,0 +1,22 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_UI | map_open=true
+RSB_BIKE | PASS | Worker marker selects Mara's real position | 
+RSB_BIKE | PASS | Tracked worker appears in field notes | 
+RSB_BIKE | PASS | Worker map selection preserves pause and ammunition | 
+RSB_BIKE | PASS | Worker button selects Ivo independently | 
+RSB_BIKE | PASS | Overlapping workers remain individually selectable | 
+RSB_UI | map_open=false
+RSB_UI | map_open=true
+RSB_BIKE | PASS | Tracking follows real worker job movement | moved=13.19 state=MoveToTask
+RSB_BIKE | PASS | Tracking follows the same worker through save restoration | 
+RSB_BIKE | PASS | Save restoration preserves the map without a second menu | 
+RSB_BIKE | PASS | Unknown worker ID leaves tracking intact | 
+RSB_BIKE | PASS | Remote worker switches to a usable world scope | 
+RSB_BIKE | PASS | Retiring a tracked worker clears stale guidance safely | 
+RSB_BIKE | PASS | Fixed waypoint replaces worker tracking | 
+RSB_BIKE | PASS | Clear removes worker and HUD waypoint | 
+RSB_BIKE | PASS | Worker map controls fit the viewport | 
+RSB_UI | map_open=false
+RSB_WORKER_MAP_REPORT {"elapsed_seconds":8.891,"milestone":"61 worker map tracking","passed":14,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Worker marker selects Mara's real position"},{"detail":"","passed":true,"test":"Tracked worker appears in field notes"},{"detail":"","passed":true,"test":"Worker map selection preserves pause and ammunition"},{"detail":"","passed":true,"test":"Worker button selects Ivo independently"},{"detail":"","passed":true,"test":"Overlapping workers remain individually selectable"},{"detail":"moved=13.19 state=MoveToTask","passed":true,"test":"Tracking follows real worker job movement"},{"detail":"","passed":true,"test":"Tracking follows the same worker through save restoration"},{"detail":"","passed":true,"test":"Save restoration preserves the map without a second menu"},{"detail":"","passed":true,"test":"Unknown worker ID leaves tracking intact"},{"detail":"","passed":true,"test":"Remote worker switches to a usable world scope"},{"detail":"","passed":true,"test":"Retiring a tracked worker clears stale guidance safely"},{"detail":"","passed":true,"test":"Fixed waypoint replaces worker tracking"},{"detail":"","passed":true,"test":"Clear removes worker and HUD waypoint"},{"detail":"","passed":true,"test":"Worker map controls fit the viewport"}],"total":14}

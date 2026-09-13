@@ -1,0 +1,26 @@
+flight_navigation-native-verifier FAILED: see docs/evidence/flight_navigation-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Flight guidance fixture mounts through the normal seat | 
+RSB_BIKE | PASS | Unselected flight shows instruments without stale course guidance | 
+RSB_BIKE | PASS | Course identifies cardinal bearing 0 | 
+RSB_BIKE | PASS | Course identifies cardinal bearing 90 | 
+RSB_BIKE | PASS | Course identifies cardinal bearing 180 | 
+RSB_BIKE | PASS | Course identifies cardinal bearing 270 | 
+RSB_BIKE | FAIL | North wraparound chooses the short right turn | 
+RSB_BIKE | FAIL | Reverse north wraparound chooses the short left turn | 
+RSB_BIKE | PASS | Vertical instrument reads actual climb velocity | 
+RSB_BIKE | PASS | Looking sideways cannot alter the aircraft heading instrument | 
+RSB_BIKE | PASS | Accepted delivery provides default aircraft course | 
+RSB_UI | map_open=true
+RSB_BIKE | PASS | Map pause hides the flight panel and disables pilot input | 
+RSB_BIKE | PASS | Actual map selection overrides delivery course | 
+RSB_BIKE | PASS | Clearing selected waypoint resumes the active delivery course | 
+RSB_BIKE | PASS | Nearby target uses horizontal range without claiming delivery completion | 
+RSB_BIKE | PASS | Low airspeed warning takes priority over course directions | 
+RSB_UI | map_open=false
+RSB_BIKE | PASS | Expanded flight panel fits above the bottom controls | 
+RSB_BIKE | PASS | Guidance updates during actual aircraft movement | travel=46.42 heading=108.9
+RSB_FLIGHT_NAVIGATION_REPORT {"elapsed_seconds":4.351,"milestone":"66 flight course guidance","passed":16,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Flight guidance fixture mounts through the normal seat"},{"detail":"","passed":true,"test":"Unselected flight shows instruments without stale course guidance"},{"detail":"","passed":true,"test":"Course identifies cardinal bearing 0"},{"detail":"","passed":true,"test":"Course identifies cardinal bearing 90"},{"detail":"","passed":true,"test":"Course identifies cardinal bearing 180"},{"detail":"","passed":true,"test":"Course identifies cardinal bearing 270"},{"detail":"","passed":false,"test":"North wraparound chooses the short right turn"},{"detail":"","passed":false,"test":"Reverse north wraparound chooses the short left turn"},{"detail":"","passed":true,"test":"Vertical instrument reads actual climb velocity"},{"detail":"","passed":true,"test":"Looking sideways cannot alter the aircraft heading instrument"},{"detail":"","passed":true,"test":"Accepted delivery provides default aircraft course"},{"detail":"","passed":true,"test":"Map pause hides the flight panel and disables pilot input"},{"detail":"","passed":true,"test":"Actual map selection overrides delivery course"},{"detail":"","passed":true,"test":"Clearing selected waypoint resumes the active delivery course"},{"detail":"","passed":true,"test":"Nearby target uses horizontal range without claiming delivery completion"},{"detail":"","passed":true,"test":"Low airspeed warning takes priority over course directions"},{"detail":"","passed":true,"test":"Expanded flight panel fits above the bottom controls"},{"detail":"travel=46.42 heading=108.9","passed":true,"test":"Guidance updates during actual aircraft movement"}],"total":18}
+

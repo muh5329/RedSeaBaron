@@ -1,0 +1,49 @@
+{
+  "elapsed_seconds": 5.497,
+  "milestone": "38 shoulder camera world clearance",
+  "passed": 8,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "New side cover is resolved without a smoothing delay"
+    },
+    {
+      "detail": "camera relative=(0.229687, 0.0, 6.199997)",
+      "passed": true,
+      "test": "Shoulder camera stays outside an adjacent right wall"
+    },
+    {
+      "detail": "pivot offset=0.230",
+      "passed": true,
+      "test": "Shoulder pivot stays on the player's side of cover"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Open space restores the rifle shoulder view"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Rear wall compresses the camera arm"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Removing rear cover restores orbit distance"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Camera snap cannot place the pivot inside side cover"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Rotated side cover constrains the shoulder in camera space"
+    }
+  ],
+  "total": 8
+}

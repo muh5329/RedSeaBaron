@@ -1,0 +1,12 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Wing pose test reaches flight through normal controls | 
+RSB_BIKE | PASS | Visible wingtips have collision while move_right | visual rotation=(0.05645, 0.0, -0.235333)
+RSB_BIKE | PASS | Visible wingtips have collision while move_left | visual rotation=(0.000013, 0.0, 0.23358)
+RSB_BIKE | PASS | Visible wingtips have collision while jump | visual rotation=(0.543585, 0.0, 0.000016)
+RSB_BIKE | PASS | Visible wingtips have collision while dodge | visual rotation=(-0.430768, 0.0, 0.0)
+RSB_BIKE | PASS | Grounded deployed wings retain matching collision | 
+RSB_BIKE | PASS | A proposed attitude cannot put a visible wing inside cover | 
+RSB_BIKE | PASS | Clearing cover permits the attitude with matching collision | roll=0.3000 supported=true process=false
+RSB_WING_POSE_REPORT {"elapsed_seconds":10.456,"milestone":"43 deployed wing attitude collision","passed":8,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Wing pose test reaches flight through normal controls"},{"detail":"visual rotation=(0.05645, 0.0, -0.235333)","passed":true,"test":"Visible wingtips have collision while move_right"},{"detail":"visual rotation=(0.000013, 0.0, 0.23358)","passed":true,"test":"Visible wingtips have collision while move_left"},{"detail":"visual rotation=(0.543585, 0.0, 0.000016)","passed":true,"test":"Visible wingtips have collision while jump"},{"detail":"visual rotation=(-0.430768, 0.0, 0.0)","passed":true,"test":"Visible wingtips have collision while dodge"},{"detail":"","passed":true,"test":"Grounded deployed wings retain matching collision"},{"detail":"","passed":true,"test":"A proposed attitude cannot put a visible wing inside cover"},{"detail":"roll=0.3000 supported=true process=false","passed":true,"test":"Clearing cover permits the attitude with matching collision"}],"total":8}

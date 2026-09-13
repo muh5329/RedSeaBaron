@@ -1,0 +1,12 @@
+equipment_map-native-verifier FAILED: see docs/evidence/equipment_map-native-verifier.log
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_UI | map_open=true
+SCRIPT ERROR: Invalid access to property or key 'items' on a base object of type 'RefCounted (Inventory)'.
+          at: run (res://tests/equipment_map_verifier.gd:28)
+          GDScript backtrace (most recent call first):
+              [0] run (res://tests/equipment_map_verifier.gd:28)
+              [1] key (res://tests/ui_verifier.gd:17)
+              [2] frames (res://tests/bike_verifier.gd:9)
+

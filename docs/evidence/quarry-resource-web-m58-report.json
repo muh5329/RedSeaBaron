@@ -1,0 +1,104 @@
+{
+  "elapsed_seconds": 11.835,
+  "milestone": "58 quarry ore adit",
+  "passed": 19,
+  "platform": "Web",
+  "tests": [
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Red Mesa quarry contains a registered ore reserve"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Remote ore cannot be gathered from the village"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Quarry gallery streams with its local reserve"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Projecting entrance rocks have matching solid collision"
+    },
+    {
+      "detail": "position=(4829.0, 23.79013, 1222.352) distance=2.65",
+      "passed": true,
+      "test": "Player walks through the mine opening to reachable ore"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Mine roof has real overhead collision"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Gather input consumes only the quarry's independent ore"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Back wall prevents gathering despite being within reach distance"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Full backpack cannot consume additional quarry ore"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Current save records all three independent regional/core stocks"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Restore preserves quarry depletion without overwriting other sources"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Current save missing quarry stock rejects before mutation"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Malformed quarry stock rejects before mutation"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Revision 2 initializes only the newly added quarry"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Original stock saves initialize later sources and retain core depletion"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Leaving frees the gallery and hides its depleted logical source"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Returning rebuilds the gallery without resetting ore"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Quarry ore sells through the existing market"
+    },
+    {
+      "detail": "",
+      "passed": true,
+      "test": "Harvested ore supplies ammunition without duplicating value"
+    }
+  ],
+  "total": 19
+}

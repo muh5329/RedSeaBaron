@@ -1,0 +1,9 @@
+Godot Engine v4.7.stable.official.5b4e0cb0f - https://godotengine.org
+
+RSB_READY | Godot 4.7-stable (official) | region=320m | terrain_tiles=25 | streamed_window=25
+RSB_BIKE | PASS | Fixture mixes indexed and unindexed geometry | 
+RSB_BIKE | PASS | Rigid sources become one material batch | 
+RSB_BIKE | PASS | Batch preserves every source triangle | expected=72 actual=72
+RSB_BIKE | PASS | Batch preserves both separated local mesh bounds | bounds=[P: (-2.339999, -0.5, -0.5), S: (4.839999, 1.0, 1.0)]
+RSB_BIKE | PASS | Animated child remains independent | 
+RSB_BATCHING_REPORT {"elapsed_seconds":0.001,"milestone":"30 mixed geometry batching","passed":5,"platform":"macOS","tests":[{"detail":"","passed":true,"test":"Fixture mixes indexed and unindexed geometry"},{"detail":"","passed":true,"test":"Rigid sources become one material batch"},{"detail":"expected=72 actual=72","passed":true,"test":"Batch preserves every source triangle"},{"detail":"bounds=[P: (-2.339999, -0.5, -0.5), S: (4.839999, 1.0, 1.0)]","passed":true,"test":"Batch preserves both separated local mesh bounds"},{"detail":"","passed":true,"test":"Animated child remains independent"}],"total":5}

@@ -1,0 +1,8 @@
+hostile_cover: 16/16 in 7.0s
+vehicle_cover: 13/13 in 5.1s
+combat: 34/34 in 31.6s
+seat_safety: 12/12 in 7.6s
+rider_clearance: 12/12 in 8.9s
+save: 22/22 in 24.6s
+integration: 16/16 in 102.9s
+Web export built. Serve with tools/serve.sh and verify in a browser.
